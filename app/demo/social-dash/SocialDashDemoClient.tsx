@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, Pause, Play } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import {
   DEMO_CHAPTERS,
   chapterAtTime,
@@ -75,7 +75,6 @@ export default function SocialDashDemoClient() {
   const [activeChapter, setActiveChapter] = useState<DemoChapter>(DEMO_CHAPTERS[0]);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(83);
-  const [playing, setPlaying] = useState(false);
   const [fading, setFading] = useState(false);
   const lastChapterId = useRef(DEMO_CHAPTERS[0].id);
 
@@ -105,22 +104,9 @@ export default function SocialDashDemoClient() {
       setCurrentTime(chapter.start);
       applyChapter(chapter);
       void video.play();
-      setPlaying(true);
     },
     [applyChapter],
   );
-
-  const togglePlay = useCallback(() => {
-    const video = videoRef.current;
-    if (!video) return;
-    if (video.paused) {
-      void video.play();
-      setPlaying(true);
-    } else {
-      video.pause();
-      setPlaying(false);
-    }
-  }, []);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -129,18 +115,12 @@ export default function SocialDashDemoClient() {
     const onLoaded = () => {
       if (Number.isFinite(video.duration)) setDuration(video.duration);
     };
-    const onPlay = () => setPlaying(true);
-    const onPause = () => setPlaying(false);
 
     video.addEventListener("loadedmetadata", onLoaded);
     video.addEventListener("timeupdate", onTimeUpdate);
-    video.addEventListener("play", onPlay);
-    video.addEventListener("pause", onPause);
     return () => {
       video.removeEventListener("loadedmetadata", onLoaded);
       video.removeEventListener("timeupdate", onTimeUpdate);
-      video.removeEventListener("play", onPlay);
-      video.removeEventListener("pause", onPause);
     };
   }, [onTimeUpdate]);
 
@@ -149,8 +129,6 @@ export default function SocialDashDemoClient() {
     if (!btn || !chapterStripRef.current) return;
     btn.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
   }, [activeChapter.id]);
-
-  const progressPct = duration > 0 ? (currentTime / duration) * 100 : 0;
 
   return (
     <div className="min-h-screen grid-surface flex flex-col">
@@ -188,7 +166,7 @@ export default function SocialDashDemoClient() {
             {/* Video column */}
             <div className="w-full min-w-0 space-y-3 sm:space-y-4 order-1">
               <div className="grid-panel p-2 sm:p-3">
-                <div className="relative rounded-lg overflow-hidden bg-obsidian aspect-video">
+                <div className="rounded-lg overflow-hidden bg-obsidian aspect-video">
                   <video
                     ref={videoRef}
                     className="w-full h-full object-contain bg-black"
@@ -197,34 +175,6 @@ export default function SocialDashDemoClient() {
                     preload="metadata"
                     controls
                   />
-                  <button
-                    type="button"
-                    onClick={togglePlay}
-                    className="hidden sm:inline-flex absolute bottom-4 left-4 items-center gap-2 rounded-full border border-teal/30 bg-void/80 px-4 py-2 text-sm font-mono text-text-primary hover:border-teal/60 transition-colors"
-                    aria-label={playing ? "Pause" : "Play"}
-                  >
-                    {playing ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4" />}
-                    {playing ? "Pause" : "Play"}
-                  </button>
-                </div>
-
-                <div className="mt-3 sm:mt-4 px-1">
-                  <div className="relative h-1.5 rounded-full bg-obsidian overflow-hidden">
-                    <div
-                      className="absolute inset-y-0 left-0 bg-teal/80 transition-[width] duration-150"
-                      style={{ width: `${progressPct}%` }}
-                    />
-                    {DEMO_CHAPTERS.map((ch) => (
-                      <button
-                        key={ch.id}
-                        type="button"
-                        title={ch.timelineLabel}
-                        className="absolute top-1/2 -translate-y-1/2 w-1 h-3 rounded-sm bg-teal/40 hover:bg-teal hover:h-4 transition-all"
-                        style={{ left: `${(ch.start / duration) * 100}%` }}
-                        onClick={() => seekToChapter(ch)}
-                      />
-                    ))}
-                  </div>
                 </div>
               </div>
 
