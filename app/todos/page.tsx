@@ -1,6 +1,11 @@
 import { createClient } from "@/utils/supabase/server";
 import { cookies } from "next/headers";
 
+type TodoRow = {
+  id: string | number;
+  name: string;
+};
+
 export default async function Page() {
   const cookieStore = await cookies();
   const supabase = createClient(cookieStore);
@@ -9,7 +14,7 @@ export default async function Page() {
 
   return (
     <ul>
-      {todos?.map((todo: any) => (
+      {(todos as TodoRow[] | null)?.map((todo) => (
         <li key={todo.id}>{todo.name}</li>
       ))}
     </ul>

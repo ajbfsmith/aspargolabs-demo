@@ -31,7 +31,12 @@ describe("custom LLM contract", () => {
     });
 
     expect(payload.choices[0]?.finish_reason).toBe("tool_calls");
-    const toolCall = payload.choices[0]?.message?.tool_calls?.[0];
+    const message = payload.choices[0]?.message;
+    expect(message).toBeDefined();
+    if (!message || !("tool_calls" in message)) {
+      throw new Error("expected assistant message with tool_calls");
+    }
+    const toolCall = message.tool_calls?.[0];
     expect(toolCall?.function?.name).toBe("endCall");
     expect(toolCall?.function?.arguments).toBe("{}");
     expect(payload.metadata?.end_call).toBe(true);

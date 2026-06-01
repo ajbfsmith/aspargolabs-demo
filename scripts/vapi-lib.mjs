@@ -96,20 +96,16 @@ export async function listJsonFiles(dirPath) {
     .sort();
 }
 
-export function stripAssistantForPatch(assistant) {
-  if (!assistant || typeof assistant !== 'object') return assistant;
-
-  // Keep `id` separately for URL construction; do not send it in body.
-  // Remove common server-managed fields defensively.
-  const {
-    id: _id,
-    orgId: _orgId,
-    createdAt: _createdAt,
-    updatedAt: _updatedAt,
-    isServerUrlSecretSet: _isServerUrlSecretSet,
-    ...rest
-  } = assistant;
-
+export function omitServerFields(value) {
+  if (!value || typeof value !== "object") return value;
+  const rest = { ...value };
+  for (const key of ["id", "orgId", "createdAt", "updatedAt", "isServerUrlSecretSet"]) {
+    delete rest[key];
+  }
   return rest;
+}
+
+export function stripAssistantForPatch(assistant) {
+  return omitServerFields(assistant);
 }
 

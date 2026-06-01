@@ -6,6 +6,7 @@ import {
   requireEnv,
   stableStringify,
   stripAssistantForPatch,
+  omitServerFields,
   vapiFetchJson,
   writeJson,
 } from "./vapi-lib.mjs";
@@ -27,8 +28,7 @@ function isNotFoundError(err) {
 }
 
 function stripServerFields(value) {
-  const { id: _id, orgId: _orgId, createdAt: _createdAt, updatedAt: _updatedAt, ...rest } = value;
-  return rest;
+  return omitServerFields(value);
 }
 
 function normalizeStructuredOutputForWrite(structuredOutput) {

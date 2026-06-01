@@ -3,6 +3,7 @@ import path from "node:path";
 import {
   VAPI_API_BASE_URL,
   listJsonFiles,
+  omitServerFields,
   readJson,
   requireEnv,
   stableStringify,
@@ -11,8 +12,7 @@ import {
 } from "./vapi-lib.mjs";
 
 function stripToolForWrite(tool) {
-  const { id: _id, orgId: _orgId, createdAt: _createdAt, updatedAt: _updatedAt, ...rest } = tool;
-  return rest;
+  return omitServerFields(tool);
 }
 
 async function main() {
