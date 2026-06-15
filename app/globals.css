@@ -5,6 +5,7 @@
   --teal: #0DB7BB;
   --void: #060810;
   --obsidian: #0D1117;
+  --graphite: #1E2A3A;
   --ink: #090B0F;
   --mist: #F0F4F5;
   --chalk: #E8EDF0;
@@ -17,6 +18,7 @@
   --teal-rgb: 13, 183, 187;
   --void-rgb: 6, 8, 16;
   --obsidian-rgb: 13, 17, 23;
+  --graphite-rgb: 30, 42, 58;
   /* Very subtle grid so body copy on cards stays readable */
   --grid-line: rgba(232, 237, 240, 0.028);
   --grid-line-strong: rgba(13, 183, 187, 0.1);
@@ -33,6 +35,7 @@
   --color-teal: var(--teal);
   --color-void: var(--void);
   --color-obsidian: var(--obsidian);
+  --color-graphite: var(--graphite);
   --color-mist: var(--mist);
   --color-chalk: var(--chalk);
   --color-text-primary: var(--text-primary);

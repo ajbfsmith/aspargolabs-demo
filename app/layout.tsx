@@ -3,11 +3,11 @@ import { dmSans, lora, ibmPlexMono, instrumentSerif } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Aspargo Laboratories — Precision Drug Delivery, Reimagined",
+  title: "Accelerate Health — Precision Drug Delivery, Reimagined",
   description:
-    "HEZKUE® is the world's first oral sildenafil spray — absorbed within 5 minutes, precisely dosed, and designed for the life you actually live. Aspargo Laboratories is reinventing drug delivery through oral spray suspension technology.",
+    "HEZKUE® is the world's first oral sildenafil spray — absorbed within 5 minutes, precisely dosed, and designed for the life you actually live. Accelerate Health is reinventing drug delivery through oral spray suspension technology.",
   keywords: [
-    "Aspargo",
+    "Accelerate Health",
     "HEZKUE",
     "sildenafil spray",
     "oral suspension",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "biotech",
   ],
   openGraph: {
-    title: "Aspargo Laboratories — Precision Drug Delivery, Reimagined",
+    title: "Accelerate Health — Precision Drug Delivery, Reimagined",
     description:
       "HEZKUE® is the world's first oral sildenafil spray — absorbed within 5 minutes, precisely dosed.",
     type: "website",

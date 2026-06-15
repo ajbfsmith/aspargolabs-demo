@@ -2,55 +2,28 @@
 
 import { useState, useEffect, useRef } from "react";
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
 import gsap from "gsap";
 
 const navLinks = [
-  { label: "HEZKUE®", href: "#product" },
-  { label: "AI Intake", href: "#ai-agent" },
-  { label: "For Partners", href: "#partners" },
-  { label: "Pipeline", href: "#pipeline" },
+  { label: "HEZKUE®", href: "/#product", isExternal: false },
+  { label: "Blog", href: "/blog", isExternal: false },
 ];
-
-function navIntersectsLightPipeline(
-  nav: DOMRectReadOnly,
-  pipeline: Element | null
-): boolean {
-  if (!pipeline) return false;
-  const pr = pipeline.getBoundingClientRect();
-  return (
-    nav.bottom > pr.top &&
-    nav.top < pr.bottom &&
-    nav.right > pr.left &&
-    nav.left < pr.right
-  );
-}
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
-  const [overLightPipeline, setOverLightPipeline] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const navRef = useRef<HTMLElement>(null);
   const drawerRef = useRef<HTMLDivElement>(null);
 
-  const lightSurface = scrolled && overLightPipeline;
-
   useEffect(() => {
     const update = () => {
       setScrolled(window.scrollY > 80);
-      const nav = navRef.current;
-      const pipeline = document.getElementById("pipeline");
-      if (!nav) {
-        setOverLightPipeline(false);
-        return;
-      }
-      setOverLightPipeline(navIntersectsLightPipeline(nav.getBoundingClientRect(), pipeline));
     };
     update();
     window.addEventListener("scroll", update, { passive: true });
-    window.addEventListener("resize", update);
     return () => {
       window.removeEventListener("scroll", update);
-      window.removeEventListener("resize", update);
     };
   }, []);
 
@@ -64,6 +37,13 @@ export default function Navbar() {
     }
   }, [mobileOpen]);
 
+  useEffect(() => {
+    document.body.style.overflow = mobileOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [mobileOpen]);
+
   const closeDrawer = () => {
     if (drawerRef.current) {
       gsap.to(drawerRef.current, {
@@ -72,6 +52,8 @@ export default function Navbar() {
         ease: "power2.inOut",
         onComplete: () => setMobileOpen(false),
       });
+    } else {
+      setMobileOpen(false);
     }
   };
 
@@ -79,63 +61,59 @@ export default function Navbar() {
     <>
       <nav
         ref={navRef}
-        className={`fixed top-4 left-1/2 -translate-x-1/2 z-[900] px-1.5 py-1.5 sm:px-2 sm:py-1.5 transition-all duration-500 ${
-          lightSurface
-            ? "grid-overlay bg-[rgba(248,250,251,0.92)] backdrop-blur-[20px] border border-[rgba(17,24,32,0.12)] rounded-[0.75rem] shadow-[0_8px_32px_rgba(17,24,32,0.08)]"
-            : scrolled
-              ? "grid-overlay bg-[rgba(6,8,16,0.78)] backdrop-blur-[20px] border border-[rgba(13,183,187,0.22)] rounded-[0.75rem] shadow-[0_8px_32px_rgba(0,0,0,0.3)]"
-              : "bg-transparent border border-transparent rounded-[0.75rem]"
+        className={`fixed z-[900] w-full md:w-auto md:max-w-[calc(100vw-2rem)] md:top-4 md:left-1/2 md:-translate-x-1/2 top-0 left-0 translate-x-0 px-4 py-3 md:px-2 md:py-1.5 transition-all duration-500 md:rounded-xl border-b md:border backdrop-blur-2xl ${
+          scrolled
+            ? "bg-[rgba(6,8,16,0.88)] border-[rgba(13,183,187,0.28)] shadow-[0_8px_40px_rgba(0,0,0,0.45),inset_0_1px_0_rgba(255,255,255,0.08)]"
+            : "bg-[rgba(6,8,16,0.75)] border-[rgba(255,255,255,0.08)] md:shadow-[0_8px_32px_rgba(0,0,0,0.35),inset_0_1px_0_rgba(255,255,255,0.06)]"
         }`}
+        style={{ paddingTop: "max(0.75rem, env(safe-area-inset-top))" }}
       >
-        <div className="flex items-center gap-6 md:gap-8 lg:gap-12 px-3 py-0.5 sm:px-4 md:px-6">
-          {/* Logo */}
-          <a href="#" className="flex items-center gap-1 shrink-0">
-            <span
-              className={`font-dm text-[15px] font-light tracking-wide ${
-                lightSurface ? "text-text-dark" : "text-text-primary"
-              }`}
-            >
-              ASPARGO
-            </span>
-            <span className="text-teal mx-1">·</span>
-            <span
-              className={`font-ibm text-[12px] font-light tracking-wider ${
-                lightSurface
-                  ? "text-[rgba(17,24,32,0.48)]"
-                  : "text-text-secondary"
-              }`}
-            >
-              LABS
-            </span>
-          </a>
+        <div className="absolute inset-0 md:rounded-xl overflow-hidden pointer-events-none hidden md:block">
+          <div className="absolute inset-0 bg-gradient-to-b from-white/[0.07] to-transparent" />
+          <div className="absolute inset-0 grid-overlay opacity-30" />
+        </div>
 
-          {/* Desktop Nav Links */}
+        <div className="relative z-10 flex items-center justify-between md:justify-start gap-4 md:gap-8 lg:gap-12 md:px-4">
+          <Link href="/" className="min-w-0 shrink">
+            <span className="md:hidden block font-dm text-[15px] font-medium tracking-wide text-text-primary truncate">
+              Accelerate Health
+            </span>
+            <span className="hidden md:flex items-center gap-1 shrink-0">
+              <span className="font-dm text-[15px] font-light tracking-wide text-text-primary">
+                ACCELERATE
+              </span>
+              <span className="text-teal mx-1">·</span>
+              <span className="font-ibm text-[12px] font-light tracking-wider text-text-secondary">
+                HEALTH
+              </span>
+            </span>
+          </Link>
+
           <div className="hidden md:flex items-center gap-5 lg:gap-7">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.label}
                 href={link.href}
-                className={`font-dm text-[14px] font-normal link-hover ${
-                  lightSurface ? "text-text-dark" : "text-text-primary"
-                }`}
+                className="font-dm text-[14px] font-normal text-text-primary link-hover"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
 
-          {/* CTA */}
           <a
-            href="#ai-agent"
+            href="https://intake.aspargolabs.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary nav-cta hidden md:inline-flex shrink-0"
           >
             <span className="btn-fill" />
-            <span className="relative z-10">Get Started</span>
+            <span className="relative z-10">Buy Now</span>
           </a>
 
-          {/* Mobile Hamburger */}
           <button
-            className={`md:hidden p-1 ${lightSurface ? "text-text-dark" : "text-text-primary"}`}
+            type="button"
+            className="md:hidden shrink-0 p-1 -mr-1 text-text-primary"
             onClick={() => setMobileOpen(true)}
             aria-label="Open menu"
           >
@@ -144,7 +122,6 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile Drawer */}
       {mobileOpen && (
         <>
           <div
@@ -153,10 +130,14 @@ export default function Navbar() {
           />
           <div
             ref={drawerRef}
-            className="grid-overlay fixed top-0 right-0 h-full w-[280px] bg-[rgba(6,8,16,0.95)] backdrop-blur-[30px] border-l border-[rgba(13,183,187,0.2)] z-[960] p-8 flex flex-col"
-            style={{ transform: "translateX(100%)" }}
+            className="grid-overlay fixed top-0 right-0 h-full w-[min(280px,85vw)] bg-[rgba(6,8,16,0.95)] backdrop-blur-[30px] border-l border-[rgba(13,183,187,0.2)] z-[960] p-8 flex flex-col"
+            style={{
+              transform: "translateX(100%)",
+              paddingTop: "max(2rem, env(safe-area-inset-top))",
+            }}
           >
             <button
+              type="button"
               onClick={closeDrawer}
               className="self-end text-text-secondary mb-8"
               aria-label="Close menu"
@@ -165,22 +146,24 @@ export default function Navbar() {
             </button>
             <div className="flex flex-col gap-6">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.label}
                   href={link.href}
                   className="font-dm text-[18px] font-normal text-text-primary link-hover"
                   onClick={closeDrawer}
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
               <a
-                href="#ai-agent"
+                href="https://intake.aspargolabs.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-primary text-[14px] py-3 px-6 mt-4 text-center"
                 onClick={closeDrawer}
               >
                 <span className="btn-fill" />
-                <span className="relative z-10">Get Started</span>
+                <span className="relative z-10">Buy Now</span>
               </a>
             </div>
           </div>
