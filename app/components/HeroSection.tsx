@@ -6,6 +6,7 @@ import {
 	useRef,
 	useCallback,
 	useLayoutEffect,
+	type ReactNode,
 } from "react";
 import { flushSync } from "react-dom";
 import { X, ChevronDown, Plus, Minus } from "lucide-react";
@@ -50,6 +51,49 @@ const ANGLE_STEP = 360 / CARD_COUNT;
 const TRANSITION_EASE = "power3.inOut";
 const TRANSITION_DURATION = 0.9;
 const PANEL_SLIDE = 56;
+
+const VIDEO_VIGNETTE_MASK = {
+	portrait:
+		"radial-gradient(ellipse 78% 74% at 50% 50%, #000 32%, rgba(0,0,0,0.65) 58%, transparent 82%)",
+	landscape:
+		"radial-gradient(ellipse 72% 68% at 50% 50%, #000 38%, rgba(0,0,0,0.55) 60%, transparent 80%)",
+} as const;
+
+const VIDEO_VIGNETTE_OVERLAY = {
+	portrait:
+		"radial-gradient(ellipse 88% 84% at 50% 50%, transparent 38%, var(--void) 100%)",
+	landscape:
+		"radial-gradient(ellipse 80% 76% at 50% 50%, transparent 44%, var(--void) 100%)",
+} as const;
+
+function VideoVignette({
+	children,
+	className = "",
+	variant = "landscape",
+}: {
+	children: ReactNode;
+	className?: string;
+	variant?: keyof typeof VIDEO_VIGNETTE_MASK;
+}) {
+	const mask = VIDEO_VIGNETTE_MASK[variant];
+	const overlay = VIDEO_VIGNETTE_OVERLAY[variant];
+
+	return (
+		<div
+			className={`relative overflow-hidden ${className}`}
+			style={{
+				maskImage: mask,
+				WebkitMaskImage: mask,
+			}}
+		>
+			{children}
+			<div
+				className="absolute inset-0 pointer-events-none"
+				style={{ background: overlay }}
+			/>
+		</div>
+	);
+}
 
 function HeroVideo({
 	src,
@@ -160,7 +204,7 @@ function MobileFaqCard({
 			ref={cardRef}
 			onClick={onSelect}
 			className={`mobile-faq-card relative w-full text-left group transition-all duration-500 ${
-				isActive ? "scale-[1.02] z-10" : "opacity-80 hover:opacity-100"
+				isActive ? "scale-[1.02] z-10" : "hover:opacity-100"
 			}`}
 			style={{ marginLeft: index % 2 === 1 ? 12 : 0 }}
 		>
@@ -168,7 +212,7 @@ function MobileFaqCard({
 				className={`relative overflow-hidden rounded-2xl px-5 py-5 backdrop-blur-xl border transition-all duration-500 ${
 					isActive
 						? "bg-[rgba(6,8,16,0.75)] border-[rgba(13,183,187,0.45)] shadow-[0_0_40px_rgba(13,183,187,0.12),inset_0_1px_0_rgba(13,183,187,0.15)]"
-						: "bg-[rgba(6,8,16,0.45)] border-[rgba(13,183,187,0.15)] hover:border-[rgba(13,183,187,0.3)]"
+						: "bg-[rgba(6,8,16,0.65)] border-[rgba(13,183,187,0.22)] hover:border-[rgba(13,183,187,0.35)]"
 				}`}
 			>
 				<div
@@ -227,23 +271,30 @@ function MobileHeroFaq({
 	const sectionRef = useRef<HTMLElement>(null);
 
 	useEffect(() => {
+		const section = sectionRef.current;
+		if (!section) return;
+
+		const cards = section.querySelectorAll(".mobile-faq-card");
+		if (!cards.length) return;
+
+		gsap.set(cards, { opacity: 1, y: 0 });
+
 		const ctx = gsap.context(() => {
-			const cards =
-				sectionRef.current?.querySelectorAll(".mobile-faq-card");
-			if (cards?.length) {
-				gsap.from(cards, {
-					y: 40,
-					opacity: 0,
-					duration: 0.7,
-					ease: "power3.out",
-					stagger: 0.1,
-					scrollTrigger: {
-						trigger: sectionRef.current,
-						start: "top 85%",
-					},
-				});
-			}
-		}, sectionRef);
+			gsap.from(cards, {
+				y: 28,
+				duration: 0.65,
+				ease: "power3.out",
+				stagger: 0.08,
+				scrollTrigger: {
+					trigger: section,
+					start: "top 92%",
+					once: true,
+				},
+			});
+		}, section);
+
+		requestAnimationFrame(() => ScrollTrigger.refresh());
+
 		return () => ctx.revert();
 	}, []);
 
@@ -251,7 +302,7 @@ function MobileHeroFaq({
 		<section
 			ref={sectionRef}
 			id="hero-faq"
-			className="md:hidden relative bg-void overflow-hidden"
+			className="md:hidden relative z-10 bg-void overflow-hidden scroll-mt-20"
 		>
 			<div className="absolute inset-0 pointer-events-none">
 				<div className="absolute inset-0 opacity-40 grid-overlay" />
@@ -272,7 +323,7 @@ function MobileHeroFaq({
 				/>
 			</div>
 
-			<div className="relative z-10 px-5 pt-10 pb-28 max-w-[540px] mx-auto">
+			<div className="relative z-10 px-5 pt-12 pb-28 max-w-[540px] mx-auto">
 				<div className="space-y-3">
 					{qaData.map((qa, i) => (
 						<MobileFaqCard
@@ -674,10 +725,15 @@ export default function HeroSection() {
 												"radial-gradient(ellipse at center, rgba(13,183,187,0.1) 0%, transparent 65%)",
 										}}
 									/>
+								<VideoVignette
+									variant="landscape"
+									className="w-full h-full"
+								>
 									<HeroVideo
 										src={HERO_VIDEO_LANDSCAPE}
 										className="w-full h-full drop-shadow-[0_24px_80px_rgba(13,183,187,0.18)]"
 									/>
+								</VideoVignette>
 								</div>
 							</div>
 
@@ -785,13 +841,18 @@ export default function HeroSection() {
 						/>
 						<div className="absolute inset-0 opacity-30 grid-overlay" />
 					</div>
-					<HeroVideo
-						src={HERO_VIDEO_PORTRAIT}
-						fit="cover"
+					<VideoVignette
+						variant="portrait"
 						className="absolute inset-0 w-full h-full"
-					/>
+					>
+						<HeroVideo
+							src={HERO_VIDEO_PORTRAIT}
+							fit="cover"
+							className="absolute inset-0 w-full h-full"
+						/>
+					</VideoVignette>
 					<div
-						className="absolute bottom-0 left-0 right-0 h-36 z-10 pointer-events-none"
+						className="absolute bottom-0 left-0 right-0 h-36 z-[1] pointer-events-none"
 						style={{
 							background:
 								"linear-gradient(to bottom, transparent 0%, var(--void) 90%)",
@@ -799,13 +860,17 @@ export default function HeroSection() {
 					/>
 					<a
 						href="#hero-faq"
-						className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-teal/60 hover:text-teal transition-colors"
+						className="absolute bottom-10 left-1/2 -translate-x-1/2 z-30 flex flex-col items-center gap-2"
 						aria-label="Scroll to questions"
 					>
-						<span className="font-ibm text-[10px] uppercase tracking-[0.25em]">
+						<span className="rounded-full border border-teal/50 bg-void/80 backdrop-blur-md px-5 py-2 font-ibm text-[11px] uppercase tracking-[0.28em] text-text-primary shadow-[0_0_28px_rgba(13,183,187,0.4)]">
 							Explore
 						</span>
-						<ChevronDown size={20} className="animate-bounce" />
+						<ChevronDown
+							size={22}
+							strokeWidth={2.5}
+							className="text-teal animate-bounce drop-shadow-[0_0_12px_rgba(13,183,187,0.6)]"
+						/>
 					</a>
 				</div>
 			</section>

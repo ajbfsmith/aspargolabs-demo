@@ -10,6 +10,11 @@ const navLinks = [
   { label: "Blog", href: "/blog", isExternal: false },
 ];
 
+const navGlassScrolled =
+  "bg-[rgba(6,8,16,0.72)] border-[rgba(13,183,187,0.28)] shadow-[0_8px_40px_rgba(0,0,0,0.45),inset_0_1px_0_rgba(255,255,255,0.08)]";
+const navGlassDefault =
+  "bg-[rgba(6,8,16,0.52)] border-[rgba(255,255,255,0.1)] shadow-[0_8px_32px_rgba(0,0,0,0.35),inset_0_1px_0_rgba(255,255,255,0.06)]";
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -61,31 +66,24 @@ export default function Navbar() {
     <>
       <nav
         ref={navRef}
-        className={`fixed z-[900] w-full md:w-auto md:max-w-[calc(100vw-2rem)] md:top-4 md:left-1/2 md:-translate-x-1/2 top-0 left-0 translate-x-0 px-4 py-3 md:px-2 md:py-1.5 transition-all duration-500 md:rounded-xl border-b md:border backdrop-blur-2xl ${
-          scrolled
-            ? "bg-[rgba(6,8,16,0.88)] border-[rgba(13,183,187,0.28)] shadow-[0_8px_40px_rgba(0,0,0,0.45),inset_0_1px_0_rgba(255,255,255,0.08)]"
-            : "bg-[rgba(6,8,16,0.75)] border-[rgba(255,255,255,0.08)] md:shadow-[0_8px_32px_rgba(0,0,0,0.35),inset_0_1px_0_rgba(255,255,255,0.06)]"
+        className={`fixed z-[900] left-1/2 -translate-x-1/2 w-[calc(100vw-2rem)] max-w-[calc(100vw-2rem)] md:w-auto md:max-w-[calc(100vw-2rem)] px-2 py-1.5 transition-all duration-500 rounded-xl border backdrop-blur-2xl ${
+          scrolled ? navGlassScrolled : navGlassDefault
         }`}
-        style={{ paddingTop: "max(0.75rem, env(safe-area-inset-top))" }}
+        style={{ top: "max(1rem, env(safe-area-inset-top))" }}
       >
-        <div className="absolute inset-0 md:rounded-xl overflow-hidden pointer-events-none hidden md:block">
+        <div className="absolute inset-0 rounded-xl overflow-hidden pointer-events-none">
           <div className="absolute inset-0 bg-gradient-to-b from-white/[0.07] to-transparent" />
           <div className="absolute inset-0 grid-overlay opacity-30" />
         </div>
 
-        <div className="relative z-10 flex items-center justify-between md:justify-start gap-4 md:gap-8 lg:gap-12 md:px-4">
-          <Link href="/" className="min-w-0 shrink">
-            <span className="md:hidden block font-dm text-[15px] font-medium tracking-wide text-text-primary truncate">
-              Accelerate Health
+        <div className="relative z-10 flex items-center justify-between md:justify-start gap-4 md:gap-8 lg:gap-12 px-3 py-0.5 sm:px-4 md:px-6">
+          <Link href="/" className="flex items-center gap-1 shrink-0 min-w-0">
+            <span className="font-dm text-[14px] sm:text-[15px] font-light tracking-wide text-text-primary">
+              ACCELERATE
             </span>
-            <span className="hidden md:flex items-center gap-1 shrink-0">
-              <span className="font-dm text-[15px] font-light tracking-wide text-text-primary">
-                ACCELERATE
-              </span>
-              <span className="text-teal mx-1">·</span>
-              <span className="font-ibm text-[12px] font-light tracking-wider text-text-secondary">
-                HEALTH
-              </span>
+            <span className="text-teal mx-0.5 sm:mx-1">·</span>
+            <span className="font-ibm text-[11px] sm:text-[12px] font-light tracking-wider text-text-secondary">
+              HEALTH
             </span>
           </Link>
 
@@ -113,7 +111,7 @@ export default function Navbar() {
 
           <button
             type="button"
-            className="md:hidden shrink-0 p-1 -mr-1 text-text-primary"
+            className="md:hidden shrink-0 p-1 text-text-primary"
             onClick={() => setMobileOpen(true)}
             aria-label="Open menu"
           >
