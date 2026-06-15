@@ -89,7 +89,7 @@ export default function ManifestoSection() {
 					src="/images/clean_room.png"
 					alt="Pharmaceutical clean room corridor"
 					fill
-					className="object-cover scale-[1.15]"
+					className="object-fill scale-[1.35]"
 					priority={false}
 				/>
 				<div
