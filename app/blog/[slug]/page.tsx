@@ -19,7 +19,7 @@ export async function generateMetadata(props: {
   const post = getPostBySlug(slug);
   if (!post) return { title: "Post Not Found" };
   return {
-    title: `${post.title} — Accelerate Health`,
+    title: `${post.title} | Accelerate Health`,
     description: post.excerpt,
   };
 }

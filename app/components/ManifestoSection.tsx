@@ -63,7 +63,7 @@ export default function ManifestoSection() {
 	return (
 		<section
 			ref={sectionRef}
-			className="relative z-10 bg-void pt-16 md:pt-24 pb-32 md:pb-48 overflow-hidden"
+			className="md:hidden relative z-10 bg-void pt-16 pb-32 overflow-hidden"
 		>
 			{/* Top fade from hero */}
 			<div

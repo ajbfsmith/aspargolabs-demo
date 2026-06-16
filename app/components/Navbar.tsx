@@ -5,8 +5,10 @@ import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import gsap from "gsap";
 
+const INTAKE_URL = "https://intake.aspargolabs.com";
+
 const navLinks = [
-  { label: "HEZKUE®", href: "/#product", isExternal: false },
+  { label: "About", href: "/about", isExternal: false },
   { label: "Blog", href: "/blog", isExternal: false },
 ];
 
@@ -100,13 +102,13 @@ export default function Navbar() {
           </div>
 
           <a
-            href="https://intake.aspargolabs.com"
+            href={INTAKE_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary nav-cta hidden md:inline-flex shrink-0"
           >
             <span className="btn-fill" />
-            <span className="relative z-10">Buy Now</span>
+            <span className="relative z-10">Learn More</span>
           </a>
 
           <button
@@ -154,14 +156,14 @@ export default function Navbar() {
                 </Link>
               ))}
               <a
-                href="https://intake.aspargolabs.com"
+                href={INTAKE_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-[14px] py-3 px-6 mt-4 text-center"
                 onClick={closeDrawer}
               >
                 <span className="btn-fill" />
-                <span className="relative z-10">Buy Now</span>
+                <span className="relative z-10">Learn More</span>
               </a>
             </div>
           </div>

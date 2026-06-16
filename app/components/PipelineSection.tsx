@@ -11,7 +11,7 @@ const pipelineItems = [
     title: "HEZKUE® / BANDOL®",
     badge: "Available Now",
     badgeColor: "bg-teal text-void",
-    description: "Sildenafil oral suspension — the world's first spray-delivered ED treatment.",
+    description: "Sildenafil oral suspension, the world's first spray-delivered ED treatment.",
     markets: "US · UK · EU · Spain",
     icon: (
       <svg

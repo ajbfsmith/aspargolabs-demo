@@ -10,7 +10,7 @@ const proofPoints = [
   {
     eyebrow: "Fast acting",
     headline: "Starts working within 5 minutes",
-    body: "Clinically studied for rapid absorption—so you don’t need to plan intimacy around a long wait.",
+    body: "Clinically studied for rapid absorption, so you don't need to plan intimacy around a long wait.",
   },
   {
     eyebrow: "Food flexibility",

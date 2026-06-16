@@ -22,17 +22,17 @@ export const blogPosts: BlogPost[] = [
     content: `
 ## The First-Pass Problem
 
-When you swallow a conventional sildenafil tablet, the active ingredient takes a detour. It dissolves in stomach acid, crosses the intestinal lining, and enters the hepatic portal vein — meaning it passes through the liver before reaching systemic circulation. This "first-pass metabolism" can degrade 60–70 % of the dose before it ever reaches the bloodstream.
+When you swallow a conventional sildenafil tablet, the active ingredient takes a detour. It dissolves in stomach acid, crosses the intestinal lining, and enters the hepatic portal vein, meaning it passes through the liver before reaching systemic circulation. This "first-pass metabolism" can degrade 60 to 70 % of the dose before it ever reaches the bloodstream.
 
 ### How Buccal Absorption Changes the Equation
 
-An oral spray deposits micro-droplets across the buccal and sublingual mucosa — the thin, highly vascularised tissue inside the mouth. Because venous drainage from this area flows directly into the superior vena cava, the drug bypasses hepatic first-pass metabolism entirely.
+An oral spray deposits micro-droplets across the buccal and sublingual mucosa, the thin, highly vascularised tissue inside the mouth. Because venous drainage from this area flows directly into the superior vena cava, the drug bypasses hepatic first-pass metabolism entirely.
 
-> In a 56-subject crossover study, HEZKUE® achieved detectable plasma sildenafil concentrations at T+5 minutes — a timepoint at which the comparator tablet showed zero measurable absorption.
+> In a 56-subject crossover study, HEZKUE® achieved detectable plasma sildenafil concentrations at T+5 minutes, a timepoint at which the comparator tablet showed zero measurable absorption.
 
 ### What This Means in Practice
 
-Faster onset is not just a convenience metric. For many patients, the 45–60 minute planning window required by tablets is the primary source of psychological burden. Reducing that window to single-digit minutes changes the experience from "scheduled medication" to "on-demand confidence."
+Faster onset is not just a convenience metric. For many patients, the 45 to 60 minute planning window required by tablets is the primary source of psychological burden. Reducing that window to single-digit minutes changes the experience from "scheduled medication" to "on-demand confidence."
 
 ## Food and Alcohol Interactions
 
@@ -40,7 +40,7 @@ A high-fat meal can delay tablet absorption by over an hour. Because buccal abso
 
 ### The Bioequivalence Data
 
-Despite the faster onset, total drug exposure (AUC) remains bioequivalent to the reference tablet — meaning you get the same therapeutic effect, just delivered more efficiently.
+Despite the faster onset, total drug exposure (AUC) remains bioequivalent to the reference tablet, meaning you get the same therapeutic effect, just delivered more efficiently.
     `,
   },
   {
@@ -55,13 +55,13 @@ Despite the faster onset, total drug exposure (AUC) remains bioequivalent to the
     content: `
 ## The Anticipation Problem
 
-Performance anxiety in sexual health is well-documented, but less discussed is the secondary anxiety created by the medication itself. When a patient takes a tablet and knows they must wait 30–60 minutes for it to work, a new cognitive burden appears: clock-watching.
+Performance anxiety in sexual health is well-documented, but less discussed is the secondary anxiety created by the medication itself. When a patient takes a tablet and knows they must wait 30 to 60 minutes for it to work, a new cognitive burden appears: clock-watching.
 
 ### The Feedback Loop
 
 This waiting period creates a feedback loop. The patient becomes hyper-aware of whether the medication "has kicked in yet," which triggers the very sympathetic nervous system activation that ED medications are designed to counteract.
 
-> "The most effective medication is the one the patient actually uses without hesitation." — Dr. James Rothwell, Journal of Sexual Medicine, 2024
+> "The most effective medication is the one the patient actually uses without hesitation." Dr. James Rothwell, Journal of Sexual Medicine, 2024
 
 ### Removing the Clock
 
@@ -73,7 +73,7 @@ Beyond timing, the format matters. A pocket-sized spray that looks like a breath
 
 ### Real-World Adherence
 
-Studies consistently show that medication adherence improves when the treatment feels less like a clinical intervention. By removing friction — both temporal and psychological — spray suspension technology may improve not just onset, but overall treatment success rates.
+Studies consistently show that medication adherence improves when the treatment feels less like a clinical intervention. By removing friction, both temporal and psychological, spray suspension technology may improve not just onset, but overall treatment success rates.
     `,
   },
   {
@@ -88,7 +88,7 @@ Studies consistently show that medication adherence improves when the treatment 
     content: `
 ## The Tablet Compromise
 
-Standard sildenafil tablets come in 25 mg, 50 mg, and 100 mg doses. If 50 mg is too much and 25 mg is not enough, patients are left splitting pills with a knife — an imprecise process that leads to uneven dosing and crumbling tablets.
+Standard sildenafil tablets come in 25 mg, 50 mg, and 100 mg doses. If 50 mg is too much and 25 mg is not enough, patients are left splitting pills with a knife, an imprecise process that leads to uneven dosing and crumbling tablets.
 
 ### Pump-Based Calibration
 
@@ -98,22 +98,22 @@ Each actuation of the HEZKUE® spray delivers a precisely measured dose. This al
 
 ## Pharmacogenomic Variability
 
-CYP3A4 enzyme activity — the primary metabolic pathway for sildenafil — varies significantly across individuals and ethnic populations. A dose that produces mild effects in one patient may cause significant side effects in another.
+CYP3A4 enzyme activity, the primary metabolic pathway for sildenafil, varies significantly across individuals and ethnic populations. A dose that produces mild effects in one patient may cause significant side effects in another.
 
 ### The Clinical Advantage
 
-By enabling finer dose adjustment, spray suspension technology allows clinicians to personalise treatment based on individual response, comorbidities, and concomitant medications — rather than forcing patients into pre-set dose brackets.
+By enabling finer dose adjustment, spray suspension technology allows clinicians to personalise treatment based on individual response, comorbidities, and concomitant medications, rather than forcing patients into pre-set dose brackets.
 
 ## Beyond ED
 
-The precision dosing principle extends to Accelerate Health's broader pipeline. Every drug delivery challenge — from pain management to CNS therapeutics — benefits from the ability to deliver exact, reproducible doses without the constraints of solid oral dosage forms.
+The precision dosing principle extends to Accelerate Health's broader pipeline. Every drug delivery challenge, from pain management to CNS therapeutics, benefits from the ability to deliver exact, reproducible doses without the constraints of solid oral dosage forms.
     `,
   },
   {
     slug: "spray-suspension-technology-overview",
     title: "Inside Spray Suspension Technology",
     excerpt:
-      "A deep dive into the formulation science behind HEZKUE® — from particle engineering to the mint-flavoured suspension matrix.",
+      "A deep dive into the formulation science behind HEZKUE®, from particle engineering to the mint-flavoured suspension matrix.",
     date: "2026-04-15",
     readTime: "7 min read",
     tag: "Science",
@@ -127,9 +127,9 @@ Unlike a solution (where the drug is fully dissolved), a suspension contains mic
 
 Sildenafil citrate is a crystalline powder with limited aqueous solubility. Creating a stable suspension that delivers consistent doses through a metered pump requires solving three problems simultaneously:
 
-1. **Particle size control** — too large and the spray clogs; too small and the suspension becomes a solution with different absorption kinetics
-2. **Suspension stability** — particles must remain uniformly distributed between uses
-3. **Mucosal adhesion** — the formulation must coat buccal tissue long enough for absorption
+1. **Particle size control**, too large and the spray clogs; too small and the suspension becomes a solution with different absorption kinetics
+2. **Suspension stability**, particles must remain uniformly distributed between uses
+3. **Mucosal adhesion**, the formulation must coat buccal tissue long enough for absorption
 
 > The intersection of particle engineering, polymer science, and mucosal biology is where HEZKUE® was born.
 
@@ -139,11 +139,11 @@ The peppermint flavouring is not purely aesthetic. Menthol acts as a mild permea
 
 ### Manufacturing Precision
 
-Each HEZKUE® unit is filled using pharmaceutical-grade metered-dose pump technology — the same class of device used in asthma inhalers. Every actuation delivers a volumetrically precise dose, with batch-to-batch variation held below 3%.
+Each HEZKUE® unit is filled using pharmaceutical-grade metered-dose pump technology, the same class of device used in asthma inhalers. Every actuation delivers a volumetrically precise dose, with batch-to-batch variation held below 3%.
 
 ## Looking Forward
 
-Accelerate Health's platform is not limited to sildenafil. The same spray suspension technology can be adapted to deliver a range of APIs — from analgesics to anxiolytics — wherever rapid buccal absorption offers a clinical advantage over traditional oral dosage forms.
+Accelerate Health's platform is not limited to sildenafil. The same spray suspension technology can be adapted to deliver a range of APIs, from analgesics to anxiolytics, wherever rapid buccal absorption offers a clinical advantage over traditional oral dosage forms.
     `,
   },
   {
@@ -158,11 +158,11 @@ Accelerate Health's platform is not limited to sildenafil. The same spray suspen
     content: `
 ## A Century of Tablets
 
-The compressed tablet — invented in the 1840s — remains the dominant drug delivery form worldwide. Its advantages are well known: stability, portability, precise dosing, and low manufacturing cost. But its limitations are equally well documented.
+The compressed tablet, invented in the 1840s, remains the dominant drug delivery form worldwide. Its advantages are well known: stability, portability, precise dosing, and low manufacturing cost. But its limitations are equally well documented.
 
 ### The Limitations
 
-- **Slow onset:** gastric dissolution and intestinal absorption take 30–90 minutes for most drugs
+- **Slow onset:** gastric dissolution and intestinal absorption take 30 to 90 minutes for most drugs
 - **First-pass metabolism:** hepatic degradation reduces bioavailability, requiring higher doses
 - **Food interactions:** absorption varies dramatically with meal timing and composition
 - **Swallowing difficulty:** dysphagia affects up to 40% of elderly patients
@@ -172,7 +172,7 @@ The compressed tablet — invented in the 1840s — remains the dominant drug de
 The pharmaceutical industry is investing heavily in non-oral delivery systems:
 
 ### Transdermal Patches
-Steady-state delivery through the skin. Excellent for chronic conditions but limited by molecular size — only small, lipophilic molecules can penetrate the stratum corneum.
+Steady-state delivery through the skin. Excellent for chronic conditions but limited by molecular size, only small, lipophilic molecules can penetrate the stratum corneum.
 
 ### Nasal Sprays
 Rapid absorption through nasal mucosa. Used successfully for migraine (sumatriptan) and opioid overdose (naloxone). Limited by nasal cavity volume and irritation potential.
@@ -184,7 +184,7 @@ The sweet spot for drugs requiring rapid onset without injection. The oral mucos
 
 ## What Comes Next
 
-The convergence of AI-driven formulation design, advanced polymer chemistry, and personalised medicine is accelerating the shift away from one-size-fits-all tablets. Companies like Accelerate Health are leading this transition — not by replacing tablets everywhere, but by identifying the specific therapeutic contexts where alternative delivery creates meaningful clinical advantages.
+The convergence of AI-driven formulation design, advanced polymer chemistry, and personalised medicine is accelerating the shift away from one-size-fits-all tablets. Companies like Accelerate Health are leading this transition, not by replacing tablets everywhere, but by identifying the specific therapeutic contexts where alternative delivery creates meaningful clinical advantages.
     `,
   },
 ];

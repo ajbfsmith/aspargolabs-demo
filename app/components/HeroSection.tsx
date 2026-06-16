@@ -18,7 +18,7 @@ gsap.registerPlugin(ScrollTrigger);
 const qaData = [
 	{
 		question: "How fast does it start working?",
-		answer: "HEZKUE® achieves detectable plasma sildenafil concentrations within 5 minutes of application. In a 56-subject crossover study, the comparator tablet showed zero measurable absorption at the same timepoint. Most users report noticeable effects within 5–10 minutes.",
+		answer: "HEZKUE® achieves detectable plasma sildenafil concentrations within 5 minutes of application. In a 56-subject crossover study, the comparator tablet showed zero measurable absorption at the same timepoint. Most users report noticeable effects within 5 to 10 minutes.",
 	},
 	{
 		question: "Can I use it even if I've drunk or eaten recently?",
@@ -26,7 +26,7 @@ const qaData = [
 	},
 	{
 		question: "How long does it work for?",
-		answer: "HEZKUE® provides the same duration of action as standard sildenafil tablets — typically 4 to 6 hours. Total drug exposure (AUC) is bioequivalent to the reference tablet, so the therapeutic window is unchanged.",
+		answer: "HEZKUE® provides the same duration of action as standard sildenafil tablets, typically 4 to 6 hours. Total drug exposure (AUC) is bioequivalent to the reference tablet, so the therapeutic window is unchanged.",
 	},
 	{
 		question: "Is it safe to use?",
@@ -38,10 +38,11 @@ const qaData = [
 	},
 	{
 		question: "Is it better than Cialis or Viagra?",
-		answer: "HEZKUE® delivers sildenafil — the same active ingredient as Viagra — but via a faster-absorbing oral spray. Compared to Cialis (tadalafil), HEZKUE® offers a different mechanism with rapid onset rather than a longer duration window. The best choice depends on your lifestyle and physician guidance.",
+		answer: "HEZKUE® delivers sildenafil, the same active ingredient as Viagra, but via a faster-absorbing oral spray. Compared to Cialis (tadalafil), HEZKUE® offers a different mechanism with rapid onset rather than a longer duration window. The best choice depends on your lifestyle and physician guidance.",
 	},
 ];
 
+const INTAKE_URL = "https://intake.aspargolabs.com";
 const HERO_VIDEO_LANDSCAPE = "/output_landscape.webm";
 const HERO_VIDEO_PORTRAIT = "/output_portrait.webm";
 const VIDEO_Z_INDEX = 10;
@@ -261,7 +262,7 @@ function MobileFaqCard({
 	);
 }
 
-function MobileHeroFaq({
+function HeroFaq({
 	activeIndex,
 	onSelect,
 }: {
@@ -302,7 +303,7 @@ function MobileHeroFaq({
 		<section
 			ref={sectionRef}
 			id="hero-faq"
-			className="md:hidden relative z-10 bg-void overflow-hidden scroll-mt-20"
+			className="relative z-10 bg-void overflow-hidden scroll-mt-20"
 		>
 			<div className="absolute inset-0 pointer-events-none">
 				<div className="absolute inset-0 opacity-40 grid-overlay" />
@@ -323,7 +324,7 @@ function MobileHeroFaq({
 				/>
 			</div>
 
-			<div className="relative z-10 px-5 pt-12 pb-28 max-w-[540px] mx-auto">
+			<div className="relative z-10 px-5 md:px-16 pt-12 md:pt-20 pb-28 md:pb-32 max-w-[540px] md:max-w-[720px] mx-auto">
 				<div className="space-y-3">
 					{qaData.map((qa, i) => (
 						<MobileFaqCard
@@ -343,7 +344,7 @@ function MobileHeroFaq({
 
 export default function HeroSection() {
 	const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
-	const [mobileFaqIndex, setMobileFaqIndex] = useState<number | null>(null);
+	const [faqIndex, setFaqIndex] = useState<number | null>(null);
 	const sectionRef = useRef<HTMLElement>(null);
 	const videoSideRef = useRef<HTMLDivElement>(null);
 	const cardsLayerRef = useRef<HTMLDivElement>(null);
@@ -378,6 +379,7 @@ export default function HeroSection() {
 			const isBehind = depth < 0.5;
 			const opacity = isBehind ? 0.5 + depth * 0.35 : 0.65 + depth * 0.35;
 			const scale = 0.85 + depth * 0.15;
+			const blurPx = isBehind ? Math.round((0.5 - depth) * 14) : 0;
 			const zIndex = isBehind
 				? Math.round(depth * 8) + 1
 				: Math.round(depth * 8) + VIDEO_Z_INDEX + 2;
@@ -392,6 +394,7 @@ export default function HeroSection() {
 				opacity,
 				scale,
 				zIndex,
+				filter: blurPx > 0 ? `blur(${blurPx}px)` : "none",
 			});
 			card.style.pointerEvents = depth > 0.25 ? "auto" : "none";
 		});
@@ -593,8 +596,17 @@ export default function HeroSection() {
 		playCloseTransition();
 	}, [selectedIndex, playCloseTransition]);
 
-	const handleMobileFaqSelect = useCallback((index: number) => {
-		setMobileFaqIndex((prev) => (prev === index ? null : index));
+	const handleVideoAreaClick = useCallback(() => {
+		if (isAnimating.current) return;
+		if (selectedIndex !== null) {
+			handleClose();
+			return;
+		}
+		window.open(INTAKE_URL, "_blank", "noopener,noreferrer");
+	}, [selectedIndex, handleClose]);
+
+	const handleFaqSelect = useCallback((index: number) => {
+		setFaqIndex((prev) => (prev === index ? null : index));
 	}, []);
 
 	useLayoutEffect(() => {
@@ -636,6 +648,16 @@ export default function HeroSection() {
 		return () => window.removeEventListener("resize", onResize);
 	}, [updatePositions]);
 
+	useEffect(() => {
+		const onKeyDown = (e: KeyboardEvent) => {
+			if (e.key === "Escape" && selectedIndex !== null) {
+				handleClose();
+			}
+		};
+		window.addEventListener("keydown", onKeyDown);
+		return () => window.removeEventListener("keydown", onKeyDown);
+	}, [selectedIndex, handleClose]);
+
 	return (
 		<>
 			<section
@@ -664,12 +686,19 @@ export default function HeroSection() {
 						{/* Video + orbit side */}
 						<div
 							ref={videoSideRef}
-							className="relative h-full flex items-center justify-center"
+							className={`relative h-full flex items-center justify-center ${
+								selectedIndex !== null ? "cursor-pointer" : ""
+							}`}
 							style={{
 								width: "100%",
 								height: "100%",
 								transition: "none",
 							}}
+							onClick={
+								selectedIndex !== null
+									? handleClose
+									: undefined
+							}
 						>
 							{/* Orbit layer — cards only (video stays visible on select) */}
 							<div
@@ -715,31 +744,42 @@ export default function HeroSection() {
 
 								{/* VP9 alpha video — sits between back and front cards */}
 								<div
-									className="absolute inset-0 flex items-center justify-center pointer-events-none"
+									className="absolute inset-0 flex items-center justify-center"
 									style={{ zIndex: VIDEO_Z_INDEX }}
 								>
 									<div
-										className="absolute w-[70%] h-[70%]"
+										className="absolute w-[70%] h-[70%] pointer-events-none"
 										style={{
 											background:
 												"radial-gradient(ellipse at center, rgba(13,183,187,0.1) 0%, transparent 65%)",
 										}}
 									/>
-								<VideoVignette
-									variant="landscape"
-									className="w-full h-full"
-								>
-									<HeroVideo
-										src={HERO_VIDEO_LANDSCAPE}
-										className="w-full h-full drop-shadow-[0_24px_80px_rgba(13,183,187,0.18)]"
-									/>
-								</VideoVignette>
+									{selectedIndex === null && (
+										<button
+											type="button"
+											className="absolute inset-0 z-20 cursor-pointer bg-transparent"
+											onClick={handleVideoAreaClick}
+											aria-label="Learn more"
+										/>
+									)}
+									<VideoVignette
+										variant="landscape"
+										className="w-full h-full pointer-events-none"
+									>
+										<HeroVideo
+											src={HERO_VIDEO_LANDSCAPE}
+											className="w-full h-full drop-shadow-[0_24px_80px_rgba(13,183,187,0.18)]"
+										/>
+									</VideoVignette>
 								</div>
 							</div>
 
 							{/* Dot nav when answer is open */}
 							{selectedIndex !== null && (
-								<div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2 z-30">
+								<div
+									className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2 z-30"
+									onClick={(e) => e.stopPropagation()}
+								>
 									{qaData.map((_, i) => (
 										<button
 											key={i}
@@ -764,6 +804,7 @@ export default function HeroSection() {
 							className="absolute right-0 top-0 bottom-0 flex items-center overflow-hidden"
 							style={{ width: 0 }}
 							aria-hidden={selectedIndex === null}
+							onClick={(e) => e.stopPropagation()}
 						>
 							<div
 								ref={answerContentRef}
@@ -802,6 +843,18 @@ export default function HeroSection() {
 												{qaData[selectedIndex].answer}
 											</p>
 										</div>
+
+										<a
+											href={INTAKE_URL}
+											target="_blank"
+											rel="noopener noreferrer"
+											className="btn-primary inline-flex mt-6 text-[14px] py-3 px-8"
+										>
+											<span className="btn-fill" />
+											<span className="relative z-10">
+												Learn More
+											</span>
+										</a>
 
 										<div className="mt-6 flex flex-wrap gap-2">
 											{qaData.map((qa, i) => {
@@ -875,10 +928,7 @@ export default function HeroSection() {
 				</div>
 			</section>
 
-			<MobileHeroFaq
-				activeIndex={mobileFaqIndex}
-				onSelect={handleMobileFaqSelect}
-			/>
+			<HeroFaq activeIndex={faqIndex} onSelect={handleFaqSelect} />
 		</>
 	);
 }
