@@ -113,7 +113,7 @@ export function VapiCallButton() {
         <p className="max-w-md text-sm leading-6 text-zinc-600 dark:text-zinc-400">
           Set <code className="font-mono">NEXT_PUBLIC_VAPI_PUBLIC_KEY</code> and{" "}
           <code className="font-mono">NEXT_PUBLIC_VAPI_ASSISTANT_ID</code> in{" "}
-          <code className="font-mono">.env.local</code> to enable voice.
+          <code className="font-mono">.env</code> to enable voice.
         </p>
       ) : null}
 

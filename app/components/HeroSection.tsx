@@ -12,6 +12,7 @@ import { flushSync } from "react-dom";
 import { X, ChevronDown, Plus, Minus } from "lucide-react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { INTAKE_FORM_URL } from "@/lib/config/intake-form-url";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -42,7 +43,6 @@ const qaData = [
 	},
 ];
 
-const INTAKE_URL = "https://intake.aspargolabs.com";
 const HERO_VIDEO_LANDSCAPE = "/output_landscape.webm";
 const HERO_VIDEO_PORTRAIT = "/output_portrait.webm";
 const VIDEO_Z_INDEX = 10;
@@ -152,6 +152,20 @@ function OrbitCard({
 	);
 }
 
+function LearnMoreLink({ className = "" }: { className?: string }) {
+	return (
+		<a
+			href={INTAKE_FORM_URL}
+			target="_blank"
+			rel="noopener noreferrer"
+			className={`btn-primary inline-flex text-[13px] py-2.5 px-6 ${className}`}
+		>
+			<span className="btn-fill" />
+			<span className="relative z-10">Learn More</span>
+		</a>
+	);
+}
+
 function MobileFaqCard({
 	question,
 	answer,
@@ -201,9 +215,7 @@ function MobileFaqCard({
 	}, [isActive]);
 
 	return (
-		<button
-			ref={cardRef}
-			onClick={onSelect}
+		<div
 			className={`mobile-faq-card relative w-full text-left group transition-all duration-500 ${
 				isActive ? "scale-[1.02] z-10" : "hover:opacity-100"
 			}`}
@@ -222,7 +234,12 @@ function MobileFaqCard({
 					style={{ transform: "scaleY(0.3)", opacity: 0.35 }}
 				/>
 
-				<div className="flex items-start gap-4 pl-3">
+				<button
+					type="button"
+					ref={cardRef}
+					onClick={onSelect}
+					className="flex w-full items-start gap-4 pl-3 text-left"
+				>
 					<div className="flex-1 min-w-0">
 						<p
 							className={`font-dm text-[16px] leading-snug transition-colors duration-300 ${
@@ -233,15 +250,6 @@ function MobileFaqCard({
 						>
 							{question}
 						</p>
-						<div
-							ref={answerRef}
-							className="overflow-hidden h-0 opacity-0"
-						>
-							<div className="w-8 h-px bg-teal/40 my-4" />
-							<p className="font-lora text-[14px] text-text-secondary leading-[1.8] pr-1">
-								{answer}
-							</p>
-						</div>
 					</div>
 					<div
 						className={`shrink-0 w-8 h-8 rounded-full border flex items-center justify-center transition-all duration-300 ${
@@ -252,13 +260,24 @@ function MobileFaqCard({
 					>
 						{isActive ? <Minus size={14} /> : <Plus size={14} />}
 					</div>
+				</button>
+
+				<div
+					ref={answerRef}
+					className="overflow-hidden h-0 opacity-0 pl-3"
+				>
+					<div className="w-8 h-px bg-teal/40 my-4" />
+					<p className="font-lora text-[14px] text-text-secondary leading-[1.8] pr-1">
+						{answer}
+					</p>
+					<LearnMoreLink className="mt-5" />
 				</div>
 
 				{isActive && (
 					<div className="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_0%_50%,rgba(13,183,187,0.08)_0%,transparent_60%)]" />
 				)}
 			</div>
-		</button>
+		</div>
 	);
 }
 
@@ -602,7 +621,7 @@ export default function HeroSection() {
 			handleClose();
 			return;
 		}
-		window.open(INTAKE_URL, "_blank", "noopener,noreferrer");
+		window.open(INTAKE_FORM_URL, "_blank", "noopener,noreferrer");
 	}, [selectedIndex, handleClose]);
 
 	const handleFaqSelect = useCallback((index: number) => {
@@ -844,17 +863,7 @@ export default function HeroSection() {
 											</p>
 										</div>
 
-										<a
-											href={INTAKE_URL}
-											target="_blank"
-											rel="noopener noreferrer"
-											className="btn-primary inline-flex mt-6 text-[14px] py-3 px-8"
-										>
-											<span className="btn-fill" />
-											<span className="relative z-10">
-												Learn More
-											</span>
-										</a>
+										<LearnMoreLink className="mt-6 text-[14px] py-3 px-8" />
 
 										<div className="mt-6 flex flex-wrap gap-2">
 											{qaData.map((qa, i) => {

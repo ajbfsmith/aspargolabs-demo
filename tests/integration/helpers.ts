@@ -25,7 +25,7 @@ export function integrationEnvReady(): boolean {
 
 export function missingEnvMessage(): string {
   const missing = requiredIntegrationEnvKeys().filter((k) => !process.env[k] || !String(process.env[k]).trim());
-  return `Skip: set in .env.local: ${missing.join(", ")}`;
+  return `Skip: set in .env: ${missing.join(", ")}`;
 }
 
 /** Full runs of the same scenario (fresh call each time). Default 1; set INTEGRATION_N. */

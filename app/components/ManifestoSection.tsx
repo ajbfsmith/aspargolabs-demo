@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
+import { INTAKE_FORM_URL } from "@/lib/config/intake-form-url";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -126,7 +127,7 @@ export default function ManifestoSection() {
 						Ready when you are. No pills, no planning, no waiting.
 					</p>
 					<a
-						href="https://intake.aspargolabs.com"
+						href={INTAKE_FORM_URL}
 						target="_blank"
 						rel="noopener noreferrer"
 						className="btn-primary text-[15px] md:text-[16px] py-4 px-10 shadow-xl shadow-teal/10"
