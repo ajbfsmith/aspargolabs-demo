@@ -67,7 +67,7 @@ export default function Navbar() {
     <>
       <nav
         ref={navRef}
-        className={`fixed z-[900] left-1/2 -translate-x-1/2 w-[calc(100vw-2rem)] max-w-[calc(100vw-2rem)] md:w-auto md:max-w-[calc(100vw-2rem)] px-2 py-1.5 transition-all duration-500 rounded-xl border backdrop-blur-2xl ${
+        className={`fixed z-[900] inset-x-4 md:inset-x-auto md:left-1/2 md:-translate-x-1/2 w-auto md:max-w-[calc(100%-2rem)] px-2 py-1.5 transition-all duration-500 rounded-xl border backdrop-blur-2xl ${
           scrolled ? navGlassScrolled : navGlassDefault
         }`}
         style={{ top: "max(1rem, env(safe-area-inset-top))" }}
