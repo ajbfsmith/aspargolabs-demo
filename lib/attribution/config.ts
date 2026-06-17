@@ -2,7 +2,9 @@ import "server-only";
 
 import { LANDING_CAMPAIGN_SLUG } from "@/lib/attribution/constants";
 
-const DEFAULT_INTAKE_FORM_URL = "https://intake.aspargolabs.com";
+import { DEFAULT_HEZKUE_INTAKE_URL } from "@/lib/attribution/constants";
+
+const DEFAULT_INTAKE_FORM_URL = DEFAULT_HEZKUE_INTAKE_URL;
 
 export function getBaskIntakeBaseUrl(): string {
   const url =

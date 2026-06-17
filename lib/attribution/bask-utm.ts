@@ -9,7 +9,15 @@
  *   utm_medium   — cpc | email | social
  *   utm_content  — ad creative identifier (we use click UUID for click→signup link)
  *   utm_term     — search keyword only (do not put click ids here)
+ *
+ * Hezkue Direct also accepts referral-campaign and referral-source on the intake URL.
  */
+
+import {
+  LANDING_CAMPAIGN_SLUG,
+  LANDING_REFERRAL,
+} from "@/lib/attribution/constants";
+import type { ReferralParams } from "@/lib/attribution/utm";
 
 const BASK_SOURCES = new Set([
   "GOOGLE",
@@ -67,6 +75,31 @@ export type BaskIntakeUtms = {
   utm_term?: string;
 };
 
+function referralCampaignFromSlug(slug: string): string {
+  const trimmed = slug.trim();
+  if (!trimmed) return LANDING_REFERRAL.campaign;
+  return trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
+}
+
+/** Hezkue referral-* params paired with Bask UTMs on the intake URL. */
+export function buildReferralParams(input: {
+  utm_source?: string | null;
+  utm_campaign?: string | null;
+}): ReferralParams {
+  const rawSource = (input.utm_source ?? "").trim().toUpperCase();
+  const slug = (input.utm_campaign ?? LANDING_CAMPAIGN_SLUG).trim();
+
+  if (rawSource === "BF" || slug === LANDING_CAMPAIGN_SLUG) {
+    return { ...LANDING_REFERRAL };
+  }
+
+  const baskSource = normalizeBaskUtmSource(input.utm_source);
+  return {
+    campaign: referralCampaignFromSlug(slug),
+    source: baskSource.toLowerCase(),
+  };
+}
+
 /**
  * UTMs sent to the Bask questionnaire URL.
  * clickId goes in utm_content — Bask treats it as the creative identifier.
@@ -84,7 +117,7 @@ export function buildBaskHandoffUtms(input: {
   return {
     utm_source: normalizeBaskUtmSource(input.utm_source),
     utm_medium: normalizeBaskUtmMedium(input.utm_medium),
-    utm_campaign: (input.utm_campaign ?? "aspargo-hezkue").trim(),
+    utm_campaign: (input.utm_campaign ?? LANDING_CAMPAIGN_SLUG).trim(),
     utm_content: input.clickId,
     ...(term ? { utm_term: term } : {}),
   };

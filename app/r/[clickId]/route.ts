@@ -8,6 +8,7 @@ import {
 import { getBaskIntakeBaseUrl } from "@/lib/attribution/config";
 import {
   buildBaskHandoffUtms,
+  buildReferralParams,
   normalizeBaskUtmMedium,
   normalizeBaskUtmSource,
 } from "@/lib/attribution/bask-utm";
@@ -65,7 +66,11 @@ export async function GET(request: Request, context: RouteContext) {
     marketing_content: utmContent,
     utm_term: inboundUtmTerm,
   });
-  const dest = buildIntakeUrl(baskBase, handoff, clickId);
+  const referral = buildReferralParams({
+    utm_source: utmSource,
+    utm_campaign: utmCampaign,
+  });
+  const dest = buildIntakeUrl(baskBase, handoff, clickId, referral);
 
   return NextResponse.redirect(dest, 302);
 }

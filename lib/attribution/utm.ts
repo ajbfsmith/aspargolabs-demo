@@ -6,15 +6,27 @@ export type UtmParams = {
   utm_term?: string;
 };
 
+export type ReferralParams = {
+  campaign: string;
+  source: string;
+};
+
 export function buildIntakeUrl(
   baseUrl: string,
   utms: UtmParams,
   sdClick?: string | null,
+  referral?: ReferralParams,
 ): string {
   const base = baseUrl.trim();
   if (!base) return "";
 
   const url = new URL(base);
+  if (referral?.campaign) {
+    url.searchParams.set("referral-campaign", referral.campaign);
+  }
+  if (referral?.source) {
+    url.searchParams.set("referral-source", referral.source);
+  }
   url.searchParams.set("utm_source", utms.utm_source);
   url.searchParams.set("utm_medium", utms.utm_medium);
   url.searchParams.set("utm_campaign", utms.utm_campaign);
