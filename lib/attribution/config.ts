@@ -1,7 +1,8 @@
 import "server-only";
 
+import { LANDING_CAMPAIGN_SLUG } from "@/lib/attribution/constants";
+
 const DEFAULT_INTAKE_FORM_URL = "https://intake.aspargolabs.com";
-const LANDING_CAMPAIGN_SLUG = "aspargo-hezkue";
 
 export function getBaskIntakeBaseUrl(): string {
   const url =
@@ -39,9 +40,3 @@ export function getSiteUrl(): string {
 export function isLandingCampaignSlug(slug: string | null | undefined): boolean {
   return (slug ?? "").trim() === LANDING_CAMPAIGN_SLUG;
 }
-
-export const LANDING_CTA_UTM = {
-  source: "BF",
-  medium: "landing",
-  campaign: LANDING_CAMPAIGN_SLUG,
-} as const;

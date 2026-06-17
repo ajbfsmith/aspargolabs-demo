@@ -1,5 +1,5 @@
 import { buildRedirectUrl } from "@/lib/attribution/utm";
-import { LANDING_CTA_UTM } from "@/lib/attribution/config";
+import { LANDING_CTA_UTM } from "@/lib/attribution/constants";
 import type { InboundAttribution } from "@/lib/attribution/inbound-params";
 
 export type CtaPlacement = "hero" | "navbar" | "manifesto" | "faq";
