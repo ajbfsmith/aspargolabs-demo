@@ -27,7 +27,7 @@ const BASK_SOURCES = new Set([
   "INFLUENCER",
 ]);
 
-const BASK_MEDIA = new Set(["cpc", "email", "social"]);
+const BASK_MEDIA = new Set(["cpc", "email", "social", "landing"]);
 
 const SOURCE_ALIASES: Record<string, string> = {
   BF: "AFFILIATE",
@@ -62,7 +62,7 @@ export function normalizeBaskUtmMedium(
 ): string {
   const key = (raw ?? "").trim().toLowerCase();
   if (BASK_MEDIA.has(key)) return key;
-  if (key === "organic" || key === "landing" || key === "dm") return "social";
+  if (key === "organic" || key === "dm") return "social";
   if (key === "paid" || key === "ppc") return "cpc";
   return fallback;
 }

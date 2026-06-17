@@ -13,6 +13,6 @@ export const LANDING_REFERRAL = {
 /** Defaults for Aspargo landing CTAs — values must match Bask's allowed enums. */
 export const LANDING_CTA_UTM = {
   source: "BF",
-  medium: "social",
+  medium: "landing",
   campaign: LANDING_CAMPAIGN_SLUG,
 } as const;
