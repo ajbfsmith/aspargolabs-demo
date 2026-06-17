@@ -1,8 +1,8 @@
 import "server-only";
 
+import { resolveClickIdFromWebhook } from "@/lib/attribution/click-resolution";
 import {
   appendJourneyEvent,
-  getLinkClick,
   incrementPatientConversionCount,
   insertWebhookEvent,
   linkClickToJourney,
@@ -59,13 +59,6 @@ function contactFromData(data: Record<string, unknown>) {
     email: strId(data.patientEmail),
     phone: strId(data.phoneNumber),
   };
-}
-
-function resolveClickId(params: Record<string, unknown>): string | null {
-  for (const key of ["sd_click", "sd_click_id"]) {
-    if (params[key]) return String(params[key]);
-  }
-  return null;
 }
 
 export async function processBaskWebhookBody(
@@ -155,8 +148,11 @@ async function applyEvent(
   if (patientId) journeyFields.patient_id = patientId;
 
   if (!journey) {
-    const clickId = resolveClickId(params);
     const campaignId = await resolveCampaignId(params, utms.utm_campaign);
+    const clickId = await resolveClickIdFromWebhook(params, {
+      campaign_id: campaignId,
+      utms,
+    });
     Object.assign(journeyFields, utms);
     journeyFields.click_id = clickId;
     journeyFields.campaign_id = campaignId;
@@ -170,9 +166,14 @@ async function applyEvent(
   if (eventType === "newPatient") {
     newStage = "patient_created";
     summary = "Patient account created";
-    const clickId = resolveClickId(params);
-    if (clickId && (await getLinkClick(clickId))) {
-      journeyFields.click_id = clickId;
+    if (!journeyFields.click_id) {
+      const campaignId =
+        journeyFields.campaign_id ??
+        (await resolveCampaignId(params, utms.utm_campaign));
+      journeyFields.click_id = await resolveClickIdFromWebhook(params, {
+        campaign_id: campaignId,
+        utms,
+      });
     }
   } else if (eventType === "abandonedSession") {
     newStage = "abandoned";

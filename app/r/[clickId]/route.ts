@@ -6,6 +6,11 @@ import {
   insertLinkClick,
 } from "@/lib/attribution/attribution-store";
 import { getBaskIntakeBaseUrl } from "@/lib/attribution/config";
+import {
+  buildBaskHandoffUtms,
+  normalizeBaskUtmMedium,
+  normalizeBaskUtmSource,
+} from "@/lib/attribution/bask-utm";
 import { buildIntakeUrl } from "@/lib/attribution/utm";
 
 export const dynamic = "force-dynamic";
@@ -30,7 +35,7 @@ export async function GET(request: Request, context: RouteContext) {
   const utmMedium = url.searchParams.get("utm_medium") ?? "organic";
   const utmCampaign = url.searchParams.get("utm_campaign");
   const utmContent = url.searchParams.get("utm_content");
-  const utmTerm = url.searchParams.get("utm_term");
+  const inboundUtmTerm = url.searchParams.get("utm_term");
 
   const existing = await getLinkClick(clickId);
   if (!existing) {
@@ -41,28 +46,26 @@ export async function GET(request: Request, context: RouteContext) {
     await insertLinkClick({
       click_id: clickId,
       campaign_id: campaignId,
-      utm_source: utmSource,
-      utm_medium: utmMedium,
+      utm_source: normalizeBaskUtmSource(utmSource),
+      utm_medium: normalizeBaskUtmMedium(utmMedium),
       utm_campaign: utmCampaign,
       utm_content: utmContent,
-      utm_term: utmTerm,
+      utm_term: inboundUtmTerm,
       ip,
       user_agent: userAgent,
     });
   }
 
   const baskBase = getBaskIntakeBaseUrl();
-  const dest = buildIntakeUrl(
-    baskBase,
-    {
-      utm_source: utmSource ?? "unknown",
-      utm_medium: utmMedium,
-      utm_campaign: utmCampaign ?? "aspargo-hezkue",
-      utm_content: utmContent ?? "link",
-      utm_term: utmTerm ?? undefined,
-    },
+  const handoff = buildBaskHandoffUtms({
     clickId,
-  );
+    utm_source: utmSource,
+    utm_medium: utmMedium,
+    utm_campaign: utmCampaign,
+    marketing_content: utmContent,
+    utm_term: inboundUtmTerm,
+  });
+  const dest = buildIntakeUrl(baskBase, handoff, clickId);
 
   return NextResponse.redirect(dest, 302);
 }

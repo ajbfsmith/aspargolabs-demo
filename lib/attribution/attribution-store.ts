@@ -120,6 +120,50 @@ export async function getLinkClick(clickId: string): Promise<LinkClickRow | null
   return (data as LinkClickRow | null) ?? null;
 }
 
+export async function findRecentUnlinkedClick(input: {
+  campaign_id?: string | null;
+  utm_source?: string | null;
+  utm_medium?: string | null;
+  utm_campaign?: string | null;
+  utm_content?: string | null;
+  max_age_hours?: number;
+}): Promise<string | null> {
+  const maxAgeHours = input.max_age_hours ?? 48;
+  const cutoff = new Date(
+    Date.now() - maxAgeHours * 60 * 60 * 1000,
+  ).toISOString();
+
+  let query = supabaseAdmin
+    .from("link_clicks")
+    .select("id")
+    .is("journey_id", null)
+    .gte("clicked_at", cutoff)
+    .order("clicked_at", { ascending: false })
+    .limit(1);
+
+  if (input.campaign_id) {
+    query = query.eq("campaign_id", input.campaign_id);
+  }
+  if (input.utm_source) {
+    query = query.eq("utm_source", input.utm_source);
+  }
+  if (input.utm_medium) {
+    query = query.eq("utm_medium", input.utm_medium);
+  }
+  if (input.utm_campaign) {
+    query = query.eq("utm_campaign", input.utm_campaign);
+  }
+  if (input.utm_content) {
+    query = query.eq("utm_content", input.utm_content);
+  }
+
+  const { data, error } = await query.maybeSingle();
+  if (error) {
+    throw new Error(`findRecentUnlinkedClick failed: ${error.message}`);
+  }
+  return (data as { id: string } | null)?.id ?? null;
+}
+
 export async function linkClickToJourney(
   clickId: string,
   journeyId: string,
