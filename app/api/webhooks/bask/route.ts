@@ -44,7 +44,7 @@ export async function POST(request: Request) {
 
   try {
     const result = await processBaskWebhookBody(body as Record<string, unknown>);
-    return NextResponse.json({ status: "accepted", ...result });
+    return NextResponse.json(result);
   } catch (err) {
     console.error("[bask-webhook]", err);
     return NextResponse.json(

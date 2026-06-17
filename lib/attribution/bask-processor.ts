@@ -19,7 +19,13 @@ function nowIso(): string {
   return new Date().toISOString();
 }
 
+function strId(val: unknown): string | null {
+  if (val === null || val === undefined || val === "") return null;
+  return String(val);
+}
+
 export function webhookEventId(body: Record<string, unknown>): string {
+  if (body.eventId) return String(body.eventId);
   if (body.id) return String(body.id);
   const text = JSON.stringify(body, Object.keys(body).sort());
   let hash = 0;
@@ -30,9 +36,21 @@ export function webhookEventId(body: Record<string, unknown>): string {
   return `hash-${Math.abs(hash).toString(16).padStart(8, "0")}`;
 }
 
-function strId(val: unknown): string | null {
-  if (val === null || val === undefined || val === "") return null;
-  return String(val);
+/** Bask docs use `data`; subscriber envelopes may use `params` instead. */
+export function extractWebhookEventData(
+  body: Record<string, unknown>,
+): Record<string, unknown> {
+  const candidates = [body.data, body.params];
+  for (const raw of candidates) {
+    if (typeof raw === "object" && raw !== null && !Array.isArray(raw)) {
+      return raw as Record<string, unknown>;
+    }
+  }
+  return {};
+}
+
+export function extractWebhookEventType(body: Record<string, unknown>): string {
+  return strId(body.type) ?? strId(body.event) ?? "unknown";
 }
 
 function searchParams(data: Record<string, unknown>): Record<string, unknown> {
@@ -64,11 +82,8 @@ function contactFromData(data: Record<string, unknown>) {
 export async function processBaskWebhookBody(
   body: Record<string, unknown>,
 ): Promise<Record<string, unknown>> {
-  const eventType = strId(body.type) ?? "unknown";
-  const data =
-    typeof body.data === "object" && body.data !== null
-      ? (body.data as Record<string, unknown>)
-      : {};
+  const eventType = extractWebhookEventType(body);
+  const data = extractWebhookEventData(body);
 
   const eid = webhookEventId(body);
   const sessionId = strId(data.sessionId);
@@ -85,7 +100,7 @@ export async function processBaskWebhookBody(
   });
 
   if (!inserted) {
-    return { status: "duplicate", event_id: eid };
+    return { status: "duplicate", event_id: eid, event_type: eventType };
   }
 
   try {
@@ -98,7 +113,7 @@ export async function processBaskWebhookBody(
       eventCode,
     );
     await markWebhookProcessed(eid);
-    return { status: "ok", event_id: eid, ...result };
+    return { status: "ok", event_id: eid, event_type: eventType, ...result };
   } catch (err) {
     const message = err instanceof Error ? err.message : String(err);
     console.error("[bask-processor]", eid, err);
@@ -141,7 +156,13 @@ async function applyEvent(
   }
 
   if (!sessionId) {
-    return { skipped: true, reason: "no session_id" };
+    return {
+      skipped: true,
+      reason: "no session_id",
+      event_type: eventType,
+      had_patient_id: Boolean(patientId),
+      payload_keys: Object.keys(data),
+    };
   }
 
   const journeyFields: JourneyFields = { session_id: sessionId };
@@ -282,5 +303,6 @@ async function applyEvent(
   return {
     journey_id: updatedJourney.id,
     session_id: sessionId,
+    patient_id: patientId,
   };
 }
