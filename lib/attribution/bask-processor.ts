@@ -1,5 +1,7 @@
 import "server-only";
 
+import { createHash } from "crypto";
+
 import { resolveClickIdFromWebhook } from "@/lib/attribution/click-resolution";
 import {
   baskWebhookError,
@@ -25,19 +27,66 @@ function nowIso(): string {
 
 function strId(val: unknown): string | null {
   if (val === null || val === undefined || val === "") return null;
+  if (Array.isArray(val)) return strId(val[0]);
   return String(val);
 }
 
-export function webhookEventId(body: Record<string, unknown>): string {
+/** Bask may send signUpSearchParams as an object or a JSON / query string. */
+export function parseSearchParamsRecord(raw: unknown): Record<string, unknown> {
+  if (typeof raw === "string") {
+    const trimmed = raw.trim();
+    if (!trimmed) return {};
+    try {
+      const parsed = JSON.parse(trimmed) as unknown;
+      if (typeof parsed === "object" && parsed !== null && !Array.isArray(parsed)) {
+        return parsed as Record<string, unknown>;
+      }
+    } catch {
+      const query = trimmed.startsWith("?") ? trimmed : `?${trimmed}`;
+      const params = new URLSearchParams(query);
+      const out: Record<string, unknown> = {};
+      params.forEach((value, key) => {
+        out[key] = value;
+      });
+      return out;
+    }
+    return {};
+  }
+  if (typeof raw === "object" && raw !== null && !Array.isArray(raw)) {
+    return raw as Record<string, unknown>;
+  }
+  return {};
+}
+
+export function webhookEventId(
+  body: Record<string, unknown>,
+  data?: Record<string, unknown>,
+): string {
   if (body.eventId) return String(body.eventId);
   if (body.id) return String(body.id);
-  const text = JSON.stringify(body, Object.keys(body).sort());
-  let hash = 0;
-  for (let i = 0; i < text.length; i++) {
-    hash = (hash << 5) - hash + text.charCodeAt(i);
-    hash |= 0;
+
+  const payload = data ?? extractWebhookEventData(body);
+  const type = extractWebhookEventType(body);
+  const sessionId = strId(payload.sessionId);
+  const patientId = strId(payload.patientId);
+  const orderId = strId(payload.orderId);
+  const transactionId = strId(payload.transactionId);
+  const treatmentId = strId(payload.treatmentId);
+  const eventCode = strId(payload.eventCode);
+  const signUpDate = strId(payload.signUpDate);
+
+  if (sessionId && type !== "unknown") {
+    const parts = [type, sessionId];
+    if (patientId) parts.push(patientId);
+    if (eventCode) parts.push(eventCode);
+    if (orderId) parts.push(orderId);
+    if (transactionId) parts.push(transactionId);
+    if (treatmentId) parts.push(treatmentId);
+    if (signUpDate && type === "newPatient") parts.push(signUpDate);
+    return parts.join(":");
   }
-  return `hash-${Math.abs(hash).toString(16).padStart(8, "0")}`;
+
+  return `hash-${createHash("sha256").update(JSON.stringify(body)).digest("hex").slice(0, 32)}`;
 }
 
 /** Bask docs use `data`; subscriber envelopes may use `params` instead. */
@@ -58,10 +107,9 @@ export function extractWebhookEventType(body: Record<string, unknown>): string {
 }
 
 function searchParams(data: Record<string, unknown>): Record<string, unknown> {
-  const raw = data.signUpSearchParams ?? data.checkoutSearchParams ?? {};
-  return typeof raw === "object" && raw !== null
-    ? (raw as Record<string, unknown>)
-    : {};
+  const signUp = parseSearchParamsRecord(data.signUpSearchParams);
+  if (Object.keys(signUp).length > 0) return signUp;
+  return parseSearchParamsRecord(data.checkoutSearchParams);
 }
 
 function utmFields(params: Record<string, unknown>) {
@@ -97,10 +145,12 @@ export async function processBaskWebhookBody(
       ? "params"
       : "none";
 
-  const eid = webhookEventId(body);
+  const eid = webhookEventId(body, data);
   const sessionId = strId(data.sessionId);
   const patientId = strId(data.patientId);
   const eventCode = data.eventCode;
+
+  const params = searchParams(data);
 
   baskWebhookLog(requestId, "processor.parsed", {
     eventId: eid,
@@ -112,6 +162,7 @@ export async function processBaskWebhookBody(
     patientId,
     eventCode: strId(eventCode),
     signUpSearchParams: data.signUpSearchParams ?? null,
+    parsedSearchParams: params,
     checkoutSearchParams: data.checkoutSearchParams ?? null,
     data,
   });
@@ -127,6 +178,51 @@ export async function processBaskWebhookBody(
   });
 
   if (!inserted) {
+    let shouldReprocess = false;
+    if (sessionId) {
+      const existingJourney = await getJourneyBySession(sessionId);
+      shouldReprocess = !existingJourney;
+    } else if (patientId) {
+      const existingJourney = await getLatestJourneyForPatient(patientId);
+      shouldReprocess = !existingJourney;
+    }
+
+    if (shouldReprocess) {
+      baskWebhookLog(requestId, "processor.duplicate.reprocess", {
+        eventId: eid,
+        eventType,
+        sessionId,
+        patientId,
+        reason: "event_id seen before but no journey for this signup",
+      });
+      try {
+        const result = await applyEvent(
+          eventType,
+          data,
+          eid,
+          sessionId,
+          patientId,
+          eventCode,
+          requestId,
+        );
+        await markWebhookProcessed(eid, null, requestId);
+        return {
+          status: "ok",
+          recovered_from_duplicate: true,
+          event_id: eid,
+          event_type: eventType,
+          ...result,
+        };
+      } catch (err) {
+        const message = err instanceof Error ? err.message : String(err);
+        baskWebhookError(requestId, "processor.duplicate.reprocessFailed", err, {
+          eventId: eid,
+        });
+        await markWebhookProcessed(eid, message, requestId);
+        throw err;
+      }
+    }
+
     baskWebhookLog(requestId, "processor.duplicate", { eventId: eid, eventType });
     return { status: "duplicate", event_id: eid, event_type: eventType };
   }
