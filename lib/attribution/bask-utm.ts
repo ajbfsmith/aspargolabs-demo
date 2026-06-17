@@ -22,9 +22,9 @@ const BASK_SOURCES = new Set([
 const BASK_MEDIA = new Set(["cpc", "email", "social"]);
 
 const SOURCE_ALIASES: Record<string, string> = {
-  BF: "INFLUENCER",
-  BLACKFORGE: "INFLUENCER",
-  ASPARGO: "INFLUENCER",
+  BF: "AFFILIATE",
+  BLACKFORGE: "AFFILIATE",
+  ASPARGO: "AFFILIATE",
   GOOGLE: "GOOGLE",
   META: "META",
   FACEBOOK: "META",
@@ -40,7 +40,7 @@ const SOURCE_ALIASES: Record<string, string> = {
 /** Map inbound / marketing labels to a Bask-accepted utm_source. */
 export function normalizeBaskUtmSource(
   raw: string | null | undefined,
-  fallback = "INFLUENCER",
+  fallback = "AFFILIATE",
 ): string {
   const key = (raw ?? "").trim().toUpperCase();
   if (BASK_SOURCES.has(key)) return key;
