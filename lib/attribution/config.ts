@@ -1,11 +1,17 @@
 import "server-only";
 
+const DEFAULT_INTAKE_FORM_URL = "https://intake.aspargolabs.com";
 const LANDING_CAMPAIGN_SLUG = "aspargo-hezkue";
 
 export function getBaskIntakeBaseUrl(): string {
-  const url = process.env.BASK_INTAKE_BASE_URL?.trim();
+  const url =
+    process.env.BASK_INTAKE_BASE_URL?.trim() ||
+    process.env.NEXT_PUBLIC_INTAKE_FORM_URL?.trim() ||
+    DEFAULT_INTAKE_FORM_URL;
   if (!url) {
-    throw new Error("BASK_INTAKE_BASE_URL is not configured");
+    throw new Error(
+      "Bask intake URL not configured (set NEXT_PUBLIC_INTAKE_FORM_URL)",
+    );
   }
   return url;
 }
@@ -15,9 +21,9 @@ export function getBaskWebhookSecret(): string {
 }
 
 export function getDefaultCampaignId(): string {
-  const id = process.env.DEFAULT_CAMPAIGN_ID?.trim();
+  const id = process.env.NEXT_PUBLIC_DEFAULT_CAMPAIGN_ID?.trim();
   if (!id) {
-    throw new Error("DEFAULT_CAMPAIGN_ID is not configured");
+    throw new Error("NEXT_PUBLIC_DEFAULT_CAMPAIGN_ID is not configured");
   }
   return id;
 }
