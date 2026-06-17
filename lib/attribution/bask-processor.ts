@@ -2,6 +2,10 @@ import "server-only";
 
 import { resolveClickIdFromWebhook } from "@/lib/attribution/click-resolution";
 import {
+  baskWebhookError,
+  baskWebhookLog,
+} from "@/lib/attribution/bask-webhook-log";
+import {
   appendJourneyEvent,
   incrementPatientConversionCount,
   insertWebhookEvent,
@@ -81,14 +85,36 @@ function contactFromData(data: Record<string, unknown>) {
 
 export async function processBaskWebhookBody(
   body: Record<string, unknown>,
+  requestId = "no-request-id",
 ): Promise<Record<string, unknown>> {
   const eventType = extractWebhookEventType(body);
   const data = extractWebhookEventData(body);
+  const bodyKeys = Object.keys(body);
+  const dataKeys = Object.keys(data);
+  const dataSource = typeof body.data === "object" && body.data !== null
+    ? "data"
+    : typeof body.params === "object" && body.params !== null
+      ? "params"
+      : "none";
 
   const eid = webhookEventId(body);
   const sessionId = strId(data.sessionId);
   const patientId = strId(data.patientId);
   const eventCode = data.eventCode;
+
+  baskWebhookLog(requestId, "processor.parsed", {
+    eventId: eid,
+    eventType,
+    dataSource,
+    bodyKeys,
+    dataKeys,
+    sessionId,
+    patientId,
+    eventCode: strId(eventCode),
+    signUpSearchParams: data.signUpSearchParams ?? null,
+    checkoutSearchParams: data.checkoutSearchParams ?? null,
+    data,
+  });
 
   const inserted = await insertWebhookEvent({
     event_id: eid,
@@ -97,9 +123,11 @@ export async function processBaskWebhookBody(
     session_id: sessionId,
     patient_id: patientId,
     payload: data,
+    requestId,
   });
 
   if (!inserted) {
+    baskWebhookLog(requestId, "processor.duplicate", { eventId: eid, eventType });
     return { status: "duplicate", event_id: eid, event_type: eventType };
   }
 
@@ -111,13 +139,15 @@ export async function processBaskWebhookBody(
       sessionId,
       patientId,
       eventCode,
+      requestId,
     );
-    await markWebhookProcessed(eid);
+    await markWebhookProcessed(eid, null, requestId);
+    baskWebhookLog(requestId, "processor.done", { eventId: eid, result });
     return { status: "ok", event_id: eid, event_type: eventType, ...result };
   } catch (err) {
     const message = err instanceof Error ? err.message : String(err);
-    console.error("[bask-processor]", eid, err);
-    await markWebhookProcessed(eid, message);
+    baskWebhookError(requestId, "processor.failed", err, { eventId: eid });
+    await markWebhookProcessed(eid, message, requestId);
     throw err;
   }
 }
@@ -129,12 +159,23 @@ async function applyEvent(
   sessionId: string | null,
   patientId: string | null,
   eventCode: unknown,
+  requestId: string,
 ): Promise<Record<string, unknown>> {
   const contact = contactFromData(data);
   const params = searchParams(data);
   const utms = utmFields(params);
 
+  baskWebhookLog(requestId, "applyEvent.start", {
+    eventType,
+    sessionId,
+    patientId,
+    contact,
+    utms,
+    params,
+  });
+
   if (patientId) {
+    baskWebhookLog(requestId, "applyEvent.upsertPatient", { patientId, contact });
     await upsertPatient({
       patient_id: patientId,
       session_id: sessionId,
@@ -142,6 +183,12 @@ async function applyEvent(
       last_name: contact.last_name,
       email: contact.email,
       phone: contact.phone,
+      requestId,
+    });
+    baskWebhookLog(requestId, "applyEvent.upsertPatient.done", { patientId });
+  } else {
+    baskWebhookLog(requestId, "applyEvent.skipPatient", {
+      reason: "no patientId in payload",
     });
   }
 
@@ -156,13 +203,15 @@ async function applyEvent(
   }
 
   if (!sessionId) {
-    return {
+    const skipped = {
       skipped: true,
       reason: "no session_id",
       event_type: eventType,
       had_patient_id: Boolean(patientId),
       payload_keys: Object.keys(data),
     };
+    baskWebhookLog(requestId, "applyEvent.skipped", skipped);
+    return skipped;
   }
 
   const journeyFields: JourneyFields = { session_id: sessionId };
@@ -264,7 +313,12 @@ async function applyEvent(
 
   if (newStage) journeyFields.funnel_stage = newStage;
 
-  const updatedJourney = await upsertJourney(journeyFields);
+  baskWebhookLog(requestId, "applyEvent.upsertJourney", { journeyFields });
+  const updatedJourney = await upsertJourney(journeyFields, requestId);
+  baskWebhookLog(requestId, "applyEvent.upsertJourney.done", {
+    journeyId: updatedJourney.id,
+    funnelStage: updatedJourney.funnel_stage,
+  });
 
   if (eventType === "paymentSucceeded") {
     const testMode = data.testMode === true;
@@ -275,12 +329,15 @@ async function applyEvent(
         : updatedJourney.is_first_time_order;
     const already = updatedJourney.conversion_credited;
     if (!testMode && isFirst && !already) {
-      await upsertJourney({
-        session_id: sessionId,
-        conversion_credited: 1,
-        converted_at: nowIso(),
-        funnel_stage: "payment_succeeded",
-      });
+      await upsertJourney(
+        {
+          session_id: sessionId,
+          conversion_credited: 1,
+          converted_at: nowIso(),
+          funnel_stage: "payment_succeeded",
+        },
+        requestId,
+      );
       if (patientId) {
         await incrementPatientConversionCount(patientId);
       }

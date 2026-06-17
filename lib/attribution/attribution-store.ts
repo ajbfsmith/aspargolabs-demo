@@ -6,6 +6,7 @@ import {
   getDefaultCampaignId,
   isLandingCampaignSlug,
 } from "@/lib/attribution/config";
+import { baskWebhookLog } from "@/lib/attribution/bask-webhook-log";
 
 export type LinkClickRow = {
   id: string;
@@ -184,16 +185,39 @@ export async function insertWebhookEvent(input: {
   session_id?: string | null;
   patient_id?: string | null;
   payload: Record<string, unknown>;
+  requestId?: string;
 }): Promise<boolean> {
-  const { data: existing } = await supabaseAdmin
+  const requestId = input.requestId ?? "no-request-id";
+  baskWebhookLog(requestId, "db.insertWebhookEvent.start", {
+    event_id: input.event_id,
+    event_type: input.event_type,
+    session_id: input.session_id,
+    patient_id: input.patient_id,
+  });
+
+  const { data: existing, error: existingError } = await supabaseAdmin
     .from("bask_webhook_events")
     .select("id")
     .eq("id", input.event_id)
     .maybeSingle();
 
-  if (existing) return false;
+  if (existingError) {
+    baskWebhookLog(requestId, "db.insertWebhookEvent.existingCheckError", {
+      error: existingError.message,
+      code: existingError.code,
+      details: existingError.details,
+    });
+    throw new Error(`insertWebhookEvent existing check failed: ${existingError.message}`);
+  }
 
-  const { error } = await supabaseAdmin.from("bask_webhook_events").insert({
+  if (existing) {
+    baskWebhookLog(requestId, "db.insertWebhookEvent.duplicate", {
+      event_id: input.event_id,
+    });
+    return false;
+  }
+
+  const { data: inserted, error } = await supabaseAdmin.from("bask_webhook_events").insert({
     id: input.event_id,
     event_type: input.event_type,
     event_code: input.event_code ?? null,
@@ -201,15 +225,29 @@ export async function insertWebhookEvent(input: {
     patient_id: input.patient_id ?? null,
     payload: input.payload as Json,
     received_at: nowIso(),
-  } as never);
+  } as never).select("id");
 
-  if (error) throw new Error(`insertWebhookEvent failed: ${error.message}`);
+  if (error) {
+    baskWebhookLog(requestId, "db.insertWebhookEvent.error", {
+      error: error.message,
+      code: error.code,
+      details: error.details,
+      hint: error.hint,
+    });
+    throw new Error(`insertWebhookEvent failed: ${error.message}`);
+  }
+
+  baskWebhookLog(requestId, "db.insertWebhookEvent.done", {
+    event_id: input.event_id,
+    inserted,
+  });
   return true;
 }
 
 export async function markWebhookProcessed(
   eventId: string,
   errorMessage?: string | null,
+  requestId = "no-request-id",
 ): Promise<void> {
   const { error } = await supabaseAdmin
     .from("bask_webhook_events")
@@ -219,7 +257,18 @@ export async function markWebhookProcessed(
     } as never)
     .eq("id", eventId);
 
-  if (error) throw new Error(`markWebhookProcessed failed: ${error.message}`);
+  if (error) {
+    baskWebhookLog(requestId, "db.markWebhookProcessed.error", {
+      eventId,
+      error: error.message,
+      code: error.code,
+    });
+    throw new Error(`markWebhookProcessed failed: ${error.message}`);
+  }
+  baskWebhookLog(requestId, "db.markWebhookProcessed.done", {
+    eventId,
+    hadError: Boolean(errorMessage),
+  });
 }
 
 export async function resolveCampaignId(
@@ -291,13 +340,24 @@ export async function upsertPatient(input: {
   email?: string | null;
   phone?: string | null;
   session_id?: string | null;
+  requestId?: string;
 }): Promise<void> {
+  const requestId = input.requestId ?? "no-request-id";
   const now = nowIso();
-  const { data: existing } = await supabaseAdmin
+  const { data: existing, error: existingError } = await supabaseAdmin
     .from("bask_patients")
     .select("*")
     .eq("patient_id", input.patient_id)
     .maybeSingle();
+
+  if (existingError) {
+    baskWebhookLog(requestId, "db.upsertPatient.existingCheckError", {
+      patient_id: input.patient_id,
+      error: existingError.message,
+      code: existingError.code,
+    });
+    throw new Error(`upsertPatient existing check failed: ${existingError.message}`);
+  }
 
   if (existing) {
     const updates: Record<string, unknown> = {
@@ -310,15 +370,28 @@ export async function upsertPatient(input: {
     if (input.phone) updates.phone = input.phone;
     if (input.session_id) updates.latest_session_id = input.session_id;
 
-    const { error } = await supabaseAdmin
+    const { data, error } = await supabaseAdmin
       .from("bask_patients")
       .update(updates as never)
-      .eq("patient_id", input.patient_id);
-    if (error) throw new Error(`upsertPatient update failed: ${error.message}`);
+      .eq("patient_id", input.patient_id)
+      .select("patient_id");
+    if (error) {
+      baskWebhookLog(requestId, "db.upsertPatient.updateError", {
+        patient_id: input.patient_id,
+        error: error.message,
+        code: error.code,
+        details: error.details,
+      });
+      throw new Error(`upsertPatient update failed: ${error.message}`);
+    }
+    baskWebhookLog(requestId, "db.upsertPatient.updated", {
+      patient_id: input.patient_id,
+      data,
+    });
     return;
   }
 
-  const { error } = await supabaseAdmin.from("bask_patients").insert({
+  const { data, error } = await supabaseAdmin.from("bask_patients").insert({
     patient_id: input.patient_id,
     first_name: input.first_name ?? null,
     last_name: input.last_name ?? null,
@@ -328,9 +401,22 @@ export async function upsertPatient(input: {
     last_seen_at: now,
     updated_at: now,
     latest_session_id: input.session_id ?? null,
-  } as never);
+  } as never).select("patient_id");
 
-  if (error) throw new Error(`upsertPatient insert failed: ${error.message}`);
+  if (error) {
+    baskWebhookLog(requestId, "db.upsertPatient.insertError", {
+      patient_id: input.patient_id,
+      error: error.message,
+      code: error.code,
+      details: error.details,
+      hint: error.hint,
+    });
+    throw new Error(`upsertPatient insert failed: ${error.message}`);
+  }
+  baskWebhookLog(requestId, "db.upsertPatient.inserted", {
+    patient_id: input.patient_id,
+    data,
+  });
 }
 
 async function incrementPatientJourneyCount(patientId: string): Promise<void> {
@@ -380,10 +466,19 @@ export async function incrementPatientConversionCount(
 
 export type JourneyFields = Partial<JourneyRow> & { session_id: string };
 
-export async function upsertJourney(fields: JourneyFields): Promise<JourneyRow> {
+export async function upsertJourney(
+  fields: JourneyFields,
+  requestId = "no-request-id",
+): Promise<JourneyRow> {
   const sessionId = fields.session_id;
   const now = nowIso();
   const existing = await getJourneyBySession(sessionId);
+
+  baskWebhookLog(requestId, "db.upsertJourney.start", {
+    sessionId,
+    existingJourneyId: existing?.id ?? null,
+    fields,
+  });
 
   if (existing) {
     const updates: Record<string, unknown> = { updated_at: now };
@@ -401,18 +496,28 @@ export async function upsertJourney(fields: JourneyFields): Promise<JourneyRow> 
       updates[key] = val;
     }
 
-    const { error } = await supabaseAdmin
+    const { data, error } = await supabaseAdmin
       .from("bask_patient_journeys")
       .update(updates as never)
-      .eq("id", existing.id);
+      .eq("id", existing.id)
+      .select("id, session_id, funnel_stage");
 
-    if (error) throw new Error(`upsertJourney update failed: ${error.message}`);
+    if (error) {
+      baskWebhookLog(requestId, "db.upsertJourney.updateError", {
+        journeyId: existing.id,
+        error: error.message,
+        code: error.code,
+        details: error.details,
+      });
+      throw new Error(`upsertJourney update failed: ${error.message}`);
+    }
+    baskWebhookLog(requestId, "db.upsertJourney.updated", { data });
     return (await getJourneyById(existing.id)) ?? existing;
   }
 
   const journeyId = crypto.randomUUID();
   const stage = fields.funnel_stage ?? "patient_created";
-  const { error } = await supabaseAdmin.from("bask_patient_journeys").insert({
+  const { data, error } = await supabaseAdmin.from("bask_patient_journeys").insert({
     id: journeyId,
     session_id: sessionId,
     patient_id: fields.patient_id ?? null,
@@ -440,9 +545,20 @@ export async function upsertJourney(fields: JourneyFields): Promise<JourneyRow> 
     conversion_credited: fields.conversion_credited ?? 0,
     created_at: now,
     updated_at: now,
-  } as never);
+  } as never).select("id, session_id, funnel_stage");
 
-  if (error) throw new Error(`upsertJourney insert failed: ${error.message}`);
+  if (error) {
+    baskWebhookLog(requestId, "db.upsertJourney.insertError", {
+      journeyId,
+      error: error.message,
+      code: error.code,
+      details: error.details,
+      hint: error.hint,
+    });
+    throw new Error(`upsertJourney insert failed: ${error.message}`);
+  }
+
+  baskWebhookLog(requestId, "db.upsertJourney.inserted", { data });
 
   if (fields.patient_id) {
     await incrementPatientJourneyCount(fields.patient_id);
