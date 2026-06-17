@@ -12,7 +12,9 @@ import { flushSync } from "react-dom";
 import { X, ChevronDown, Plus, Minus } from "lucide-react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { INTAKE_FORM_URL } from "@/lib/config/intake-form-url";
+import { AttributionCtaLink } from "@/app/components/AttributionCtaLink";
+import { openLandingCta } from "@/lib/attribution/cta";
+import { loadInboundAttribution } from "@/lib/attribution/inbound-params";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -154,15 +156,13 @@ function OrbitCard({
 
 function LearnMoreLink({ className = "" }: { className?: string }) {
 	return (
-		<a
-			href={INTAKE_FORM_URL}
-			target="_blank"
-			rel="noopener noreferrer"
+		<AttributionCtaLink
+			placement="hero"
 			className={`btn-primary inline-flex text-[13px] py-2.5 px-6 ${className}`}
 		>
 			<span className="btn-fill" />
 			<span className="relative z-10">Learn More</span>
-		</a>
+		</AttributionCtaLink>
 	);
 }
 
@@ -621,7 +621,7 @@ export default function HeroSection() {
 			handleClose();
 			return;
 		}
-		window.open(INTAKE_FORM_URL, "_blank", "noopener,noreferrer");
+		openLandingCta("faq", loadInboundAttribution());
 	}, [selectedIndex, handleClose]);
 
 	const handleFaqSelect = useCallback((index: number) => {

@@ -7,7 +7,7 @@ export type Json =
   | Json[];
 
 /**
- * Hand-maintained to match `supabase/migrations` (e.g. `20260428111900_intake_schema.sql`, `20260428140000_session_ready_and_no_db_default_current_state.sql`).
+ * Hand-maintained to match `supabase/migrations` (intake + `20260617120000_bask_attribution.sql`).
  * Regenerate with: `npm run db:gen-types` when linked to a project.
  */
 export type Database = {
@@ -200,6 +200,87 @@ export type Database = {
         Relationships: [];
       };
       todos: {
+        Row: Record<string, unknown>;
+        Insert: Record<string, unknown>;
+        Update: Record<string, unknown>;
+        Relationships: [];
+      };
+      link_clicks: {
+        Row: {
+          id: string;
+          campaign_id: string;
+          utm_source: string | null;
+          utm_medium: string | null;
+          utm_campaign: string | null;
+          utm_content: string | null;
+          utm_term: string | null;
+          clicked_at: string;
+          ip: string | null;
+          user_agent: string | null;
+          journey_id: string | null;
+          session_id: string | null;
+        };
+        Insert: {
+          id: string;
+          campaign_id: string;
+          utm_source?: string | null;
+          utm_medium?: string | null;
+          utm_campaign?: string | null;
+          utm_content?: string | null;
+          utm_term?: string | null;
+          clicked_at: string;
+          ip?: string | null;
+          user_agent?: string | null;
+          journey_id?: string | null;
+          session_id?: string | null;
+        };
+        Update: Partial<{
+          id: string;
+          campaign_id: string;
+          utm_source: string | null;
+          utm_medium: string | null;
+          utm_campaign: string | null;
+          utm_content: string | null;
+          utm_term: string | null;
+          clicked_at: string;
+          ip: string | null;
+          user_agent: string | null;
+          journey_id: string | null;
+          session_id: string | null;
+        }>;
+        Relationships: [];
+      };
+      bask_patients: {
+        Row: {
+          patient_id: string;
+          first_name: string | null;
+          last_name: string | null;
+          email: string | null;
+          phone: string | null;
+          first_seen_at: string;
+          last_seen_at: string;
+          updated_at: string;
+          latest_session_id: string | null;
+          total_journeys: number;
+          total_conversions: number;
+        };
+        Insert: Record<string, unknown>;
+        Update: Record<string, unknown>;
+        Relationships: [];
+      };
+      bask_patient_journeys: {
+        Row: Record<string, unknown>;
+        Insert: Record<string, unknown>;
+        Update: Record<string, unknown>;
+        Relationships: [];
+      };
+      bask_webhook_events: {
+        Row: Record<string, unknown>;
+        Insert: Record<string, unknown>;
+        Update: Record<string, unknown>;
+        Relationships: [];
+      };
+      bask_journey_events: {
         Row: Record<string, unknown>;
         Insert: Record<string, unknown>;
         Update: Record<string, unknown>;

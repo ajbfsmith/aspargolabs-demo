@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import gsap from "gsap";
-import { INTAKE_FORM_URL } from "@/lib/config/intake-form-url";
+import { AttributionCtaLink } from "@/app/components/AttributionCtaLink";
 
 const navLinks = [
   { label: "About", href: "/about", isExternal: false },
@@ -100,15 +100,13 @@ export default function Navbar() {
             ))}
           </div>
 
-          <a
-            href={INTAKE_FORM_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+          <AttributionCtaLink
+            placement="navbar"
             className="btn-primary nav-cta hidden md:inline-flex shrink-0"
           >
             <span className="btn-fill" />
             <span className="relative z-10">Learn More</span>
-          </a>
+          </AttributionCtaLink>
 
           <button
             type="button"
@@ -154,16 +152,14 @@ export default function Navbar() {
                   {link.label}
                 </Link>
               ))}
-              <a
-                href={INTAKE_FORM_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+              <AttributionCtaLink
+                placement="navbar"
                 className="btn-primary text-[14px] py-3 px-6 mt-4 text-center"
                 onClick={closeDrawer}
               >
                 <span className="btn-fill" />
                 <span className="relative z-10">Learn More</span>
-              </a>
+              </AttributionCtaLink>
             </div>
           </div>
         </>

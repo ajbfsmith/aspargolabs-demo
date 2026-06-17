@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
-import { INTAKE_FORM_URL } from "@/lib/config/intake-form-url";
+import { AttributionCtaLink } from "@/app/components/AttributionCtaLink";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -126,15 +126,13 @@ export default function ManifestoSection() {
 					<p className="font-lora text-[16px] md:text-[18px] text-text-secondary leading-relaxed max-w-[480px] mx-auto mb-8">
 						Ready when you are. No pills, no planning, no waiting.
 					</p>
-					<a
-						href={INTAKE_FORM_URL}
-						target="_blank"
-						rel="noopener noreferrer"
+					<AttributionCtaLink
+						placement="manifesto"
 						className="btn-primary text-[15px] md:text-[16px] py-4 px-10 shadow-xl shadow-teal/10"
 					>
 						<span className="btn-fill" />
 						<span className="relative z-10">Buy Now</span>
-					</a>
+					</AttributionCtaLink>
 				</div>
 			</div>
 		</section>
