@@ -78,7 +78,7 @@ export async function processBaskWebhookBody(
       : {};
 
   const eid = webhookEventId(body);
-  let sessionId = strId(data.sessionId);
+  const sessionId = strId(data.sessionId);
   const patientId = strId(data.patientId);
   const eventCode = data.eventCode;
 
