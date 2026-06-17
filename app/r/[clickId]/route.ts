@@ -70,7 +70,7 @@ export async function GET(request: Request, context: RouteContext) {
     utm_source: utmSource,
     utm_campaign: utmCampaign,
   });
-  const dest = buildIntakeUrl(baskBase, handoff, clickId, referral);
+  const dest = buildIntakeUrl(baskBase, handoff, referral);
 
   return NextResponse.redirect(dest, 302);
 }

@@ -14,7 +14,6 @@ export type ReferralParams = {
 export function buildIntakeUrl(
   baseUrl: string,
   utms: UtmParams,
-  sdClick?: string | null,
   referral?: ReferralParams,
 ): string {
   const base = baseUrl.trim();
@@ -35,9 +34,6 @@ export function buildIntakeUrl(
   }
   if (utms.utm_term) {
     url.searchParams.set("utm_term", utms.utm_term);
-  }
-  if (sdClick) {
-    url.searchParams.set("sd_click", sdClick);
   }
   return url.toString();
 }
