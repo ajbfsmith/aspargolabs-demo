@@ -72,7 +72,8 @@ export default function Footer() {
 								</a>
 							))}
 							<p className="font-ibm text-[12px] text-text-secondary mt-4">
-								&copy;2026 Accelerate Health Inc.
+								&copy;2026 Accelerate Health<sup>&trade;</sup>
+			
 							</p>
 						</div>
 					</div>
