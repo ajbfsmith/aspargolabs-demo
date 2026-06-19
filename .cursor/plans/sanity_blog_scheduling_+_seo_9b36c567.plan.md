@@ -4,25 +4,25 @@ overview: Extend the Sanity blog schema for full SEO/E-E-A-T, build a config-dri
 todos:
     - id: schema
       content: Extend post schema (datetime publishedAt + SEO/cluster/E-E-A-T fields) and add author + medicalReviewer document types; register in schema index
-      status: pending
+      status: completed
     - id: script
       content: "Build scripts/sanity-schedule-blog.ts: validate JSON, upsert authors/reviewers, compute staggered future publishedAt (UTC), createOrReplace all posts in one transaction; add --dry-run and package.json script"
-      status: pending
+      status: completed
     - id: frontend-data
       content: Extend BlogPost type + map-post; add date-gating helpers (isPublished/getPublishedPosts); sync ALL posts (incl. future) into static data; GROQ publishedAt<=now for live API routes
-      status: pending
+      status: completed
     - id: tech-seo
       content: Add app/sitemap.ts (exclude future), app/robots.ts, metadataBase, ISR revalidate + future-post 404 on detail route, rich per-post metadata + JSON-LD + author/reviewer blocks + bidirectional pillar/cluster links, and blog index metadata wrapper
-      status: pending
+      status: completed
     - id: sample-json
       content: Create data/blog-posts.sample.json (config + authors + reviewers + ~8 tiered/clustered posts) and validate via dry-run
-      status: pending
+      status: completed
     - id: guide
       content: "Write docs/blog-scheduling-and-seo.md: prerequisites (free, no paid plan), JSON reference, run instructions, rollout calendar, reveal/ISR mechanics, optional hourly redeploy, full manual SEO checklist"
-      status: pending
+      status: completed
     - id: env
       content: Update .env.example with prod NEXT_PUBLIC_SITE_URL and optional SANITY_DEPLOY_HOOK_URL (for optional hourly redeploy)
-      status: pending
+      status: completed
 isProject: false
 ---
 

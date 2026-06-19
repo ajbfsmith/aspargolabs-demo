@@ -2,14 +2,22 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import {
-  blogPosts,
+  getClusterPostsForPillar,
   getPostBySlug,
+  getPublishedPosts,
   getRelatedPosts,
   formatDate,
 } from "../../data/blog-posts";
+import {
+  buildArticleJsonLd,
+  buildBreadcrumbJsonLd,
+  getBlogPostMetadata,
+} from "@/lib/blog/seo";
+
+export const revalidate = 300;
 
 export async function generateStaticParams() {
-  return blogPosts.map((post) => ({ slug: post.slug }));
+  return getPublishedPosts().map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata(props: {
@@ -18,10 +26,7 @@ export async function generateMetadata(props: {
   const { slug } = await props.params;
   const post = getPostBySlug(slug);
   if (!post) return { title: "Post Not Found" };
-  return {
-    title: `${post.title} | Accelerate Health`,
-    description: post.excerpt,
-  };
+  return getBlogPostMetadata(post);
 }
 
 function renderMarkdownContent(content: string) {
@@ -40,7 +45,7 @@ function renderMarkdownContent(content: string) {
           <p className="font-lora text-[16px] md:text-[17px] text-text-primary/80 italic leading-[1.8]">
             {blockquoteBuffer.join(" ")}
           </p>
-        </blockquote>
+        </blockquote>,
       );
       blockquoteBuffer = [];
     }
@@ -62,7 +67,7 @@ function renderMarkdownContent(content: string) {
           className="font-dm text-[24px] md:text-[28px] font-semibold text-text-primary mt-12 mb-4 leading-tight"
         >
           {line.slice(3)}
-        </h2>
+        </h2>,
       );
     } else if (line.startsWith("### ")) {
       elements.push(
@@ -71,9 +76,13 @@ function renderMarkdownContent(content: string) {
           className="font-dm text-[18px] md:text-[20px] font-semibold text-text-primary mt-8 mb-3 leading-snug"
         >
           {line.slice(4)}
-        </h3>
+        </h3>,
       );
-    } else if (line.startsWith("1. ") || line.startsWith("2. ") || line.startsWith("3. ")) {
+    } else if (
+      line.startsWith("1. ") ||
+      line.startsWith("2. ") ||
+      line.startsWith("3. ")
+    ) {
       elements.push(
         <div key={key++} className="flex gap-3 my-2 ml-2">
           <span className="font-ibm text-[14px] text-teal/70 shrink-0 mt-0.5">
@@ -82,7 +91,7 @@ function renderMarkdownContent(content: string) {
           <p className="font-lora text-[15px] md:text-[16px] text-text-secondary leading-[1.8]">
             {renderInlineFormatting(line.slice(3))}
           </p>
-        </div>
+        </div>,
       );
     } else if (line.startsWith("- ")) {
       elements.push(
@@ -91,7 +100,7 @@ function renderMarkdownContent(content: string) {
           <p className="font-lora text-[15px] md:text-[16px] text-text-secondary leading-[1.8]">
             {renderInlineFormatting(line.slice(2))}
           </p>
-        </div>
+        </div>,
       );
     } else if (line.trim() === "") {
       continue;
@@ -102,7 +111,7 @@ function renderMarkdownContent(content: string) {
           className="font-lora text-[15px] md:text-[16px] text-text-secondary leading-[1.85] my-4"
         >
           {renderInlineFormatting(line)}
-        </p>
+        </p>,
       );
     }
   }
@@ -134,13 +143,26 @@ export default async function BlogPostPage(props: {
   if (!post) notFound();
 
   const relatedPosts = getRelatedPosts(slug, 3);
+  const clusterPosts = post.isPillar
+    ? getClusterPostsForPillar(post.slug)
+    : [];
+  const articleJsonLd = buildArticleJsonLd(post);
+  const breadcrumbJsonLd = buildBreadcrumbJsonLd(post);
 
   return (
     <div className="grid-surface min-h-screen pt-28 md:pt-36 pb-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+
       <div className="teal-glow fixed top-0 left-1/2 -translate-x-1/2 opacity-[0.04]" />
 
       <div className="relative z-10 max-w-[1200px] mx-auto px-4 md:px-16">
-        {/* Back link */}
         <Link
           href="/blog"
           className="inline-flex items-center gap-2 text-text-secondary hover:text-teal transition-colors mb-10 group"
@@ -155,9 +177,7 @@ export default async function BlogPostPage(props: {
         </Link>
 
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-12 lg:gap-16">
-          {/* Main article */}
           <article className="max-w-[720px]">
-            {/* Header */}
             <header className="mb-10 md:mb-14">
               <div className="flex items-center gap-3 mb-5">
                 <span className="font-ibm text-[10px] text-teal/80 uppercase tracking-[0.2em] bg-teal/8 px-2.5 py-1 rounded-md border border-teal/15">
@@ -180,10 +200,33 @@ export default async function BlogPostPage(props: {
                 {post.excerpt}
               </p>
 
+              {(post.author || post.medicalReviewer) && (
+                <div className="mt-6 space-y-3 border-t border-[rgba(13,183,187,0.08)] pt-6">
+                  {post.author && (
+                    <p className="font-dm text-[14px] text-text-secondary">
+                      <span className="text-text-primary font-medium">
+                        {post.author.name}
+                      </span>
+                      {post.author.credentials
+                        ? `, ${post.author.credentials}`
+                        : ""}
+                      {post.author.role ? ` · ${post.author.role}` : ""}
+                    </p>
+                  )}
+                  {post.medicalReviewer && (
+                    <p className="font-ibm text-[12px] text-teal/70 uppercase tracking-wider">
+                      Medically reviewed by {post.medicalReviewer.name}
+                      {post.medicalReviewer.credentials
+                        ? `, ${post.medicalReviewer.credentials}`
+                        : ""}
+                    </p>
+                  )}
+                </div>
+              )}
+
               <div className="w-16 h-px bg-teal/30 mt-8" />
             </header>
 
-            {/* Cover gradient */}
             <div
               className={`h-48 md:h-64 bg-gradient-to-br ${post.coverColor} rounded-xl mb-10 md:mb-14 relative overflow-hidden border border-[rgba(13,183,187,0.1)]`}
             >
@@ -195,13 +238,63 @@ export default async function BlogPostPage(props: {
               </div>
             </div>
 
-            {/* Body */}
+            {post.pillar && (
+              <div className="mb-8 p-4 rounded-lg border border-teal/15 bg-teal/5">
+                <p className="font-ibm text-[10px] text-teal/60 uppercase tracking-[0.2em] mb-2">
+                  Part of: {post.clusterTitle ?? "Topic Guide"}
+                </p>
+                <Link
+                  href={`/blog/${post.pillar.slug}`}
+                  className="font-dm text-[15px] text-teal hover:text-teal/80 transition-colors"
+                >
+                  {post.pillar.focusKeyword
+                    ? `${post.pillar.focusKeyword} — `
+                    : ""}
+                  {post.pillar.title} &rarr;
+                </Link>
+              </div>
+            )}
+
             <div className="article-body">
               {renderMarkdownContent(post.content)}
             </div>
+
+            {post.author?.bio && (
+              <div className="mt-12 p-6 rounded-xl border border-[rgba(13,183,187,0.12)] bg-[rgba(13,17,23,0.5)]">
+                <p className="font-ibm text-[10px] text-teal/60 uppercase tracking-[0.2em] mb-3">
+                  About the author
+                </p>
+                <p className="font-dm text-[15px] text-text-primary font-medium mb-2">
+                  {post.author.name}
+                  {post.author.credentials ? `, ${post.author.credentials}` : ""}
+                </p>
+                <p className="font-lora text-[14px] text-text-secondary leading-relaxed">
+                  {post.author.bio}
+                </p>
+              </div>
+            )}
+
+            {post.isPillar && clusterPosts.length > 0 && (
+              <div className="mt-12">
+                <h2 className="font-dm text-[20px] font-semibold text-text-primary mb-4">
+                  In this guide
+                </h2>
+                <ul className="space-y-3">
+                  {clusterPosts.map((clusterPost) => (
+                    <li key={clusterPost.slug}>
+                      <Link
+                        href={`/blog/${clusterPost.slug}`}
+                        className="font-dm text-[15px] text-teal/80 hover:text-teal transition-colors"
+                      >
+                        {clusterPost.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </article>
 
-          {/* Sidebar */}
           <aside className="lg:pt-24">
             <div className="lg:sticky lg:top-28">
               <h3 className="font-dm text-[13px] font-medium text-text-primary uppercase tracking-wider mb-5">
