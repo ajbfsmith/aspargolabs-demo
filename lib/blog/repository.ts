@@ -3,7 +3,6 @@ import "server-only";
 import type { BlogPost } from "@/app/data/blog-types";
 import { mapSanityPostsToBlogPosts } from "@/lib/blog/map-post";
 import {
-  fetchBlogPostBySlugFromSanity,
   fetchBlogPostsFromSanity,
   fetchPublishedBlogPostBySlugFromSanity,
   fetchPublishedBlogPostsFromSanity,
