@@ -5,6 +5,8 @@ import { mapSanityPostsToBlogPosts } from "@/lib/blog/map-post";
 import {
   fetchBlogPostBySlugFromSanity,
   fetchBlogPostsFromSanity,
+  fetchPublishedBlogPostBySlugFromSanity,
+  fetchPublishedBlogPostsFromSanity,
 } from "@/lib/blog/queries";
 import { seedBlogPosts } from "@/lib/blog/seed-posts";
 import { createSanityClient } from "@/lib/sanity/client";
@@ -17,13 +19,31 @@ export async function listBlogPostsFromCms(): Promise<BlogPost[]> {
 
   try {
     const client = createSanityClient();
-    const records = await fetchBlogPostsFromSanity(client);
+    const records = await fetchPublishedBlogPostsFromSanity(client);
     if (!records.length) {
       return seedBlogPosts;
     }
     return mapSanityPostsToBlogPosts(records);
   } catch (error) {
     console.error("[blog] Failed to fetch posts from Sanity:", error);
+    return seedBlogPosts;
+  }
+}
+
+export async function listAllBlogPostsFromCms(): Promise<BlogPost[]> {
+  if (!hasSanityConfig()) {
+    return seedBlogPosts;
+  }
+
+  try {
+    const client = createSanityClient();
+    const records = await fetchBlogPostsFromSanity(client);
+    if (!records.length) {
+      return seedBlogPosts;
+    }
+    return mapSanityPostsToBlogPosts(records);
+  } catch (error) {
+    console.error("[blog] Failed to fetch all posts from Sanity:", error);
     return seedBlogPosts;
   }
 }
@@ -37,7 +57,7 @@ export async function getBlogPostBySlugFromCms(
 
   try {
     const client = createSanityClient();
-    const record = await fetchBlogPostBySlugFromSanity(client, slug);
+    const record = await fetchPublishedBlogPostBySlugFromSanity(client, slug);
     if (!record) {
       return seedBlogPosts.find((post) => post.slug === slug) ?? null;
     }

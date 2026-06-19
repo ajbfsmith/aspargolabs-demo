@@ -11,6 +11,20 @@ export function mapSanityPostToBlogPost(record: SanityBlogPostRecord): BlogPost 
     tag: record.tag,
     coverColor: record.coverColor,
     content: record.content,
+    seoTitle: record.seoTitle,
+    metaDescription: record.metaDescription,
+    focusKeyword: record.focusKeyword,
+    canonicalUrl: record.canonicalUrl,
+    ogImageUrl: record.ogImageUrl,
+    noindex: record.noindex,
+    tier: record.tier,
+    isPillar: record.isPillar,
+    clusterId: record.clusterId,
+    clusterTitle: record.clusterTitle,
+    lastReviewedAt: record.lastReviewedAt,
+    author: record.author,
+    medicalReviewer: record.medicalReviewer,
+    pillar: record.pillar,
   };
 }
 

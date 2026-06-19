@@ -18,6 +18,7 @@
     "db:reset": "dotenv -e .env -- npx supabase db reset",
     "sanity:deploy": "dotenv -e .env -- npm run deploy --prefix sanity",
     "sanity:seed": "dotenv -e .env -- tsx scripts/sanity-seed-blog.ts",
+    "sanity:schedule": "dotenv -e .env -- tsx scripts/sanity-schedule-blog.ts",
     "sanity:sync": "dotenv -e .env -- tsx scripts/sanity-sync-blog.ts"
   },
   "dependencies": {

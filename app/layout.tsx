@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { dmSans, lora, ibmPlexMono, instrumentSerif } from "./fonts";
+import { getSiteUrl } from "@/lib/attribution/config";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(getSiteUrl()),
   title: "Accelerate Health | Precision Drug Delivery, Reimagined",
   description:
     "HEZKUE® is the world's first oral sildenafil spray, absorbed within 5 minutes, precisely dosed, and designed for the life you actually live. Accelerate Health is reinventing drug delivery through oral spray suspension technology.",
