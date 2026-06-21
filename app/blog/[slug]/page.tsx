@@ -60,7 +60,15 @@ function renderMarkdownContent(content: string) {
     }
     flushBlockquote();
 
-    if (line.startsWith("## ")) {
+    if (isMarkdownTableStart(lines, i)) {
+      const tableLines: string[] = [];
+      while (i < lines.length && lines[i].trim().startsWith("|")) {
+        tableLines.push(lines[i]);
+        i++;
+      }
+      i--;
+      elements.push(renderMarkdownTable(tableLines, key++));
+    } else if (line.startsWith("## ")) {
       elements.push(
         <h2
           key={key++}
@@ -120,14 +128,92 @@ function renderMarkdownContent(content: string) {
   return elements;
 }
 
+function isMarkdownTableStart(lines: string[], index: number) {
+  return (
+    lines[index]?.trim().startsWith("|") &&
+    lines[index + 1]?.trim().startsWith("|") &&
+    /^\|\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?$/.test(lines[index + 1].trim())
+  );
+}
+
+function parseTableRow(line: string) {
+  return line
+    .trim()
+    .replace(/^\|/, "")
+    .replace(/\|$/, "")
+    .split("|")
+    .map((cell) => cell.trim());
+}
+
+function renderMarkdownTable(lines: string[], key: number) {
+  const headers = parseTableRow(lines[0]);
+  const rows = lines.slice(2).map(parseTableRow);
+
+  return (
+    <div key={key} className="my-8 overflow-x-auto rounded-lg border border-teal/10">
+      <table className="w-full border-collapse text-left">
+        <thead className="bg-teal/5">
+          <tr>
+            {headers.map((header, index) => (
+              <th
+                key={index}
+                className="font-ibm text-[11px] uppercase tracking-wider text-teal/80 px-4 py-3 border-b border-teal/10"
+              >
+                {renderInlineFormatting(header)}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row, rowIndex) => (
+            <tr key={rowIndex} className="border-b border-teal/5 last:border-0">
+              {row.map((cell, cellIndex) => (
+                <td
+                  key={cellIndex}
+                  className="font-lora text-[14px] text-text-secondary leading-relaxed px-4 py-3"
+                >
+                  {renderInlineFormatting(cell)}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 function renderInlineFormatting(text: string): React.ReactNode {
-  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  const parts = text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\((?:https?:\/\/|\/)[^)]+\))/g);
   return parts.map((part, i) => {
     if (part.startsWith("**") && part.endsWith("**")) {
       return (
         <strong key={i} className="text-text-primary font-medium">
           {part.slice(2, -2)}
         </strong>
+      );
+    }
+    const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (linkMatch) {
+      const [, label, href] = linkMatch;
+      const className = "text-teal hover:text-teal/80 underline underline-offset-4 transition-colors";
+      if (href.startsWith("/")) {
+        return (
+          <Link key={i} href={href} className={className}>
+            {label}
+          </Link>
+        );
+      }
+      return (
+        <a
+          key={i}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={className}
+        >
+          {label}
+        </a>
       );
     }
     return part;
