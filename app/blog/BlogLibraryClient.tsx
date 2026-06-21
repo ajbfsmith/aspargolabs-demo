@@ -69,19 +69,12 @@ export default function BlogLibraryClient({ posts }: BlogLibraryClientProps) {
                 href={`/blog/${post.slug}`}
                 className="group block"
               >
-                <article className="grid-panel card-glow h-full flex flex-col overflow-hidden">
-                  <div
-                    className={`h-40 md:h-48 bg-gradient-to-br ${post.coverColor} relative overflow-hidden`}
-                  >
-                    <div className="absolute inset-0 grid-overlay opacity-30" />
-                    <div className="absolute bottom-3 left-4">
-                      <span className="font-ibm text-[10px] text-teal/80 uppercase tracking-[0.2em] bg-void/50 backdrop-blur-sm px-2.5 py-1 rounded-md border border-teal/15">
-                        {post.tag}
-                      </span>
-                    </div>
-                  </div>
-
+                <article className="grid-panel card-glow h-full flex flex-col">
                   <div className="p-5 md:p-6 flex flex-col flex-1">
+                    <span className="font-ibm text-[10px] text-teal/80 uppercase tracking-[0.2em] bg-teal/8 self-start px-2.5 py-1 rounded-md border border-teal/15 mb-3">
+                      {post.tag}
+                    </span>
+
                     <div className="flex items-center gap-3 mb-3">
                       <span className="font-ibm text-[11px] text-text-secondary">
                         {formatBlogDate(post.date)}

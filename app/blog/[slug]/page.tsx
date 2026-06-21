@@ -314,17 +314,6 @@ export default async function BlogPostPage(props: {
               <div className="w-16 h-px bg-teal/30 mt-8" />
             </header>
 
-            <div
-              className={`h-48 md:h-64 bg-gradient-to-br ${post.coverColor} rounded-xl mb-10 md:mb-14 relative overflow-hidden border border-[rgba(13,183,187,0.1)]`}
-            >
-              <div className="absolute inset-0 grid-overlay opacity-30" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="font-ibm text-[11px] text-teal/40 uppercase tracking-[0.3em]">
-                  Featured Image
-                </span>
-              </div>
-            </div>
-
             {post.pillar && (
               <div className="mb-8 p-4 rounded-lg border border-teal/15 bg-teal/5">
                 <p className="font-ibm text-[10px] text-teal/60 uppercase tracking-[0.2em] mb-2">
