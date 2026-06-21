@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Search } from "lucide-react";
 import Link from "next/link";
 import type { BlogPost } from "../data/blog-types";
-import { formatDate } from "../data/blog-posts";
+import { formatBlogDate } from "@/lib/blog/format";
 
 type BlogLibraryClientProps = {
   posts: BlogPost[];
@@ -84,7 +84,7 @@ export default function BlogLibraryClient({ posts }: BlogLibraryClientProps) {
                   <div className="p-5 md:p-6 flex flex-col flex-1">
                     <div className="flex items-center gap-3 mb-3">
                       <span className="font-ibm text-[11px] text-text-secondary">
-                        {formatDate(post.date)}
+                        {formatBlogDate(post.date)}
                       </span>
                       <span className="w-1 h-1 rounded-full bg-teal/40" />
                       <span className="font-ibm text-[11px] text-text-secondary">

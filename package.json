@@ -19,7 +19,11 @@
     "sanity:deploy": "dotenv -e .env -- npm run deploy --prefix sanity",
     "sanity:seed": "dotenv -e .env -- tsx scripts/sanity-seed-blog.ts",
     "sanity:schedule": "dotenv -e .env -- tsx scripts/sanity-schedule-blog.ts",
-    "sanity:sync": "dotenv -e .env -- tsx scripts/sanity-sync-blog.ts"
+    "sanity:push-blog": "dotenv -e .env -- tsx scripts/sanity-schedule-blog.ts --live --minimal-attribution --file blogs/blog-posts.json",
+    "blog:bake-schedule": "tsx scripts/bake-blog-schedule.ts --file blogs/blog-posts.json",
+    "sanity:purge-seed": "dotenv -e .env -- tsx scripts/sanity-purge-seed-blog.ts",
+    "sanity:purge-all": "dotenv -e .env -- tsx scripts/sanity-purge-all-blog.ts",
+    "sanity:update-attribution": "dotenv -e .env -- tsx scripts/sanity-update-blog-attribution.ts"
   },
   "dependencies": {
     "@ai-sdk/google": "^3.0.65",

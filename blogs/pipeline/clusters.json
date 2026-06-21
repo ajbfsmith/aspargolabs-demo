@@ -1,0 +1,188 @@
+{
+  "defaults": {
+    "tag": "Science",
+    "coverColor": "from-teal/20 to-void",
+    "authorKey": "clinical",
+    "medicalReviewerKey": "urology",
+    "secondaryPillarSlug": "complete-guide-erectile-dysfunction"
+  },
+  "product": {
+    "name": "HEZKUE",
+    "ctaLink": "/checkout",
+    "ctaText": "Explore HEZKUE"
+  },
+  "clusters": [
+    {
+      "code": "A",
+      "clusterId": "causes-risk-factors",
+      "clusterTitle": "Causes and Risk Factors",
+      "pillarSlug": "complete-guide-erectile-dysfunction",
+      "tag": "Science",
+      "coverColor": "from-teal/20 to-void",
+      "authorKey": "clinical",
+      "medicalReviewerKey": "urology"
+    },
+    {
+      "code": "B",
+      "clusterId": "treatment-medication",
+      "clusterTitle": "ED Treatment and Medication",
+      "pillarSlug": "ed-treatment-options-2026",
+      "tag": "Guide",
+      "coverColor": "from-teal/15 to-void",
+      "authorKey": "clinical",
+      "medicalReviewerKey": "urology"
+    },
+    {
+      "code": "C",
+      "clusterId": "science-mechanism",
+      "clusterTitle": "Erection Science and Mechanism",
+      "pillarSlug": "how-pde5-inhibitors-work",
+      "tag": "Science",
+      "coverColor": "from-teal/15 to-void",
+      "authorKey": "clinical",
+      "medicalReviewerKey": "urology"
+    },
+    {
+      "code": "D",
+      "clusterId": "lifestyle-optimization",
+      "clusterTitle": "Lifestyle and Optimization",
+      "pillarSlug": "lifestyle-changes-reverse-erectile-dysfunction",
+      "tag": "Wellness",
+      "coverColor": "from-[#00FF88]/15 to-void",
+      "authorKey": "editorial",
+      "medicalReviewerKey": "urology"
+    },
+    {
+      "code": "E",
+      "clusterId": "quick-answer-ed",
+      "clusterTitle": "Quick Answers About ED",
+      "pillarSlug": "complete-guide-erectile-dysfunction",
+      "tag": "FAQ",
+      "coverColor": "from-[#8A9BA8]/20 to-void",
+      "authorKey": "editorial",
+      "medicalReviewerKey": "urology"
+    },
+    {
+      "code": "F",
+      "clusterId": "comparison-posts",
+      "clusterTitle": "ED Treatment Comparisons",
+      "pillarSlug": "sildenafil-tadalafil-vardenafil-avanafil-comparison",
+      "tag": "Science",
+      "coverColor": "from-teal/20 to-void",
+      "authorKey": "clinical",
+      "medicalReviewerKey": "urology"
+    },
+    {
+      "code": "G",
+      "clusterId": "concerns-symptoms",
+      "clusterTitle": "ED Symptoms and Concerns",
+      "pillarSlug": "psychological-erectile-dysfunction-guide",
+      "tag": "Wellness",
+      "coverColor": "from-[#00FF88]/15 to-void",
+      "authorKey": "editorial",
+      "medicalReviewerKey": "urology"
+    },
+    {
+      "code": "H",
+      "clusterId": "practical-how-to",
+      "clusterTitle": "Practical ED How-To Guides",
+      "pillarSlug": "first-time-ed-medication-what-to-expect",
+      "tag": "Guide",
+      "coverColor": "from-teal/15 to-void",
+      "authorKey": "clinical",
+      "medicalReviewerKey": "urology"
+    },
+    {
+      "code": "I",
+      "clusterId": "patient-journey-stories",
+      "clusterTitle": "Patient Journey Stories",
+      "pillarSlug": "erectile-dysfunction-relationship-impact",
+      "tag": "Wellness",
+      "coverColor": "from-[#00FF88]/15 to-void",
+      "authorKey": "editorial",
+      "medicalReviewerKey": "urology"
+    },
+    {
+      "code": "J",
+      "clusterId": "statistics-data",
+      "clusterTitle": "ED Statistics and Data",
+      "pillarSlug": "complete-guide-erectile-dysfunction",
+      "tag": "Science",
+      "coverColor": "from-teal/20 to-void",
+      "authorKey": "clinical",
+      "medicalReviewerKey": "urology"
+    },
+    {
+      "code": "K",
+      "clusterId": "expert-opinion",
+      "clusterTitle": "Expert Opinion on ED",
+      "pillarSlug": "ed-treatment-options-2026",
+      "tag": "Guide",
+      "coverColor": "from-teal/15 to-void",
+      "authorKey": "clinical",
+      "medicalReviewerKey": "urology"
+    },
+    {
+      "code": "L",
+      "clusterId": "myth-busting",
+      "clusterTitle": "ED Myths and Misconceptions",
+      "pillarSlug": "10-myths-about-erectile-dysfunction-that-men-still-believe",
+      "tag": "Wellness",
+      "coverColor": "from-[#F0A500]/15 to-void",
+      "authorKey": "editorial",
+      "medicalReviewerKey": "urology"
+    },
+    {
+      "code": "M",
+      "clusterId": "culture-trends",
+      "clusterTitle": "Men's Health Culture and Trends",
+      "pillarSlug": "erectile-dysfunction-relationship-impact",
+      "tag": "Industry",
+      "coverColor": "from-[#8A9BA8]/20 to-void",
+      "authorKey": "editorial",
+      "medicalReviewerKey": "urology"
+    },
+    {
+      "code": "N",
+      "clusterId": "seasonal-topical",
+      "clusterTitle": "Seasonal Men's Health",
+      "pillarSlug": "lifestyle-changes-reverse-erectile-dysfunction",
+      "tag": "Wellness",
+      "coverColor": "from-[#00FF88]/15 to-void",
+      "authorKey": "editorial",
+      "medicalReviewerKey": "urology"
+    },
+    {
+      "code": "O",
+      "clusterId": "hezkue-product",
+      "clusterTitle": "HEZKUE Product Guides",
+      "pillarSlug": "oral-spray-drug-delivery-science",
+      "tag": "Product",
+      "coverColor": "from-[#F0A500]/15 to-void",
+      "authorKey": "clinical",
+      "medicalReviewerKey": "urology"
+    }
+  ],
+  "tier1Clusters": {
+    "complete-guide-erectile-dysfunction": "causes-risk-factors",
+    "ed-causes-by-age-20s-30s-40s-50s-60s": "causes-risk-factors",
+    "sildenafil-tadalafil-vardenafil-avanafil-comparison": "comparison-posts",
+    "erectile-dysfunction-heart-disease-connection": "causes-risk-factors",
+    "erectile-dysfunction-diabetes": "causes-risk-factors",
+    "psychological-erectile-dysfunction-guide": "concerns-symptoms",
+    "oral-spray-drug-delivery-science": "hezkue-product",
+    "ed-treatment-options-2026": "treatment-medication",
+    "testosterone-erectile-dysfunction": "science-mechanism",
+    "lifestyle-changes-reverse-erectile-dysfunction": "lifestyle-optimization",
+    "ed-medication-food-alcohol-interactions": "treatment-medication",
+    "erectile-dysfunction-relationship-impact": "patient-journey-stories",
+    "medications-that-cause-erectile-dysfunction": "treatment-medication",
+    "erectile-dysfunction-after-prostate-surgery": "treatment-medication",
+    "porn-induced-erectile-dysfunction": "concerns-symptoms",
+    "sleep-testosterone-erectile-dysfunction": "lifestyle-optimization",
+    "ed-blood-tests-what-to-ask-doctor": "practical-how-to",
+    "first-time-ed-medication-what-to-expect": "practical-how-to",
+    "exercise-and-erectile-dysfunction": "lifestyle-optimization",
+    "how-pde5-inhibitors-work": "science-mechanism"
+  }
+}

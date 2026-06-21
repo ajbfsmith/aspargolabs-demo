@@ -1,0 +1,21 @@
+{
+  "config": {
+    "startDate": "2026-06-21",
+    "publishTime": "00:00",
+    "timezone": "America/New_York",
+    "backfillPerWeek": 35,
+    "staggerPerWeek": 4,
+    "backfillRampPerWeek": [5, 10, 15, 20, 28, 35],
+    "staggerRampPerWeek": [2, 3, 4]
+  },
+  "authors": [
+    {
+      "key": "editorial",
+      "name": "Accelerate Health Editorial",
+      "slug": "accelerate-health-editorial",
+      "role": "Editorial Team",
+      "bio": "Research and editorial coverage of men's sexual health, PDE5 pharmacology, and drug delivery science at Accelerate Health."
+    }
+  ],
+  "medicalReviewers": []
+}

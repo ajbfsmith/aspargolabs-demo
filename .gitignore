@@ -44,3 +44,4 @@ next-env.d.ts
 # sanity studio
 /sanity/node_modules
 /sanity/dist
+blogs/.venv/

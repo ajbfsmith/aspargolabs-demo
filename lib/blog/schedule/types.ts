@@ -2,8 +2,14 @@ export type ScheduleConfig = {
   startDate: string;
   publishTime: string;
   timezone: string;
+  /** Flat weekly rate when backfillRampPerWeek is omitted. */
   backfillPerWeek: number;
+  /** Flat weekly rate when staggerRampPerWeek is omitted. */
   staggerPerWeek: number;
+  /** Gradual ramp: posts per week for tier 2–3 backfill (last value repeats). */
+  backfillRampPerWeek?: number[];
+  /** Gradual ramp: posts per week for tier 4 stagger (last value repeats). */
+  staggerRampPerWeek?: number[];
 };
 
 export type JsonAuthor = {

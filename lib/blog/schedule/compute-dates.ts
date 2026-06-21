@@ -1,5 +1,4 @@
 import type { JsonPost, ScheduleConfig, ScheduledPost } from "./types";
-import { zonedDateTimeToUtcIso } from "./timezone";
 
 function addDays(dateStr: string, days: number): string {
   const date = new Date(`${dateStr}T12:00:00Z`);
@@ -7,17 +6,13 @@ function addDays(dateStr: string, days: number): string {
   return date.toISOString().slice(0, 10);
 }
 
-function publishAtForDate(
-  dateStr: string,
-  config: ScheduleConfig,
-): string {
-  return zonedDateTimeToUtcIso(dateStr, config.publishTime, config.timezone);
+function publishAtForDate(dateStr: string): string {
+  return dateStr;
 }
 
 function distributeAcrossWeek(
   posts: JsonPost[],
   weekStartDate: string,
-  config: ScheduleConfig,
   phase: string,
 ): ScheduledPost[] {
   if (posts.length === 0) return [];
@@ -27,33 +22,55 @@ function distributeAcrossWeek(
     const dateStr = addDays(weekStartDate, dayOffset);
     return {
       ...post,
-      computedPublishedAt: publishAtForDate(dateStr, config),
+      computedPublishedAt: publishAtForDate(dateStr),
       phase,
     };
   });
 }
 
-function distributeInWeeklyBatches(
+/** Build a per-week post count array from a ramp (repeating the last value). */
+export function resolveWeeklyCounts(
+  totalPosts: number,
+  ramp: number[] | undefined,
+  fallback: number,
+): number[] {
+  if (totalPosts === 0) return [];
+
+  const base = ramp?.length ? ramp : [fallback];
+  const counts: number[] = [];
+  let remaining = totalPosts;
+  let weekIndex = 0;
+
+  while (remaining > 0) {
+    const cap = base[Math.min(weekIndex, base.length - 1)];
+    const take = Math.min(cap, remaining);
+    counts.push(take);
+    remaining -= take;
+    weekIndex++;
+  }
+
+  return counts;
+}
+
+function distributeInRampingWeeklyBatches(
   posts: JsonPost[],
   startDate: string,
-  perWeek: number,
-  config: ScheduleConfig,
+  weeklyCounts: number[],
   phase: string,
 ): ScheduledPost[] {
   const scheduled: ScheduledPost[] = [];
+  let postIndex = 0;
 
-  for (let index = 0; index < posts.length; index++) {
-    const weekIndex = Math.floor(index / perWeek);
-    const indexInWeek = index % perWeek;
-    const daysInWeek = Math.min(7, perWeek);
-    const dayOffset = Math.floor((indexInWeek * 7) / daysInWeek);
-    const dateStr = addDays(startDate, weekIndex * 7 + dayOffset);
-
-    scheduled.push({
-      ...posts[index],
-      computedPublishedAt: publishAtForDate(dateStr, config),
-      phase,
-    });
+  for (
+    let weekIndex = 0;
+    weekIndex < weeklyCounts.length && postIndex < posts.length;
+    weekIndex++
+  ) {
+    const weekCount = weeklyCounts[weekIndex];
+    const batch = posts.slice(postIndex, postIndex + weekCount);
+    const weekStart = addDays(startDate, weekIndex * 7);
+    scheduled.push(...distributeAcrossWeek(batch, weekStart, phase));
+    postIndex += weekCount;
   }
 
   return scheduled;
@@ -72,7 +89,9 @@ export function computeSchedule(
     (post) =>
       !pillars.includes(post) && (post.tier === 2 || post.tier === 3),
   );
-  const stagger = auto.filter((post) => post.tier === 4);
+  const stagger = auto.filter(
+    (post) => post.tier === 4 && !pillars.includes(post),
+  );
   const remainder = auto.filter(
     (post) =>
       !pillars.includes(post) &&
@@ -82,37 +101,51 @@ export function computeSchedule(
 
   const week1Start = config.startDate;
   const backfillStart = addDays(config.startDate, 7);
-  const staggerStart = addDays(config.startDate, 7 * 6);
+  const backfillPosts = [...backfill, ...remainder];
+
+  const backfillWeeklyCounts = resolveWeeklyCounts(
+    backfillPosts.length,
+    config.backfillRampPerWeek,
+    config.backfillPerWeek,
+  );
+  const backfillScheduled = distributeInRampingWeeklyBatches(
+    backfillPosts,
+    backfillStart,
+    backfillWeeklyCounts,
+    "weeks-2-plus-backfill",
+  );
+
+  const staggerStart = addDays(backfillStart, backfillWeeklyCounts.length * 7);
+  const staggerWeeklyCounts = resolveWeeklyCounts(
+    stagger.length,
+    config.staggerRampPerWeek,
+    config.staggerPerWeek,
+  );
+  const staggerScheduled = distributeInRampingWeeklyBatches(
+    stagger,
+    staggerStart,
+    staggerWeeklyCounts,
+    "stagger-long-tail",
+  );
 
   const scheduled: ScheduledPost[] = [
-    ...distributeAcrossWeek(pillars, week1Start, config, "week-1-pillars"),
-    ...distributeInWeeklyBatches(
-      [...backfill, ...remainder],
-      backfillStart,
-      config.backfillPerWeek,
-      config,
-      "weeks-2-6-backfill",
-    ),
-    ...distributeInWeeklyBatches(
-      stagger,
-      staggerStart,
-      config.staggerPerWeek,
-      config,
-      "months-2-7-stagger",
-    ),
+    ...distributeAcrossWeek(pillars, week1Start, "week-1-pillars"),
+    ...backfillScheduled,
+    ...staggerScheduled,
     ...explicit.map((post) => ({
       ...post,
-      computedPublishedAt: post.publishedAt!,
+      computedPublishedAt: post.publishedAt!.slice(0, 10),
       phase: "explicit",
     })),
   ];
 
-  const runIso = runDate.toISOString();
+  const runDay = runDate.toISOString().slice(0, 10);
   for (const post of scheduled) {
-    if (post.computedPublishedAt < runIso && post.phase !== "explicit") {
+    const publishDay = post.computedPublishedAt.slice(0, 10);
+    if (publishDay < runDay && post.phase !== "explicit") {
       throw new Error(
         `Post "${post.slug}" would be backdated to ${post.computedPublishedAt}. ` +
-          `Set config.startDate to today or later (run date: ${runIso.slice(0, 10)}).`,
+          `Set config.startDate to today or later (run date: ${runDay}).`,
       );
     }
   }

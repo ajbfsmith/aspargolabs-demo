@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
 import { AttributionCtaLink } from "@/app/components/AttributionCtaLink";
@@ -78,14 +79,19 @@ export default function Navbar() {
         </div>
 
         <div className="relative z-10 flex items-center justify-between md:justify-start gap-4 md:gap-8 lg:gap-12 px-3 py-0.5 sm:px-4 md:px-6">
-          <Link href="/" className="flex items-center gap-1 shrink-0 min-w-0">
-            <span className="font-dm text-[14px] sm:text-[15px] font-light tracking-wide text-text-primary">
-              ACCELERATE
-            </span>
-            <span className="text-teal mx-0.5 sm:mx-1">·</span>
-            <span className="font-ibm text-[11px] sm:text-[12px] font-light tracking-wider text-text-secondary">
-              HEALTH
-            </span>
+          <Link
+            href="/"
+            className="flex items-center shrink-0"
+            aria-label="Accelerate Health home"
+          >
+            <Image
+              src="/images/Logo-nav.png"
+              alt=""
+              width={1405}
+              height={1306}
+              className="h-7 sm:h-8 w-auto"
+              priority
+            />
           </Link>
 
           <div className="hidden md:flex items-center gap-5 lg:gap-7">

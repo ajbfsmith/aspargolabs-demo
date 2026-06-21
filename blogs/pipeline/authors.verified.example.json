@@ -1,0 +1,38 @@
+{
+  "_comment": "Copy verified clinician details into authors.json when ready, rebuild blog-posts.json, then run npm run sanity:update-attribution -- --live",
+  "config": {
+    "startDate": "2026-07-07",
+    "publishTime": "09:00",
+    "timezone": "America/New_York",
+    "backfillPerWeek": 35,
+    "staggerPerWeek": 4
+  },
+  "authors": [
+    {
+      "key": "editorial",
+      "name": "Accelerate Health Editorial",
+      "slug": "accelerate-health-editorial",
+      "role": "Editorial Team",
+      "bio": "The Accelerate Health editorial team covers pharmaceutical science, sexual health, and drug delivery innovation.",
+      "credentials": ""
+    },
+    {
+      "key": "clinical",
+      "name": "[Confirmed clinician name]",
+      "slug": "[confirmed-author-slug]",
+      "role": "[Role, e.g. Medical Writer]",
+      "bio": "[Verified bio]",
+      "credentials": "[Verified credentials, e.g. MD, MPH]"
+    }
+  ],
+  "medicalReviewers": [
+    {
+      "key": "urology",
+      "name": "[Confirmed reviewer name]",
+      "slug": "[confirmed-reviewer-slug]",
+      "title": "[Verified professional title]",
+      "credentials": "[Verified credentials]",
+      "bio": "[Verified bio]"
+    }
+  ]
+}
