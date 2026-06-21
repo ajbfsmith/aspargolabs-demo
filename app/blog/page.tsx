@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
-import { getPublishedPosts } from "../data/blog-posts";
+import { listBlogPostsFromCms } from "@/lib/blog/repository";
 import { buildBlogIndexJsonLd } from "@/lib/blog/seo";
 import BlogLibraryClient from "./BlogLibraryClient";
+
+export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: "From the Lab | Accelerate Health Blog",
@@ -15,8 +17,8 @@ export const metadata: Metadata = {
   },
 };
 
-export default function BlogLibraryPage() {
-  const posts = getPublishedPosts();
+export default async function BlogLibraryPage() {
+  const posts = await listBlogPostsFromCms();
   const jsonLd = buildBlogIndexJsonLd();
 
   return (

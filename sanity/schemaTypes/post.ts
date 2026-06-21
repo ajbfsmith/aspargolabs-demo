@@ -27,13 +27,8 @@ export const postType = defineType({
     }),
     defineField({
       name: "publishedAt",
-      title: "Publication Date & Time",
-      type: "datetime",
-      options: {
-        dateFormat: "YYYY-MM-DD",
-        timeFormat: "HH:mm",
-        timeStep: 15,
-      },
+      title: "Publication Date",
+      type: "date",
       validation: (rule) => rule.required(),
     }),
     defineField({
@@ -142,7 +137,7 @@ export const postType = defineType({
     defineField({
       name: "lastReviewedAt",
       title: "Last Reviewed At",
-      type: "datetime",
+      type: "date",
     }),
   ],
   preview: {

@@ -95,6 +95,16 @@ Build with warnings:
 python pipeline\build_blog_json.py
 ```
 
+For the initial Sanity import without confirmed clinician credentials:
+
+```bash
+python pipeline\build_blog_json.py --minimal-attribution
+```
+
+That writes every post with `authorKey: editorial` and omits
+`medicalReviewerKey`. Per-post attribution intent still lives in
+`ideas.json` for a later update.
+
 Enforce reviewed-only drafts:
 
 ```bash
@@ -117,20 +127,60 @@ It validates:
 
 ## Week 1: Publish Pillars
 
-From `aspargolabs-demo`:
+From the repo root:
 
 ```bash
-npm run sanity:schedule -- --dry-run --file ../accelerate-health-posts/blog-posts.json
+python blogs\pipeline\build_blog_json.py --minimal-attribution
+npm run sanity:schedule -- --dry-run --minimal-attribution --file blogs/blog-posts.json
 ```
 
 Confirm Tier 1 pillar posts are scheduled in Week 1 and that no posts are
 backdated.
 
-When ready:
+When ready to import without clinician attribution:
 
 ```bash
-npm run sanity:schedule -- --live --file ../accelerate-health-posts/blog-posts.json
+npm run sanity:push-blog
 npm run sanity:sync
+```
+
+Or explicitly:
+
+```bash
+npm run sanity:schedule -- --live --minimal-attribution --file blogs/blog-posts.json
+npm run sanity:sync
+```
+
+## Add clinician attribution later
+
+When author and medical reviewer details are confirmed:
+
+1. Copy `pipeline\authors.verified.example.json` as a guide and fill in
+   verified names, bios, and credentials in `pipeline\authors.json`.
+2. Rebuild full attribution JSON:
+
+```bash
+python pipeline\build_blog_json.py
+```
+
+3. Dry-run the attribution patch (works on scheduled and already-published posts):
+
+```bash
+npm run sanity:update-attribution -- --dry-run --file blogs/blog-posts.json
+```
+
+4. Apply live:
+
+```bash
+npm run sanity:update-attribution -- --live --file blogs/blog-posts.json
+npm run sanity:sync
+```
+
+Optional filters:
+
+```bash
+npm run sanity:update-attribution -- --live --file blogs/blog-posts.json --tier 1
+npm run sanity:update-attribution -- --live --file blogs/blog-posts.json --slug complete-guide-erectile-dysfunction
 ```
 
 ## Weeks 2-6: Backfill

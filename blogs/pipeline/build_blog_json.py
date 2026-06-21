@@ -32,9 +32,15 @@ MARKDOWN_SYNTAX_RE = re.compile(r"[*_`>#\[\]()]")
 TIER_WORD_RANGES = {
     1: (2000, 4000),
     2: (800, 1500),
-    3: (500, 800),
-    4: (600, 1000),
+    3: (500, 1000),
+    4: (600, 1200),
 }
+
+MEDICAL_DISCLAIMER_RE = re.compile(
+    r"talk to your doctor|consult your doctor|speak with a doctor|consult a doctor|"
+    r"not medical advice|clinician|healthcare provider|healthcare professional|physician",
+    re.I,
+)
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -110,38 +116,26 @@ def build_internal_link_allowlist(idea: dict[str, Any], all_ideas: list[dict[str
         target = by_slug[slug]
         links.append({"slug": slug, "url": f"/blog/{slug}", "anchor": get_anchor(target), "reason": reason})
 
-    if idea.get("tier") == 1:
-        for pillar in pillars:
-            if len(links) >= 2:
-                break
-            if pillar.get("clusterId") == idea.get("clusterId"):
-                add(pillar["slug"], "sibling cornerstone")
-        for pillar in pillars:
-            if len(links) >= 2:
-                break
-            add(pillar["slug"], "related cornerstone")
-        return links
-
     add(idea.get("pillarSlug"), "primary pillar")
     add("complete-guide-erectile-dysfunction", "core ED guide")
-    same_cluster = [
-        item
-        for item in all_ideas
-        if item.get("clusterId") == idea.get("clusterId") and item.get("tier") == idea.get("tier")
-    ]
-    slugs = [item["slug"] for item in same_cluster]
-    if idea["slug"] in slugs:
-        current_index = slugs.index(idea["slug"])
-        neighbors = same_cluster[max(0, current_index - 1) : current_index] + same_cluster[current_index + 1 : current_index + 2]
-    else:
-        neighbors = [item for item in same_cluster if item["slug"] != idea["slug"]][:2]
-    for neighbor in neighbors:
-        add(neighbor["slug"], "adjacent cluster post")
-    if idea.get("tier") in {3, 4}:
+
+    for item in all_ideas:
+        if item.get("clusterId") == idea.get("clusterId") and item["slug"] != idea["slug"]:
+            add(item["slug"], "same cluster")
+
+    if idea.get("tier") != 1:
         for pillar in pillars:
-            if len([link for link in links if "pillar" in link["reason"] or "cornerstone" in link["reason"]]) >= 2:
+            add(pillar["slug"], "cornerstone")
+
+    if idea.get("tier") == 1:
+        cross_cluster = 0
+        for pillar in pillars:
+            if cross_cluster >= 2:
                 break
-            add(pillar["slug"], "supporting cornerstone")
+            if pillar.get("clusterId") != idea.get("clusterId"):
+                add(pillar["slug"], "related cornerstone")
+                cross_cluster += 1
+
     return links
 
 
@@ -179,10 +173,8 @@ def validate_draft(
     if idea.get("tier") != 1 and "hezkue" not in markdown.lower():
         warnings.append(f"{slug}: non-pillar draft is missing HEZKUE CTA language")
 
-    if idea.get("medical_review_required"):
-        lower = markdown.lower()
-        if not any(phrase in lower for phrase in ["talk to your doctor", "speak with a doctor", "consult your doctor", "clinician"]):
-            warnings.append(f"{slug}: medical-review draft should include clinician guidance/disclaimer")
+    if idea.get("medical_review_required") and not MEDICAL_DISCLAIMER_RE.search(markdown):
+        warnings.append(f"{slug}: medical-review draft should include clinician guidance/disclaimer")
 
     return warnings
 
@@ -198,7 +190,7 @@ def load_drafts(drafts_dir: Path) -> dict[str, frontmatter.Post]:
     return drafts
 
 
-def build_post_object(idea: dict[str, Any], draft: frontmatter.Post) -> dict[str, Any]:
+def build_post_object(idea: dict[str, Any], draft: frontmatter.Post, author_key: str | None = None) -> dict[str, Any]:
     content = draft.content.strip()
     words = int(draft.metadata.get("word_count") or word_count(content))
     excerpt = str(draft.metadata.get("excerpt") or sentence_excerpt(first_paragraph(content)))
@@ -214,7 +206,7 @@ def build_post_object(idea: dict[str, Any], draft: frontmatter.Post) -> dict[str
         "tier": idea.get("tier"),
         "clusterId": idea.get("clusterId"),
         "clusterTitle": idea.get("clusterTitle"),
-        "authorKey": idea.get("authorKey", "clinical"),
+        "authorKey": author_key or idea.get("authorKey", "editorial"),
         "seoTitle": str(draft.metadata.get("seoTitle") or title),
         "metaDescription": meta,
         "focusKeyword": idea.get("focusKeyword"),
@@ -227,7 +219,7 @@ def build_post_object(idea: dict[str, Any], draft: frontmatter.Post) -> dict[str
     elif idea.get("pillarSlug"):
         post["pillarSlug"] = idea["pillarSlug"]
 
-    if idea.get("medicalReviewerKey"):
+    if idea.get("medicalReviewerKey") and not author_key:
         post["medicalReviewerKey"] = idea["medicalReviewerKey"]
     if draft.metadata.get("canonicalUrl"):
         post["canonicalUrl"] = draft.metadata["canonicalUrl"]
@@ -247,6 +239,16 @@ def main() -> None:
     parser.add_argument("--only", help="Build only one slug")
     parser.add_argument("--tier", type=int, choices=[1, 2, 3, 4])
     parser.add_argument("--strict", action="store_true", help="Exit non-zero on warnings")
+    parser.add_argument(
+        "--minimal-attribution",
+        action="store_true",
+        help="Use editorial author only and omit medicalReviewerKey from output",
+    )
+    parser.add_argument(
+        "--author-key",
+        default="editorial",
+        help="Author key to use when --minimal-attribution is set",
+    )
     args = parser.parse_args()
 
     ideas = get_ideas(args.ideas)
@@ -260,6 +262,7 @@ def main() -> None:
     drafts = load_drafts(args.drafts_dir)
     warnings: list[str] = []
     posts: list[dict[str, Any]] = []
+    forced_author_key = args.author_key if args.minimal_attribution else None
 
     for idea in ideas:
         draft = drafts.get(idea["slug"])
@@ -275,12 +278,12 @@ def main() -> None:
                 require_reviewed=args.require_reviewed,
             )
         )
-        posts.append(build_post_object(idea, draft))
+        posts.append(build_post_object(idea, draft, author_key=forced_author_key))
 
     result = {
         "config": authors["config"],
         "authors": authors["authors"],
-        "medicalReviewers": authors.get("medicalReviewers", []),
+        "medicalReviewers": [] if args.minimal_attribution else authors.get("medicalReviewers", []),
         "posts": posts,
     }
     args.output.write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

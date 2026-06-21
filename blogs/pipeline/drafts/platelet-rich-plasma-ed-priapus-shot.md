@@ -100,6 +100,8 @@ If you're looking for a fast-acting, clinically formulated solution, HEZKUE's or
 
 [Explore HEZKUE](/checkout)
 
+**Medical Disclaimer:** This article is for informational purposes only and does not constitute medical advice. Always talk to your doctor or qualified healthcare provider before starting, stopping, or changing any treatment for erectile dysfunction or related health conditions.
+
 ## Sources
 
 - [Platelet-rich plasma (PRP) therapy - Mayo Clinic](https://www.mayoclinic.org/tests-procedures/platelet-rich-plasma/about/pac-20394859)

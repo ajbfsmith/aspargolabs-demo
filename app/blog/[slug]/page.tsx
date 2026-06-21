@@ -1,35 +1,36 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { formatBlogDate } from "@/lib/blog/format";
 import {
-  getClusterPostsForPillar,
-  getPostBySlug,
-  getPublishedPosts,
-  getRelatedPosts,
-  formatDate,
-} from "../../data/blog-posts";
+  getBlogPostBySlugFromCms,
+  getClusterPostsForPillarFromCms,
+  getRelatedBlogPostsFromCms,
+  listBlogPostsFromCms,
+} from "@/lib/blog/repository";
 import {
   buildArticleJsonLd,
   buildBreadcrumbJsonLd,
   getBlogPostMetadata,
 } from "@/lib/blog/seo";
+import { withBlogCheckoutAttribution } from "@/lib/blog/checkout-links";
 
 export const revalidate = 300;
 
 export async function generateStaticParams() {
-  return getPublishedPosts().map((post) => ({ slug: post.slug }));
+  const posts = await listBlogPostsFromCms();
+  return posts.map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata(props: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await props.params;
-  const post = getPostBySlug(slug);
+  const post = await getBlogPostBySlugFromCms(slug);
   if (!post) return { title: "Post Not Found" };
   return getBlogPostMetadata(post);
 }
-
-function renderMarkdownContent(content: string) {
+function renderMarkdownContent(content: string, postSlug: string) {
   const lines = content.trim().split("\n");
   const elements: React.ReactNode[] = [];
   let blockquoteBuffer: string[] = [];
@@ -67,7 +68,7 @@ function renderMarkdownContent(content: string) {
         i++;
       }
       i--;
-      elements.push(renderMarkdownTable(tableLines, key++));
+      elements.push(renderMarkdownTable(tableLines, key++, postSlug));
     } else if (line.startsWith("## ")) {
       elements.push(
         <h2
@@ -97,7 +98,7 @@ function renderMarkdownContent(content: string) {
             {line.charAt(0)}.
           </span>
           <p className="font-lora text-[15px] md:text-[16px] text-text-secondary leading-[1.8]">
-            {renderInlineFormatting(line.slice(3))}
+            {renderInlineFormatting(line.slice(3), postSlug)}
           </p>
         </div>,
       );
@@ -106,7 +107,7 @@ function renderMarkdownContent(content: string) {
         <div key={key++} className="flex gap-3 my-2 ml-2">
           <span className="font-ibm text-teal/50 shrink-0 mt-2">&#x25C7;</span>
           <p className="font-lora text-[15px] md:text-[16px] text-text-secondary leading-[1.8]">
-            {renderInlineFormatting(line.slice(2))}
+            {renderInlineFormatting(line.slice(2), postSlug)}
           </p>
         </div>,
       );
@@ -118,7 +119,7 @@ function renderMarkdownContent(content: string) {
           key={key++}
           className="font-lora text-[15px] md:text-[16px] text-text-secondary leading-[1.85] my-4"
         >
-          {renderInlineFormatting(line)}
+          {renderInlineFormatting(line, postSlug)}
         </p>,
       );
     }
@@ -145,7 +146,7 @@ function parseTableRow(line: string) {
     .map((cell) => cell.trim());
 }
 
-function renderMarkdownTable(lines: string[], key: number) {
+function renderMarkdownTable(lines: string[], key: number, postSlug: string) {
   const headers = parseTableRow(lines[0]);
   const rows = lines.slice(2).map(parseTableRow);
 
@@ -159,7 +160,7 @@ function renderMarkdownTable(lines: string[], key: number) {
                 key={index}
                 className="font-ibm text-[11px] uppercase tracking-wider text-teal/80 px-4 py-3 border-b border-teal/10"
               >
-                {renderInlineFormatting(header)}
+                {renderInlineFormatting(header, postSlug)}
               </th>
             ))}
           </tr>
@@ -172,7 +173,7 @@ function renderMarkdownTable(lines: string[], key: number) {
                   key={cellIndex}
                   className="font-lora text-[14px] text-text-secondary leading-relaxed px-4 py-3"
                 >
-                  {renderInlineFormatting(cell)}
+                  {renderInlineFormatting(cell, postSlug)}
                 </td>
               ))}
             </tr>
@@ -183,7 +184,7 @@ function renderMarkdownTable(lines: string[], key: number) {
   );
 }
 
-function renderInlineFormatting(text: string): React.ReactNode {
+function renderInlineFormatting(text: string, postSlug: string): React.ReactNode {
   const parts = text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\((?:https?:\/\/|\/)[^)]+\))/g);
   return parts.map((part, i) => {
     if (part.startsWith("**") && part.endsWith("**")) {
@@ -195,7 +196,8 @@ function renderInlineFormatting(text: string): React.ReactNode {
     }
     const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
     if (linkMatch) {
-      const [, label, href] = linkMatch;
+      const [, label, rawHref] = linkMatch;
+      const href = withBlogCheckoutAttribution(rawHref, postSlug);
       const className = "text-teal hover:text-teal/80 underline underline-offset-4 transition-colors";
       if (href.startsWith("/")) {
         return (
@@ -224,15 +226,14 @@ export default async function BlogPostPage(props: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await props.params;
-  const post = getPostBySlug(slug);
+  const post = await getBlogPostBySlugFromCms(slug);
 
   if (!post) notFound();
 
-  const relatedPosts = getRelatedPosts(slug, 3);
+  const relatedPosts = await getRelatedBlogPostsFromCms(slug, 3);
   const clusterPosts = post.isPillar
-    ? getClusterPostsForPillar(post.slug)
-    : [];
-  const articleJsonLd = buildArticleJsonLd(post);
+    ? await getClusterPostsForPillarFromCms(post.slug)
+    : [];  const articleJsonLd = buildArticleJsonLd(post);
   const breadcrumbJsonLd = buildBreadcrumbJsonLd(post);
 
   return (
@@ -270,7 +271,7 @@ export default async function BlogPostPage(props: {
                   {post.tag}
                 </span>
                 <span className="font-ibm text-[11px] text-text-secondary">
-                  {formatDate(post.date)}
+                  {formatBlogDate(post.date)}
                 </span>
                 <span className="w-1 h-1 rounded-full bg-teal/40" />
                 <span className="font-ibm text-[11px] text-text-secondary">
@@ -342,7 +343,7 @@ export default async function BlogPostPage(props: {
             )}
 
             <div className="article-body">
-              {renderMarkdownContent(post.content)}
+              {renderMarkdownContent(post.content, slug)}
             </div>
 
             {post.author?.bio && (
@@ -400,7 +401,7 @@ export default async function BlogPostPage(props: {
                       {related.title}
                     </h4>
                     <span className="font-ibm text-[11px] text-text-secondary mt-2 block">
-                      {formatDate(related.date)}
+                      {formatBlogDate(related.date)}
                     </span>
                   </Link>
                 ))}

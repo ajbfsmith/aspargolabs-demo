@@ -98,6 +98,8 @@ If you're looking for a fast-acting, clinically formulated solution, HEZKUE's or
 
 [Explore HEZKUE](/checkout)
 
+**Medical Disclaimer:** This article is for informational purposes only and does not constitute medical advice. Always talk to your doctor or qualified healthcare provider before starting, stopping, or changing any treatment for erectile dysfunction or related health conditions.
+
 ## Sources
 
 1.  **National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK):** [Sexual Health and Kidney Disease](https://www.niddk.nih.gov/health-information/kidney-disease/sexual-health-kidney-disease)

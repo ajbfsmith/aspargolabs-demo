@@ -1,4 +1,5 @@
 import type { SanityClient } from "@sanity/client";
+import { todaySanityDate } from "@/lib/blog/sanity-write";
 
 const POST_FIELDS = `
   "slug": slug.current,
@@ -27,13 +28,13 @@ const POST_FIELDS = `
 
 export const BLOG_POSTS_GROQ = `*[_type == "post"] | order(publishedAt desc) {${POST_FIELDS}}`;
 
-export const BLOG_POSTS_PUBLISHED_GROQ = `*[_type == "post" && defined(publishedAt) && publishedAt <= now()] | order(publishedAt desc) {${POST_FIELDS}}`;
+export const BLOG_POSTS_PUBLISHED_GROQ = `*[_type == "post" && defined(publishedAt) && publishedAt <= $today] | order(publishedAt desc) {${POST_FIELDS}}`;
 
 export const BLOG_POST_BY_SLUG_GROQ = `*[_type == "post" && slug.current == $slug][0] {${POST_FIELDS}}`;
 
-export const BLOG_POST_BY_SLUG_PUBLISHED_GROQ = `*[_type == "post" && slug.current == $slug && defined(publishedAt) && publishedAt <= now()][0] {${POST_FIELDS}}`;
+export const BLOG_POST_BY_SLUG_PUBLISHED_GROQ = `*[_type == "post" && slug.current == $slug && defined(publishedAt) && publishedAt <= $today][0] {${POST_FIELDS}}`;
 
-export const BLOG_CLUSTER_POSTS_GROQ = `*[_type == "post" && pillar._ref == $pillarId && defined(publishedAt) && publishedAt <= now()] | order(publishedAt desc) {${POST_FIELDS}}`;
+export const BLOG_CLUSTER_POSTS_GROQ = `*[_type == "post" && pillar._ref == $pillarId && defined(publishedAt) && publishedAt <= $today] | order(publishedAt desc) {${POST_FIELDS}}`;
 
 export type SanityAuthorRecord = {
   name: string;
@@ -89,7 +90,9 @@ export async function fetchBlogPostsFromSanity(
 export async function fetchPublishedBlogPostsFromSanity(
   client: SanityClient,
 ): Promise<SanityBlogPostRecord[]> {
-  return client.fetch<SanityBlogPostRecord[]>(BLOG_POSTS_PUBLISHED_GROQ);
+  return client.fetch<SanityBlogPostRecord[]>(BLOG_POSTS_PUBLISHED_GROQ, {
+    today: todaySanityDate(),
+  });
 }
 
 export async function fetchBlogPostBySlugFromSanity(
@@ -107,6 +110,6 @@ export async function fetchPublishedBlogPostBySlugFromSanity(
 ): Promise<SanityBlogPostRecord | null> {
   return client.fetch<SanityBlogPostRecord | null>(
     BLOG_POST_BY_SLUG_PUBLISHED_GROQ,
-    { slug },
+    { slug, today: todaySanityDate() },
   );
 }

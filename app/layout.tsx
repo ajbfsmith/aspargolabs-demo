@@ -23,6 +23,9 @@ export const metadata: Metadata = {
       "HEZKUE® is the world's first oral sildenafil spray, absorbed within 5 minutes, precisely dosed.",
     type: "website",
   },
+  icons: {
+    icon: "/images/Logo.ico",
+  },
 };
 
 export default function RootLayout({

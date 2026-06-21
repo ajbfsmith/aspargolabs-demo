@@ -1,10 +1,12 @@
 {
   "config": {
-    "startDate": "2026-07-07",
-    "publishTime": "09:00",
+    "startDate": "2026-06-21",
+    "publishTime": "00:00",
     "timezone": "America/New_York",
     "backfillPerWeek": 35,
-    "staggerPerWeek": 4
+    "staggerPerWeek": 4,
+    "backfillRampPerWeek": [5, 10, 15, 20, 28, 35],
+    "staggerRampPerWeek": [2, 3, 4]
   },
   "authors": [
     {
@@ -12,26 +14,8 @@
       "name": "Accelerate Health Editorial",
       "slug": "accelerate-health-editorial",
       "role": "Editorial Team",
-      "bio": "The Accelerate Health editorial team covers pharmaceutical science, sexual health, and drug delivery innovation.",
-      "credentials": "MS, Science Communication"
-    },
-    {
-      "key": "clinical",
-      "name": "Dr. James Rothwell",
-      "slug": "dr-james-rothwell",
-      "role": "Medical Writer",
-      "bio": "Dr. Rothwell is a physician-scientist focused on men's health and pharmacokinetics of PDE5 inhibitors.",
-      "credentials": "MD, MPH"
+      "bio": "Research and editorial coverage of men's sexual health, PDE5 pharmacology, and drug delivery science at Accelerate Health."
     }
   ],
-  "medicalReviewers": [
-    {
-      "key": "urology",
-      "name": "Dr. Elena Vasquez",
-      "slug": "dr-elena-vasquez",
-      "title": "Board-Certified Urologist",
-      "credentials": "MD, FACS",
-      "bio": "Dr. Vasquez specializes in erectile dysfunction, male sexual medicine, and evidence-based PDE5 inhibitor therapy."
-    }
-  ]
+  "medicalReviewers": []
 }

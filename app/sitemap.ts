@@ -1,10 +1,12 @@
 import type { MetadataRoute } from "next";
-import { getPublishedPosts } from "@/app/data/blog-posts";
+import { listBlogPostsFromCms } from "@/lib/blog/repository";
 import { getSiteUrl } from "@/lib/attribution/config";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export const revalidate = 300;
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const siteUrl = getSiteUrl();
-  const posts = getPublishedPosts();
+  const posts = await listBlogPostsFromCms();
 
   return [
     {

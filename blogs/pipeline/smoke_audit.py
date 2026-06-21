@@ -16,7 +16,7 @@ IDEAS_JSON = ROOT / "pipeline" / "ideas.json"
 AUTHORS_JSON = ROOT / "pipeline" / "authors.json"
 DRAFTS_DIR = ROOT / "pipeline" / "drafts"
 
-TIER_WORDS = {1: (2000, 4000), 2: (800, 1500), 3: (500, 800), 4: (600, 1000)}
+TIER_WORDS = {1: (2000, 4000), 2: (800, 1500), 3: (500, 1000), 4: (600, 1200)}
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 DISCLAIMER = re.compile(
     r"talk to your doctor|consult your doctor|speak with a doctor|not medical advice|clinician|healthcare provider|physician",

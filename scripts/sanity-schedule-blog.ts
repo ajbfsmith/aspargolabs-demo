@@ -1,47 +1,41 @@
-import { createClient } from "@sanity/client";
 import fs from "node:fs";
 import path from "node:path";
 import { config as loadEnv } from "dotenv";
+import {
+  buildAuthorSlugByKey,
+  buildReviewerSlugByKey,
+  createSanityWriteClient,
+  getSanityWriteDataset,
+  toAuthorDocument,
+  toReviewerDocument,
+  toSanityDate,
+} from "../lib/blog/sanity-write";
 import { computeSchedule } from "../lib/blog/schedule/compute-dates";
-import type { BlogPostsJson, JsonAuthor, JsonMedicalReviewer, ScheduledPost } from "../lib/blog/schedule/types";
+import type { BlogPostsJson, JsonPost, ScheduledPost, ScheduleConfig } from "../lib/blog/schedule/types";
 import { validateBlogPostsJson } from "../lib/blog/schedule/validate";
 
 loadEnv({ path: ".env" });
 
 const DEFAULT_FILE = path.join(process.cwd(), "data/blog-posts.sample.json");
 
-function requireEnv(name: string): string {
-  const value = process.env[name]?.trim();
-  if (!value) {
-    throw new Error(`Missing required environment variable: ${name}`);
-  }
-  return value;
-}
-
 function parseArgs(argv: string[]) {
   let file = DEFAULT_FILE;
   let dryRun = !argv.includes("--live");
   let limit: number | undefined;
+  let minimalAttribution = argv.includes("--minimal-attribution");
+  let authorKey = "editorial";
 
   for (let index = 0; index < argv.length; index++) {
     const arg = argv[index];
     if (arg === "--dry-run") dryRun = true;
     else if (arg === "--live") dryRun = false;
+    else if (arg === "--minimal-attribution") minimalAttribution = true;
     else if (arg === "--file") file = path.resolve(argv[++index]);
     else if (arg === "--limit") limit = Number(argv[++index]);
+    else if (arg === "--author-key") authorKey = argv[++index];
   }
 
-  return { file, dryRun, limit };
-}
-
-function createWriteClient() {
-  return createClient({
-    projectId: requireEnv("SANITY_PROJECT_ID"),
-    dataset: process.env.SANITY_DATASET?.trim() || "production",
-    apiVersion: process.env.SANITY_API_VERSION?.trim() || "2024-01-01",
-    token: requireEnv("SANITY_API_WRITE_TOKEN"),
-    useCdn: false,
-  });
+  return { file, dryRun, limit, minimalAttribution, authorKey };
 }
 
 function loadJson(filePath: string): BlogPostsJson {
@@ -49,27 +43,27 @@ function loadJson(filePath: string): BlogPostsJson {
   return JSON.parse(raw) as BlogPostsJson;
 }
 
-function toAuthorDocument(author: JsonAuthor) {
-  return {
-    _id: `author-${author.slug}`,
-    _type: "author" as const,
-    name: author.name,
-    slug: { _type: "slug" as const, current: author.slug },
-    role: author.role,
-    bio: author.bio,
-    credentials: author.credentials,
-  };
-}
+function applyAttributionMode(
+  data: BlogPostsJson,
+  minimalAttribution: boolean,
+  authorKey: string,
+): BlogPostsJson {
+  if (!minimalAttribution) return data;
 
-function toReviewerDocument(reviewer: JsonMedicalReviewer) {
+  if (!data.authors.some((author) => author.key === authorKey)) {
+    throw new Error(
+      `Author key "${authorKey}" was not found in the JSON authors list.`,
+    );
+  }
+
   return {
-    _id: `medicalReviewer-${reviewer.slug}`,
-    _type: "medicalReviewer" as const,
-    name: reviewer.name,
-    slug: { _type: "slug" as const, current: reviewer.slug },
-    title: reviewer.title,
-    credentials: reviewer.credentials,
-    bio: reviewer.bio,
+    ...data,
+    medicalReviewers: [],
+    posts: data.posts.map((post) => ({
+      ...post,
+      authorKey,
+      medicalReviewerKey: undefined,
+    })),
   };
 }
 
@@ -89,7 +83,7 @@ function toPostDocument(
     title: post.title,
     slug: { _type: "slug" as const, current: post.slug },
     excerpt: post.excerpt,
-    publishedAt: post.computedPublishedAt,
+    publishedAt: toSanityDate(post.computedPublishedAt),
     readTime: post.readTime,
     tag: post.tag,
     coverColor: post.coverColor,
@@ -104,7 +98,9 @@ function toPostDocument(
     isPillar: post.isPillar,
     clusterId: post.clusterId,
     clusterTitle: post.clusterTitle,
-    lastReviewedAt: post.lastReviewedAt,
+    lastReviewedAt: post.lastReviewedAt
+      ? toSanityDate(post.lastReviewedAt)
+      : undefined,
     medicalReviewer: post.medicalReviewerKey
       ? {
           _type: "reference" as const,
@@ -123,6 +119,46 @@ function toPostDocument(
   }
 
   return doc;
+}
+
+const POST_BATCH_SIZE = 25;
+
+async function commitDocumentsInBatches(
+  client: ReturnType<typeof createSanityWriteClient>,
+  documents: Array<{ _id: string; _type: string } & Record<string, unknown>>,
+  label: string,
+) {
+  for (let index = 0; index < documents.length; index += POST_BATCH_SIZE) {
+    const batch = documents.slice(index, index + POST_BATCH_SIZE);
+    const transaction = client.transaction();
+    for (const document of batch) {
+      transaction.createOrReplace(document);
+    }
+    await transaction.commit();
+    console.log(
+      `[sanity:schedule] Wrote ${Math.min(index + batch.length, documents.length)}/${documents.length} ${label}`,
+    );
+  }
+}
+
+function resolveScheduledPosts(
+  posts: JsonPost[],
+  config: ScheduleConfig,
+): ScheduledPost[] {
+  const allBaked = posts.length > 0 && posts.every((post) => post.publishedAt);
+  if (allBaked) {
+    return posts
+      .map((post) => ({
+        ...post,
+        computedPublishedAt: toSanityDate(post.publishedAt!),
+        phase: "baked",
+      }))
+      .sort((a, b) =>
+        a.computedPublishedAt.localeCompare(b.computedPublishedAt),
+      );
+  }
+
+  return computeSchedule(posts, config);
 }
 
 function printScheduleTable(posts: ScheduledPost[]) {
@@ -145,8 +181,11 @@ function printScheduleTable(posts: ScheduledPost[]) {
 }
 
 async function main() {
-  const { file, dryRun, limit } = parseArgs(process.argv.slice(2));
-  const data = loadJson(file);
+  const { file, dryRun, limit, minimalAttribution, authorKey } = parseArgs(
+    process.argv.slice(2),
+  );
+  const loaded = loadJson(file);
+  const data = applyAttributionMode(loaded, minimalAttribution, authorKey);
   const errors = validateBlogPostsJson(data);
 
   if (errors.length) {
@@ -155,7 +194,7 @@ async function main() {
     process.exit(1);
   }
 
-  let scheduled = computeSchedule(data.posts, data.config);
+  let scheduled = resolveScheduledPosts(data.posts, data.config);
   if (limit && limit > 0) {
     scheduled = scheduled.slice(0, limit);
   }
@@ -164,42 +203,45 @@ async function main() {
 
   if (dryRun) {
     console.log("[sanity:schedule] Dry run complete. No documents written.");
+    if (minimalAttribution) {
+      console.log(
+        "[sanity:schedule] Minimal attribution: posts use editorial author only; no medical reviewers.",
+      );
+    }
     console.log("[sanity:schedule] Pass --live to write to Sanity.");
     return;
   }
 
-  const client = createWriteClient();
-  const transaction = client.transaction();
+  const client = createSanityWriteClient();
+  const dataset = getSanityWriteDataset();
 
-  const authorSlugByKey = new Map(
-    data.authors.map((author) => [author.key, author.slug]),
-  );
-  const reviewerSlugByKey = new Map(
-    (data.medicalReviewers ?? []).map((reviewer) => [
-      reviewer.key,
-      reviewer.slug,
-    ]),
-  );
+  const authorSlugByKey = buildAuthorSlugByKey(data.authors);
+  const reviewerSlugByKey = buildReviewerSlugByKey(data.medicalReviewers ?? []);
 
-  for (const author of data.authors) {
-    transaction.createOrReplace(toAuthorDocument(author));
+  const people = [
+    ...data.authors.map(toAuthorDocument),
+    ...(data.medicalReviewers ?? []).map(toReviewerDocument),
+  ];
+  if (people.length) {
+    await commitDocumentsInBatches(client, people, "authors/reviewers");
   }
 
-  for (const reviewer of data.medicalReviewers ?? []) {
-    transaction.createOrReplace(toReviewerDocument(reviewer));
-  }
+  const postDocuments = scheduled.map((post) =>
+    toPostDocument(post, authorSlugByKey, reviewerSlugByKey),
+  );
+  await commitDocumentsInBatches(client, postDocuments, "posts");
 
-  for (const post of scheduled) {
-    transaction.createOrReplace(
-      toPostDocument(post, authorSlugByKey, reviewerSlugByKey),
+  console.log(
+    `[sanity:schedule] Upserted ${data.authors.length} authors, ${data.medicalReviewers?.length ?? 0} reviewers, and ${scheduled.length} posts to dataset "${dataset}".`,
+  );
+  if (minimalAttribution) {
+    console.log(
+      "[sanity:schedule] Attribution was deferred. Run `npm run sanity:update-attribution` after clinician details are confirmed.",
     );
   }
-
-  await transaction.commit();
   console.log(
-    `[sanity:schedule] Upserted ${data.authors.length} authors, ${data.medicalReviewers?.length ?? 0} reviewers, and ${scheduled.length} posts.`,
+    "[sanity:schedule] Blog pages read directly from Sanity; restart or wait for ISR revalidation to see changes.",
   );
-  console.log("[sanity:schedule] Run `npm run sanity:sync` to refresh static blog data.");
 }
 
 main().catch((error) => {
