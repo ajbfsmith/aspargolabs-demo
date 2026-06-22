@@ -34,7 +34,7 @@ word_count: 908
 
 I spent five years working the "graveyard shift" at a logistics hub. In the beginning, the extra pay and the quiet commute felt like a win. But after three years of flipping my internal clock every weekend to see my family, something changed. I wasn't just tired; I felt like a different person. My drive was gone, my mood was erratic, and eventually, my body stopped responding the way it used to. For more context, see our [ed relationships erectile dysfunction](/blog/erectile-dysfunction-relationship-impact).
 
-I realized that night shift work destroyed my testosterone—or at least, it felt that way. This is the story of how I recognized the symptoms of circadian disruption and the steps I took to regain my health and confidence.
+I realized that night shift work destroyed my testosterone, or at least, it felt that way. This is the story of how I recognized the symptoms of circadian disruption and the steps I took to regain my health and confidence.
 
 *Note: The following narrative is a composite illustrative story based on common patient experiences and clinical data regarding shift work and hormonal health.*
 
@@ -48,7 +48,7 @@ In my case, the "shift work blues" turned into a clinical reality. I was experie
 
 ## When the Biological Clock Breaks
 
-The human body is governed by a circadian rhythm—a 24-hour internal clock that regulates everything from body temperature to hormone secretion. Shift work disorder occurs when this clock is chronically out of sync with the environment.
+The human body is governed by a circadian rhythm, a 24-hour internal clock that regulates everything from body temperature to hormone secretion. Shift work disorder occurs when this clock is chronically out of sync with the environment.
 
 As my testosterone dipped, I noticed:
 - Persistent fatigue that caffeine couldn't fix.
@@ -73,7 +73,7 @@ When I first sought help for ED, I was prescribed traditional tablets. However, 
 
 I eventually found that [i-switched-tablet-spray](https://acceleratehealth.com/blog/i-switched-from-the-tablet-to-the-spray-here-s-what-changed) for a more consistent experience. This is where HEZKUE entered the picture.
 
-HEZKUE is an oral sildenafil spray suspension. Unlike traditional pills that must pass through the digestive system—a process that can be slowed down by a heavy meal or a sluggish metabolism—an oral spray is designed for a different delivery experience. For someone like me, whose digestive clock was as messed up as my sleep clock, having a clinically formulated delivery innovation made a significant difference in how I managed my symptoms.
+HEZKUE is an oral sildenafil spray suspension. Unlike traditional pills that must pass through the digestive system, a process that can be slowed down by a heavy meal or a sluggish metabolism, an oral spray is designed for a different delivery experience. For someone like me, whose digestive clock was as messed up as my sleep clock, having a clinically formulated delivery innovation made a significant difference in how I managed my symptoms.
 
 ## A Word on Safety
 
@@ -85,7 +85,7 @@ If you experience chest pain, symptoms of a heart attack, or an erection lasting
 
 Night shift work doesn't have to be a permanent sentence for your hormonal health. By prioritizing sleep, seeking medical advice, and utilizing modern delivery innovations, I was able to get back to feeling like myself.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 **[Explore HEZKUE](https://acceleratehealth.com/checkout)**
 

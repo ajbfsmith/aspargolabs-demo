@@ -49,7 +49,7 @@ However, the "success rate" is not a static number. It can be influenced by seve
 
 While the general success rate is high, individual experiences differ. Factors such as [age ed typically start?](/blog/what-age-does-ed-typically-start) and the presence of comorbid conditions play a significant role. For instance, men with well-managed health often see better results than those with untreated hypertension or obesity.
 
-Lifestyle choices also impact how well these treatments work. Research published by [Harvard Health Publishing](https://www.health.harvard.edu/mens-health/pde5-inhibitors-pill-therapy-for-erectile-dysfunction) suggests that addressing underlying health issues—such as knowing which [foods should i avoid](/blog/what-foods-should-i-avoid-if-i-have-ed)—can complement the efficacy of medication.
+Lifestyle choices also impact how well these treatments work. Research published by [Harvard Health Publishing](https://www.health.harvard.edu/mens-health/pde5-inhibitors-pill-therapy-for-erectile-dysfunction) suggests that addressing underlying health issues, such as knowing which [foods should i avoid](/blog/what-foods-should-i-avoid-if-i-have-ed), can complement the efficacy of medication.
 
 Furthermore, [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s) varies in its physiological roots. Younger men may find higher success rates because their vascular health is often more intact, whereas older men may require dosage adjustments or different delivery formats to achieve the same result. For a deeper dive into these variables, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 

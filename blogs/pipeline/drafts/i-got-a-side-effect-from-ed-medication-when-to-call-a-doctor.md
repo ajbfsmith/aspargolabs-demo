@@ -24,7 +24,7 @@ pillarSlug: psychological-erectile-dysfunction-guide
 slug: i-got-a-side-effect-from-ed-medication-when-to-call-a-doctor
 status: draft
 tier: 3
-title: I got a side effect from ED medication — when to call a doctor
+title: I got a side effect from ED medication, when to call a doctor
 word_count: 785
 ---
 

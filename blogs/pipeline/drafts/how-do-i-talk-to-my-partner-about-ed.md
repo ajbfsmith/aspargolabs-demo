@@ -44,7 +44,7 @@ According to [Harvard Health](https://www.health.harvard.edu/mens-health/erectil
 
 The most important rule for when **i talk my partner** about ED is to avoid the bedroom. Discussing the issue immediately after a sexual encounter or a "failed" attempt can lead to heightened emotions and defensiveness. 
 
-Instead, find a neutral setting—perhaps while taking a walk or sitting on the couch—where you both feel relaxed. Start by acknowledging the situation directly but gently. You might say, "I’ve noticed things haven't been quite right lately, and I want to talk about why that might be happening from a health perspective."
+Instead, find a neutral setting, perhaps while taking a walk or sitting on the couch, where you both feel relaxed. Start by acknowledging the situation directly but gently. You might say, "I’ve noticed things haven't been quite right lately, and I want to talk about why that might be happening from a health perspective."
 
 ## Framing ED as a Medical Condition
 
@@ -72,7 +72,7 @@ For more detailed safety information, refer to the [Mayo Clinic's guide on ED tr
 
 Talking to your partner is the first step toward reclaiming your sexual health. As you explore options, consider how different delivery formats might impact your experience.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours. Unlike traditional pills that require planning and water, an oral spray offers a discreet and consistent delivery method that can help you focus on the moment rather than the clock.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours. Unlike traditional pills that require planning and water, an oral spray offers a discreet and consistent delivery method that can help you focus on the moment rather than the clock.
 
 [Explore HEZKUE](/checkout)
 

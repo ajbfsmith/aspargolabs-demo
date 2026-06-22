@@ -30,7 +30,7 @@ title: Can stress cause ED?
 word_count: 796
 ---
 
-Yes, stress is a leading cause of erectile dysfunction (ED). When the body is under stress, it activates the sympathetic nervous system—often called the "fight or flight" response—which releases hormones like adrenaline and cortisol. These chemicals constrict blood vessels and increase heart rate to prepare the body for a perceived threat, which is the physiological opposite of the relaxed state required for an erection. This can lead to a "stress loop" where the anxiety of failing to perform creates more stress, further hindering sexual function.
+Yes, stress is a leading cause of erectile dysfunction (ED). When the body is under stress, it activates the sympathetic nervous system, often called the "fight or flight" response, which releases hormones like adrenaline and cortisol. These chemicals constrict blood vessels and increase heart rate to prepare the body for a perceived threat, which is the physiological opposite of the relaxed state required for an erection. This can lead to a "stress loop" where the anxiety of failing to perform creates more stress, further hindering sexual function.
 
 ## How Stress Impacts Your Body and Erections
 
@@ -44,7 +44,7 @@ While stress is a common psychological factor, it is often intertwined with phys
 
 ## The "Stress Loop" and Performance Anxiety
 
-One of the most difficult aspects of stress-induced ED is the cycle of performance anxiety. After a single episode of ED caused by external stress—such as a difficult week at work—a man may begin to worry about it happening again. 
+One of the most difficult aspects of stress-induced ED is the cycle of performance anxiety. After a single episode of ED caused by external stress, such as a difficult week at work, a man may begin to worry about it happening again. 
 
 This worry becomes a self-fulfilling prophecy. During the next sexual encounter, the brain perceives the situation as a "test" rather than a pleasurable experience, triggering another surge of adrenaline that prevents an erection. This cycle is particularly common when [young men get ed?](/blog/can-young-men-get-ed), as they may not realize that psychological factors are just as impactful as physical ones.
 

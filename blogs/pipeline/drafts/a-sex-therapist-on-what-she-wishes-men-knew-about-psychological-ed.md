@@ -34,7 +34,7 @@ title: A Sex Therapist on What She Wishes Men Knew About Psychological ED
 word_count: 971
 ---
 
-Erectile dysfunction (ED) is often discussed as a "plumbing" problem—a simple matter of blood flow and physical mechanics. However, for many men, the root cause isn't in the body, but in the mind. Psychological ED is a common yet frequently misunderstood condition where stress, anxiety, or past experiences interfere with the body's natural response.
+Erectile dysfunction (ED) is often discussed as a "plumbing" problem, a simple matter of blood flow and physical mechanics. However, for many men, the root cause isn't in the body, but in the mind. Psychological ED is a common yet frequently misunderstood condition where stress, anxiety, or past experiences interfere with the body's natural response.
 
 To better understand this complex intersection of mental and physical health, we spoke with a sex therapist on what she wishes men knew about the psychological side of performance. The following Q&A features insights from a composite of clinical perspectives in the field of sexual health.
 
@@ -44,9 +44,9 @@ To better understand this complex intersection of mental and physical health, we
 
 **Accelerate Health: Many men assume ED is always a physical issue. How do you explain the psychological component?**
 
-**Expert Perspective:** It is a common misconception. While physical factors like cardiovascular health are vital—something a [cardiologist on he always](/blog/a-cardiologist-on-why-he-always-asks-male-patients-over-40-about-ed) checks for—the brain is actually the most important sex organ. It’s what sends the signals to the nervous system to begin the process of an erection. 
+**Expert Perspective:** It is a common misconception. While physical factors like cardiovascular health are vital, something a [cardiologist on he always](/blog/a-cardiologist-on-why-he-always-asks-male-patients-over-40-about-ed) checks for, the brain is actually the most important sex organ. It’s what sends the signals to the nervous system to begin the process of an erection. 
 
-When a sex therapist on what she sees in practice describes psychological ED, she is often talking about "performance anxiety." This happens when a man becomes a "spectator" to his own sexual experience, worrying about whether he will perform rather than enjoying the moment. This anxiety triggers the sympathetic nervous system—the "fight or flight" response—which releases adrenaline. Adrenaline constricts blood vessels, making an erection physically difficult to maintain.
+When a sex therapist on what she sees in practice describes psychological ED, she is often talking about "performance anxiety." This happens when a man becomes a "spectator" to his own sexual experience, worrying about whether he will perform rather than enjoying the moment. This anxiety triggers the sympathetic nervous system, the "fight or flight" response, which releases adrenaline. Adrenaline constricts blood vessels, making an erection physically difficult to maintain.
 
 **Accelerate Health: How can a man tell if his ED is psychological or physical?**
 
@@ -86,7 +86,7 @@ For a broader look at all available options, including clinical and lifestyle in
 
 Psychological ED is not a sign of "weakness" or a permanent loss of function. It is a common response to stress and pressure. By combining psychological strategies with modern delivery innovations, most men can find a path back to a healthy, confident sex life. For a deeper dive into the science of these conditions, consult our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
-If you're looking for a fast-acting, clinically formulated solution to support your physical response, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution to support your physical response, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

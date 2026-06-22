@@ -46,7 +46,7 @@ Unlike ED in the general population, which is often tied primarily to vascular h
 
 ## How MS Affects Neural Pathways for Erection
 
-An erection is a complex physiological event that requires a coordinated effort between the brain, the spinal cord, and the peripheral nerves. MS disrupts this process through demyelination—the damage to the protective coating of nerve fibers.
+An erection is a complex physiological event that requires a coordinated effort between the brain, the spinal cord, and the peripheral nerves. MS disrupts this process through demyelination, the damage to the protective coating of nerve fibers.
 
 Clinicians typically categorize sexual dysfunction in MS into three levels:
 

@@ -41,7 +41,7 @@ Understanding how caffeine interacts with the body’s circulatory system provid
 
 The most significant evidence linking coffee consumption to improved erectile function comes from the National Health and Nutrition Examination Survey (NHANES). In a widely cited study published in [PLOS ONE](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0123547), researchers analyzed data from over 3,700 men to determine if caffeine intake had a measurable impact on ED.
 
-The findings were striking: men who consumed between 170 and 375 mg of caffeine per day—roughly the amount found in two to three cups of coffee—were significantly less likely to report issues with erectile dysfunction compared to those who consumed little to no caffeine. Specifically, the study found a 42% reduction in the reported prevalence of ED among men in this caffeine-intake bracket.
+The findings were striking: men who consumed between 170 and 375 mg of caffeine per day, roughly the amount found in two to three cups of coffee, were significantly less likely to report issues with erectile dysfunction compared to those who consumed little to no caffeine. Specifically, the study found a 42% reduction in the reported prevalence of ED among men in this caffeine-intake bracket.
 
 Interestingly, this association remained consistent even when researchers accounted for other risk factors like age, physical activity levels, and body mass index (BMI). While this doesn't mean coffee is a "cure," it suggests a strong correlation between moderate caffeine intake and the maintenance of erectile health. For those looking to [reverse erectile dysfunction without](/blog/lifestyle-changes-reverse-erectile-dysfunction) relying solely on medication, understanding these dietary impacts is a critical first step.
 
@@ -55,7 +55,7 @@ Beyond the local effects, caffeine is known to improve overall endothelial funct
 
 ## The "Sweet Spot": Practical Guidance for Coffee Consumption
 
-When it comes to caffeine and ED, more is not necessarily better. The NHANES data highlighted a specific range—170 to 375 mg—where the benefits were most pronounced. 
+When it comes to caffeine and ED, more is not necessarily better. The NHANES data highlighted a specific range, 170 to 375 mg, where the benefits were most pronounced. 
 
 - **1-2 Cups:** May provide some benefit but might fall below the threshold for significant vascular impact.
 - **2-3 Cups:** The "sweet spot" identified in clinical data for reducing ED risk.
@@ -78,7 +78,7 @@ However, caffeine cannot override the effects of severe underlying conditions. I
 Before increasing your caffeine intake for health reasons, it is vital to consider your overall cardiovascular profile. Caffeine is a stimulant that can affect blood pressure and heart rhythm.
 
 **Important Safety Warning:**
-If you have unstable cardiovascular disease, a history of heart palpitations, or severe hypertension, you should consult with a clinician before making significant changes to your caffeine consumption. Furthermore, if you are currently taking nitrates for chest pain (such as nitroglycerin) or use "poppers" (alkyl nitrites), you must speak with a healthcare provider before using any substance—including caffeine or prescription medications—that affects blood flow.
+If you have unstable cardiovascular disease, a history of heart palpitations, or severe hypertension, you should consult with a clinician before making significant changes to your caffeine consumption. Furthermore, if you are currently taking nitrates for chest pain (such as nitroglycerin) or use "poppers" (alkyl nitrites), you must speak with a healthcare provider before using any substance, including caffeine or prescription medications, that affects blood flow.
 
 If you experience sudden chest pain, symptoms of a heart attack, or an erection lasting longer than four hours (priapism), seek emergency medical care immediately.
 

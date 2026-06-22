@@ -35,7 +35,7 @@ title: Can ED go away on its own?
 word_count: 884
 ---
 
-Whether erectile dysfunction (ED) can go away on its own depends entirely on the underlying cause. If the issue is triggered by temporary factors like acute stress, fatigue, or excessive alcohol consumption, it often resolves once those factors are addressed. However, if ED is a symptom of an underlying physical condition—such as poor vascular health or nerve damage—it typically requires medical intervention or structured lifestyle changes to improve.
+Whether erectile dysfunction (ED) can go away on its own depends entirely on the underlying cause. If the issue is triggered by temporary factors like acute stress, fatigue, or excessive alcohol consumption, it often resolves once those factors are addressed. However, if ED is a symptom of an underlying physical condition, such as poor vascular health or nerve damage, it typically requires medical intervention or structured lifestyle changes to improve.
 
 ## Understanding Temporary vs. Chronic ED
 

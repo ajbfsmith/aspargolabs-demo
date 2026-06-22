@@ -84,7 +84,7 @@ PDE5 inhibitors naturally lower blood pressure. When combined with certain antih
 
 ## Innovation in Delivery: HEZKUE
 
-For men who are managing hypertension and looking for a predictable way to address ED, the delivery format of their medication can make a significant difference. HEZKUE is a clinically formulated oral sildenafil spray suspension. Unlike traditional pills that must be broken down in the digestive tract—a process that can be slowed by food or individual metabolism—an oral spray offers a different approach to delivery.
+For men who are managing hypertension and looking for a predictable way to address ED, the delivery format of their medication can make a significant difference. HEZKUE is a clinically formulated oral sildenafil spray suspension. Unlike traditional pills that must be broken down in the digestive tract, a process that can be slowed by food or individual metabolism, an oral spray offers a different approach to delivery.
 
 By using a spray suspension, HEZKUE is designed to provide a consistent experience. However, because it contains sildenafil, the same precautions regarding blood pressure and cardiovascular health apply. It is not a miracle cure, but rather a delivery innovation intended for men who have been cleared by a clinician for PDE5 inhibitor use.
 

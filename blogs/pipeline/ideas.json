@@ -11,12 +11,12 @@
         "Full taxonomy of causes: vascular, neurological, hormonal, psychological, drug-induced",
         "Treatment landscape: lifestyle changes, oral medications (PDE5 inhibitors), injections, devices, surgery",
         "Bioavailability problem with standard oral tablets (first-pass metabolism)",
-        "Introduce Hezkue as a novel delivery format — oral spray suspension that bypasses first-pass",
+        "Introduce Hezkue as a novel delivery format, oral spray suspension that bypasses first-pass",
         "CTA: \"See how Hezkue works differently →\" linking to checkout/product page"
       ],
       "slug": "complete-guide-erectile-dysfunction",
       "title": "The Complete Guide to Erectile Dysfunction: Causes, Treatments, and What Actually Works in 2026",
-      "intent": "Informational — top of funnel, broad ED query",
+      "intent": "Informational, top of funnel, broad ED query",
       "cluster": "A",
       "clusterId": "causes-risk-factors",
       "clusterTitle": "Causes and Risk Factors",
@@ -46,12 +46,12 @@
         "ED at 50s+: comorbidities (diabetes, hypertension, CAD), medication side effects",
         "Why onset age affects treatment choice",
         "For younger men especially: fast-acting treatment matters (spontaneity)",
-        "Hezkue's faster onset vs tablets — particularly relevant for younger men where spontaneity is key",
+        "Hezkue's faster onset vs tablets, particularly relevant for younger men where spontaneity is key",
         "CTA: Link to product page"
       ],
       "slug": "ed-causes-by-age-20s-30s-40s-50s-60s",
       "title": "Erectile Dysfunction by Age: What Causes It at 25, 35, 45, 55, and 65",
-      "intent": "Informational — age-specific ED queries (very high search volume)",
+      "intent": "Informational, age-specific ED queries (very high search volume)",
       "cluster": "A",
       "clusterId": "causes-risk-factors",
       "clusterTitle": "Causes and Risk Factors",
@@ -80,13 +80,13 @@
         "Onset times: sildenafil 30–60 min, tadalafil 30 min (long duration), vardenafil 25–60 min, avanafil 15–30 min",
         "Side effect profiles, food interactions (sildenafil + fatty meal problem)",
         "The delivery format problem: all four suffer from first-pass hepatic metabolism when taken orally as tablets",
-        "Hezkue as sildenafil in an oral spray suspension — same active molecule, radically different pharmacokinetics",
+        "Hezkue as sildenafil in an oral spray suspension, same active molecule, radically different pharmacokinetics",
         "T+5 min detectable plasma concentrations (crossover study reference)",
         "CTA: \"Compare Hezkue to traditional sildenafil tablets →\""
       ],
       "slug": "sildenafil-tadalafil-vardenafil-avanafil-comparison",
       "title": "Sildenafil vs Tadalafil vs Vardenafil vs Avanafil: The Complete Comparison",
-      "intent": "Informational/commercial — treatment comparison, very high intent",
+      "intent": "Informational/commercial, treatment comparison, very high intent",
       "cluster": "F",
       "clusterId": "comparison-posts",
       "clusterTitle": "ED Treatment Comparisons",
@@ -111,18 +111,18 @@
       "id": "T1-004",
       "tier": 1,
       "required_talking_points": [
-        "ED as an endothelial dysfunction indicator — same pathology as CAD",
+        "ED as an endothelial dysfunction indicator, same pathology as CAD",
         "Princeton Consensus guidelines on cardiovascular risk stratification before ED treatment",
         "Studies showing ED precedes cardiac events by 2–5 years on average",
         "When to see a doctor before starting any ED medication",
-        "PDE5 inhibitors and nitrate contraindication (hard stop — must be stated clearly)",
+        "PDE5 inhibitors and nitrate contraindication (hard stop, must be stated clearly)",
         "Hezkue is for men who are cleared for PDE5 inhibitor use",
         "Medical disclaimer / \"talk to your doctor\" placement",
-        "CTA: Secondary — after medical content, link to Hezkue for appropriate candidates"
+        "CTA: Secondary, after medical content, link to Hezkue for appropriate candidates"
       ],
       "slug": "erectile-dysfunction-heart-disease-connection",
       "title": "Erectile Dysfunction and Heart Disease: Why ED Is Often the First Warning Sign",
-      "intent": "Informational — high concern query, YMYL",
+      "intent": "Informational, high concern query, YMYL",
       "cluster": "A",
       "clusterId": "causes-risk-factors",
       "clusterTitle": "Causes and Risk Factors",
@@ -153,12 +153,12 @@
         "Blood glucose control and ED correlation",
         "PDE5 inhibitor efficacy in diabetic men (slightly lower than general population but still significant)",
         "Faster-acting formulations matter more for diabetic men (impaired circulation delays drug uptake)",
-        "Hezkue's sublingual/buccal absorption route — not dependent on GI blood flow",
+        "Hezkue's sublingual/buccal absorption route, not dependent on GI blood flow",
         "CTA: Product link"
       ],
       "slug": "erectile-dysfunction-diabetes",
       "title": "ED and Diabetes: Why Diabetic Men Are 3x More Likely to Experience Erectile Dysfunction",
-      "intent": "Informational — condition-specific, huge search volume",
+      "intent": "Informational, condition-specific, huge search volume",
       "cluster": "A",
       "clusterId": "causes-risk-factors",
       "clusterTitle": "Causes and Risk Factors",
@@ -186,15 +186,15 @@
         "Performance anxiety loop: one failure → fear of failure → adrenaline → vasoconstriction → failure",
         "Depression, antidepressant-induced ED (SSRIs)",
         "Porn-induced ED in younger men",
-        "Psychogenic vs organic ED — how to distinguish",
+        "Psychogenic vs organic ED, how to distinguish",
         "Cognitive behavioral therapy for ED",
-        "The role of treatment confidence in breaking the anxiety loop — fast-acting medication can help reset the psychological pattern",
+        "The role of treatment confidence in breaking the anxiety loop, fast-acting medication can help reset the psychological pattern",
         "Hezkue's fast onset as a confidence tool (not a permanent crutch)",
         "CTA: Product link"
       ],
       "slug": "psychological-erectile-dysfunction-guide",
       "title": "Psychological Erectile Dysfunction: How Anxiety, Stress, and Depression Cause ED (and How to Break the Cycle)",
-      "intent": "Informational — mental health + ED, growing search trend",
+      "intent": "Informational, mental health + ED, growing search trend",
       "cluster": "G",
       "clusterId": "concerns-symptoms",
       "clusterTitle": "ED Symptoms and Concerns",
@@ -220,7 +220,7 @@
       "tier": 1,
       "required_talking_points": [
         "Oral mucosal absorption anatomy (sublingual plexus, buccal mucosa)",
-        "First-pass metabolism explained — liver as a \"drug tax\"",
+        "First-pass metabolism explained, liver as a \"drug tax\"",
         "Bioavailability comparison: tablet vs sublingual vs spray",
         "Particle size and suspension stability in spray formulation",
         "pH considerations for mucosal absorption",
@@ -230,7 +230,7 @@
       ],
       "slug": "oral-spray-drug-delivery-science",
       "title": "Why the Way You Take a Drug Changes Everything: The Science of Oral Spray Drug Delivery",
-      "intent": "Informational — science/mechanism content, builds E-E-A-T",
+      "intent": "Informational, science/mechanism content, builds E-E-A-T",
       "cluster": "O",
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -255,7 +255,7 @@
       "id": "T1-008",
       "tier": 1,
       "required_talking_points": [
-        "Lifestyle interventions (exercise, diet, sleep, smoking cessation — effect sizes)",
+        "Lifestyle interventions (exercise, diet, sleep, smoking cessation, effect sizes)",
         "Oral PDE5 inhibitors (first-line treatment per AUA guidelines)",
         "Vacuum erection devices",
         "Penile injections (alprostadil, trimix)",
@@ -263,12 +263,12 @@
         "Low-intensity shockwave therapy (evidence still emerging)",
         "Testosterone replacement (only if hypogonadal)",
         "Penile implant surgery",
-        "Position Hezkue within oral PDE5 inhibitors category — same clinical class, superior delivery format",
+        "Position Hezkue within oral PDE5 inhibitors category, same clinical class, superior delivery format",
         "CTA: Product link"
       ],
       "slug": "ed-treatment-options-2026",
-      "title": "Every ED Treatment Available in 2026: From Lifestyle Changes to Surgery — Ranked by Evidence",
-      "intent": "Informational — broad treatment decision query",
+      "title": "Every ED Treatment Available in 2026: From Lifestyle Changes to Surgery, Ranked by Evidence",
+      "intent": "Informational, broad treatment decision query",
       "cluster": "B",
       "clusterId": "treatment-medication",
       "clusterTitle": "ED Treatment and Medication",
@@ -304,7 +304,7 @@
       ],
       "slug": "testosterone-erectile-dysfunction",
       "title": "Low Testosterone and ED: What's the Link, and Does TRT Fix Erectile Dysfunction?",
-      "intent": "Informational — very common misconception topic",
+      "intent": "Informational, very common misconception topic",
       "cluster": "C",
       "clusterId": "science-mechanism",
       "clusterTitle": "Erection Science and Mechanism",
@@ -329,19 +329,19 @@
       "id": "T1-010",
       "tier": 1,
       "required_talking_points": [
-        "Evidence for aerobic exercise (30-min, 4x/week — significant improvement in meta-analyses)",
+        "Evidence for aerobic exercise (30-min, 4x/week, significant improvement in meta-analyses)",
         "Mediterranean diet and endothelial health",
         "Weight loss (10% body weight reduction = meaningful ED improvement in obese men)",
         "Sleep apnea treatment and ED resolution",
-        "Quitting smoking — timeline of vascular recovery",
+        "Quitting smoking, timeline of vascular recovery",
         "Alcohol reduction",
         "Realistic framing: lifestyle helps but PDE5 inhibitors remain most effective",
-        "Hezkue as part of a complete approach — not instead of lifestyle, alongside it",
+        "Hezkue as part of a complete approach, not instead of lifestyle, alongside it",
         "CTA: Product link"
       ],
       "slug": "lifestyle-changes-reverse-erectile-dysfunction",
       "title": "Can You Reverse Erectile Dysfunction Without Medication? What the Research Actually Says",
-      "intent": "Informational — high intent from men who want natural solutions first",
+      "intent": "Informational, high intent from men who want natural solutions first",
       "cluster": "D",
       "clusterId": "lifestyle-optimization",
       "clusterTitle": "Lifestyle and Optimization",
@@ -367,7 +367,7 @@
       "tier": 1,
       "required_talking_points": [
         "Sildenafil + high-fat meal: delays Tmax by ~60 min, reduces Cmax by ~29%",
-        "Grapefruit juice and CYP3A4 inhibition — amplifies sildenafil",
+        "Grapefruit juice and CYP3A4 inhibition, amplifies sildenafil",
         "Alcohol and ED: vasodilator + hypotension risk",
         "Tadalafil: less food-sensitive",
         "The spray advantage: bypasses GI tract, food irrelevant",
@@ -377,7 +377,7 @@
       ],
       "slug": "ed-medication-food-alcohol-interactions",
       "title": "What to Eat (and Avoid) Before Taking ED Medication: The Complete Guide to Food and Drug Interactions",
-      "intent": "Informational — practical, high utility",
+      "intent": "Informational, practical, high utility",
       "cluster": "B",
       "clusterId": "treatment-medication",
       "clusterTitle": "ED Treatment and Medication",
@@ -406,13 +406,13 @@
         "Communication strategies (couples therapy data)",
         "How ED avoidance behavior damages relationships beyond sex",
         "The partner's role in treatment success",
-        "Spontaneity as a relationship quality — slow-onset medication kills it",
-        "Hezkue's fast onset restores spontaneity — real-world impact on intimacy quality",
+        "Spontaneity as a relationship quality, slow-onset medication kills it",
+        "Hezkue's fast onset restores spontaneity, real-world impact on intimacy quality",
         "CTA: \"Reclaim spontaneity →\" linking to product page"
       ],
       "slug": "erectile-dysfunction-relationship-impact",
       "title": "ED and Relationships: How Erectile Dysfunction Affects Both Partners (and How to Navigate It Together)",
-      "intent": "Emotional/informational — resonates with both men and their partners",
+      "intent": "Emotional/informational, resonates with both men and their partners",
       "cluster": "I",
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -440,7 +440,7 @@
         "Antihypertensives (beta-blockers, thiazides)",
         "SSRIs/SNRIs and sexual side effects",
         "Antipsychotics",
-        "5-alpha reductase inhibitors (finasteride, dutasteride) — post-finasteride syndrome",
+        "5-alpha reductase inhibitors (finasteride, dutasteride), post-finasteride syndrome",
         "Opioids",
         "H2 blockers (cimetidine)",
         "Anti-androgens",
@@ -451,7 +451,7 @@
       ],
       "slug": "medications-that-cause-erectile-dysfunction",
       "title": "25 Common Medications That Can Cause Erectile Dysfunction (and What to Do About It)",
-      "intent": "Informational — very specific, high utility",
+      "intent": "Informational, very specific, high utility",
       "cluster": "B",
       "clusterId": "treatment-medication",
       "clusterTitle": "ED Treatment and Medication",
@@ -476,19 +476,19 @@
       "id": "T1-014",
       "tier": 1,
       "required_talking_points": [
-        "Nerve-sparing vs non-nerve-sparing prostatectomy — ED outcomes differ dramatically",
+        "Nerve-sparing vs non-nerve-sparing prostatectomy, ED outcomes differ dramatically",
         "Penile rehabilitation concept (early PDE5 inhibitor use post-surgery)",
         "Timeline of recovery: 12–24 months for nerve regeneration",
         "Combination approaches: VED + PDE5 inhibitor",
         "Psychological impact of post-surgical ED",
-        "PDE5 inhibitor use during recovery — faster-acting not always the priority here (more about daily low-dose tadalafil)",
+        "PDE5 inhibitor use during recovery, faster-acting not always the priority here (more about daily low-dose tadalafil)",
         "Hezkue as an option once active recovery phase is complete and patient is cleared",
         "Strong \"consult your urologist\" messaging",
         "CTA: Secondary only, with clear medical context"
       ],
       "slug": "erectile-dysfunction-after-prostate-surgery",
       "title": "Erectile Dysfunction After Prostate Surgery: What to Expect and How to Recover",
-      "intent": "Informational — condition/procedure-specific, deeply concerned audience",
+      "intent": "Informational, condition/procedure-specific, deeply concerned audience",
       "cluster": "B",
       "clusterId": "treatment-medication",
       "clusterTitle": "ED Treatment and Medication",
@@ -517,14 +517,14 @@
         "Proposed mechanism: dopamine desensitization, unrealistic arousal thresholds",
         "Distinguishing PIED from anxiety-induced ED",
         "Recovery: abstinence protocol timelines (anecdotal community data, limited RCT data)",
-        "Psychological vs vascular — PIED is psychogenic",
+        "Psychological vs vascular, PIED is psychogenic",
         "Role of performance medication during recovery: can help break anxiety cycle",
-        "Hezkue's fast onset relevant — reduces anxiety around initiation",
+        "Hezkue's fast onset relevant, reduces anxiety around initiation",
         "CTA: Product link with mental health disclaimer"
       ],
       "slug": "porn-induced-erectile-dysfunction",
       "title": "Porn-Induced Erectile Dysfunction: Is It Real, and What Does the Research Say?",
-      "intent": "Informational — high search volume among younger men, somewhat stigmatized",
+      "intent": "Informational, high search volume among younger men, somewhat stigmatized",
       "cluster": "G",
       "clusterId": "concerns-symptoms",
       "clusterTitle": "ED Symptoms and Concerns",
@@ -561,7 +561,7 @@
       ],
       "slug": "sleep-testosterone-erectile-dysfunction",
       "title": "The Sleep-Testosterone-ED Triangle: Why Bad Sleep Is Destroying Your Sexual Health",
-      "intent": "Informational — connects popular sleep optimization trend to ED",
+      "intent": "Informational, connects popular sleep optimization trend to ED",
       "cluster": "D",
       "clusterId": "lifestyle-optimization",
       "clusterTitle": "Lifestyle and Optimization",
@@ -595,13 +595,13 @@
         "CBC, CMP",
         "Blood pressure (not a blood test but should be checked)",
         "What each result means for ED",
-        "\"These tests help identify root cause — treatment still works regardless\"",
+        "\"These tests help identify root cause, treatment still works regardless\"",
         "Hezkue works for the vast majority of organic ED regardless of specific bloodwork",
         "CTA: Product link"
       ],
       "slug": "ed-blood-tests-what-to-ask-doctor",
       "title": "What Blood Tests Should You Get If You Have ED? A Complete Checklist",
-      "intent": "Informational — practical, high utility, drives trust",
+      "intent": "Informational, practical, high utility, drives trust",
       "cluster": "H",
       "clusterId": "practical-how-to",
       "clusterTitle": "Practical ED How-To Guides",
@@ -627,16 +627,16 @@
       "tier": 1,
       "required_talking_points": [
         "Common first-timer mistakes (not waiting long enough, eating a big meal, too much alcohol)",
-        "Side effects: flushing, headache, nasal congestion, visual tinge — duration and management",
+        "Side effects: flushing, headache, nasal congestion, visual tinge, duration and management",
         "Rare serious side effects: priapism (seek care if >4h), sudden vision/hearing loss",
         "Why tablet timing is so tricky",
-        "How Hezkue changes the first-time experience — no meal restriction, faster onset, less planning",
+        "How Hezkue changes the first-time experience, no meal restriction, faster onset, less planning",
         "Setting realistic expectations: doesn't create arousal, requires stimulation",
         "CTA: Product link"
       ],
       "slug": "first-time-ed-medication-what-to-expect",
       "title": "Taking ED Medication for the First Time: What to Expect, Side Effects, and How to Get the Most Out of It",
-      "intent": "Informational — high anxiety, high intent audience",
+      "intent": "Informational, high anxiety, high intent audience",
       "cluster": "H",
       "clusterId": "practical-how-to",
       "clusterTitle": "Practical ED How-To Guides",
@@ -662,17 +662,17 @@
       "tier": 1,
       "required_talking_points": [
         "Meta-analysis: aerobic exercise 40 min, 4x/week → IIEF score improvement",
-        "Kegel exercises and pelvic floor training — underrated",
+        "Kegel exercises and pelvic floor training, underrated",
         "Resistance training and testosterone",
         "Cycling controversy (perineal compression)",
         "Yoga and parasympathetic nervous system activation",
-        "Exercise as adjunct — not a replacement for medication in moderate/severe ED",
+        "Exercise as adjunct, not a replacement for medication in moderate/severe ED",
         "Hezkue while doing the lifestyle work",
         "CTA: Product link"
       ],
       "slug": "exercise-and-erectile-dysfunction",
       "title": "Exercise as Medicine for ED: The Exact Workouts That Improve Erectile Function (With Studies)",
-      "intent": "Informational — health-optimizing audience",
+      "intent": "Informational, health-optimizing audience",
       "cluster": "D",
       "clusterId": "lifestyle-optimization",
       "clusterTitle": "Lifestyle and Optimization",
@@ -701,14 +701,14 @@
         "PDE5 enzyme: breaks down cGMP, ending erection",
         "PDE5 inhibitors block this breakdown → sustain cGMP → sustain erection",
         "Why you still need arousal (the drug doesn't cause erection itself)",
-        "Selectivity: PDE5 vs other PDE isoforms (why vision side effect occurs — PDE6)",
+        "Selectivity: PDE5 vs other PDE isoforms (why vision side effect occurs, PDE6)",
         "Delivery format affects how fast this mechanism kicks in",
         "Hezkue oral spray: sildenafil absorbed through oral mucosa → faster PDE5 inhibition → faster onset",
         "CTA: Product link"
       ],
       "slug": "how-pde5-inhibitors-work",
       "title": "How PDE5 Inhibitors Work: The Complete Mechanism Behind ED Medications",
-      "intent": "Informational / science — credibility builder",
+      "intent": "Informational / science, credibility builder",
       "cluster": "C",
       "clusterId": "science-mechanism",
       "clusterTitle": "Erection Science and Mechanism",
@@ -804,7 +804,7 @@
         "acute vs chronic alcohol ED",
         "the \"whiskey dick\" phenomenon",
         "Hezkue",
-        "alcohol caution (hypotension risk at high doses — important safety note)"
+        "alcohol caution (hypotension risk at high doses, important safety note)"
       ],
       "slug": "alcohol-erectile-dysfunction",
       "title": "Alcohol and Erections: Why Drinking Causes ED (Even in Healthy Men)",
@@ -839,7 +839,7 @@
         "Hezkue effective regardless of BMI for eligible patients"
       ],
       "slug": "obesity-erectile-dysfunction",
-      "title": "How Excess Weight Causes Erectile Dysfunction — and How Much Weight Loss Actually Helps",
+      "title": "How Excess Weight Causes Erectile Dysfunction, and How Much Weight Loss Actually Helps",
       "cluster": "A",
       "clusterId": "causes-risk-factors",
       "clusterTitle": "Causes and Risk Factors",
@@ -1491,7 +1491,7 @@
         "Hezkue for men who've struggled with tablet timing"
       ],
       "slug": "ed-medication-doesnt-work",
-      "title": "Why Your ED Medication Isn't Working — and What to Do About It",
+      "title": "Why Your ED Medication Isn't Working, and What to Do About It",
       "cluster": "B",
       "clusterId": "treatment-medication",
       "clusterTitle": "ED Treatment and Medication",
@@ -1524,7 +1524,7 @@
         "Hezkue dosing"
       ],
       "slug": "sildenafil-dosage-guide",
-      "title": "Sildenafil Dosage: 25mg vs 50mg vs 100mg — How to Find Your Optimal Dose",
+      "title": "Sildenafil Dosage: 25mg vs 50mg vs 100mg, How to Find Your Optimal Dose",
       "cluster": "B",
       "clusterId": "treatment-medication",
       "clusterTitle": "ED Treatment and Medication",
@@ -1990,7 +1990,7 @@
       "tier": 2,
       "required_talking_points": [
         "Alpha-blockers",
-        "PDE5 inhibitors (serious hypotension risk — timing and dose guidance)",
+        "PDE5 inhibitors (serious hypotension risk, timing and dose guidance)",
         "beta-blockers (less interaction)",
         "ACE/ARBs generally fine",
         "always disclose all medications",
@@ -3314,7 +3314,7 @@
       "id": "T2-080",
       "tier": 2,
       "required_talking_points": [
-        "L-citrulline (NO precursor — modest evidence)",
+        "L-citrulline (NO precursor, modest evidence)",
         "zinc (if deficient)",
         "vitamin D (if deficient)",
         "ashwagandha (modest testosterone data)",
@@ -4923,7 +4923,7 @@
       "tier": 3,
       "cluster": "G",
       "slug": "i-m-25-and-can-t-get-hard-what-s-wrong",
-      "title": "I'm 25 and can't get hard — what's wrong?",
+      "title": "I'm 25 and can't get hard, what's wrong?",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "concerns-symptoms",
@@ -4950,7 +4950,7 @@
       "tier": 3,
       "cluster": "G",
       "slug": "i-can-get-hard-but-not-with-my-partner-is-this-ed",
-      "title": "I can get hard but not with my partner — is this ED?",
+      "title": "I can get hard but not with my partner, is this ED?",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "concerns-symptoms",
@@ -4977,7 +4977,7 @@
       "tier": 3,
       "cluster": "G",
       "slug": "i-got-hard-once-but-not-again-is-this-ed",
-      "title": "I got hard once but not again — is this ED?",
+      "title": "I got hard once but not again, is this ED?",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "concerns-symptoms",
@@ -5031,7 +5031,7 @@
       "tier": 3,
       "cluster": "G",
       "slug": "i-lose-my-erection-during-sex-am-i-broken",
-      "title": "I lose my erection during sex — am I broken?",
+      "title": "I lose my erection during sex, am I broken?",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "concerns-symptoms",
@@ -5058,7 +5058,7 @@
       "tier": 3,
       "cluster": "G",
       "slug": "i-m-embarrassed-about-ed-am-i-alone",
-      "title": "I'm embarrassed about ED — am I alone?",
+      "title": "I'm embarrassed about ED, am I alone?",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "concerns-symptoms",
@@ -5085,7 +5085,7 @@
       "tier": 3,
       "cluster": "G",
       "slug": "ed-is-ruining-my-relationship-what-do-i-do",
-      "title": "ED is ruining my relationship — what do I do?",
+      "title": "ED is ruining my relationship, what do I do?",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "concerns-symptoms",
@@ -5139,7 +5139,7 @@
       "tier": 3,
       "cluster": "G",
       "slug": "ed-after-breakup-is-this-normal",
-      "title": "ED after breakup — is this normal?",
+      "title": "ED after breakup, is this normal?",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "concerns-symptoms",
@@ -5152,10 +5152,10 @@
       "medicalReviewerKey": "urology",
       "target_intent": "informational",
       "target_keywords": [
-        "ed after breakup —",
+        "ed after breakup , ",
         "ed after breakup"
       ],
-      "focusKeyword": "ed after breakup —",
+      "focusKeyword": "ed after breakup , ",
       "hezkue_mention_type": "educational_cta",
       "medical_review_required": true,
       "cta_button_text": "Explore HEZKUE",
@@ -5166,7 +5166,7 @@
       "tier": 3,
       "cluster": "G",
       "slug": "ed-with-a-new-partner-but-not-alone-what-does-this-mean",
-      "title": "ED with a new partner but not alone — what does this mean?",
+      "title": "ED with a new partner but not alone, what does this mean?",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "concerns-symptoms",
@@ -5220,7 +5220,7 @@
       "tier": 3,
       "cluster": "G",
       "slug": "i-took-sildenafil-and-it-didn-t-work-now-what",
-      "title": "I took sildenafil and it didn't work — now what?",
+      "title": "I took sildenafil and it didn't work, now what?",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "concerns-symptoms",
@@ -5247,7 +5247,7 @@
       "tier": 3,
       "cluster": "G",
       "slug": "i-got-a-side-effect-from-ed-medication-when-to-call-a-doctor",
-      "title": "I got a side effect from ED medication — when to call a doctor",
+      "title": "I got a side effect from ED medication, when to call a doctor",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "concerns-symptoms",
@@ -5436,7 +5436,7 @@
       "tier": 3,
       "cluster": "G",
       "slug": "i-have-ed-and-high-blood-pressure-what-are-my-options",
-      "title": "I have ED and high blood pressure — what are my options?",
+      "title": "I have ED and high blood pressure, what are my options?",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "concerns-symptoms",
@@ -5463,7 +5463,7 @@
       "tier": 3,
       "cluster": "G",
       "slug": "i-have-ed-and-diabetes-will-medication-work-for-me",
-      "title": "I have ED and diabetes — will medication work for me?",
+      "title": "I have ED and diabetes, will medication work for me?",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "concerns-symptoms",
@@ -5490,7 +5490,7 @@
       "tier": 3,
       "cluster": "G",
       "slug": "i-m-a-young-man-with-ed-will-this-be-permanent",
-      "title": "I'm a young man with ED — will this be permanent?",
+      "title": "I'm a young man with ED, will this be permanent?",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "concerns-symptoms",
@@ -5517,7 +5517,7 @@
       "tier": 3,
       "cluster": "G",
       "slug": "ed-came-on-suddenly-overnight-is-this-an-emergency",
-      "title": "ED came on suddenly overnight — is this an emergency?",
+      "title": "ED came on suddenly overnight, is this an emergency?",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "concerns-symptoms",
@@ -5544,7 +5544,7 @@
       "tier": 3,
       "cluster": "G",
       "slug": "i-had-a-great-erection-last-night-but-not-today-why",
-      "title": "I had a great erection last night but not today — why?",
+      "title": "I had a great erection last night but not today, why?",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "concerns-symptoms",
@@ -5993,10 +5993,10 @@
       "tier": 4,
       "cluster": "I",
       "slug": "i-was-32-and-couldn-t-tell-my-wife-a-story-about-ed-s-impact-on-marriage-and-how-it-was-treated",
-      "title": "I Was 32 and Couldn't Tell My Wife\" — A story about ED's impact on marriage and how it was treated",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "title": "I Was 32 and Couldn't Tell My Wife\", A story about ED's impact on marriage and how it was treated",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6021,10 +6021,10 @@
       "tier": 4,
       "cluster": "I",
       "slug": "three-years-of-sildenafil-that-never-worked-right-a-story-about-tablet-timing-problems-and-switching-to-spray",
-      "title": "Three Years of Sildenafil That Never Worked Right\" — A story about tablet timing problems and switching to spray",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "title": "Three Years of Sildenafil That Never Worked Right\", A story about tablet timing problems and switching to spray",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6049,10 +6049,10 @@
       "tier": 4,
       "cluster": "I",
       "slug": "my-doctor-found-a-heart-problem-because-of-my-ed-the-story-of-ed-as-a-diagnostic-signal",
-      "title": "My Doctor Found a Heart Problem Because of My ED\" — The story of ED as a diagnostic signal",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "title": "My Doctor Found a Heart Problem Because of My ED\", The story of ED as a diagnostic signal",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6078,10 +6078,10 @@
       "tier": 4,
       "cluster": "I",
       "slug": "how-i-finally-stopped-dreading-intimacy-performance-anxiety-ed-story",
-      "title": "How I Finally Stopped Dreading Intimacy\" — Performance anxiety ED story",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "title": "How I Finally Stopped Dreading Intimacy\", Performance anxiety ED story",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6107,9 +6107,9 @@
       "cluster": "I",
       "slug": "ed-after-my-prostate-surgery-the-recovery-nobody-talks-about",
       "title": "ED After My Prostate Surgery: The Recovery Nobody Talks About",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6136,9 +6136,9 @@
       "cluster": "I",
       "slug": "i-m-28-and-i-had-erectile-dysfunction-for-two-years-before-i-asked-for-help",
       "title": "I'm 28 and I Had Erectile Dysfunction for Two Years Before I Asked for Help",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6163,10 +6163,10 @@
       "tier": 4,
       "cluster": "I",
       "slug": "how-losing-40-pounds-changed-everything-including-my-ed",
-      "title": "How Losing 40 Pounds Changed Everything — Including My ED",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "title": "How Losing 40 Pounds Changed Everything, Including My ED",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6192,9 +6192,9 @@
       "cluster": "I",
       "slug": "my-antidepressants-were-killing-my-sex-life-what-i-did-about-it",
       "title": "My Antidepressants Were Killing My Sex Life: What I Did About It",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6220,9 +6220,9 @@
       "cluster": "I",
       "slug": "getting-ed-after-50-why-i-finally-stopped-pretending-it-wasn-t-happening",
       "title": "Getting ED After 50: Why I Finally Stopped Pretending It Wasn't Happening",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6248,9 +6248,9 @@
       "cluster": "I",
       "slug": "my-diabetes-and-my-ed-taking-back-control-at-55",
       "title": "My Diabetes and My ED: Taking Back Control at 55",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6277,9 +6277,9 @@
       "cluster": "I",
       "slug": "long-distance-relationship-performance-anxiety-and-ed-a-story-about-pressure",
       "title": "Long-Distance Relationship, Performance Anxiety, and ED: A Story About Pressure",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6305,9 +6305,9 @@
       "cluster": "I",
       "slug": "i-tried-every-supplement-on-amazon-before-i-found-what-actually-worked",
       "title": "I Tried Every Supplement on Amazon Before I Found What Actually Worked",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6333,9 +6333,9 @@
       "cluster": "I",
       "slug": "how-ed-caused-me-to-discover-i-had-high-blood-pressure-at-41",
       "title": "How ED Caused Me to Discover I Had High Blood Pressure at 41",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6362,9 +6362,9 @@
       "cluster": "I",
       "slug": "post-covid-ed-my-six-month-journey-back-to-normal",
       "title": "Post-COVID ED: My Six-Month Journey Back to Normal",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6390,9 +6390,9 @@
       "cluster": "I",
       "slug": "my-first-time-using-ed-medication-honest-account",
       "title": "My First Time Using ED Medication: Honest Account",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6418,10 +6418,10 @@
       "tier": 4,
       "cluster": "I",
       "slug": "cycling-was-my-life-until-i-found-out-it-was-causing-my-ed",
-      "title": "Cycling Was My Life — Until I Found Out It Was Causing My ED",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "title": "Cycling Was My Life, Until I Found Out It Was Causing My ED",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6447,9 +6447,9 @@
       "cluster": "I",
       "slug": "night-shift-work-destroyed-my-testosterone-and-what-i-did",
       "title": "Night Shift Work Destroyed My Testosterone (and What I Did)",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6475,9 +6475,9 @@
       "cluster": "I",
       "slug": "i-switched-from-the-tablet-to-the-spray-here-s-what-changed",
       "title": "I Switched from the Tablet to the Spray: Here's What Changed",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6503,9 +6503,9 @@
       "cluster": "I",
       "slug": "how-my-partner-s-reaction-made-all-the-difference",
       "title": "How My Partner's Reaction Made All the Difference",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -6531,9 +6531,9 @@
       "cluster": "I",
       "slug": "six-months-of-kegels-and-cardio-did-it-fix-my-ed-without-medication",
       "title": "Six Months of Kegels and Cardio: Did It Fix My ED Without Medication?",
-      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
+      "intent": "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution.",
       "required_talking_points": [
-        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or — better — real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
+        "Format: first-person narrative style. Composite fictional characters clearly disclosed as illustrative, or, better, real anonymized case studies if legally possible. Each story has a problem, a journey, and a resolution. Hezkue is part of the resolution."
       ],
       "clusterId": "patient-journey-stories",
       "clusterTitle": "Patient Journey Stories",
@@ -7268,7 +7268,7 @@
       "tier": 4,
       "cluster": "L",
       "slug": "myth-ed-only-happens-to-old-men-the-truth-about-age-and-ed",
-      "title": "Myth: ED Only Happens to Old Men — The Truth About Age and ED",
+      "title": "Myth: ED Only Happens to Old Men, The Truth About Age and ED",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "myth-busting",
@@ -7481,7 +7481,7 @@
       "tier": 4,
       "cluster": "L",
       "slug": "myth-sex-should-be-spontaneous-why-the-spontaneity-myth-hurts-men-with-ed",
-      "title": "Myth: Sex Should Be Spontaneous — Why the Spontaneity Myth Hurts Men with ED",
+      "title": "Myth: Sex Should Be Spontaneous, Why the Spontaneity Myth Hurts Men with ED",
       "intent": "",
       "required_talking_points": [],
       "clusterId": "myth-busting",
@@ -8161,9 +8161,9 @@
       "cluster": "O",
       "slug": "hezkue-review-what-is-it-how-does-it-work-and-is-it-worth-it",
       "title": "Hezkue Review: What Is It, How Does It Work, and Is It Worth It?",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8190,9 +8190,9 @@
       "cluster": "O",
       "slug": "hezkue-vs-traditional-sildenafil-side-by-side-comparison",
       "title": "Hezkue vs Traditional Sildenafil: Side-by-Side Comparison",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8219,9 +8219,9 @@
       "cluster": "O",
       "slug": "hezkue-ingredients-what-s-in-the-formula",
       "title": "Hezkue Ingredients: What's in the Formula?",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8248,9 +8248,9 @@
       "cluster": "O",
       "slug": "how-long-does-hezkue-take-to-work-onset-time-explained",
       "title": "How Long Does Hezkue Take to Work? Onset Time Explained",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8277,9 +8277,9 @@
       "cluster": "O",
       "slug": "hezkue-dosing-guide-how-to-use-the-oral-spray-correctly",
       "title": "Hezkue Dosing Guide: How to Use the Oral Spray Correctly",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8306,9 +8306,9 @@
       "cluster": "O",
       "slug": "is-hezkue-safe-side-effects-contraindications-and-safety-profile",
       "title": "Is Hezkue Safe? Side Effects, Contraindications, and Safety Profile",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8335,9 +8335,9 @@
       "cluster": "O",
       "slug": "hezkue-and-alcohol-what-you-need-to-know",
       "title": "Hezkue and Alcohol: What You Need to Know",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8364,9 +8364,9 @@
       "cluster": "O",
       "slug": "hezkue-and-food-do-you-need-to-fast-before-using-it",
       "title": "Hezkue and Food: Do You Need to Fast Before Using It?",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8393,9 +8393,9 @@
       "cluster": "O",
       "slug": "hezkue-for-older-men-does-age-affect-how-well-it-works",
       "title": "Hezkue for Older Men: Does Age Affect How Well It Works?",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8422,9 +8422,9 @@
       "cluster": "O",
       "slug": "hezkue-for-men-with-diabetes-what-to-expect",
       "title": "Hezkue for Men with Diabetes: What to Expect",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8451,9 +8451,9 @@
       "cluster": "O",
       "slug": "hezkue-for-performance-anxiety-can-a-fast-acting-spray-break-the-anxiety-cycle",
       "title": "Hezkue for Performance Anxiety: Can a Fast-Acting Spray Break the Anxiety Cycle?",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8480,9 +8480,9 @@
       "cluster": "O",
       "slug": "hezkue-for-men-who-travel-why-spray-format-is-more-convenient-than-tablets",
       "title": "Hezkue for Men Who Travel: Why Spray Format Is More Convenient Than Tablets",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8509,9 +8509,9 @@
       "cluster": "O",
       "slug": "can-i-use-hezkue-if-i-m-on-blood-pressure-medication",
       "title": "Can I Use Hezkue If I'm on Blood Pressure Medication?",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8538,9 +8538,9 @@
       "cluster": "O",
       "slug": "first-time-using-hezkue-a-step-by-step-guide",
       "title": "First Time Using Hezkue: A Step-by-Step Guide",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8567,9 +8567,9 @@
       "cluster": "O",
       "slug": "why-hezkue-works-faster-than-a-tablet-the-science-explained-simply",
       "title": "Why Hezkue Works Faster Than a Tablet: The Science Explained Simply",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8596,9 +8596,9 @@
       "cluster": "O",
       "slug": "hezkue-vs-rhino-pills-why-quality-control-matters-in-ed-medication",
       "title": "Hezkue vs Rhino Pills: Why Quality Control Matters in ED Medication",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8625,9 +8625,9 @@
       "cluster": "O",
       "slug": "hezkue-and-spontaneity-reclaiming-sexual-intimacy-without-clockwatching",
       "title": "Hezkue and Spontaneity: Reclaiming Sexual Intimacy Without Clockwatching",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8654,9 +8654,9 @@
       "cluster": "O",
       "slug": "how-to-get-hezkue-the-complete-ordering-guide",
       "title": "How to Get Hezkue: The Complete Ordering Guide",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8683,9 +8683,9 @@
       "cluster": "O",
       "slug": "hezkue-frequently-asked-questions-everything-you-need-to-know",
       "title": "Hezkue Frequently Asked Questions: Everything You Need to Know",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",
@@ -8712,9 +8712,9 @@
       "cluster": "O",
       "slug": "who-is-hezkue-for-a-guide-to-whether-it-s-right-for-you",
       "title": "Who Is Hezkue For? A Guide to Whether It's Right for You",
-      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries.",
+      "intent": "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries.",
       "required_talking_points": [
-        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically — target branded + comparison queries."
+        "Highest commercial intent. These are closest to the checkout. Hezkue mentioned prominently. SEO note: these will be harder to rank organically, target branded + comparison queries."
       ],
       "clusterId": "hezkue-product",
       "clusterTitle": "HEZKUE Product Guides",

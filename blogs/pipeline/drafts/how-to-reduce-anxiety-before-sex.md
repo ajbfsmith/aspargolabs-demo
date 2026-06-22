@@ -34,7 +34,7 @@ To reduce anxiety before sex, you can use physical grounding techniques like dia
 
 Sexual arousal is a complex process that requires the nervous system to transition into a "rest and digest" state (the parasympathetic nervous system). When you feel anxious, your body does the opposite: it enters a state of high alert.
 
-According to the [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/17970-sexual-performance-anxiety), performance anxiety causes the brain to release stress hormones like norepinephrine. These hormones cause vasoconstriction—the narrowing of blood vessels—which directly opposes the vasodilation needed for an erection. This creates a frustrating cycle where the fear of not performing actually prevents the body from being able to perform. Understanding this physiological link is a key part of any [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
+According to the [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/17970-sexual-performance-anxiety), performance anxiety causes the brain to release stress hormones like norepinephrine. These hormones cause vasoconstriction, the narrowing of blood vessels, which directly opposes the vasodilation needed for an erection. This creates a frustrating cycle where the fear of not performing actually prevents the body from being able to perform. Understanding this physiological link is a key part of any [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
 ## Practical Techniques to Lower Anxiety
 
@@ -44,7 +44,7 @@ Reducing anxiety in the moment requires interrupting the stress response. Here a
 Slow, deep breaths into the belly signal to the brain that you are safe. This helps dampen the sympathetic nervous system. Try the "4-7-8" technique: inhale for four seconds, hold for seven, and exhale slowly for eight. This physical intervention can help lower your heart rate and reduce the "jittery" feeling of pre-sex nerves.
 
 ### 2. Eliminating "Spectatoring"
-Psychologists use the term "spectatoring" to describe the act of mentally stepping outside your body to judge your own performance. To counter this, focus on external sensations—the sound of music, the scent of your partner, or the texture of skin. By grounding yourself in your senses, you leave less room for the internal critic.
+Psychologists use the term "spectatoring" to describe the act of mentally stepping outside your body to judge your own performance. To counter this, focus on external sensations, the sound of music, the scent of your partner, or the texture of skin. By grounding yourself in your senses, you leave less room for the internal critic.
 
 ### 3. Open Communication
 Anxiety often thrives in silence. Briefly mentioning to your partner that you are feeling a bit nervous can immediately lower the stakes. Most partners are supportive, and vocalizing the feeling often dissipates its power.
@@ -72,7 +72,7 @@ Seek urgent medical care if you experience:
 
 *Note: This article is for informational purposes and does not constitute medical advice. Always speak with a healthcare professional about your specific symptoms and medical history.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

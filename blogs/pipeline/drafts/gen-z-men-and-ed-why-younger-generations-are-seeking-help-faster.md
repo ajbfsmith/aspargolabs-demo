@@ -34,7 +34,7 @@ title: 'Gen Z Men and ED: Why Younger Generations Are Seeking Help Faster'
 word_count: 1099
 ---
 
-For decades, erectile dysfunction (ED) was framed as a "silent" issue, primarily discussed in hushed tones or reserved for much older men. However, a significant cultural shift is underway. Gen Z men—those born between the late 1990s and early 2010s—are approaching sexual health with a level of transparency and urgency that previous generations rarely displayed. For more context, see our [ed relationships erectile dysfunction](/blog/erectile-dysfunction-relationship-impact).
+For decades, erectile dysfunction (ED) was framed as a "silent" issue, primarily discussed in hushed tones or reserved for much older men. However, a significant cultural shift is underway. Gen Z men, those born between the late 1990s and early 2010s, are approaching sexual health with a level of transparency and urgency that previous generations rarely displayed. For more context, see our [ed relationships erectile dysfunction](/blog/erectile-dysfunction-relationship-impact).
 
 This shift isn't necessarily because ED is more prevalent today, but because the barriers to seeking help are crumbling. From the destigmatization of mental health to the convenience of digital medicine, **gen z men ed** trends show a generation that values performance, wellness, and clinical efficiency over outdated notions of "toughing it out."
 
@@ -101,7 +101,7 @@ The shift in how **gen z men ed** is discussed and treated marks a turning point
 
 *Note: This article is for informational purposes and does not constitute medical advice. Always speak with a licensed healthcare provider before starting a new medication.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

@@ -30,7 +30,7 @@ pillarSlug: psychological-erectile-dysfunction-guide
 slug: ed-is-ruining-my-relationship-what-do-i-do
 status: draft
 tier: 3
-title: ED is ruining my relationship — what do I do?
+title: ED is ruining my relationship, what do I do?
 word_count: 855
 ---
 

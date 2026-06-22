@@ -30,13 +30,13 @@ pillarSlug: psychological-erectile-dysfunction-guide
 slug: i-m-embarrassed-about-ed-am-i-alone
 status: draft
 tier: 3
-title: I'm embarrassed about ED — am I alone?
+title: I'm embarrassed about ED, am I alone?
 word_count: 803
 ---
 
 If you are thinking, "**I'm embarrassed about ED**," the first thing you should know is that you are definitely not alone. Erectile dysfunction (ED) is one of the most common medical conditions affecting men today, with the [Urology Care Foundation](https://www.urologyhealth.org/urology-a-z/e/erectile-dysfunction-(ed)) estimating that it impacts as many as 30 million men in the United States alone. Despite its prevalence, the stigma surrounding sexual performance often leaves men feeling isolated, frustrated, or "broken." For more context, see our [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide).
 
-Understanding that ED is a clinical health issue—rather than a reflection of your masculinity—is the first step toward finding a solution that works for you.
+Understanding that ED is a clinical health issue, rather than a reflection of your masculinity, is the first step toward finding a solution that works for you.
 
 ## Why Men Feel Alone with ED
 
@@ -63,7 +63,7 @@ Opening up to a partner or a healthcare provider can significantly reduce the em
 
 ## Innovation in Delivery and Experience
 
-For many men, the embarrassment isn't just about the condition—it’s about the "ritual" of treatment. Traditional pills can feel clinical and require careful timing, which can kill the spontaneity of the moment.
+For many men, the embarrassment isn't just about the condition, it’s about the "ritual" of treatment. Traditional pills can feel clinical and require careful timing, which can kill the spontaneity of the moment.
 
 Modern pharmaceutical science has focused on delivery innovation to improve the user experience. HEZKUE is an oral sildenafil spray suspension designed for men who want a more modern approach to treatment. Unlike traditional tablets that must be swallowed and digested, an oral spray suspension allows for a different delivery format that can affect how you experience your treatment.
 

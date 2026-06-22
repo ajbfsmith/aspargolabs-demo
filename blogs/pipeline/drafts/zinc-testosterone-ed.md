@@ -42,7 +42,7 @@ Understanding how zinc affects the body can help you determine if your symptoms 
 
 Zinc is an essential trace mineral that plays a critical role in over 300 enzymatic reactions in the human body. In the context of male hormonal health, zinc is a key player in the production of testosterone.
 
-Research indicates that zinc affects the Leydig cells in the testes—the cells responsible for producing testosterone. It is also involved in the conversion of androstenedione to testosterone. Furthermore, zinc may act as an aromatase inhibitor, potentially preventing the excess conversion of testosterone into estrogen.
+Research indicates that zinc affects the Leydig cells in the testes, the cells responsible for producing testosterone. It is also involved in the conversion of androstenedione to testosterone. Furthermore, zinc may act as an aromatase inhibitor, potentially preventing the excess conversion of testosterone into estrogen.
 
 A landmark study published in the journal [Nutrition](https://pubmed.ncbi.nlm.nih.gov/8875519/) demonstrated that zinc status is a major determinant of serum testosterone levels in healthy men. When young men were restricted from dietary zinc, their testosterone levels plummeted significantly after 20 weeks. Conversely, when elderly men with marginal zinc deficiency were given zinc supplements, their testosterone levels nearly doubled.
 

@@ -32,7 +32,7 @@ title: Why does my erection go away before penetration?
 word_count: 779
 ---
 
-Losing an erection before penetration is a common experience often caused by performance anxiety, physical health issues like poor blood flow, or a loss of stimulation during the transition to intercourse. This specific challenge, sometimes called "maintenance dysfunction," occurs when the body cannot sustain the blood pressure required for a firm erection. While frustrating, it is frequently treatable once the underlying cause—whether psychological, vascular, or lifestyle-related—is identified.
+Losing an erection before penetration is a common experience often caused by performance anxiety, physical health issues like poor blood flow, or a loss of stimulation during the transition to intercourse. This specific challenge, sometimes called "maintenance dysfunction," occurs when the body cannot sustain the blood pressure required for a firm erection. While frustrating, it is frequently treatable once the underlying cause, whether psychological, vascular, or lifestyle-related, is identified.
 
 ## The Role of Performance Anxiety
 One of the most frequent reasons men find that **my erection go away** right before penetration is performance anxiety. When you feel pressured to perform, your brain may trigger the sympathetic nervous system, also known as the "fight or flight" response.
@@ -49,7 +49,7 @@ If you find that **my erection go** soft consistently, it may be due to an under
 The [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/10035-erectile-dysfunction) notes that vascular issues are among the most common physical causes of maintenance-related ED.
 
 ## Contextual and Lifestyle Factors
-Sometimes the reason an erection fades is purely contextual. The transition from foreplay to penetration often involves a pause in direct physical stimulation—such as when reaching for a condom or changing positions.
+Sometimes the reason an erection fades is purely contextual. The transition from foreplay to penetration often involves a pause in direct physical stimulation, such as when reaching for a condom or changing positions.
 
 - **Condom Use:** For some, the interruption or the reduced sensitivity of a condom can cause a loss of focus. If you find [i lose my erection](/blog/why-do-i-lose-my-erection-with-a-condom) specifically during this step, it may be a combination of reduced sensation and anxiety.
 - **Distractions:** Environmental factors, such as noise or a wandering mind, can break the "arousal loop" between the brain and the body.

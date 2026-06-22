@@ -45,7 +45,7 @@ For a deeper look at how these options differ, you can read our guide on [silden
 
 ## The reality of ED supplements
 
-Many men turn to supplements—often marketed as "herbal Viagra"—because they are available without a prescription. Common ingredients include L-arginine, ginseng, and horny goat weed. However, the [National Institutes of Health (NIH)](https://www.nccih.nih.gov/health/erectile-dysfunction-and-dietary-supplements-at-a-glance) notes that there is little high-quality evidence to support the use of most supplements for ED.
+Many men turn to supplements, often marketed as "herbal Viagra", because they are available without a prescription. Common ingredients include L-arginine, ginseng, and horny goat weed. However, the [National Institutes of Health (NIH)](https://www.nccih.nih.gov/health/erectile-dysfunction-and-dietary-supplements-at-a-glance) notes that there is little high-quality evidence to support the use of most supplements for ED.
 
 The risks associated with supplements often outweigh the potential benefits:
 
@@ -77,7 +77,7 @@ If you are struggling with ED, the first step should always be a consultation wi
 
 *Note: This article is for informational purposes and does not constitute medical advice. Always consult with a qualified healthcare professional before starting a new treatment.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

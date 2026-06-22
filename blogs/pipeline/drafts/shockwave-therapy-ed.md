@@ -43,10 +43,10 @@ Understanding whether shockwave therapy is a breakthrough or simply overhyped re
 The concept of using sound waves in medicine is not new; high-intensity shockwaves have been used for decades to break up kidney stones. In the context of ED, the intensity is significantly lower. The goal is not to break anything down, but to trigger a biological healing response.
 
 ### Angiogenesis and Blood Flow
-The primary proposed mechanism of Li-ESWT is angiogenesis—the formation of new blood vessels. The shockwaves create "microtrauma" at the cellular level. This minor stress signals the body to release growth factors, such as Vascular Endothelial Growth Factor (VEGF). These factors encourage the growth of new capillaries in the penile tissue, theoretically improving the blood flow necessary for an erection.
+The primary proposed mechanism of Li-ESWT is angiogenesis, the formation of new blood vessels. The shockwaves create "microtrauma" at the cellular level. This minor stress signals the body to release growth factors, such as Vascular Endothelial Growth Factor (VEGF). These factors encourage the growth of new capillaries in the penile tissue, theoretically improving the blood flow necessary for an erection.
 
 ### Nerve Regeneration
-Beyond blood vessels, some researchers suggest that shockwave therapy may assist in nerve regeneration. This is particularly relevant for men who have experienced nerve damage due to surgery (such as prostatectomy) or diabetes. By stimulating Schwann cells—the cells responsible for maintaining the health of peripheral nerves—the therapy may help restore the signaling pathways required for arousal.
+Beyond blood vessels, some researchers suggest that shockwave therapy may assist in nerve regeneration. This is particularly relevant for men who have experienced nerve damage due to surgery (such as prostatectomy) or diabetes. By stimulating Schwann cells, the cells responsible for maintaining the health of peripheral nerves, the therapy may help restore the signaling pathways required for arousal.
 
 ## The Evidence: Promising but Limited
 
@@ -75,7 +75,7 @@ Some studies suggest that shockwave therapy can improve a patient’s responsive
 
 ## Safety and Medical Considerations
 
-While Li-ESWT is generally considered safe with minimal side effects—typically limited to mild tingling or temporary bruising—it is not appropriate for everyone.
+While Li-ESWT is generally considered safe with minimal side effects, typically limited to mild tingling or temporary bruising, it is not appropriate for everyone.
 
 **Important Safety Note:** Men with ED should always undergo a comprehensive cardiovascular screening before starting any new treatment. ED is often an early warning sign of underlying heart disease. If you experience chest pain, shortness of breath, or symptoms of a heart attack or stroke, seek urgent medical care immediately.
 

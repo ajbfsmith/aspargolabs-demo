@@ -70,13 +70,13 @@ If you are experiencing ED and it is currently unexplained by other factors, it 
 - Morning headaches.
 - High blood pressure that is difficult to control.
 
-ED is frequently comorbid with other neurological and systemic conditions. For example, [erectile dysfunction men multiple](/blog/multiple-sclerosis-erectile-dysfunction) sclerosis patients often deal with both nerve signaling issues and fatigue, similar to the exhaustion seen in sleep apnea. Identifying the specific cause—whether it is respiratory, neurological, or vascular—is the only way to choose the right treatment.
+ED is frequently comorbid with other neurological and systemic conditions. For example, [erectile dysfunction men multiple](/blog/multiple-sclerosis-erectile-dysfunction) sclerosis patients often deal with both nerve signaling issues and fatigue, similar to the exhaustion seen in sleep apnea. Identifying the specific cause, whether it is respiratory, neurological, or vascular, is the only way to choose the right treatment.
 
 ## HEZKUE as a Complement to Treatment
 
 While you work with a specialist to manage sleep apnea through CPAP or lifestyle changes, you may still require support for erectile function. HEZKUE is an oral sildenafil spray suspension designed for men who need a consistent, clinically formulated delivery method.
 
-Unlike traditional tablets that must be broken down in the digestive tract—a process that can be slowed by food or metabolism—HEZKUE’s spray format is designed for efficient delivery. For men whose vascular systems are recovering from the effects of sleep apnea, the precision of a spray suspension can offer a more predictable experience.
+Unlike traditional tablets that must be broken down in the digestive tract, a process that can be slowed by food or metabolism, HEZKUE’s spray format is designed for efficient delivery. For men whose vascular systems are recovering from the effects of sleep apnea, the precision of a spray suspension can offer a more predictable experience.
 
 ## Important Safety Information
 

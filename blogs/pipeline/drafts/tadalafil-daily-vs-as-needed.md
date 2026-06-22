@@ -44,7 +44,7 @@ Choosing between **daily tadalafil as needed** dosing or a consistent daily regi
 Tadalafil is unique because of its long half-life. While other ED medications typically leave the system within a few hours, tadalafil can remain active in the body for up to 36 hours. This "window of opportunity" is what allows for two different ways of taking the drug.
 
 ### 1. As-Needed Dosing (10mg or 20mg)
-The traditional way to take tadalafil is on an as-needed basis. In this strategy, a man takes a higher dose—typically 10mg or 20mg—at least 30 to 60 minutes before he anticipates sexual activity. Because the medication stays in the system for so long, it is often referred to as the "weekend pill."
+The traditional way to take tadalafil is on an as-needed basis. In this strategy, a man takes a higher dose, typically 10mg or 20mg, at least 30 to 60 minutes before he anticipates sexual activity. Because the medication stays in the system for so long, it is often referred to as the "weekend pill."
 
 ### 2. Daily Dosing (2.5mg or 5mg)
 The alternative is a low-dose daily regimen. Instead of waiting for a specific moment, you take a 2.5mg or 5mg tablet at the same time every day. This approach maintains a steady level of the medication in your bloodstream at all times, according to the [FDA-approved labeling for Cialis](https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/021368s020s021lbl.pdf).
@@ -110,7 +110,7 @@ Regardless of which dosing strategy you choose, PDE5 inhibitors like tadalafil a
 
 Always discuss your full medical history with a healthcare provider to determine which dosing strategy is safest for your heart health and overall well-being.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

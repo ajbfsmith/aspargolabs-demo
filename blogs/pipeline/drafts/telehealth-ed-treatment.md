@@ -50,7 +50,7 @@ While the delivery method has changed, the underlying medical standards have not
 When getting ED treatment online through a reputable platform, the process is structured to prioritize patient safety and diagnostic accuracy. It is not as simple as "clicking and buying." A legitimate clinical pathway typically involves several key steps:
 
 1.  **Comprehensive Medical Intake:** You will complete a detailed questionnaire covering your symptoms, lifestyle factors, and medical history. This includes specific questions about cardiovascular health, as ED can sometimes be an early indicator of underlying vascular issues.
-2.  **Clinician Review:** A licensed healthcare provider reviews your intake form. They look for contraindications—reasons why certain medications might be unsafe for you—and determine if a prescription is appropriate.
+2.  **Clinician Review:** A licensed healthcare provider reviews your intake form. They look for contraindications, reasons why certain medications might be unsafe for you, and determine if a prescription is appropriate.
 3.  **Communication:** In many cases, the clinician may follow up with additional questions via secure messaging or a video call to clarify details about your health.
 4.  **Treatment Plan:** If you are a candidate for treatment, the clinician will discuss options, which may range from lifestyle modifications to [every ed treatment available](https://acceleratehealth.com/blog/ed-treatment-options-2026) in 2026, including oral medications or innovative delivery formats.
 

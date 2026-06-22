@@ -11,7 +11,7 @@ inline_links:
   url: /blog/psychological-erectile-dysfunction-guide
 - label: erectile dysfunction by age
   url: /blog/ed-causes-by-age-20s-30s-40s-50s-60s
-- label: ed after breakup —
+- label: 'ed after breakup, '
   url: /blog/ed-after-breakup-is-this-normal
 - label: ed ruining my relationship
   url: /blog/ed-is-ruining-my-relationship-what-do-i-do
@@ -51,7 +51,7 @@ When **my partner thinks I'm** not interested, they are often reacting to a brea
 - **Psychological Factors:** Stress, depression, or even the fear of ED itself can trigger the "fight or flight" response, which shuts down the erectile process. This is often referred to as [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide).
 - **Age-Related Changes:** While ED is not an inevitable part of aging, the body does change over time. You can learn more about how these factors shift in our guide to [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s).
 
-If you have recently gone through a major life change, you might also find that [ed after breakup —](/blog/ed-after-breakup-is-this-normal) or other high-stress transitions can temporarily impact your physical response.
+If you have recently gone through a major life change, you might also find that [ed after breakup, ](/blog/ed-after-breakup-is-this-normal) or other high-stress transitions can temporarily impact your physical response.
 
 ## How to Talk to Your Partner About ED
 
@@ -77,7 +77,7 @@ Before starting any new treatment for ED, it is vital to speak with a healthcare
 - **Cardiovascular Health:** Men with unstable cardiovascular disease or a recent history of heart attack or stroke should consult a clinician before use.
 - **Seek Urgent Care:** If you experience chest pain during sex, sudden vision or hearing loss, or an erection lasting longer than four hours (priapism), seek emergency medical attention immediately.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

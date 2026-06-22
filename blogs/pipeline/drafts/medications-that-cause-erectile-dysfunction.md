@@ -81,7 +81,7 @@ Dopamine is the "reward" chemical that drives sexual desire. When serotonin is a
 Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs) work similarly to SSRIs but also affect norepinephrine. Norepinephrine plays a role in alertness and the "fight or flight" response. By altering these neurotransmitters, SNRIs can lead to decreased libido and difficulty maintaining an erection. Some patients also report a "numbing" sensation that makes physical stimulation less effective.
 
 ### 14. Tricyclic Antidepressants (Amitriptyline)
-Older antidepressants like Amitriptyline are still used for chronic pain and sleep. These medications have strong anticholinergic effects, meaning they block acetylcholine—a neurotransmitter involved in the nerve signals that trigger an erection.
+Older antidepressants like Amitriptyline are still used for chronic pain and sleep. These medications have strong anticholinergic effects, meaning they block acetylcholine, a neurotransmitter involved in the nerve signals that trigger an erection.
 
 ## Antipsychotics and Mood Stabilizers
 

@@ -43,7 +43,7 @@ Cortisol is often called the "stress hormone." In short bursts, it is life-savin
 
 One of the primary victims of high cortisol is testosterone. Research indicates that cortisol and testosterone have an inverse relationship; as cortisol rises, testosterone levels typically drop. This occurs because cortisol can inhibit the hypothalamus-pituitary-gonadal (HPG) axis, the system responsible for signaling the testes to produce testosterone.
 
-According to a study published in [Evolution and Human Behavior](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3079130/), high levels of cortisol can block the effects of testosterone on social and sexual behaviors. Without adequate testosterone—or when its effects are blocked by stress hormones—libido decreases, and the physical signals required to initiate an erection become weaker. For a deeper look at how various factors influence performance, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
+According to a study published in [Evolution and Human Behavior](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3079130/), high levels of cortisol can block the effects of testosterone on social and sexual behaviors. Without adequate testosterone, or when its effects are blocked by stress hormones, libido decreases, and the physical signals required to initiate an erection become weaker. For a deeper look at how various factors influence performance, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
 ## The Sympathetic Nervous System: "Fight or Flight" vs. "Rest and Digest"
 
@@ -80,7 +80,7 @@ If you are also managing other conditions, such as high blood pressure, it is im
 
 While lifestyle changes and stress management are essential for long-term health, many men seek a reliable way to manage the physical symptoms of ED while they work on the root causes.
 
-HEZKUE is an oral sildenafil spray suspension, representing a clinical shift in how ED medication is delivered. Unlike traditional tablets that must be processed through the digestive system—a process that can be slowed down by stress-related digestive issues—an oral spray suspension is designed for efficient delivery.
+HEZKUE is an oral sildenafil spray suspension, representing a clinical shift in how ED medication is delivered. Unlike traditional tablets that must be processed through the digestive system, a process that can be slowed down by stress-related digestive issues, an oral spray suspension is designed for efficient delivery.
 
 The delivery format of a medication can significantly affect the user experience. For men dealing with the unpredictability of stress, a delivery innovation that focuses on consistency and onset can provide peace of mind. HEZKUE is not a "miracle cure" for stress, but a clinically formulated tool designed to work with your body's physiology.
 

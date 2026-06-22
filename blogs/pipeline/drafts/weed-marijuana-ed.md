@@ -41,7 +41,7 @@ The relationship between cannabis and sexual performance is complex. While some 
 
 To understand how marijuana use might cause erectile issues, we have to look at the endocannabinoid system (ECS). The ECS is a network of receptors found throughout the body that helps regulate everything from mood to blood flow.
 
-Research has identified specific cannabinoid receptors, known as CB1 and CB2 receptors, within the human penis—specifically in the corpus cavernosum (the sponge-like tissue that fills with blood to create an erection). A study published in the [Journal of Sexual Medicine](https://pubmed.ncbi.nlm.nih.gov/31003851/) suggests that when THC (the psychoactive component of marijuana) binds to these CB1 receptors, it may actually inhibit the contraction and relaxation of the smooth muscle in the penis.
+Research has identified specific cannabinoid receptors, known as CB1 and CB2 receptors, within the human penis, specifically in the corpus cavernosum (the sponge-like tissue that fills with blood to create an erection). A study published in the [Journal of Sexual Medicine](https://pubmed.ncbi.nlm.nih.gov/31003851/) suggests that when THC (the psychoactive component of marijuana) binds to these CB1 receptors, it may actually inhibit the contraction and relaxation of the smooth muscle in the penis.
 
 Because an erection relies on the precise relaxation of these muscles to allow blood to flow in, any interference with this process can make it difficult to achieve or maintain firmness.
 
@@ -49,7 +49,7 @@ Because an erection relies on the precise relaxation of these muscles to allow b
 
 It is a common misconception that because cannabis can cause general relaxation or vasodilation (the widening of blood vessels), it must automatically help with erections. In reality, the effect of cannabis on smooth muscle relaxation is highly dose-dependent and varies between individuals.
 
-While low doses might help some men relax mentally, higher doses or chronic use can lead to "vasoconstriction" in certain tissues or disrupt the signals the brain sends to the penis. This disruption can interfere with the "hemodynamic" process—the way blood moves through the body—which is the foundation of erectile function. For a deeper look at the mechanics of how erections work and what can go wrong, see our [complete guide erectile dysfunction](https://acceleratehealth.com/blog/complete-guide-erectile-dysfunction).
+While low doses might help some men relax mentally, higher doses or chronic use can lead to "vasoconstriction" in certain tissues or disrupt the signals the brain sends to the penis. This disruption can interfere with the "hemodynamic" process, the way blood moves through the body, which is the foundation of erectile function. For a deeper look at the mechanics of how erections work and what can go wrong, see our [complete guide erectile dysfunction](https://acceleratehealth.com/blog/complete-guide-erectile-dysfunction).
 
 ## What the Studies Say: Heavy Use vs. Occasional Use
 

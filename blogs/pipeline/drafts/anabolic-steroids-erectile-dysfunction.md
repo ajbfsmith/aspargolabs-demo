@@ -35,7 +35,7 @@ word_count: 1190
 
 The use of anabolic-androgenic steroids (AAS) is often driven by a desire for increased muscle mass, athletic performance, or a more "masculine" physique. However, there is a profound biological irony at play: the very substances used to enhance masculinity frequently lead to a total shutdown of the body’s natural reproductive system.
 
-When a man introduces synthetic testosterone or its derivatives into his body, he triggers a powerful negative feedback loop. This hormonal shift often results in **anabolic steroids ed hormonal** imbalances that can persist long after the last injection or pill. Understanding why this happens—and how to manage the recovery process—is essential for anyone dealing with the sexual side effects of performance-enhancing drugs.
+When a man introduces synthetic testosterone or its derivatives into his body, he triggers a powerful negative feedback loop. This hormonal shift often results in **anabolic steroids ed hormonal** imbalances that can persist long after the last injection or pill. Understanding why this happens, and how to manage the recovery process, is essential for anyone dealing with the sexual side effects of performance-enhancing drugs.
 
 ## The HPG Axis: How Steroids "Turn Off" the Lights
 
@@ -45,7 +45,7 @@ To understand **anabolic steroids ed**, you must first understand the Hypothalam
 2.  **The Pituitary Gland** responds by secreting two critical hormones: Luteinizing Hormone (LH) and Follicle-Stimulating Hormone (FSH).
 3.  **The Testes** receive these signals. LH tells the Leydig cells to produce testosterone, while FSH stimulates sperm production.
 
-When you take exogenous (external) steroids, your brain detects an abundance of hormones. It assumes the body has more than enough testosterone and stops producing GnRH, LH, and FSH. According to research published in the [Journal of Clinical Endocrinology & Metabolism](https://academic.oup.com/jcem/article/91/5/1641/2843231), this suppression happens rapidly. Without LH and FSH, the testes lose their "marching orders." They stop producing natural testosterone and begin to shrink—a process known as testicular atrophy.
+When you take exogenous (external) steroids, your brain detects an abundance of hormones. It assumes the body has more than enough testosterone and stops producing GnRH, LH, and FSH. According to research published in the [Journal of Clinical Endocrinology & Metabolism](https://academic.oup.com/jcem/article/91/5/1641/2843231), this suppression happens rapidly. Without LH and FSH, the testes lose their "marching orders." They stop producing natural testosterone and begin to shrink, a process known as testicular atrophy.
 
 ## The Post-Cycle Crash and Hypogonadism
 

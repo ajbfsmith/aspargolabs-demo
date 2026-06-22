@@ -32,7 +32,7 @@ title: I have ED and I'm afraid to try medication
 word_count: 849
 ---
 
-If you are thinking, "**I have ED and I'm** afraid to try medication," you are experiencing a very common form of performance anxiety. Most men worry about potential side effects, heart safety, or the "unnatural" feeling of using a pill. However, clinical data shows that when prescribed by a healthcare provider, ED medications like sildenafil are safe for the vast majority of men. Understanding how these medications work—and knowing which health conditions require caution—is the first step toward regaining confidence and overcoming the hesitation to seek treatment.
+If you are thinking, "**I have ED and I'm** afraid to try medication," you are experiencing a very common form of performance anxiety. Most men worry about potential side effects, heart safety, or the "unnatural" feeling of using a pill. However, clinical data shows that when prescribed by a healthcare provider, ED medications like sildenafil are safe for the vast majority of men. Understanding how these medications work, and knowing which health conditions require caution, is the first step toward regaining confidence and overcoming the hesitation to seek treatment.
 
 ## Why Men Hesitate to Start ED Treatment
 

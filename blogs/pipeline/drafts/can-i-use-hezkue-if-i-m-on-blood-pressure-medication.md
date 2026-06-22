@@ -36,7 +36,7 @@ word_count: 923
 
 Managing erectile dysfunction (ED) often involves navigating other health conditions, particularly hypertension. If you are managing high blood pressure, you may wonder, "Can **i use hezkue i'm** taking blood pressure medication?" For more context, see our [way take drug changes](/blog/oral-spray-drug-delivery-science).
 
-The short answer is that many men with high blood pressure can safely use HEZKUE (sildenafil oral spray suspension), but it depends entirely on the specific type of medication you are taking and your overall cardiovascular health. Because sildenafil—the active ingredient in HEZKUE—directly affects blood flow and blood pressure, a clinical consultation is a mandatory first step.
+The short answer is that many men with high blood pressure can safely use HEZKUE (sildenafil oral spray suspension), but it depends entirely on the specific type of medication you are taking and your overall cardiovascular health. Because sildenafil, the active ingredient in HEZKUE, directly affects blood flow and blood pressure, a clinical consultation is a mandatory first step.
 
 ## How Sildenafil Interacts with Blood Pressure
 
@@ -48,7 +48,7 @@ According to the [American Heart Association](https://www.heart.org/en/health-to
 
 The most critical safety rule regarding HEZKUE and blood pressure involves nitrates. If you take nitrates for chest pain (angina) or heart problems, you cannot use HEZKUE.
 
-Nitrates—such as nitroglycerin, isosorbide mononitrate, or isosorbide dinitrate—are potent vasodilators. When taken with sildenafil, they can cause a sudden and life-threatening drop in blood pressure (hypotension). This warning also applies to recreational "poppers" (amyl nitrate).
+Nitrates, such as nitroglycerin, isosorbide mononitrate, or isosorbide dinitrate, are potent vasodilators. When taken with sildenafil, they can cause a sudden and life-threatening drop in blood pressure (hypotension). This warning also applies to recreational "poppers" (amyl nitrate).
 
 If you experience chest pain after taking HEZKUE, you must seek emergency medical care immediately. Do not take nitrates to treat the chest pain, as the interaction can be fatal.
 

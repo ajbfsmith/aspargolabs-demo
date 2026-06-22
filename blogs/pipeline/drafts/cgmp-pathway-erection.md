@@ -35,7 +35,7 @@ word_count: 1232
 
 To understand how erectile dysfunction (ED) medications work, one must first understand the "molecular switch" that controls blood flow to the penis. This switch is not a single button but a complex biochemical chain reaction known as the cGMP pathway. 
 
-When this pathway functions correctly, it allows for the smooth muscle relaxation necessary for an erection. When it is interrupted—whether by age, vascular disease, or metabolic issues—the result is ED. By examining the **cgmp pathway molecular switch**, we can better understand how modern treatments like sildenafil and innovative delivery formats like HEZKUE interface with your body’s natural chemistry.
+When this pathway functions correctly, it allows for the smooth muscle relaxation necessary for an erection. When it is interrupted, whether by age, vascular disease, or metabolic issues, the result is ED. By examining the **cgmp pathway molecular switch**, we can better understand how modern treatments like sildenafil and innovative delivery formats like HEZKUE interface with your body’s natural chemistry.
 
 ## The Spark: Nitric Oxide (NO)
 
@@ -67,7 +67,7 @@ The body requires a way to turn this system off to return the penis to a flaccid
 
 PDE5’s sole job in this context is to break down (degrade) cGMP. Once cGMP is broken down, PKG activity drops, calcium levels rise, MLCK reactivates, and the smooth muscles contract again, pushing blood out of the penis. 
 
-In many men with ED, the balance between cGMP production and PDE5 degradation is skewed. If PDE5 breaks down cGMP faster than the body can produce it, an erection cannot be maintained—or may never occur at all. This is where the mechanism of [pde5 inhibitors work complete](/blog/how-pde5-inhibitors-work) to stabilize the pathway.
+In many men with ED, the balance between cGMP production and PDE5 degradation is skewed. If PDE5 breaks down cGMP faster than the body can produce it, an erection cannot be maintained, or may never occur at all. This is where the mechanism of [pde5 inhibitors work complete](/blog/how-pde5-inhibitors-work) to stabilize the pathway.
 
 ## Clinical Consequences of Pathway Disruption
 

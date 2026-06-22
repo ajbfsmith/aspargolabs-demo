@@ -44,7 +44,7 @@ Several factors contribute to this sustained growth:
 
 - **Increased Diagnosis Rates:** More men are seeking help than in previous decades, partly due to the normalization of sexual health conversations.
 - **Aging Global Population:** As the global population ages, the prevalence of age-related ED naturally increases.
-- **Lifestyle Factors:** Rising rates of diabetes, obesity, and cardiovascular disease—all of which are closely linked to ED—are driving market demand.
+- **Lifestyle Factors:** Rising rates of diabetes, obesity, and cardiovascular disease, all of which are closely linked to ED, are driving market demand.
 
 For a broader look at how these factors intersect, you can explore our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
@@ -95,7 +95,7 @@ Clinically formulated innovations like HEZKUE represent this next step. By focus
 
 **Medical Disclaimer:** This article is for informational purposes and does not constitute medical advice. Always speak with a healthcare professional before starting any new medication for erectile dysfunction.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

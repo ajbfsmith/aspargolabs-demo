@@ -32,7 +32,7 @@ title: How do I know if my ED is physical or mental?
 word_count: 810
 ---
 
-Determining if erectile dysfunction (ED) is physical or psychological often comes down to one key question: Do you still get firm erections during sleep or upon waking? If you experience "morning wood," the physical mechanisms for an erection are likely intact, suggesting a psychological cause like stress or anxiety. Conversely, if you never get firm erections—even during sleep—or if the issue has worsened gradually over years, the cause is more likely physical, such as restricted blood flow or nerve issues.
+Determining if erectile dysfunction (ED) is physical or psychological often comes down to one key question: Do you still get firm erections during sleep or upon waking? If you experience "morning wood," the physical mechanisms for an erection are likely intact, suggesting a psychological cause like stress or anxiety. Conversely, if you never get firm erections, even during sleep, or if the issue has worsened gradually over years, the cause is more likely physical, such as restricted blood flow or nerve issues.
 
 Understanding the root cause is the first step in finding the right treatment. While many cases involve a mix of both factors, identifying the primary driver helps you and your healthcare provider decide whether to focus on lifestyle changes, therapy, or clinical interventions. For a broader look at all potential factors, you can refer to our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 

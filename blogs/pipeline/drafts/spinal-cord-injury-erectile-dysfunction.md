@@ -84,7 +84,7 @@ For men who do not respond to other treatments, a surgical implant may be consid
 
 ## Safety Considerations and Specialist Care
 
-Men with spinal cord injuries must be aware of a condition called **Autonomic Dysreflexia (AD)**. This is a potentially life-threatening medical emergency that can occur in individuals with injuries at or above the T6 level. AD is caused by an overreaction of the involuntary nervous system to a stimulus below the level of injury—which can include sexual activity or the use of certain ED treatments.
+Men with spinal cord injuries must be aware of a condition called **Autonomic Dysreflexia (AD)**. This is a potentially life-threatening medical emergency that can occur in individuals with injuries at or above the T6 level. AD is caused by an overreaction of the involuntary nervous system to a stimulus below the level of injury, which can include sexual activity or the use of certain ED treatments.
 
 Symptoms of AD include:
 -   A sudden, severe headache

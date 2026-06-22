@@ -48,7 +48,7 @@ Yoga and mindfulness are specifically designed to downregulate the sympathetic n
 
 ## Mindfulness-Based Stress Reduction (MBSR) and Sexual Function
 
-Mindfulness is the practice of maintaining a non-judgmental awareness of the present moment. In the context of sexual health, mindfulness is often used to combat "spectatoring"—a phenomenon where a man becomes an internal critic of his own performance during intimacy, which often leads to erectile failure.
+Mindfulness is the practice of maintaining a non-judgmental awareness of the present moment. In the context of sexual health, mindfulness is often used to combat "spectatoring", a phenomenon where a man becomes an internal critic of his own performance during intimacy, which often leads to erectile failure.
 
 Clinical studies on Mindfulness-Based Stress Reduction (MBSR) have shown significant benefits for sexual health. A study in the [Journal of Sexual Medicine](https://pubmed.ncbi.nlm.nih.gov/19751388/) found that mindfulness training can improve sexual desire and arousal by helping individuals stay present and reducing the impact of performance anxiety.
 
@@ -89,7 +89,7 @@ Before beginning a new exercise regimen or seeking treatment for ED, it is vital
 
 The goal of integrating yoga and mindfulness into your routine is to create a more resilient, responsive body. By addressing the mind-body connection, you can reduce the impact of stress and improve the consistency of your sexual health.
 
-If you're looking for a fast-acting, clinically formulated solution to complement your lifestyle goals, HEZKUE's oral spray suspension is designed to work in minutes—not hours. Unlike traditional tablets that must be digested, the spray format is a delivery innovation aimed at providing a more consistent and predictable user experience.
+If you're looking for a fast-acting, clinically formulated solution to complement your lifestyle goals, HEZKUE's oral spray suspension is designed to work in minutes, not hours. Unlike traditional tablets that must be digested, the spray format is a delivery innovation aimed at providing a more consistent and predictable user experience.
 
 [Explore HEZKUE](/checkout)
 

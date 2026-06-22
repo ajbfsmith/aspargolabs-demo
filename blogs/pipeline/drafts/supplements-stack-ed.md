@@ -33,9 +33,9 @@ title: The Evidence-Based Supplement Stack for ED Support (and What to Skip)
 word_count: 1157
 ---
 
-The market for "male enhancement" is crowded with flashy packaging and bold promises, yet many over-the-counter products lack rigorous clinical backing. For men looking to optimize their sexual health, the goal should be to build an evidence based supplement stack—a selection of compounds that have been scrutinized in peer-reviewed research for their role in vascular health, hormonal balance, and erectile function.
+The market for "male enhancement" is crowded with flashy packaging and bold promises, yet many over-the-counter products lack rigorous clinical backing. For men looking to optimize their sexual health, the goal should be to build an evidence based supplement stack, a selection of compounds that have been scrutinized in peer-reviewed research for their role in vascular health, hormonal balance, and erectile function.
 
-While supplements can support the biological foundations of an erection, they are rarely a standalone "cure" for erectile dysfunction (ED). Instead, they work best as part of a broader strategy. Understanding which nutrients actually move the needle—and which are simply marketing fluff—is the first step toward better sexual wellness.
+While supplements can support the biological foundations of an erection, they are rarely a standalone "cure" for erectile dysfunction (ED). Instead, they work best as part of a broader strategy. Understanding which nutrients actually move the needle, and which are simply marketing fluff, is the first step toward better sexual wellness.
 
 ## The Foundation: Nitric Oxide and Vascular Support
 

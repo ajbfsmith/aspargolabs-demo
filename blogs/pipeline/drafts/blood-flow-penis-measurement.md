@@ -95,7 +95,7 @@ As the medication takes effect, the ultrasound machine records several key metri
 ### Peak Systolic Velocity (PSV)
 PSV measures the maximum speed at which blood rushes into the penis through the cavernosal arteries during the contraction of the heart (systole). 
 -   **Normal:** A **PSV >25 cm/s** is generally considered the baseline for healthy arterial inflow, though many specialists prefer to see values above 30 or 35 cm/s for optimal function.
--   **Arterial Insufficiency:** If the PSV is consistently below 25 cm/s, it suggests that the arteries are narrowed or hardened—a condition known as arterial insufficiency. This is often linked to systemic issues like atherosclerosis or [chronic inflammation ed systemic](/blog/inflammation-erectile-dysfunction).
+-   **Arterial Insufficiency:** If the PSV is consistently below 25 cm/s, it suggests that the arteries are narrowed or hardened, a condition known as arterial insufficiency. This is often linked to systemic issues like atherosclerosis or [chronic inflammation ed systemic](/blog/inflammation-erectile-dysfunction).
 
 ### End-Diastolic Velocity (EDV)
 EDV measures the speed of blood flow between heartbeats (diastole). In a healthy erection, the veins should be compressed so tightly that blood cannot escape, meaning the EDV should drop significantly.

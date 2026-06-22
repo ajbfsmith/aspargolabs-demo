@@ -41,7 +41,7 @@ Understanding how the virus affects the body's ability to achieve and maintain a
 
 The primary reason for the link between COVID-19 and erectile dysfunction (ED) lies in the vascular system. An erection is essentially a cardiovascular event; it requires healthy blood flow, functional blood vessels, and the proper release of signaling molecules like nitric oxide.
 
-SARS-CoV-2 is known to target the endothelium—the thin layer of cells lining the blood vessels. This condition, known as endothelial dysfunction, impairs the ability of blood vessels to dilate. When the vessels in the penis cannot dilate properly, blood flow is restricted, leading to ED.
+SARS-CoV-2 is known to target the endothelium, the thin layer of cells lining the blood vessels. This condition, known as endothelial dysfunction, impairs the ability of blood vessels to dilate. When the vessels in the penis cannot dilate properly, blood flow is restricted, leading to ED.
 
 Research published in the [World Journal of Men's Health](https://wjmh.org/DOIx.php?id=10.5534/wjmh.200170) found that viral particles can remain in the penile tissue long after the initial infection has cleared. This presence can cause localized inflammation and further damage the endothelial lining, making it difficult for the body to trigger the natural vascular response needed for an erection.
 
@@ -61,7 +61,7 @@ One of the most common questions men ask is whether post-COVID ED is permanent. 
 
 However, recovery is rarely instantaneous. The endothelium takes time to repair itself. Clinical observations suggest a recovery timeline that can range from a few months to over a year, depending on the individual's overall health and the severity of the vascular damage.
 
-During this period, clinicians often recommend a combination of lifestyle changes—such as cardiovascular exercise and a heart-healthy diet—to support endothelial repair. In cases where the damage is more significant, such as [erectile dysfunction after radiation](/blog/ed-after-radiation-therapy) or other major physiological stressors, more direct medical interventions may be necessary.
+During this period, clinicians often recommend a combination of lifestyle changes, such as cardiovascular exercise and a heart-healthy diet, to support endothelial repair. In cases where the damage is more significant, such as [erectile dysfunction after radiation](/blog/ed-after-radiation-therapy) or other major physiological stressors, more direct medical interventions may be necessary.
 
 ## PDE5 Inhibitors as a Treatment Option
 

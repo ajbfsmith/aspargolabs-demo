@@ -71,7 +71,7 @@ For oral delivery, the target droplet size typically falls within the **10 to 10
 - **Maximizing Surface Area:** Droplets larger than 100 microns may be too heavy, leading them to pool in the mouth and be swallowed immediately, which reverts the delivery method back to traditional GI tract absorption.
 - **Mucosal Adhesion:** Droplets in the 10–100 micron range are optimized to coat the tissues of the mouth, where the medication can begin to interact with the highly vascularized oral lining.
 
-Research on [oromucosal drug delivery](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4401168/) suggests that bypassing the "first-pass metabolism" of the liver—which happens when you swallow a pill—can lead to more consistent plasma levels of the medication.
+Research on [oromucosal drug delivery](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4401168/) suggests that bypassing the "first-pass metabolism" of the liver, which happens when you swallow a pill, can lead to more consistent plasma levels of the medication.
 
 ## Stability and Preservation of the Active Compound
 
@@ -87,7 +87,7 @@ Stability data requirements for oral sprays are rigorous. Manufacturers must pro
 
 HEZKUE is an oral sildenafil spray suspension that utilizes these pharmaceutical principles to offer an alternative to traditional ED tablets. By using a micronized sildenafil suspension, HEZKUE is designed to provide a consistent dose in every spray.
 
-Unlike a tablet, which must be broken down by stomach acid—a process that can be delayed by heavy meals or individual digestive speed—the spray format focuses on delivery through the oral cavity. While some of the liquid is inevitably swallowed, the suspension format is engineered to optimize the user experience through its delivery mechanism.
+Unlike a tablet, which must be broken down by stomach acid, a process that can be delayed by heavy meals or individual digestive speed, the spray format focuses on delivery through the oral cavity. While some of the liquid is inevitably swallowed, the suspension format is engineered to optimize the user experience through its delivery mechanism.
 
 This innovation in delivery does not change the underlying biology of how the body achieves an erection, which involves a complex [hormone cascade behind sexual](/blog/hormones-erection-cascade) arousal and blood flow. Instead, it refines the "on-ramp" for the medication to enter the system.
 

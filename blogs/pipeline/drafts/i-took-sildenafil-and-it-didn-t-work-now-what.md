@@ -31,7 +31,7 @@ pillarSlug: psychological-erectile-dysfunction-guide
 slug: i-took-sildenafil-and-it-didn-t-work-now-what
 status: draft
 tier: 3
-title: I took sildenafil and it didn't work — now what?
+title: I took sildenafil and it didn't work, now what?
 word_count: 909
 ---
 

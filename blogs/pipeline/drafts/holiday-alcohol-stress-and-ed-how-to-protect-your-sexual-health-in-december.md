@@ -42,7 +42,7 @@ Understanding the relationship between holiday alcohol, stress, and ED is the fi
 
 While a glass of wine or a cocktail might seem like a good way to "get in the mood" by lowering inhibitions, alcohol is a central nervous system depressant. It can interfere with the complex signaling required for an erection to occur.
 
-When you consume alcohol, the communication between the brain and the penis slows down. According to the [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/10035-erectile-dysfunction), alcohol can lead to a temporary inability to achieve an erection because it reduces blood flow to the penis and dulls the sensitivity of the nervous system. Furthermore, alcohol is a diuretic, which can lead to dehydration. Dehydration decreases overall blood volume and increases angiotensin, a hormone associated with the constriction of blood vessels—both of which make it harder for the body to maintain an erection.
+When you consume alcohol, the communication between the brain and the penis slows down. According to the [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/10035-erectile-dysfunction), alcohol can lead to a temporary inability to achieve an erection because it reduces blood flow to the penis and dulls the sensitivity of the nervous system. Furthermore, alcohol is a diuretic, which can lead to dehydration. Dehydration decreases overall blood volume and increases angiotensin, a hormone associated with the constriction of blood vessels, both of which make it harder for the body to maintain an erection.
 
 Chronic heavy drinking during the holidays can also have longer-term effects. It may lower testosterone levels over time, which is a key driver of libido. If you are interested in how these factors change throughout your life, you can read more about [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s) to see how lifestyle habits compound over the decades.
 
@@ -81,7 +81,7 @@ Events like [movember men's sexual health](/blog/movember-and-men-s-sexual-healt
 
 ## Innovation in Delivery: HEZKUE Oral Spray
 
-For men looking for a modern approach to managing ED, delivery format matters. HEZKUE is an oral sildenafil spray suspension, representing a significant innovation in how medication is administered. Unlike traditional tablets that must be processed through the digestive system—which can be slowed down by heavy holiday meals—an oral spray suspension is designed for a different user experience.
+For men looking for a modern approach to managing ED, delivery format matters. HEZKUE is an oral sildenafil spray suspension, representing a significant innovation in how medication is administered. Unlike traditional tablets that must be processed through the digestive system, which can be slowed down by heavy holiday meals, an oral spray suspension is designed for a different user experience.
 
 HEZKUE is a clinically formulated delivery innovation, not a miracle cure. It provides a precise dose of sildenafil in a portable, discreet spray format. Because the delivery method can affect onset and consistency, many men prefer the spray suspension for its ease of use during a busy holiday schedule.
 

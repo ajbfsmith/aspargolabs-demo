@@ -32,7 +32,7 @@ title: How long should an erection last?
 word_count: 743
 ---
 
-For most men, a healthy erection should last from the beginning of sexual stimulation until climax or the end of sexual activity. There is no specific "correct" number of minutes, as duration varies based on age, health, and arousal levels. However, from a medical perspective, any erection that lasts for more than four hours—especially if it occurs without sexual stimulation or is painful—is considered a medical emergency known as priapism.
+For most men, a healthy erection should last from the beginning of sexual stimulation until climax or the end of sexual activity. There is no specific "correct" number of minutes, as duration varies based on age, health, and arousal levels. However, from a medical perspective, any erection that lasts for more than four hours, especially if it occurs without sexual stimulation or is painful, is considered a medical emergency known as priapism.
 
 ## What is a "Normal" Erection Duration?
 
@@ -66,7 +66,7 @@ Certain medications, including some antidepressants and blood pressure drugs, ca
 
 ## When to Speak With a Clinician
 
-If you are concerned about the duration of your erections—whether they are too short or you are experiencing prolonged, painful erections—it is important to seek medical advice. A clinician can help determine if there is an underlying cardiovascular issue or if a change in medication is necessary.
+If you are concerned about the duration of your erections, whether they are too short or you are experiencing prolonged, painful erections, it is important to seek medical advice. A clinician can help determine if there is an underlying cardiovascular issue or if a change in medication is necessary.
 
 For a broader look at managing these concerns, refer to our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 

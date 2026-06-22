@@ -62,7 +62,7 @@ When looking at **ed by numbers**, the causes are often categorized into physica
 - **Physical Causes (80-90%):** The vast majority of ED cases are linked to underlying physical conditions. According to the [Urology Care Foundation](https://www.urologyhealth.org/urology-a-z/e/erectile-dysfunction-(ed)), vascular disease is the leading cause, accounting for nearly 40% of cases. Diabetes is another major contributor, with approximately 50% of men with diabetes experiencing ED within 10 years of their diagnosis.
 - **Psychological Causes (10-20%):** While less common as a primary cause in older men, psychological factors like performance anxiety, stress, and depression are primary drivers for younger men.
 
-Regardless of the cause, ED is often a "sentinel symptom"—a warning sign of cardiovascular issues that may manifest years later.
+Regardless of the cause, ED is often a "sentinel symptom", a warning sign of cardiovascular issues that may manifest years later.
 
 ## The Treatment Gap: Why 75% Go Untreated
 

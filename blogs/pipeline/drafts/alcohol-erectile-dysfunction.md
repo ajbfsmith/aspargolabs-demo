@@ -109,13 +109,13 @@ If you experience chest pain, symptoms of a heart attack, or a prolonged erectio
 
 For men seeking consistent results, the delivery format of a medication can play a significant role in the user experience. HEZKUE is a clinically formulated oral sildenafil spray suspension designed to address some of the common frustrations with traditional tablets.
 
-Unlike standard pills that must be broken down in the digestive tract—a process that can be slowed further by heavy meals or alcohol—an oral spray suspension is designed for efficient delivery. While it is not a "miracle cure," this innovation in drug delivery aims to provide a more consistent onset and a more predictable experience for men managing ED.
+Unlike standard pills that must be broken down in the digestive tract, a process that can be slowed further by heavy meals or alcohol, an oral spray suspension is designed for efficient delivery. While it is not a "miracle cure," this innovation in drug delivery aims to provide a more consistent onset and a more predictable experience for men managing ED.
 
 ## Summary: Can You Reverse Alcohol-Induced ED?
 
 The good news is that for many men, alcohol-induced ED is reversible. A 2022 study found that nearly 88% of men with alcohol use disorder saw significant improvements in their erectile function after three months of abstinence. Reducing intake, staying hydrated, and focusing on cardiovascular health are the first steps toward recovery.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

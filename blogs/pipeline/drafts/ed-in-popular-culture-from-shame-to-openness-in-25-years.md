@@ -36,7 +36,7 @@ word_count: 991
 
 Twenty-five years ago, the conversation surrounding erectile dysfunction (ED) was largely confined to hushed tones in doctor’s offices or used as a punchline in late-night comedy. Today, the landscape has shifted dramatically. What was once a source of intense personal shame has evolved into a recognized medical condition discussed openly in podcasts, digital health platforms, and mainstream media.
 
-This evolution reflects a broader cultural change in how we view men’s health—moving away from outdated notions of "impotence" and toward a more clinical, proactive understanding of sexual wellness.
+This evolution reflects a broader cultural change in how we view men’s health, moving away from outdated notions of "impotence" and toward a more clinical, proactive understanding of sexual wellness.
 
 ## The Era of "Impotence" and Cultural Silence
 

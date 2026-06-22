@@ -49,7 +49,7 @@ It is also important to recognize that these concerns change over time. Understa
 
 Before jumping into clinical treatments, it is essential to look at the lifestyle factors that influence blood flow and libido. Small, consistent changes can have a cumulative effect on your sexual function.
 
-- **Cardiovascular Exercise:** Activities that improve heart health—like running, swimming, or cycling—directly improve the circulation required for healthy erections.
+- **Cardiovascular Exercise:** Activities that improve heart health, like running, swimming, or cycling, directly improve the circulation required for healthy erections.
 - **Dietary Adjustments:** Diets rich in fruits, vegetables, whole grains, and lean proteins (often referred to as the Mediterranean diet) have been shown to support vascular health.
 - **Sleep Hygiene:** Testosterone production is heavily dependent on high-quality sleep. Chronic sleep deprivation can lead to lower libido and decreased erectile quality.
 
@@ -88,7 +88,7 @@ Seek urgent medical care if you experience chest pain, sudden vision loss, sudde
 
 ## Making the Commitment for 2027
 
-As you look toward the upcoming months—including milestones like [valentine's day ed gift](/blog/valentine-s-day-and-ed-the-gift-of-actually-addressing-it) opportunities—remember that sexual health is a journey, not a destination. It requires a combination of healthy habits, open communication with partners, and the right clinical support.
+As you look toward the upcoming months, including milestones like [valentine's day ed gift](/blog/valentine-s-day-and-ed-the-gift-of-actually-addressing-it) opportunities, remember that sexual health is a journey, not a destination. It requires a combination of healthy habits, open communication with partners, and the right clinical support.
 
 If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes - not hours.
 

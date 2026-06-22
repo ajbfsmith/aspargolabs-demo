@@ -38,7 +38,7 @@ Understanding **pudendal nerve ed anatomy** is essential for men who experience 
 
 ## The Pathway of the Pudendal Nerve
 
-The pudendal nerve is the main nerve of the perineum—the area between the anus and the genitals. It originates from the sacral plexus, specifically the S2, S3, and S4 nerve roots at the base of the spine.
+The pudendal nerve is the main nerve of the perineum, the area between the anus and the genitals. It originates from the sacral plexus, specifically the S2, S3, and S4 nerve roots at the base of the spine.
 
 According to [StatPearls](https://www.ncbi.nlm.nih.gov/books/NBK544232/), the nerve follows a complex path through the pelvic region. It exits the pelvis through the greater sciatic foramen, crosses the sacrospinous ligament, and re-enters the pelvis through the lesser sciatic foramen. From there, it travels through a specialized sheath of fascia known as the pudendal canal, or Alcock’s canal.
 

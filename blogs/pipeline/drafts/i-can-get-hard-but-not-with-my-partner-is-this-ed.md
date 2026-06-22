@@ -30,7 +30,7 @@ pillarSlug: psychological-erectile-dysfunction-guide
 slug: i-can-get-hard-but-not-with-my-partner-is-this-ed
 status: draft
 tier: 3
-title: I can get hard but not with my partner — is this ED?
+title: I can get hard but not with my partner, is this ED?
 word_count: 796
 ---
 
@@ -67,7 +67,7 @@ Overcoming situational ED often requires a multi-pronged approach:
 2. **Sensate Focus:** This involves a series of behavioral exercises designed to shift the focus from "performance" to physical sensation and connection.
 3. **Clinical Support:** Sometimes, a short-term prescription can help break the cycle of anxiety by providing the "win" needed to regain confidence.
 
-If you have experienced this before, you might wonder, [i got hard once](/blog/i-got-hard-once-but-not-again-is-this-ed) but not since—is this a permanent problem? In most cases, situational ED is highly treatable through a combination of therapy and medical innovation. For a broader look at all available options, refer to our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
+If you have experienced this before, you might wonder, [i got hard once](/blog/i-got-hard-once-but-not-again-is-this-ed) but not since, is this a permanent problem? In most cases, situational ED is highly treatable through a combination of therapy and medical innovation. For a broader look at all available options, refer to our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
 ## Safety and Medical Considerations
 
@@ -82,7 +82,7 @@ Before starting any treatment for ED, it is essential to speak with a healthcare
 
 For many men, the "wait time" of traditional pills can actually increase performance anxiety. HEZKUE is an oral sildenafil spray suspension designed as a clinically formulated delivery innovation. Unlike traditional tablets that must be broken down in the stomach, the oral spray format can affect the onset and consistency of the user experience.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

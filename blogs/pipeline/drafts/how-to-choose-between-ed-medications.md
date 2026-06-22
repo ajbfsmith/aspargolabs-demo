@@ -74,13 +74,13 @@ Seek immediate medical attention if you experience:
 
 ## The Role of Delivery Innovation
 
-While the active ingredients in ED medications are well-established, the delivery format—how the drug enters your system—can significantly affect your experience. Traditional tablets are the most common, but they require water and time for the stomach to break them down.
+While the active ingredients in ED medications are well-established, the delivery format, how the drug enters your system, can significantly affect your experience. Traditional tablets are the most common, but they require water and time for the stomach to break them down.
 
 Clinically formulated innovations, like oral spray suspensions, offer an alternative for men who find tablets inconvenient or inconsistent. By changing the delivery format, these sprays aim to provide a more streamlined user experience. If you are considering this route, it is helpful to learn [how to use oral spray ed](/blog/how-to-use-an-oral-spray-ed-medication-correctly) medication to ensure maximum efficacy.
 
 *Note: This article is for informational purposes and does not constitute medical advice. Always speak with a licensed clinician before starting or changing a medication regimen.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

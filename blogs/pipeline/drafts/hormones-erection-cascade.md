@@ -41,7 +41,7 @@ Understanding the hormone cascade behind sexual function is essential for men na
 
 ## The Control Center: The Hypothalamic-Pituitary-Gonadal (HPG) Axis
 
-The hormone cascade begins in the brain’s hypothalamus. This region acts as the command center for the endocrine system. When the brain perceives sexual stimuli—whether through sight, touch, or thought—the hypothalamus releases Gonadotropin-Releasing Hormone (GnRH).
+The hormone cascade begins in the brain’s hypothalamus. This region acts as the command center for the endocrine system. When the brain perceives sexual stimuli, whether through sight, touch, or thought, the hypothalamus releases Gonadotropin-Releasing Hormone (GnRH).
 
 This hormone travels a short distance to the pituitary gland, signaling it to release two critical messengers: Luteinizing Hormone (LH) and Follicle-Stimulating Hormone (FSH). According to the [Endocrine Society](https://www.endocrine.org/patient-engagement/endocrine-library/hormones-and-the-endocrine-system), LH is the specific messenger that travels through the bloodstream to the testes, instructing the Leydig cells to produce testosterone. This feedback loop, known as the HPG axis, ensures that the body maintains the hormonal foundation necessary for sexual interest and function.
 
@@ -89,7 +89,7 @@ When the hormonal and neurological signals are working but the vascular response
 
 Understanding [makes oral spray suspension](https://acceleratehealth.com/blog/spray-suspension-formulation-science) technology reveals how modern science is refining this process. By using a fine-mist spray, the medication is designed for consistent delivery, bypassing some of the hurdles of traditional digestion.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

@@ -48,7 +48,7 @@ For me, the frustration wasn't just about the physical loss. It was about the lo
 
 During my first post-op year, I felt like I was in a biological waiting room. I read every [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction) I could find, trying to understand why my body wasn't responding. 
 
-The [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/prostate-cancer/in-depth/prostate-cancer-treatment/art-20048093) notes that "penile rehabilitation"—the process of encouraging blood flow to the tissues during the healing phase—is often recommended to prevent long-term damage. My urologist suggested PDE5 inhibitors, the standard class of ED medication. 
+The [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/prostate-cancer/in-depth/prostate-cancer-treatment/art-20048093) notes that "penile rehabilitation", the process of encouraging blood flow to the tissues during the healing phase, is often recommended to prevent long-term damage. My urologist suggested PDE5 inhibitors, the standard class of ED medication. 
 
 I started with traditional pills, but I ran into a common problem. Between the surgery-induced nerve damage and the natural changes that come with [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s), the pills felt inconsistent. I had to plan my meals around them, wait an hour for them to kick in, and hope the timing aligned with my wife’s mood. It felt less like intimacy and more like a medical appointment.
 
@@ -73,7 +73,7 @@ PDE5 inhibitors can cause a dangerous drop in blood pressure when combined with 
 
 ## Reclaiming the Journey
 
-My recovery isn't "over"—it’s evolving. I’ve learned that [i finally stopped dreading](/blog/how-i-finally-stopped-dreading-intimacy-performance-anxiety-ed-story) the bedroom once I accepted that my body needed a different kind of support than it did at 30. 
+My recovery isn't "over", it’s evolving. I’ve learned that [i finally stopped dreading](/blog/how-i-finally-stopped-dreading-intimacy-performance-anxiety-ed-story) the bedroom once I accepted that my body needed a different kind of support than it did at 30. 
 
 The "recovery nobody talks about" is the one that happens in the mind. It’s about moving past the "cancer patient" identity and back into being a partner. For me, finding a delivery innovation like HEZKUE was the bridge I needed to get there. It didn't just help with the physical symptoms; it helped me feel like myself again.
 

@@ -48,7 +48,7 @@ Beyond the nervous system, alcohol affects your circulatory system. Alcohol is a
 1.  **Reduced Blood Volume:** Dehydration lowers the overall volume of blood circulating in your body.
 2.  **Angiotensin II:** Dehydration can lead to an increase in angiotensin II, a hormone that causes blood vessels to constrict, further inhibiting the healthy blood flow needed for an erection.
 
-If you find that you can achieve an erection in other circumstances—for example, if [i wake up morning](/blog/why-do-i-wake-up-with-morning-wood-but-have-ed) with a natural erection but struggle after drinking—it is a strong indicator that alcohol or lifestyle factors are the primary cause rather than a permanent physical issue.
+If you find that you can achieve an erection in other circumstances, for example, if [i wake up morning](/blog/why-do-i-wake-up-with-morning-wood-but-have-ed) with a natural erection but struggle after drinking, it is a strong indicator that alcohol or lifestyle factors are the primary cause rather than a permanent physical issue.
 
 ## Long-Term Effects of Alcohol on Sexual Health
 

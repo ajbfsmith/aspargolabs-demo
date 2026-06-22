@@ -58,7 +58,7 @@ Common risks found in the social media health space include:
 
 - **"Natural" Hacks:** Many videos promote unregulated herbal supplements or "gas station" pills as miracle cures.
 - **Hidden Ingredients:** The [FDA has frequently warned](https://www.fda.gov/consumers/health-fraud-scams/tainted-sexual-enhancement-products) that many "all-natural" sexual enhancement products sold online actually contain undeclared pharmaceutical ingredients, which can be dangerous if taken without medical supervision.
-- **Misleading Expectations:** Viral content often focuses on "instant" results, ignoring the complex [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction) factors—such as blood flow, hormones, and psychological state—that contribute to sexual health.
+- **Misleading Expectations:** Viral content often focuses on "instant" results, ignoring the complex [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction) factors, such as blood flow, hormones, and psychological state, that contribute to sexual health.
 
 ## Clinical Rigor vs. Viral Hype
 

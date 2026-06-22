@@ -30,11 +30,11 @@ pillarSlug: psychological-erectile-dysfunction-guide
 slug: i-lose-my-erection-during-sex-am-i-broken
 status: draft
 tier: 3
-title: I lose my erection during sex — am I broken?
+title: I lose my erection during sex, am I broken?
 word_count: 762
 ---
 
-Losing an erection during sex does not mean you are "broken." It is a common experience that affects most men at some point in their lives. While it can be frustrating or embarrassing, "i lose my erection" is a phrase clinicians hear frequently. In many cases, the cause is temporary—stemming from stress, fatigue, or performance anxiety. However, if it happens consistently, it may be a sign of an underlying physiological or psychological issue that requires attention. Understanding the mechanics of an erection is the first step toward finding a solution. For more context, see our [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide).
+Losing an erection during sex does not mean you are "broken." It is a common experience that affects most men at some point in their lives. While it can be frustrating or embarrassing, "i lose my erection" is a phrase clinicians hear frequently. In many cases, the cause is temporary, stemming from stress, fatigue, or performance anxiety. However, if it happens consistently, it may be a sign of an underlying physiological or psychological issue that requires attention. Understanding the mechanics of an erection is the first step toward finding a solution. For more context, see our [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide).
 
 ## Why Do I Lose My Erection?
 

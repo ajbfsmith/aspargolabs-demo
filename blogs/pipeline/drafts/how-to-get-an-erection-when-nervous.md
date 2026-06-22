@@ -44,7 +44,7 @@ For an erection to occur, the parasympathetic nervous system must be dominant. T
 
 If you find it difficult to get an erection when nervous, the goal is to interrupt the stress response.
 
-- **Deep Breathing:** Slow, deep breaths signal to your brain that you are safe. Try "box breathing"—inhale for four seconds, hold for four, exhale for four, and hold for four.
+- **Deep Breathing:** Slow, deep breaths signal to your brain that you are safe. Try "box breathing", inhale for four seconds, hold for four, exhale for four, and hold for four.
 - **Sensate Focus:** Instead of focusing on the end goal (intercourse), focus on the physical sensations of touch. This shifts the mind away from "performance" and back to pleasure.
 - **Communication:** Simply acknowledging the nerves can often break the tension. Telling a partner, "I'm a little nervous because I want this to be great," can lower the stakes and reduce the physiological pressure.
 - **Extended Foreplay:** Taking more time can help the body transition out of a stressed state naturally.

@@ -38,7 +38,7 @@ The fastest-acting oral ED medication currently available in tablet form is Avan
 
 ## Comparing Onset Times for ED Medications
 
-When timing is a priority, the "onset of action"—the time it takes for a drug to reach a high enough concentration in the blood to produce an effect—is the most critical factor. Most Phosphodiesterase-5 (PDE5) inhibitors follow a similar biological path, but their chemical structures and delivery formats lead to different speeds.
+When timing is a priority, the "onset of action", the time it takes for a drug to reach a high enough concentration in the blood to produce an effect, is the most critical factor. Most Phosphodiesterase-5 (PDE5) inhibitors follow a similar biological path, but their chemical structures and delivery formats lead to different speeds.
 
 - **Avanafil (Stendra):** Often cited as the fastest oral pill, it is frequently effective within 15 to 30 minutes.
 - **Sildenafil (Viagra):** The most common ED medication usually takes 30 to 60 minutes to work.
@@ -76,7 +76,7 @@ Seek immediate medical attention if you experience:
 
 Choosing the right medication involves balancing how quickly it works with how long it lasts and how your body reacts to the formula. While pills are the traditional choice, they are no longer the only option for those seeking a more responsive experience.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

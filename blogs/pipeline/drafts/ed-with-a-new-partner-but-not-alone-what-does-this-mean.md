@@ -35,7 +35,7 @@ inline_links:
   url: /blog/psychological-erectile-dysfunction-guide
 - label: erectile dysfunction by age
   url: /blog/ed-causes-by-age-20s-30s-40s-50s-60s
-- label: ed after breakup —
+- label: 'ed after breakup, '
   url: /blog/ed-after-breakup-is-this-normal
 - label: i have ed i'm
   url: /blog/i-have-ed-and-i-m-afraid-to-try-medication
@@ -56,7 +56,7 @@ pillarSlug: psychological-erectile-dysfunction-guide
 slug: ed-with-a-new-partner-but-not-alone-what-does-this-mean
 status: draft
 tier: 3
-title: ED with a new partner but not alone — what does this mean?
+title: ED with a new partner but not alone, what does this mean?
 word_count: 781
 ---
 
@@ -68,7 +68,7 @@ Understanding this distinction is the first step toward regaining confidence. Wh
 
 The most reliable way to differentiate between physical (organic) and psychological ED is to observe your function when you are by yourself. If you can achieve a firm erection during masturbation or if you wake up with "morning wood" (nocturnal penile tumescence), your blood vessels and nerves are physically capable of producing an erection.
 
-According to the [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/9121-erectile-dysfunction-ed), organic ED—caused by issues like heart disease or diabetes—tends to be consistent and develops gradually. In contrast, [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide) often appears suddenly and only in specific situations, such as with a new partner.
+According to the [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/9121-erectile-dysfunction-ed), organic ED, caused by issues like heart disease or diabetes, tends to be consistent and develops gradually. In contrast, [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide) often appears suddenly and only in specific situations, such as with a new partner.
 
 - **Physical ED:** Consistent across all situations; often linked to [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s) or underlying health conditions.
 - **Situational ED:** Occurs with partners but not during solo play; often linked to stress or high expectations.
@@ -81,7 +81,7 @@ The "new partner" effect is a well-documented phenomenon in sexual medicine. Eve
 When you are with someone new, you may feel an intense pressure to "perform" or impress them. This can lead to "spectatoring," a term used by sex therapists to describe when a man mentally "steps outside" his body to judge his own performance. This self-monitoring triggers the body's fight-or-flight response, releasing adrenaline that constricts blood vessels and makes an erection physically impossible.
 
 ### 2. The Stress of Novelty
-A new relationship brings a mix of excitement and vulnerability. For some, this transition can feel similar to [ed after breakup —](/blog/ed-after-breakup-is-this-normal) where the emotional stakes are high, and the fear of rejection is at its peak.
+A new relationship brings a mix of excitement and vulnerability. For some, this transition can feel similar to [ed after breakup, ](/blog/ed-after-breakup-is-this-normal) where the emotional stakes are high, and the fear of rejection is at its peak.
 
 ### 3. Fear of Medication
 Many men in this situation think, "[i have ed i'm](/blog/i-have-ed-and-i-m-afraid-to-try-medication) afraid to try medication because it means I have a 'real' problem." In reality, short-term use of a clinically formulated solution can help break the cycle of anxiety by providing a "safety net" of successful experiences.

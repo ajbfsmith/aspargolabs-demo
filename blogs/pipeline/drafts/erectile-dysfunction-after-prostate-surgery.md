@@ -33,15 +33,15 @@ title: 'Erectile Dysfunction After Prostate Surgery: What to Expect and How to R
 word_count: 2418
 ---
 
-For many men diagnosed with prostate cancer, the primary focus is—rightly—on eliminating the cancer. However, as survivorship begins, quality-of-life concerns often move to the forefront. Among these, erectile dysfunction (ED) after prostate surgery is one of the most common and distressing side effects. For more context, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
+For many men diagnosed with prostate cancer, the primary focus is, rightly, on eliminating the cancer. However, as survivorship begins, quality-of-life concerns often move to the forefront. Among these, erectile dysfunction (ED) after prostate surgery is one of the most common and distressing side effects. For more context, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
 While the statistics can be daunting, it is important to understand that post-surgical ED is not always permanent. Recovery is a journey that involves physiological healing, medical intervention, and patience. This guide explores the mechanisms of erectile dysfunction after prostate surgery, the concept of penile rehabilitation, and what to expect during the 12- to 24-month recovery window.
 
 ## The Anatomy of Post-Prostatectomy ED
 
-The prostate gland is located directly adjacent to the delicate nerves and blood vessels responsible for triggering an erection. Specifically, the cavernous nerves—which signal the penis to fill with blood—run along the surface of the prostate in what are known as the neurovascular bundles (NVB).
+The prostate gland is located directly adjacent to the delicate nerves and blood vessels responsible for triggering an erection. Specifically, the cavernous nerves, which signal the penis to fill with blood, run along the surface of the prostate in what are known as the neurovascular bundles (NVB).
 
-During a radical prostatectomy (the surgical removal of the prostate), these nerves are at risk. Even when a surgeon is highly skilled, the process of removing the gland can cause "neuropraxia," a state where the nerves are bruised, stretched, or inflamed and temporarily stop functioning. Because these nerves are responsible for releasing nitric oxide—the chemical messenger that tells penile blood vessels to dilate—their inactivity leads to a total or partial loss of erectile function.
+During a radical prostatectomy (the surgical removal of the prostate), these nerves are at risk. Even when a surgeon is highly skilled, the process of removing the gland can cause "neuropraxia," a state where the nerves are bruised, stretched, or inflamed and temporarily stop functioning. Because these nerves are responsible for releasing nitric oxide, the chemical messenger that tells penile blood vessels to dilate, their inactivity leads to a total or partial loss of erectile function.
 
 ### Nerve-Sparing vs. Non-Nerve-Sparing Surgery
 
@@ -61,7 +61,7 @@ Modern urology has shifted largely toward Robotic-Assisted Radical Prostatectomy
 
 In the past, doctors often waited to see if erections returned on their own. Today, the standard of care has shifted toward "penile rehabilitation." This proactive approach is based on the "use it or lose it" principle.
 
-When the nerves are dormant after surgery, the penis does not receive its usual nighttime erections (nocturnal penile tumescence). These involuntary erections are the body’s way of oxygenating the penile tissue. Without regular blood flow, the tissues can undergo "fibrosis"—a process where elastic tissue is replaced by scar tissue, leading to permanent shrinkage (atrophy) or loss of function.
+When the nerves are dormant after surgery, the penis does not receive its usual nighttime erections (nocturnal penile tumescence). These involuntary erections are the body’s way of oxygenating the penile tissue. Without regular blood flow, the tissues can undergo "fibrosis", a process where elastic tissue is replaced by scar tissue, leading to permanent shrinkage (atrophy) or loss of function.
 
 Penile rehabilitation aims to:
 1. Increase blood flow to the penile tissues to maintain oxygenation.
@@ -150,7 +150,7 @@ Once the active recovery phase is complete and your urologist has cleared you fo
 
 HEZKUE is a clinically formulated oral sildenafil spray suspension. Unlike traditional tablets that must be digested and can be delayed by food, an oral spray delivery format can affect onset and consistency. For men who have regained some function but require a reliable boost, HEZKUE offers a modern alternative to traditional delivery methods.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 **Note: HEZKUE is a prescription medication. Consult with a healthcare provider to determine if sildenafil is appropriate for your cardiovascular health and surgical recovery status.**
 
@@ -165,7 +165,7 @@ Many men who undergo bilateral nerve-sparing surgery do regain the ability to ha
 Most urologists recommend starting penile rehabilitation (such as low-dose PDE5 inhibitors) as soon as the urinary catheter is removed, typically 1–2 weeks after surgery. Always follow your specific surgeon's protocol.
 
 ### Why did my penis get shorter after surgery?
-Penile shortening is a common side effect of prostatectomy, often caused by a lack of blood flow and the subsequent contraction of the smooth muscle and connective tissue. This is why "penile rehabilitation" and the use of vacuum devices are so important—they help maintain length by stretching the tissue and bringing in oxygenated blood.
+Penile shortening is a common side effect of prostatectomy, often caused by a lack of blood flow and the subsequent contraction of the smooth muscle and connective tissue. This is why "penile rehabilitation" and the use of vacuum devices are so important, they help maintain length by stretching the tissue and bringing in oxygenated blood.
 
 ### Does prostate surgery affect my orgasm?
 Most men can still experience orgasm after a prostatectomy, even if they have ED. However, the orgasm will be "dry" because the prostate and seminal vesicles, which produce semen, have been removed. The sensation of orgasm remains, though it may feel different.

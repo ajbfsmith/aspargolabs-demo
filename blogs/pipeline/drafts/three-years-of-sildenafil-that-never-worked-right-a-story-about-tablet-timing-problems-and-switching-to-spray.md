@@ -30,7 +30,7 @@ pillarSlug: erectile-dysfunction-relationship-impact
 slug: three-years-of-sildenafil-that-never-worked-right-a-story-about-tablet-timing-problems-and-switching-to-spray
 status: draft
 tier: 4
-title: Three Years of Sildenafil That Never Worked Right" — A story about tablet timing
+title: Three Years of Sildenafil That Never Worked Right", A story about tablet timing
   problems and switching to spray
 word_count: 937
 ---
@@ -43,7 +43,7 @@ The following story is a composite narrative based on common patient experiences
 
 When I first started taking sildenafil tablets, I thought the hard part was over. I had finally spoken to my doctor and gotten a prescription. However, I quickly realized that a tablet isn't a "magic switch." 
 
-For **three years sildenafil** use became a source of logistical stress. If my wife and I went out for a nice dinner—usually involving a steak or something with a bit of fat—the pill might take two hours to kick in, or sometimes it wouldn't seem to work at all. I learned later that high-fat meals can significantly delay the absorption of sildenafil, pushing the "onset of action" well past the moment it was needed.
+For **three years sildenafil** use became a source of logistical stress. If my wife and I went out for a nice dinner, usually involving a steak or something with a bit of fat, the pill might take two hours to kick in, or sometimes it wouldn't seem to work at all. I learned later that high-fat meals can significantly delay the absorption of sildenafil, pushing the "onset of action" well past the moment it was needed.
 
 This led to a cycle of "performance anxiety about the medication" rather than the act itself. I was constantly checking the clock, wondering if I had eaten too much or if I had taken the pill too early. This tension is common; as noted in our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction), the psychological burden of ED can often be as heavy as the physical symptoms.
 

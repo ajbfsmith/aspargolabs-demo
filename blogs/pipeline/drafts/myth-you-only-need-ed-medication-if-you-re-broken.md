@@ -37,7 +37,7 @@ title: 'Myth: You Only Need ED Medication If You''re Broken'
 word_count: 1095
 ---
 
-One of the most persistent misconceptions in men’s health is the **myth only need ed** medication if you are "broken" or "past your prime." This narrative suggests that erectile dysfunction (ED) is a binary state—either everything works perfectly, or you have a permanent medical failure.
+One of the most persistent misconceptions in men’s health is the **myth only need ed** medication if you are "broken" or "past your prime." This narrative suggests that erectile dysfunction (ED) is a binary state, either everything works perfectly, or you have a permanent medical failure.
 
 In reality, ED is a spectrum. It is a physiological and psychological response to a variety of internal and external factors. For many men, ED medication is not a "fix" for a broken system, but a tool to manage a common health condition and improve confidence. Understanding that ED is often temporary and highly treatable is the first step toward reclaiming sexual wellness.
 
@@ -89,7 +89,7 @@ While ED medications are widely used, they are not suitable for everyone. It is 
 
 ## Conclusion
 
-The **myth only need ed** medication if you are "broken" is a relic of an era when men’s health was rarely discussed openly. Today, we recognize ED as a common, treatable condition that can affect any man at any time. Medication is a tool—one of many—that can help you maintain your quality of life and confidence.
+The **myth only need ed** medication if you are "broken" is a relic of an era when men’s health was rarely discussed openly. Today, we recognize ED as a common, treatable condition that can affect any man at any time. Medication is a tool, one of many, that can help you maintain your quality of life and confidence.
 
 *Note: This article is for informational purposes and does not constitute medical advice. Always consult with a licensed healthcare professional regarding your specific health concerns.*
 

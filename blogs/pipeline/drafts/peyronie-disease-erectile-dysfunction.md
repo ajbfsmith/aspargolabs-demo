@@ -38,7 +38,7 @@ Because this condition involves both structural changes and vascular health, it 
 
 ## What is Peyronie’s Disease?
 
-Peyronie’s disease occurs when flat, fibrous scar tissue—known as plaque—develops under the skin of the penis. This plaque typically forms in the tunica albuginea, the thick membrane that surrounds the erectile chambers. 
+Peyronie’s disease occurs when flat, fibrous scar tissue, known as plaque, develops under the skin of the penis. This plaque typically forms in the tunica albuginea, the thick membrane that surrounds the erectile chambers. 
 
 Unlike the flexible tissue of a healthy penis, this scar tissue is inelastic. When the penis fills with blood during arousal, the scarred area cannot expand, causing the penis to bend or indent. According to the [Urology Care Foundation](https://www.urologyhealth.org/urologic-conditions/peyronies-disease), the curvature can range from mild to severe, sometimes making intercourse difficult or impossible.
 
@@ -81,7 +81,7 @@ If the curvature is severe and non-surgical treatments have failed, a clinician 
 When a man has both Peyronie’s disease and ED, clinicians often look at the health of the entire vascular system. Conditions that affect blood flow elsewhere in the body, such as [chronic kidney disease ed](/blog/kidney-disease-erectile-dysfunction), can exacerbate the symptoms of Peyronie's by further limiting the quality of erections.
 
 ### PDE5 Inhibitors
-Phosphodiesterase type 5 (PDE5) inhibitors—the class of drugs that includes sildenafil—are frequently used to manage the ED component of Peyronie’s disease. While these medications do not "cure" the curvature or dissolve the plaque, they can improve blood flow to the healthy parts of the penile tissue.
+Phosphodiesterase type 5 (PDE5) inhibitors, the class of drugs that includes sildenafil, are frequently used to manage the ED component of Peyronie’s disease. While these medications do not "cure" the curvature or dissolve the plaque, they can improve blood flow to the healthy parts of the penile tissue.
 
 Improved blood flow can help "stretch" the tissue and may even assist in the remodeling of the plaque during the early stages of the disease. A study published in the [Journal of Sexual Medicine](https://academic.oup.com/jsm) notes that daily low-dose PDE5 inhibitors may help maintain erectile function and penile length in men undergoing treatment for Peyronie's.
 

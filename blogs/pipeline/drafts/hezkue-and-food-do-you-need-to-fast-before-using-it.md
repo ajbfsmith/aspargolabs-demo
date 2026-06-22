@@ -46,7 +46,7 @@ To understand why people ask if they need to fast, we have to look at how the bo
 
 Clinical data from the [FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/020895s039s040lbl.pdf) indicates that when sildenafil tablets are taken with a high-fat meal, the rate of absorption is significantly slowed. This can delay the time it takes for the medication to reach peak concentration in the blood by approximately 60 minutes. It can also reduce the overall peak concentration (Cmax) by about 29%.
 
-In practical terms, this means that if you eat a heavy meal—like a burger, fries, or pizza—right before taking a tablet, you might find yourself waiting much longer for the medication to work, or you might feel that the effect is less potent than usual.
+In practical terms, this means that if you eat a heavy meal, like a burger, fries, or pizza, right before taking a tablet, you might find yourself waiting much longer for the medication to work, or you might feel that the effect is less potent than usual.
 
 ## How HEZKUE Changes the Delivery Experience
 

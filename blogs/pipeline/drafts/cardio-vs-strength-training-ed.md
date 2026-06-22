@@ -65,7 +65,7 @@ When it comes to the "best" workout for sexual health, the debate usually settle
 
 ## Cardio: The Gold Standard for Vascular Health
 
-The most common cause of erectile dysfunction is vascular—meaning the blood vessels cannot deliver or maintain enough blood flow to the penis for a firm erection. Because the arteries in the penis are significantly smaller than those in the heart, ED is often an early warning sign of broader cardiovascular issues.
+The most common cause of erectile dysfunction is vascular, meaning the blood vessels cannot deliver or maintain enough blood flow to the penis for a firm erection. Because the arteries in the penis are significantly smaller than those in the heart, ED is often an early warning sign of broader cardiovascular issues.
 
 Recent high-quality evidence has solidified cardio’s place as a primary non-pharmacological treatment for ED. A [2023 meta-analysis published in The Journal of Sexual Medicine](https://academic.oup.com/jsm/article/20/11/1369/7295171) reviewed 11 randomized controlled trials and found that regular aerobic exercise significantly improved erectile function scores. On average, men saw an improvement of 2.8 points on the International Index of Erectile Function (IIEF) scale. Notably, those with more severe ED saw the greatest gains, with some improving their scores by nearly 5 points.
 
@@ -95,7 +95,7 @@ If you are already focusing on hormonal health through [zinc testosterone ed sup
 
 If you had to choose only one, the data currently leans toward **cardio** for direct improvements in erection firmness. The vascular benefits of aerobic exercise are more immediate and more closely linked to the mechanics of an erection.
 
-However, the most effective approach is a combination of both. A [systematic review in the British Journal of Sports Medicine](https://bjsm.bmj.com/content/52/24/1589) suggests that a "multimodal" approach—combining aerobic work with resistance training—provides the most comprehensive protection against ED.
+However, the most effective approach is a combination of both. A [systematic review in the British Journal of Sports Medicine](https://bjsm.bmj.com/content/52/24/1589) suggests that a "multimodal" approach, combining aerobic work with resistance training, provides the most comprehensive protection against ED.
 
 - **Cardio** ensures the blood vessels are flexible and capable of high flow.
 - **Weights** ensure the hormonal drive and metabolic health are optimized to trigger that flow.

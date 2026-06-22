@@ -67,7 +67,7 @@ Before starting any new treatment, it is essential to discuss your medical histo
 
 For most men, the choice between **viagra generic sildenafil** comes down to insurance coverage and personal budget. Because the efficacy is the same, the generic version offers a cost-effective way to manage ED symptoms. However, for those looking for a more modern approach to delivery, innovations like oral sprays offer an alternative to the traditional pill format.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

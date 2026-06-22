@@ -48,7 +48,7 @@ The impact wasn't just physical. It started affecting my marriage. My wife was s
 
 ## The Struggle with Traditional Treatments
 
-My doctor initially prescribed standard sildenafil tablets. While they worked, the experience wasn't ideal. As someone managing diabetes, my meal timing is strict. I found that if I had a slightly heavier meal to keep my sugars stable, the pill took forever to kick in—sometimes up to two hours.
+My doctor initially prescribed standard sildenafil tablets. While they worked, the experience wasn't ideal. As someone managing diabetes, my meal timing is strict. I found that if I had a slightly heavier meal to keep my sugars stable, the pill took forever to kick in, sometimes up to two hours.
 
 The [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/erectile-dysfunction/in-depth/erectile-dysfunction-pills/art-20047844) notes that high-fat meals can delay the absorption of certain oral ED medications. For me, this meant the "spontaneity" was completely gone. I was constantly checking the clock, wondering if the medication would sync up with the moment. I felt like I was [getting ed after 50](/blog/getting-ed-after-50-why-i-finally-stopped-pretending-it-wasn-t-happening) all over again, feeling defeated by the very solutions meant to help me.
 

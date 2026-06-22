@@ -92,7 +92,7 @@ If you are considering other options, such as a [vacuum pump vs ED medication](/
 
 **Note:** This article is for informational purposes and does not constitute medical advice. Always speak with a licensed clinician before starting or changing the dose of any medication for erectile dysfunction.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

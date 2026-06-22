@@ -43,7 +43,7 @@ To understand why a pill meant for one part of the body affects your head or you
 While PDE5 enzymes are most concentrated in the erectile tissues of the penis, they are also present in other parts of the body. When you take an oral medication, it enters your systemic circulation, causing vasodilation in various regions:
 
 - **Headaches:** Dilation of blood vessels in the brain and surrounding tissues can increase pressure and trigger a dull or throbbing headache.
-- **Flushing:** Vasodilation of the small capillaries near the surface of the skin—particularly on the face, neck, and chest—causes a sudden rush of blood and a feeling of warmth.
+- **Flushing:** Vasodilation of the small capillaries near the surface of the skin, particularly on the face, neck, and chest, causes a sudden rush of blood and a feeling of warmth.
 - **Nasal Congestion:** The blood vessels in the nasal mucosa (the lining of your nose) can swell when dilated, leading to a "stuffy" feeling similar to a cold.
 
 According to the [American Urological Association](https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-guideline), these side effects are generally mild to moderate and often subside as the medication leaves the system.
@@ -94,7 +94,7 @@ If you are exploring [every ed treatment available](https://acceleratehealth.com
 
 Before starting any ED medication, a consultation with a clinician is essential. PDE5 inhibitors are strictly contraindicated for men taking nitrates (such as nitroglycerin) or certain alpha-blockers, as the combination can cause life-threatening hypotension. Men with unstable cardiovascular disease or recent history of stroke or heart attack must be cleared by a cardiologist before using these treatments.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

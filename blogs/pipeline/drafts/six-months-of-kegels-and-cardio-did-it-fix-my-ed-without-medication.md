@@ -47,7 +47,7 @@ My research led me to two pillars of non-medical ED management: pelvic floor str
 
 The logic behind the "six months kegels" plan is rooted in the anatomy of the pelvic floor. The bulbocavernosus muscle surrounds the base of the penis and is responsible for pumping blood during ejaculation and helping maintain an erection by compressing the deep dorsal vein. A study published in [BJU International](https://pubmed.ncbi.nlm.nih.gov/15833065/) found that pelvic floor muscle exercises significantly improved erectile function in men who had experienced symptoms for six months or more.
 
-The cardio component was about the "pipes." Erectile dysfunction is often a vascular issue—what’s good for the heart is generally good for the penis. According to research in the [Journal of Sexual Medicine](https://www.jsm.jsexmed.org/article/S1743-6095(15)30043-4/fulltext), aerobic exercise is associated with improved erectile function because it enhances endothelial function and blood flow.
+The cardio component was about the "pipes." Erectile dysfunction is often a vascular issue, what’s good for the heart is generally good for the penis. According to research in the [Journal of Sexual Medicine](https://www.jsm.jsexmed.org/article/S1743-6095(15)30043-4/fulltext), aerobic exercise is associated with improved erectile function because it enhances endothelial function and blood flow.
 
 ## The Six-Month Journey
 
@@ -67,7 +67,7 @@ I didn't want a traditional pill that I had to plan my entire evening around. I 
 
 ## HEZKUE: A Clinical Innovation in Delivery
 
-HEZKUE isn't a "miracle cure" or a supplement found on a gym shelf. It is a clinically formulated oral sildenafil spray suspension. The innovation here isn't the active ingredient—sildenafil has been the gold standard for decades—but the delivery format.
+HEZKUE isn't a "miracle cure" or a supplement found on a gym shelf. It is a clinically formulated oral sildenafil spray suspension. The innovation here isn't the active ingredient, sildenafil has been the gold standard for decades, but the delivery format.
 
 Because HEZKUE is an oral spray suspension rather than a pill that needs to be broken down in the digestive tract, the delivery format can affect the onset and consistency of the experience. For someone like me, who had spent six months focusing on efficiency and health, the precision of a spray felt like the right "bridge" to complement my lifestyle changes.
 
@@ -90,7 +90,7 @@ Did six months of kegels and cardio "fix" my ED? It improved my health, my stami
 
 The combination of a strong physical foundation and the fast-acting delivery of HEZKUE was the real resolution. I no longer felt like I was waiting for a pill to kick in; I felt like I was simply using a tool that matched the work I’d already put in.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

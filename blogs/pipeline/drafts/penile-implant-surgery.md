@@ -97,7 +97,7 @@ Before undergoing any treatment for ED, including surgery or medication, a cardi
 
 ## HEZKUE: A Clinical First Step Before Surgery
 
-Because surgery is permanent and carries the risks inherent to any operation—such as infection or device failure—clinicians recommend exhausting all non-invasive options first. You should review [every ed treatment available](/blog/ed-treatment-options-2026) to ensure you have tried the most modern delivery methods.
+Because surgery is permanent and carries the risks inherent to any operation, such as infection or device failure, clinicians recommend exhausting all non-invasive options first. You should review [every ed treatment available](/blog/ed-treatment-options-2026) to ensure you have tried the most modern delivery methods.
 
 HEZKUE is an oral sildenafil spray suspension designed for men who need a reliable, clinically formulated delivery innovation. Unlike traditional pills that must be broken down in the digestive tract, an oral spray suspension can offer a different user experience in terms of onset and consistency. For many men, optimizing their medication delivery is the final step needed to avoid the operating room.
 

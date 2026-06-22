@@ -74,7 +74,7 @@ If you experience chest pain, sudden vision loss, or an erection lasting longer 
 
 ## How to Optimize Your Results
 
-To ensure you get the most out of HEZKUE, it is important to follow the [hezkue dosing guide use](/blog/hezkue-dosing-guide-how-to-use-the-oral-spray-correctly) provided by your clinician. Proper administration—ensuring the spray is applied correctly to the oral mucosa—is key to achieving the intended onset time.
+To ensure you get the most out of HEZKUE, it is important to follow the [hezkue dosing guide use](/blog/hezkue-dosing-guide-how-to-use-the-oral-spray-correctly) provided by your clinician. Proper administration, ensuring the spray is applied correctly to the oral mucosa, is key to achieving the intended onset time.
 
 The [hezkue ingredients what's formula?](/blog/hezkue-ingredients-what-s-in-the-formula) are specifically balanced to maintain the stability of the sildenafil in a suspension, allowing for a precise dose with every spray. Unlike tablets that may need to be split (which can lead to inconsistent dosing), the spray provides a metered amount of medication designed for consistency.
 

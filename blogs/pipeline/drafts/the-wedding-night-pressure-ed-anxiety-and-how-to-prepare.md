@@ -40,7 +40,7 @@ Understanding the intersection of anxiety and physiology is the first step in pr
 
 ## The Psychology of Wedding Night Pressure
 
-The "wedding night" carries a heavy weight of cultural expectation. After months of logistics, financial stress, and social performances, the body is often in a state of exhaustion. When a man feels the need to "perform" on demand, the brain may trigger a sympathetic nervous system response—the "fight or flight" mode.
+The "wedding night" carries a heavy weight of cultural expectation. After months of logistics, financial stress, and social performances, the body is often in a state of exhaustion. When a man feels the need to "perform" on demand, the brain may trigger a sympathetic nervous system response, the "fight or flight" mode.
 
 According to the [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/erectile-dysfunction/symptoms-causes/syc-20353176), psychological factors like anxiety and stress are primary drivers of temporary erectile dysfunction, particularly in younger men or during high-stakes life events. This is often referred to as "spectatoring," where a man becomes an anxious observer of his own physical response rather than a participant in the moment. This mental distraction can interrupt the signals between the brain and the blood vessels, making an erection difficult to maintain.
 
@@ -48,7 +48,7 @@ This phenomenon isn't unique to weddings; we see similar patterns in other high-
 
 ## How Anxiety Affects Physiology
 
-Erectile function relies on a delicate balance of nitric oxide release and muscle relaxation in the penis. When **wedding night pressure** triggers adrenaline, it causes blood vessels to constrict—the exact opposite of what is required for an erection.
+Erectile function relies on a delicate balance of nitric oxide release and muscle relaxation in the penis. When **wedding night pressure** triggers adrenaline, it causes blood vessels to constrict, the exact opposite of what is required for an erection.
 
 For men in different stages of life, the causes of ED can vary. While older men may face more physical vascular issues, younger men are more likely to experience ED rooted in performance anxiety. You can learn more about these distinctions in our guide to [erectile dysfunction by age](https://acceleratehealth.com/blog/ed-causes-by-age-20s-30s-40s-50s-60s).
 
@@ -66,7 +66,7 @@ However, for many, having a clinically backed backup plan provides the peace of 
 
 When lifestyle changes and communication aren't enough to overcome **wedding night pressure ed**, many men turn to PDE5 inhibitors like sildenafil. While traditional tablets have been the standard for decades, delivery innovation is changing the user experience.
 
-HEZKUE is an oral sildenafil spray suspension designed for modern needs. Unlike traditional pills that must be swallowed and processed through the digestive system—a process that can be slowed down by a heavy wedding dinner—an oral spray suspension offers a different delivery mechanism.
+HEZKUE is an oral sildenafil spray suspension designed for modern needs. Unlike traditional pills that must be swallowed and processed through the digestive system, a process that can be slowed down by a heavy wedding dinner, an oral spray suspension offers a different delivery mechanism.
 
 The delivery format of a medication can significantly affect:
 - **Onset:** How quickly the medication enters the system.
@@ -87,7 +87,7 @@ Men with unstable cardiovascular disease, a recent history of stroke or heart at
 
 The best way to handle **wedding night pressure** is to prioritize intimacy over performance. If ED occurs, it is not a reflection of your attraction to your partner or your future as a couple; it is a common physiological response to an uncommon amount of stress.
 
-If you're looking for a fast-acting, clinically formulated solution to help manage the unpredictability of performance anxiety, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution to help manage the unpredictability of performance anxiety, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

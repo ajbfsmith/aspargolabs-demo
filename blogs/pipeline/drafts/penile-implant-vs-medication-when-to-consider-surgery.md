@@ -30,7 +30,7 @@ title: 'Penile implant vs medication: When to consider surgery'
 word_count: 849
 ---
 
-Deciding between a penile implant and medication depends primarily on your response to first-line therapies. Most clinicians recommend considering a penile implant only after oral medications—such as sildenafil or tadalafil—have failed to produce satisfactory results, cause intolerable side effects, or are medically contraindicated. While medications offer a non-invasive approach that works for many, surgery provides a permanent, mechanical solution for severe erectile dysfunction (ED) that no longer responds to chemical stimulation.
+Deciding between a penile implant and medication depends primarily on your response to first-line therapies. Most clinicians recommend considering a penile implant only after oral medications, such as sildenafil or tadalafil, have failed to produce satisfactory results, cause intolerable side effects, or are medically contraindicated. While medications offer a non-invasive approach that works for many, surgery provides a permanent, mechanical solution for severe erectile dysfunction (ED) that no longer responds to chemical stimulation.
 
 ## Understanding First-Line Medication
 
@@ -59,7 +59,7 @@ There are two primary types of implants:
 1. **Inflatable Implants:** These consist of two cylinders placed in the penis, a reservoir in the abdomen, and a pump in the scrotum. You squeeze the pump to move fluid into the cylinders, creating an erection.
 2. **Malleable (Semi-Rigid) Rods:** These involve simpler surgery where firm but flexible rods are placed in the penis. The penis remains firm at all times and is simply bent into position for intercourse.
 
-The [Mayo Clinic](https://www.mayoclinic.org/tests-procedures/penile-implant/about/pac-20384916) notes that penile implants have high satisfaction rates—often exceeding 90% for both patients and partners—because they provide a reliable erection whenever desired without the need for planning or medication timing.
+The [Mayo Clinic](https://www.mayoclinic.org/tests-procedures/penile-implant/about/pac-20384916) notes that penile implants have high satisfaction rates, often exceeding 90% for both patients and partners, because they provide a reliable erection whenever desired without the need for planning or medication timing.
 
 ## Comparing the Two Paths
 

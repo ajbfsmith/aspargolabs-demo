@@ -59,7 +59,7 @@ Understanding [first pass metabolism? matters](/blog/first-pass-metabolism-expla
 
 ## How Formulation Affects Bioavailability
 
-Not all delivery methods are created equal. The physical format of a medication—whether it is a hard-pressed tablet, a capsule, or a liquid—significantly impacts how quickly and efficiently the body can absorb the active ingredient.
+Not all delivery methods are created equal. The physical format of a medication, whether it is a hard-pressed tablet, a capsule, or a liquid, significantly impacts how quickly and efficiently the body can absorb the active ingredient.
 
 1.  **Tablets**: Must be broken down by stomach acid and dissolved before absorption can begin. This adds time to the onset of action and increases the duration the drug spends in the digestive tract.
 2.  **Food Interference**: High-fat meals can significantly delay the absorption of sildenafil tablets, further reducing the peak concentration of the drug in the blood.
@@ -71,7 +71,7 @@ Innovation in drug delivery aims to optimize these pharmacokinetics, ensuring th
 
 HEZKUE represents a shift in how sildenafil is delivered to the body. As an oral spray suspension, HEZKUE is clinically formulated to address the limitations of traditional tablets.
 
-By utilizing a spray format, the medication is dispersed into fine droplets. This delivery innovation is designed to provide a more consistent user experience by focusing on the pharmacokinetics of the drug—how it moves through the body. While it still undergoes metabolism, the suspension format is engineered for efficient delivery, aiming for an onset of action that is not hindered by the time it takes for a solid pill to dissolve in the stomach.
+By utilizing a spray format, the medication is dispersed into fine droplets. This delivery innovation is designed to provide a more consistent user experience by focusing on the pharmacokinetics of the drug, how it moves through the body. While it still undergoes metabolism, the suspension format is engineered for efficient delivery, aiming for an onset of action that is not hindered by the time it takes for a solid pill to dissolve in the stomach.
 
 In the [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction), we note that the "best" treatment is often the one that fits a man's lifestyle and provides the most predictable results. For many, the predictability of a spray suspension is a significant advantage over traditional oral solids.
 

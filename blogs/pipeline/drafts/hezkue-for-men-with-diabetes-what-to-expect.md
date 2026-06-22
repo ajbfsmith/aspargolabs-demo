@@ -43,7 +43,7 @@ HEZKUE, an oral sildenafil spray suspension, offers a modern approach to this ch
 
 Diabetes impacts sexual health through two primary pathways: blood flow and nerve function. High blood sugar can damage the small blood vessels (vasculopathy) and the nerves (neuropathy) that are essential for achieving an erection.
 
-For many men, this means that standard oral tablets may not always provide the predictable results they expect. Factors like digestion speed—which can be slowed by diabetic gastroparesis—can delay how long a pill takes to work. Understanding the [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction) can help you see how these physiological factors intersect with your treatment options.
+For many men, this means that standard oral tablets may not always provide the predictable results they expect. Factors like digestion speed, which can be slowed by diabetic gastroparesis, can delay how long a pill takes to work. Understanding the [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction) can help you see how these physiological factors intersect with your treatment options.
 
 ## The HEZKUE Difference: Oral Spray Delivery
 

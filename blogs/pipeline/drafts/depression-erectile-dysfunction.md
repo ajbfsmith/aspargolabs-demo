@@ -32,7 +32,7 @@ title: 'Depression and ED: Which Comes First, and How Do You Treat Both?'
 word_count: 1168
 ---
 
-When a man experiences both low mood and difficulty with erections, a common question arises: which one started first? The relationship between mental health and sexual function is rarely a one-way street. Instead, medical professionals view it as a bidirectional relationship—a cycle where each condition feeds into and worsens the other.
+When a man experiences both low mood and difficulty with erections, a common question arises: which one started first? The relationship between mental health and sexual function is rarely a one-way street. Instead, medical professionals view it as a bidirectional relationship, a cycle where each condition feeds into and worsens the other.
 
 Understanding whether **depression ed comes first** in your specific case is less about finding a "winner" and more about identifying how to break the cycle. Whether the root is chemical, psychological, or a side effect of treatment, addressing both components is essential for long-term recovery.
 

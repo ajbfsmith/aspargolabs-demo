@@ -39,7 +39,7 @@ Erectile dysfunction (ED) can develop either **instantly or gradually over sever
 The speed at which ED develops is often the most significant clue for clinicians trying to diagnose the cause. While every man’s experience is different, the timeline generally falls into two categories:
 
 ### Sudden Onset (Days to Weeks)
-When ED appears suddenly—meaning you were able to achieve firm erections one week and cannot the next—the cause is frequently psychological or related to a new medication. According to the [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/9121-erectile-dysfunction), sudden ED is often linked to:
+When ED appears suddenly, meaning you were able to achieve firm erections one week and cannot the next, the cause is frequently psychological or related to a new medication. According to the [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/9121-erectile-dysfunction), sudden ED is often linked to:
 - Acute stress or depression.
 - Relationship conflicts.
 - Performance anxiety.

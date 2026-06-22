@@ -39,7 +39,7 @@ word_count: 940
 
 Erectile dysfunction (ED) is often discussed as a solitary medical condition, yet its impact rarely stops with the individual. For many men, the internal struggle with performance anxiety or physical limitations is mirrored by a partner’s quiet uncertainty. Understanding the **partner perspective women** and men’s partners share can bridge the gap between frustration and a proactive path forward.
 
-When ED enters a relationship, the primary hurdle is often not the physical symptom itself, but the silence that follows. Research suggests that partners frequently experience a range of emotions—from confusion to a sense of personal rejection—that can be mitigated through open dialogue and clinical intervention.
+When ED enters a relationship, the primary hurdle is often not the physical symptom itself, but the silence that follows. Research suggests that partners frequently experience a range of emotions, from confusion to a sense of personal rejection, that can be mitigated through open dialogue and clinical intervention.
 
 ## The Emotional Impact on Partners
 
@@ -47,7 +47,7 @@ For many partners, the first reaction to ED is not one of judgment, but of self-
 
 According to a study published in [The Journal of Sexual Medicine](https://academic.oup.com/jsm/article-abstract/11/12/2863/6956247), partners of men with ED often report lower levels of sexual satisfaction and increased anxiety regarding the relationship's future. The **partner perspective women** and men’s partners offer highlights a recurring theme: they would rather talk about the issue than have it ignored.
 
-When a man avoids intimacy to prevent a potential "failure," the partner may feel shut out. This cycle of avoidance can lead to a breakdown in non-sexual intimacy as well. Recognizing that ED is a common medical issue—not a personal choice—is the first step in navigating [ed relationships erectile dysfunction](/blog/erectile-dysfunction-relationship-impact) successfully.
+When a man avoids intimacy to prevent a potential "failure," the partner may feel shut out. This cycle of avoidance can lead to a breakdown in non-sexual intimacy as well. Recognizing that ED is a common medical issue, not a personal choice, is the first step in navigating [ed relationships erectile dysfunction](/blog/erectile-dysfunction-relationship-impact) successfully.
 
 ## Why Communication Outweighs Performance
 
@@ -87,7 +87,7 @@ If you experience chest pain, dizziness, or nausea during sex, or if you experie
 
 The **partner perspective women** and men’s partners provide is clear: they want to be part of the solution. By moving away from shame and toward clinical innovation, couples can address ED as a manageable aspect of their health.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

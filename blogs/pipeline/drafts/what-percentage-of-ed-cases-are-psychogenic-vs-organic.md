@@ -72,7 +72,7 @@ For example, a man might experience a mild physical dip in erectile quality due 
 
 Regardless of whether the cause is organic or psychogenic, the goal of treatment is to restore confidence and consistency. Traditional oral tablets are the standard of care, but delivery format can affect the user experience.
 
-HEZKUE is an oral sildenafil spray suspension, representing a clinically formulated delivery innovation. Unlike traditional pills that must be broken down in the digestive tract, an oral spray suspension is designed for efficient delivery. For men dealing with psychogenic ED—where the "waiting window" for a pill to work can actually increase anxiety—a faster-acting format may help reduce the psychological pressure of timing.
+HEZKUE is an oral sildenafil spray suspension, representing a clinically formulated delivery innovation. Unlike traditional pills that must be broken down in the digestive tract, an oral spray suspension is designed for efficient delivery. For men dealing with psychogenic ED, where the "waiting window" for a pill to work can actually increase anxiety, a faster-acting format may help reduce the psychological pressure of timing.
 
 However, it is important to remember that HEZKUE is not a "miracle cure." It is a tool to manage symptoms while the underlying organic or psychogenic causes are addressed with a healthcare provider.
 

@@ -30,14 +30,13 @@ pillarSlug: ed-medication-myths-debunked
 slug: myth-sex-should-be-spontaneous-why-the-spontaneity-myth-hurts-men-with-ed
 status: draft
 tier: 4
-title: 'Myth: Sex Should Be Spontaneous — Why the Spontaneity Myth Hurts Men with
-  ED'
+title: 'Myth: Sex Should Be Spontaneous, Why the Spontaneity Myth Hurts Men with ED'
 word_count: 1059
 ---
 
 The idea that sex must be spontaneous is one of the most persistent misconceptions in modern dating and relationships. We are often told that "real" intimacy happens in the heat of the moment, without planning or preparation. However, for many men, the **myth sex should be** entirely unplanned creates a cycle of performance anxiety, avoidance, and unnecessary stress.
 
-In reality, the **myth sex should** happen without a roadmap often does more harm than good, especially for those managing erectile dysfunction (ED). By deconstructing this myth, men can move toward a more intentional—and ultimately more satisfying—sexual health journey.
+In reality, the **myth sex should** happen without a roadmap often does more harm than good, especially for those managing erectile dysfunction (ED). By deconstructing this myth, men can move toward a more intentional, and ultimately more satisfying, sexual health journey.
 
 ## The Problem with the Spontaneity Myth
 
@@ -96,7 +95,7 @@ By letting go of the need for "perfect" spontaneity, you open the door to a more
 
 *Disclaimer: This article is for informational purposes and does not constitute medical advice. Always speak with a qualified healthcare provider before starting any new medication or treatment for erectile dysfunction.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

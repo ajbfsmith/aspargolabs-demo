@@ -29,11 +29,11 @@ pillarSlug: psychological-erectile-dysfunction-guide
 slug: i-m-25-and-can-t-get-hard-what-s-wrong
 status: draft
 tier: 3
-title: I'm 25 and can't get hard — what's wrong?
+title: I'm 25 and can't get hard, what's wrong?
 word_count: 801
 ---
 
-If you are 25 and can’t get or maintain an erection, you are not alone; research suggests that nearly [1 in 4 men seeking help for erectile dysfunction (ED) are under the age of 40](https://www.jsm.jsexmed.org/article/S1743-6095(15)30428-8/fulltext). For most men in their 20s, the cause is often psychological—such as performance anxiety or stress—or related to lifestyle factors like vaping or sleep deprivation, though it can occasionally signal an underlying medical issue that requires professional evaluation. For more context, see our [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide).
+If you are 25 and can’t get or maintain an erection, you are not alone; research suggests that nearly [1 in 4 men seeking help for erectile dysfunction (ED) are under the age of 40](https://www.jsm.jsexmed.org/article/S1743-6095(15)30428-8/fulltext). For most men in their 20s, the cause is often psychological, such as performance anxiety or stress, or related to lifestyle factors like vaping or sleep deprivation, though it can occasionally signal an underlying medical issue that requires professional evaluation. For more context, see our [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide).
 
 ## Why ED Happens in Your 20s
 

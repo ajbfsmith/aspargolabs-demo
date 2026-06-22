@@ -50,11 +50,11 @@ To better understand this connection, we spoke with a sleep specialist on the li
 
 OSA causes repeated drops in blood oxygen levels during the night. This puts immense stress on the vascular system and reduces the production of nitric oxide, which is the chemical messenger required to relax the blood vessels in the penis to allow for blood flow.
 
-**Accelerate Health: How does general sleep deprivation—just not getting enough hours—affect performance?**
+**Accelerate Health: How does general sleep deprivation, just not getting enough hours, affect performance?**
 
 **Expert:** It’s a double-edged sword of hormones and stress. First, testosterone levels are highest during REM sleep. If you are cutting your sleep short, you are literally cutting off your testosterone supply. A study in [JAMA](https://jamanetwork.com/journals/jama/fullarticle/1029127) found that just one week of sleep restriction (five hours per night) can lower testosterone levels by 10% to 15% in healthy young men.
 
-Second, sleep deprivation spikes cortisol, the stress hormone. High cortisol is an "anti-erection" hormone; it keeps the body in a "fight or flight" state, making it very difficult to transition into the relaxed state necessary for arousal. This is why understanding [erectile dysfunction by age](https://acceleratehealth.com/blog/ed-causes-by-age-20s-30s-40s-50s-60s) is so important—younger men are often more prone to sleep-deprivation-related ED due to lifestyle factors.
+Second, sleep deprivation spikes cortisol, the stress hormone. High cortisol is an "anti-erection" hormone; it keeps the body in a "fight or flight" state, making it very difficult to transition into the relaxed state necessary for arousal. This is why understanding [erectile dysfunction by age](https://acceleratehealth.com/blog/ed-causes-by-age-20s-30s-40s-50s-60s) is so important, younger men are often more prone to sleep-deprivation-related ED due to lifestyle factors.
 
 **Accelerate Health: We often hear about "morning wood." Does a lack of these nocturnal erections signal a problem?**
 
@@ -68,7 +68,7 @@ In the landscape of [every ed treatment available](https://acceleratehealth.com/
 
 ### The Role of Delivery Innovation: HEZKUE
 
-HEZKUE is an oral sildenafil spray suspension designed for men who need a consistent and efficient delivery method. Unlike traditional tablets that must be broken down in the digestive tract—a process that can be slowed by food or individual metabolic differences—HEZKUE’s spray format is a clinically formulated innovation. 
+HEZKUE is an oral sildenafil spray suspension designed for men who need a consistent and efficient delivery method. Unlike traditional tablets that must be broken down in the digestive tract, a process that can be slowed by food or individual metabolic differences, HEZKUE’s spray format is a clinically formulated innovation. 
 
 By focusing on the delivery mechanism, HEZKUE aims to provide a more predictable user experience. For a man whose sleep-deprived body is already struggling with vascular efficiency, a fast-acting oral spray can bridge the gap while he works on his long-term sleep health.
 
@@ -84,7 +84,7 @@ It is vital to remember that PDE5 inhibitors like sildenafil (the active ingredi
 - **Cardiovascular Health:** Men with unstable cardiovascular disease or a history of recent heart attack or stroke must consult a clinician before use.
 - **Urgent Care:** Seek immediate medical attention if you experience chest pain during activity, sudden vision or hearing loss, or an erection lasting longer than four hours (priapism).
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

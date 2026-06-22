@@ -46,7 +46,7 @@ However, the relationship between hormones and hard science is rarely that simpl
 
 **Dr. Vance:** Actually, no. While testosterone is essential for a healthy libido (sexual desire), it is rarely the sole cause of erectile dysfunction. Most ED is vascular, meaning it’s a blood flow issue rather than a hormonal one.
 
-An **endocrinologist on testosterone ed** will tell you that testosterone acts like the "spark plug" for desire. If your levels are low—a condition called hypogonadism—you might not feel like having sex at all. But if you have the desire but cannot achieve or maintain an erection, the problem is often related to the blood vessels or nerves. This is why many men with perfectly normal testosterone levels still struggle with ED.
+An **endocrinologist on testosterone ed** will tell you that testosterone acts like the "spark plug" for desire. If your levels are low, a condition called hypogonadism, you might not feel like having sex at all. But if you have the desire but cannot achieve or maintain an erection, the problem is often related to the blood vessels or nerves. This is why many men with perfectly normal testosterone levels still struggle with ED.
 
 ### Q: When is Testosterone Replacement Therapy (TRT) actually warranted?
 
@@ -87,7 +87,7 @@ Men with unstable cardiovascular disease, or those who experience sudden vision 
 
 HEZKUE is not a "miracle cure" or a hormone replacement. It is a clinically formulated sildenafil spray designed for men who need a reliable, fast-acting delivery innovation. By bypassing the need for a traditional pill to dissolve, the oral spray suspension offers a different user experience that focuses on consistency.
 
-If you’ve spoken with an **endocrinologist on testosterone** and determined your levels are normal—or if you are already managing your levels and still need support for the physical mechanics of an erection—a targeted delivery system may be the right next step.
+If you’ve spoken with an **endocrinologist on testosterone** and determined your levels are normal, or if you are already managing your levels and still need support for the physical mechanics of an erection, a targeted delivery system may be the right next step.
 
 As a [men's health specialist on](/blog/a-men-s-health-specialist-on-why-young-men-are-getting-ed-at-higher-rates) ED trends might suggest, the goal is to move away from "one-size-fits-all" pills and toward solutions that fit the specific biological and lifestyle needs of the individual.
 
