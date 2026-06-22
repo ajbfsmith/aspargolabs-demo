@@ -35,7 +35,7 @@ title: 'Erectile Dysfunction by Age: What Causes It at 25, 35, 45, 55, and 65'
 word_count: 2230
 ---
 
-Erectile dysfunction (ED) is often portrayed as a condition that only affects older men. However, clinical data and patient experiences tell a different story. While the prevalence of ED certainly increases with age, the underlying causes—and the way men experience the condition—shift significantly from one decade to the next.
+Erectile dysfunction (ED) is often portrayed as a condition that only affects older men. However, clinical data and patient experiences tell a different story. While the prevalence of ED certainly increases with age, the underlying causes, and the way men experience the condition, shift significantly from one decade to the next.
 
 Understanding **erectile dysfunction by age** is essential for choosing the right treatment path. Whether you are 25 and dealing with performance anxiety or 65 and managing cardiovascular health, the biological and psychological drivers of ED require a tailored approach. According to the [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/10035-erectile-dysfunction), while about 40% of men experience some degree of ED by age 40, nearly 1 in 4 men seeking their first treatment for ED are actually under the age of 40.
 
@@ -60,7 +60,7 @@ For men in their 20s, ED is rarely a result of physical decay or chronic disease
 ### Performance Anxiety and the "Spectator" Effect
 The most common cause of ED in younger men is performance anxiety. This often creates a self-fulfilling prophecy: a single instance of difficulty leads to intense worry about future encounters. During sex, the man may become a "spectator" of his own performance, monitoring himself for signs of failure rather than staying present. 
 
-This triggers the sympathetic nervous system (the "fight or flight" response), which releases adrenaline (epinephrine). Adrenaline is a potent vasoconstrictor—it naturally narrows blood vessels to redirect blood to the heart and limbs, effectively killing an erection.
+This triggers the sympathetic nervous system (the "fight or flight" response), which releases adrenaline (epinephrine). Adrenaline is a potent vasoconstrictor, it naturally narrows blood vessels to redirect blood to the heart and limbs, effectively killing an erection.
 
 ### Lifestyle and Substance Use
 In your 20s, lifestyle choices can play a significant role. Binge drinking, recreational drug use, and nicotine (especially vaping) can temporarily impair erectile function. Nicotine is a potent vasoconstrictor that damages the endothelium (the lining of the blood vessels) over time. A study published in the [American Journal of Preventive Medicine](https://www.ajpmonline.org/article/S0749-3797(21)00429-3/fulltext) found that e-cigarette users were more than twice as likely to report ED compared to non-users, regardless of age or other risk factors.
@@ -76,7 +76,7 @@ By the time men reach their 30s, the causes of ED often become a mix of psycholo
 The 30s are often the most stressful years for men as they navigate career advancement, young children, and financial responsibilities. Chronic stress leads to elevated cortisol levels. High cortisol can interfere with testosterone production and dampen the brain's response to sexual stimuli. When a man is chronically exhausted, the body prioritizes survival over reproduction, often leading to a lower "erection quality."
 
 ### The Beginning of Physical Shifts
-While major vascular disease is still uncommon in the 30s, the "wear and tear" of a sedentary lifestyle, poor diet, and weight gain can begin to manifest. This is often the decade where "Metabolic Syndrome" begins—a cluster of conditions including increased blood pressure, high blood sugar, and excess body fat around the waist.
+While major vascular disease is still uncommon in the 30s, the "wear and tear" of a sedentary lifestyle, poor diet, and weight gain can begin to manifest. This is often the decade where "Metabolic Syndrome" begins, a cluster of conditions including increased blood pressure, high blood sugar, and excess body fat around the waist.
 
 Early-stage insulin resistance can start to affect the endothelium. Since the arteries in the penis are much smaller than those in the heart, they are often the first to show signs of reduced flexibility. For a deeper look at the biological mechanisms behind these shifts, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
@@ -128,7 +128,7 @@ For younger men, this "waiting period" can actually increase performance anxiety
 ### HEZKUE: A Clinically Formulated Oral Spray
 HEZKUE represents a shift in delivery innovation. As an oral sildenafil spray suspension, it is designed to bypass some of the traditional hurdles of pill-based ED medication. 
 
-The delivery format of a drug can significantly affect its onset and consistency. By using a spray suspension, HEZKUE allows for a more direct approach to delivery. For many men—particularly younger men where spontaneity is key—a faster-acting option can help bridge the gap between "thinking about it" and "being ready." 
+The delivery format of a drug can significantly affect its onset and consistency. By using a spray suspension, HEZKUE allows for a more direct approach to delivery. For many men, particularly younger men where spontaneity is key, a faster-acting option can help bridge the gap between "thinking about it" and "being ready." 
 
 It is important to remember that HEZKUE is a clinical tool, not a miracle cure. Its efficacy depends on sexual stimulation and the user's overall health profile.
 
@@ -166,7 +166,7 @@ Erectile dysfunction treatments, including PDE5 inhibitors like sildenafil, are 
 
 Erectile dysfunction is a medical condition that changes as you do. Whether it’s a signal to check your heart health or a hurdle of performance anxiety, you don't have to navigate it alone.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

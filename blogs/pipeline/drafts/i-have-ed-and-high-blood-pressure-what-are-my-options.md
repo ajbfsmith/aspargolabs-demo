@@ -27,7 +27,7 @@ pillarSlug: psychological-erectile-dysfunction-guide
 slug: i-have-ed-and-high-blood-pressure-what-are-my-options
 status: draft
 tier: 3
-title: I have ED and high blood pressure — what are my options?
+title: I have ED and high blood pressure, what are my options?
 word_count: 778
 ---
 

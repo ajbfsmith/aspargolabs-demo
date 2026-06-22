@@ -40,14 +40,14 @@ Erectile dysfunction is often a "canary in the coal mine" for cardiovascular hea
 Regular aerobic exercise is one of the most effective non-drug interventions for ED. According to [Harvard Health](https://www.health.harvard.edu/mens-health/5-natural-ways-to-overcome-erectile-dysfunction), walking just 30 minutes a day was linked to a 41% drop in the risk for ED. Physical activity improves vascular health by increasing nitric oxide production, which helps blood vessels dilate.
 
 ### Diet and Weight Management
-A diet rich in fruits, vegetables, whole grains, and lean proteins—often referred to as the Mediterranean diet—has been shown to reduce the risk of ED. Obesity increases the risk of diabetes and heart disease, both of which are leading causes of erectile dysfunction. Maintaining a healthy weight helps balance hormones and reduces inflammation in the blood vessels.
+A diet rich in fruits, vegetables, whole grains, and lean proteins, often referred to as the Mediterranean diet, has been shown to reduce the risk of ED. Obesity increases the risk of diabetes and heart disease, both of which are leading causes of erectile dysfunction. Maintaining a healthy weight helps balance hormones and reduces inflammation in the blood vessels.
 
 ### Smoking Cessation and Alcohol Reduction
 Smoking damages the lining of the blood vessels (the endothelium), which is critical for the blood flow required for an erection. Similarly, excessive alcohol consumption can depress the central nervous system and interfere with the signals between the brain and the penis.
 
 ## When Lifestyle Changes Aren't Enough: The Role of Medication
 
-While lifestyle modifications are foundational, they take time—often months—to show results. Furthermore, depending on the [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s), the underlying cause may be nerve damage, hormonal imbalances, or psychological factors that diet alone cannot fix.
+While lifestyle modifications are foundational, they take time, often months, to show results. Furthermore, depending on the [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s), the underlying cause may be nerve damage, hormonal imbalances, or psychological factors that diet alone cannot fix.
 
 This is where Phosphodiesterase type 5 (PDE5) inhibitors come in. These medications, including [sildenafil tadalafil vardenafil avanafil](/blog/sildenafil-tadalafil-vardenafil-avanafil-comparison), work by protecting the enzyme cyclic guanosine monophosphate (cGMP). This enzyme relaxes smooth muscle tissue and increases blood flow to the penis in response to sexual stimulation.
 
@@ -74,7 +74,7 @@ For men who find traditional pills inconvenient or slow to act, delivery innovat
 
 Unlike traditional tablets that must be broken down in the digestive tract, an oral spray suspension is a clinically formulated delivery method that can affect the consistency and speed of the user experience. While it is not a "miracle cure," HEZKUE represents a modern approach to managing ED symptoms with precision.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

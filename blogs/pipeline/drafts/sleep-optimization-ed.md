@@ -50,7 +50,7 @@ Erectile health is also tied to specific stages of sleep, particularly Rapid Eye
 
 NPT is not necessarily caused by sexual dreams; rather, it is a physiological "maintenance" cycle. During these episodes, the body floods the penile tissues with oxygenated blood, which helps maintain the elasticity of the smooth muscle and prevents fibrosis (scarring of the tissue). 
 
-If your sleep is fragmented—due to stress, alcohol, or environmental noise—you may miss out on these critical REM cycles. Over time, a lack of NPT can lead to a decrease in the health of the erectile chambers. Understanding these biological basics is a key part of any [complete guide erectile dysfunction](https://www.acceleratehealth.com/blog/complete-guide-erectile-dysfunction) management.
+If your sleep is fragmented, due to stress, alcohol, or environmental noise, you may miss out on these critical REM cycles. Over time, a lack of NPT can lead to a decrease in the health of the erectile chambers. Understanding these biological basics is a key part of any [complete guide erectile dysfunction](https://www.acceleratehealth.com/blog/complete-guide-erectile-dysfunction) management.
 
 ## Screening for Sleep Apnea: The Silent ED Trigger
 
@@ -67,7 +67,7 @@ To optimize your sleep for sexual health, you must treat your bedroom like a lab
 1.  **The 65-Degree Rule:** The body’s core temperature needs to drop to initiate sleep. Keeping your bedroom around 65°F (18°C) facilitates this transition and helps you stay in deep sleep stages longer.
 2.  **Blackout Everything:** Even small amounts of light from a digital clock or streetlamp can suppress melatonin. Use blackout curtains and a sleep mask to ensure total darkness.
 3.  **The "No-Screen" Buffer:** Blue light from smartphones inhibits melatonin production. Stop using screens at least 60 minutes before bed. This is also a good time to avoid other stimulants, similar to how [cold showers ice baths](https://www.acceleratehealth.com/blog/cold-exposure-testosterone-ed) are best used earlier in the day rather than right before sleep.
-4.  **Consistent Wake Times:** Your circadian rhythm thrives on consistency. Waking up at the same time every day—even on weekends—helps regulate the morning testosterone spike.
+4.  **Consistent Wake Times:** Your circadian rhythm thrives on consistency. Waking up at the same time every day, even on weekends, helps regulate the morning testosterone spike.
 
 ## Timing Your Testosterone Testing
 
@@ -97,7 +97,7 @@ PDE5 inhibitors (common ED medications) are strictly contraindicated for men tak
 
 Improving your sleep and lifestyle can take time to yield results. For men who require a clinical solution during that transition, the delivery format of medication matters. Traditional pills can have a delayed onset depending on your last meal or digestion speed.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours. By utilizing a spray format, HEZKUE offers a different approach to consistency and user experience compared to traditional oral tablets.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours. By utilizing a spray format, HEZKUE offers a different approach to consistency and user experience compared to traditional oral tablets.
 
 ## Sources
 

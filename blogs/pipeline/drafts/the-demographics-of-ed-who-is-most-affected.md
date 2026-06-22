@@ -32,7 +32,7 @@ title: 'The Demographics of ED: Who Is Most Affected?'
 word_count: 968
 ---
 
-Erectile dysfunction (ED) is one of the most common health conditions affecting men worldwide, yet it is often discussed as if it were a monolithic experience. In reality, the demographics of ED—who is most affected and why—reveal a complex interplay of age, underlying health conditions, and lifestyle factors. Understanding these patterns is essential for identifying the right treatment approach and recognizing that ED is a clinical medical issue rather than a personal failing.
+Erectile dysfunction (ED) is one of the most common health conditions affecting men worldwide, yet it is often discussed as if it were a monolithic experience. In reality, the demographics of ED, who is most affected and why, reveal a complex interplay of age, underlying health conditions, and lifestyle factors. Understanding these patterns is essential for identifying the right treatment approach and recognizing that ED is a clinical medical issue rather than a personal failing.
 
 ## The Role of Age in ED Prevalence
 

@@ -33,7 +33,7 @@ title: 'Men''s Mental Health and ED: Statistics on Depression, Shame, and Silenc
 word_count: 986
 ---
 
-Erectile dysfunction (ED) is often discussed as a purely physical condition—a matter of blood flow and vascular health. However, for millions of men, the physical symptoms are inseparable from the psychological ones. The relationship between men’s mental health and ED is a "two-way street" where anxiety and depression can both cause and be exacerbated by sexual performance issues. For more context, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
+Erectile dysfunction (ED) is often discussed as a purely physical condition, a matter of blood flow and vascular health. However, for millions of men, the physical symptoms are inseparable from the psychological ones. The relationship between men’s mental health and ED is a "two-way street" where anxiety and depression can both cause and be exacerbated by sexual performance issues. For more context, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
 Understanding the statistics behind this connection is the first step in breaking the cycle of shame and silence that prevents many men from seeking the care they need.
 
@@ -60,7 +60,7 @@ The [complete guide erectile dysfunction](https://acceleratehealth.com/blog/comp
 
 Shame is a powerful deterrent. In many cultures, virility is closely tied to masculinity. When a man experiences ED, he may feel he is "losing" a part of his identity. This internal stigma is often more damaging than the physical condition itself.
 
-The silence isn't just about the bedroom; it extends to the doctor's office. Many men fear that bringing up ED will lead to a lecture or a dismissive response. However, modern medicine views ED as a vital sign—a window into a man’s overall vascular and mental health. Breaking the silence allows for a more comprehensive approach to wellness that addresses both the physical and the emotional.
+The silence isn't just about the bedroom; it extends to the doctor's office. Many men fear that bringing up ED will lead to a lecture or a dismissive response. However, modern medicine views ED as a vital sign, a window into a man’s overall vascular and mental health. Breaking the silence allows for a more comprehensive approach to wellness that addresses both the physical and the emotional.
 
 ## Innovation in Delivery: Easing the Psychological Burden
 
@@ -87,7 +87,7 @@ The statistics on men’s mental health and ED are a call to action, not a life 
 
 Treatment is most effective when it addresses the whole person. This may include lifestyle changes, therapy to manage performance anxiety, and innovative delivery formats that reduce the stress of treatment.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

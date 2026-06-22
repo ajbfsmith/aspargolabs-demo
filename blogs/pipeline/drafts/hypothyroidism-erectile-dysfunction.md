@@ -32,7 +32,7 @@ title: 'Thyroid Problems and ED: What Every Man Should Know'
 word_count: 1050
 ---
 
-When men experience erectile dysfunction (ED), they often look toward lifestyle factors, age, or psychological stress as the primary culprits. However, the root cause is sometimes found in the endocrine system—specifically, the butterfly-shaped gland in the neck known as the thyroid.
+When men experience erectile dysfunction (ED), they often look toward lifestyle factors, age, or psychological stress as the primary culprits. However, the root cause is sometimes found in the endocrine system, specifically, the butterfly-shaped gland in the neck known as the thyroid.
 
 Thyroid hormones act as the master regulators of metabolism, affecting nearly every organ system in the body, including the reproductive system. Understanding the link between **thyroid problems and ED** is essential for any man seeking a long-term solution to sexual health issues. This guide explores how thyroid imbalances disrupt sexual function and what steps you can take to regain control.
 
@@ -42,7 +42,7 @@ The thyroid gland produces two main hormones: thyroxine (T4) and triiodothyronin
 
 Research indicates a significant overlap between thyroid disorders and sexual dysfunction. According to a study published in the [Journal of Clinical Endocrinology & Metabolism](https://academic.oup.com/jcem/article/90/12/6403/2838338), nearly 80% of men with thyroid imbalances reported some form of sexual dysfunction, including ED, low libido, or ejaculatory issues.
 
-While ED is a complex condition with many potential origins—as detailed in our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction)—thyroid health is a critical piece of the diagnostic puzzle.
+While ED is a complex condition with many potential origins, as detailed in our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction), thyroid health is a critical piece of the diagnostic puzzle.
 
 ## Hypothyroidism vs. Hyperthyroidism: Both Can Cause ED
 
@@ -72,7 +72,7 @@ According to the [American Thyroid Association](https://www.thyroid.org/hypothyr
 
 ## Can Treating the Thyroid Resolve ED?
 
-The good news for most men is that thyroid-related ED is often reversible. Clinical evidence suggests that once thyroid hormone levels are stabilized through medication—such as levothyroxine for hypothyroidism or anti-thyroid drugs for hyperthyroidism—sexual function frequently returns to normal.
+The good news for most men is that thyroid-related ED is often reversible. Clinical evidence suggests that once thyroid hormone levels are stabilized through medication, such as levothyroxine for hypothyroidism or anti-thyroid drugs for hyperthyroidism, sexual function frequently returns to normal.
 
 A study featured by the [National Institutes of Health (NIH)](https://pubmed.ncbi.nlm.nih.gov/18616711/) found that a significant majority of men saw a total reversal of their sexual dysfunction symptoms within six months of achieving "euthyroid" status (normal thyroid levels).
 

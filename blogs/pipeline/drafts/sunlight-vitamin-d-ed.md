@@ -44,7 +44,7 @@ From there, the liver and kidneys must process the Vitamin D3 into its active fo
 
 ## The Link Between Vitamin D and Erectile Function
 
-The connection between **sunlight vitamin d erectile** health lies in the endothelium—the thin layer of cells lining the blood vessels. For an erection to occur, the endothelium must release nitric oxide (NO), a molecule that signals the smooth muscles in the penis to relax, allowing blood to flow in.
+The connection between **sunlight vitamin d erectile** health lies in the endothelium, the thin layer of cells lining the blood vessels. For an erection to occur, the endothelium must release nitric oxide (NO), a molecule that signals the smooth muscles in the penis to relax, allowing blood to flow in.
 
 Research published in the [Journal of Sexual Medicine](https://pubmed.ncbi.nlm.nih.gov/25511673/) has shown that Vitamin D deficiency is significantly associated with erectile dysfunction. The biological reasons for this include:
 
@@ -90,7 +90,7 @@ Before starting any new supplement or treatment for ED, it is essential to consu
 
 ## Conclusion
 
-The relationship between **sunlight vitamin d** and erectile function is a reminder that sexual health is a reflection of overall systemic health. By ensuring adequate Vitamin D levels—whether through safe sun exposure or supplementation—you are supporting the very foundation of the erectile response: your vascular system.
+The relationship between **sunlight vitamin d** and erectile function is a reminder that sexual health is a reflection of overall systemic health. By ensuring adequate Vitamin D levels, whether through safe sun exposure or supplementation, you are supporting the very foundation of the erectile response: your vascular system.
 
 If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes - not hours.
 

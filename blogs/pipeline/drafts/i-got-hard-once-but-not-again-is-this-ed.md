@@ -30,7 +30,7 @@ pillarSlug: psychological-erectile-dysfunction-guide
 slug: i-got-hard-once-but-not-again-is-this-ed
 status: draft
 tier: 3
-title: I got hard once but not again — is this ED?
+title: I got hard once but not again, is this ED?
 word_count: 763
 ---
 
@@ -46,7 +46,7 @@ According to the [International Society for Sexual Medicine](https://www.issm.in
 
 If you were able to get hard initially but lost the erection or couldn't "go again" due to worry, you may be dealing with performance anxiety. This is a leading cause of [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide). 
 
-When the brain perceives stress or pressure to perform, it triggers the sympathetic nervous system (the "fight or flight" response). This releases adrenaline, which constricts blood vessels and pulls blood away from the extremities—including the penis—making an erection difficult to maintain. If you find that [i get hard but](/blog/i-can-get-hard-but-not-with-my-partner-is-this-ed) lose it the moment things get serious, the issue is likely mental rather than a physical failure of the circulatory system.
+When the brain perceives stress or pressure to perform, it triggers the sympathetic nervous system (the "fight or flight" response). This releases adrenaline, which constricts blood vessels and pulls blood away from the extremities, including the penis, making an erection difficult to maintain. If you find that [i get hard but](/blog/i-can-get-hard-but-not-with-my-partner-is-this-ed) lose it the moment things get serious, the issue is likely mental rather than a physical failure of the circulatory system.
 
 ## Common Temporary Triggers
 

@@ -71,7 +71,7 @@ Erectile dysfunction can be an early warning sign of cardiovascular disease. If 
 
 **Note on Nitrates:** If you take nitrates (such as nitroglycerin) for chest pain or heart problems, or if you use "poppers" (amyl nitrate), you must not use PDE5 inhibitor medications. Combining these can cause a life-threatening drop in blood pressure. Always speak with a clinician before starting a new ED treatment, especially if you have unstable cardiovascular disease.
 
-If you are looking for a fast-acting, clinically formulated solution, HEZKUE’s oral spray suspension is designed to work in minutes—not hours. Unlike traditional tablets that must be digested, the spray format is a delivery innovation designed for consistency and a faster onset of action.
+If you are looking for a fast-acting, clinically formulated solution, HEZKUE’s oral spray suspension is designed to work in minutes, not hours. Unlike traditional tablets that must be digested, the spray format is a delivery innovation designed for consistency and a faster onset of action.
 
 ## Sources
 

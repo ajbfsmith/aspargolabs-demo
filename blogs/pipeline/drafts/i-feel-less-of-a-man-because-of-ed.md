@@ -31,7 +31,7 @@ title: I feel less of a man because of ED
 word_count: 837
 ---
 
-Feeling like "less of a man" because of erectile dysfunction (ED) is a common emotional response, but it is medically inaccurate. ED is a clinical condition—often related to blood flow, nerve signals, or hormonal shifts—rather than a reflection of your masculinity, strength, or character. Research suggests that erectile dysfunction affects approximately 30 million men in the United States alone, making it a standard health concern rather than a personal failing. Shifting your perspective from a blow to your identity to a manageable medical issue is the first step toward reclaiming your confidence and sexual health.
+Feeling like "less of a man" because of erectile dysfunction (ED) is a common emotional response, but it is medically inaccurate. ED is a clinical condition, often related to blood flow, nerve signals, or hormonal shifts, rather than a reflection of your masculinity, strength, or character. Research suggests that erectile dysfunction affects approximately 30 million men in the United States alone, making it a standard health concern rather than a personal failing. Shifting your perspective from a blow to your identity to a manageable medical issue is the first step toward reclaiming your confidence and sexual health.
 
 ## Why ED Makes Men Feel "Less"
 
@@ -43,7 +43,7 @@ According to the [American Sexual Health Association](https://www.ashasexualheal
 
 It is helpful to view ED through the same lens as any other physical health condition. If you had a knee injury that prevented you from running, you likely wouldn't view it as a strike against your manhood; you would see it as a mechanical issue requiring physical therapy or medical intervention.
 
-ED is frequently a "canary in the coal mine" for cardiovascular health. Because the arteries in the penis are smaller than those in the heart, they often show signs of restricted blood flow first. Viewing ED as a vascular health indicator—rather than a personality trait—can help you take the necessary steps to seek a [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction) and professional medical advice.
+ED is frequently a "canary in the coal mine" for cardiovascular health. Because the arteries in the penis are smaller than those in the heart, they often show signs of restricted blood flow first. Viewing ED as a vascular health indicator, rather than a personality trait, can help you take the necessary steps to seek a [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction) and professional medical advice.
 
 ## The Role of Age and Biology
 
@@ -74,7 +74,7 @@ Before starting any treatment for ED, it is vital to consult with a healthcare p
 
 The feeling of being "less of a man" usually fades when you take proactive steps to address the underlying cause of ED. Whether that involves lifestyle changes, therapy for performance anxiety, or clinical treatments, taking action is an act of strength.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

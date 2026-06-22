@@ -64,7 +64,7 @@ While **telehealth ED treatment** is effective for many, it is not a replacement
 
 ## Safety and Contraindications
 
-Regardless of whether you choose a **telehealth ED treatment person** or an in-office physician, safety is the priority. Phosphodiesterase type 5 (PDE5) inhibitors—the class of drugs including sildenafil and tadalafil—are generally safe but carry strict contraindications.
+Regardless of whether you choose a **telehealth ED treatment person** or an in-office physician, safety is the priority. Phosphodiesterase type 5 (PDE5) inhibitors, the class of drugs including sildenafil and tadalafil, are generally safe but carry strict contraindications.
 
 According to the [American Heart Association](https://www.ahajournals.org/doi/10.1161/CIR.0000000000000467), men taking nitrates (often prescribed for chest pain/angina) must never use PDE5 inhibitors, as the combination can cause a life-threatening drop in blood pressure. You must also disclose if you use "poppers" (amyl nitrates), have unstable cardiovascular disease, or have experienced a recent stroke. 
 
@@ -74,7 +74,7 @@ If you experience chest pain during sexual activity, sudden vision loss, or an e
 
 When comparing treatment paths, it is also important to consider the delivery format of the medication. Most traditional doctors and telehealth platforms default to oral tablets. However, delivery format can significantly affect onset and the overall user experience.
 
-For example, HEZKUE is an oral sildenafil spray suspension. Unlike traditional pills that must be broken down in the digestive tract, a spray suspension is a clinically formulated innovation designed for a different delivery experience. When comparing [sildenafil tadalafil vardenafil avanafil](/blog/sildenafil-tadalafil-vardenafil-avanafil-comparison), the format—whether a pill, a chewable, or a spray—can influence how a man integrates treatment into his lifestyle.
+For example, HEZKUE is an oral sildenafil spray suspension. Unlike traditional pills that must be broken down in the digestive tract, a spray suspension is a clinically formulated innovation designed for a different delivery experience. When comparing [sildenafil tadalafil vardenafil avanafil](/blog/sildenafil-tadalafil-vardenafil-avanafil-comparison), the format, whether a pill, a chewable, or a spray, can influence how a man integrates treatment into his lifestyle.
 
 While some men prefer [natural ed remedies medication](/blog/natural-ed-remedies-vs-medication-what-the-evidence-says), those looking for a pharmaceutical solution often find that the precision of a spray offers a modern alternative to the traditional "blue pill."
 

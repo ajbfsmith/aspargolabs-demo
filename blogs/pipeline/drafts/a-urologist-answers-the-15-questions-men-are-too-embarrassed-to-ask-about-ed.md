@@ -48,7 +48,7 @@ Physically, no. There is no evidence that masturbation "wears out" the equipment
 No. While tight underwear can increase scrotal temperature and potentially impact sperm count (fertility), it does not affect the blood flow or nerve signals required for an erection.
 
 ## 4. Is ED always permanent once it starts?
-Not at all. ED is often a symptom of an underlying issue—like stress, poor sleep, or a side effect of medication—that can be resolved. Even in cases of [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s), many men find that lifestyle changes or modern delivery innovations like HEZKUE can restore their confidence.
+Not at all. ED is often a symptom of an underlying issue, like stress, poor sleep, or a side effect of medication, that can be resolved. Even in cases of [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s), many men find that lifestyle changes or modern delivery innovations like HEZKUE can restore their confidence.
 
 ## 5. Does watching too much porn cause ED?
 While not a physical cause of ED, "porn-induced erectile dysfunction" (PIED) is a term used to describe when a man becomes desensitized to real-life intimacy because of the high-intensity stimulation of digital media. This is a psychological shift that often improves with a "reset" period.
@@ -69,7 +69,7 @@ Long-distance cycling on a poorly designed saddle can compress the perineal nerv
 It can be a "canary in the coal mine." The arteries in the penis are much smaller than the arteries in the heart. If they are beginning to clog (atherosclerosis), ED often shows up years before a cardiac event. The [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/erectile-dysfunction/in-depth/erectile-dysfunction/art-20047821) notes that ED and heart disease share many of the same risk factors.
 
 ## 11. Can stress alone cause ED?
-Absolutely. Stress triggers the "fight or flight" response, releasing adrenaline. Adrenaline constricts blood vessels—the exact opposite of what needs to happen for an erection.
+Absolutely. Stress triggers the "fight or flight" response, releasing adrenaline. Adrenaline constricts blood vessels, the exact opposite of what needs to happen for an erection.
 
 ## 12. Do ED pills work immediately?
 Standard tablets usually take 30 to 60 minutes to work because they must be broken down in the stomach. This delay can sometimes add to performance anxiety. Innovations in delivery, such as oral spray suspensions, are designed to bypass the digestive lag for a more consistent experience.

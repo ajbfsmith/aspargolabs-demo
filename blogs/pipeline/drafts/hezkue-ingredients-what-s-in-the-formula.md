@@ -94,7 +94,7 @@ Tablets often contain fillers like microcrystalline cellulose and magnesium stea
 
 The HEZKUE formula is designed for the modern man who values precision and efficiency. By utilizing a clinically formulated oral spray suspension, HEZKUE moves past the limitations of traditional pill-based delivery.
 
-If you are looking for a fast-acting, clinically formulated solution, HEZKUE’s oral spray suspension is designed to work in minutes—not hours.
+If you are looking for a fast-acting, clinically formulated solution, HEZKUE’s oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

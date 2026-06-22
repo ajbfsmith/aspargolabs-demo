@@ -31,7 +31,7 @@ pillarSlug: erectile-dysfunction-relationship-impact
 slug: my-doctor-found-a-heart-problem-because-of-my-ed-the-story-of-ed-as-a-diagnostic-signal
 status: draft
 tier: 4
-title: My Doctor Found a Heart Problem Because of My ED" — The story of ED as a diagnostic
+title: My Doctor Found a Heart Problem Because of My ED", The story of ED as a diagnostic
   signal
 word_count: 960
 ---
@@ -74,7 +74,7 @@ I initially tried traditional sildenafil tablets, but I struggled with the timin
 
 That’s when we discussed HEZKUE. 
 
-HEZKUE is an oral sildenafil spray suspension. Unlike tablets that have to be broken down in the digestive tract, the spray format is designed for a different delivery experience. For me, the innovation wasn't just about the drug itself—sildenafil has been around for decades—it was about the delivery format. The oral spray suspension is clinically formulated to offer a consistent experience, which helped me regain the confidence I had lost during my health scare.
+HEZKUE is an oral sildenafil spray suspension. Unlike tablets that have to be broken down in the digestive tract, the spray format is designed for a different delivery experience. For me, the innovation wasn't just about the drug itself, sildenafil has been around for decades, it was about the delivery format. The oral spray suspension is clinically formulated to offer a consistent experience, which helped me regain the confidence I had lost during my health scare.
 
 ## Why the "Diagnostic Signal" Matters
 
@@ -86,7 +86,7 @@ If you are experiencing changes in your sexual health, don't ignore them. It is 
 
 *Disclaimer: This article is for informational purposes and is not medical advice. Sildenafil is a prescription medication. It is contraindicated with nitrates and may not be safe for men with certain cardiovascular conditions. Always consult with a healthcare provider before starting any new treatment.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

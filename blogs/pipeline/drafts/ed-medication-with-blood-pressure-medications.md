@@ -44,7 +44,7 @@ While many men successfully use both types of medication, combining them require
 
 To understand the risks of taking ED medication while on blood pressure treatment, it helps to know how these drugs work. Most common ED medications, such as sildenafil and tadalafil, belong to a class called PDE5 inhibitors. These drugs work by relaxing the smooth muscles in the blood vessels, allowing for increased blood flow.
 
-Blood pressure medications also work by affecting the vascular system—either by reducing the force of the heart, removing excess fluid, or, like PDE5 inhibitors, relaxing the blood vessels. When two different medications both act to "open up" or relax the blood vessels (vasodilation), the cumulative effect can lead to hypotension, or abnormally low blood pressure.
+Blood pressure medications also work by affecting the vascular system, either by reducing the force of the heart, removing excess fluid, or, like PDE5 inhibitors, relaxing the blood vessels. When two different medications both act to "open up" or relax the blood vessels (vasodilation), the cumulative effect can lead to hypotension, or abnormally low blood pressure.
 
 If you are exploring the [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction), you will find that managing underlying conditions like hypertension is often the first step in a comprehensive treatment plan.
 

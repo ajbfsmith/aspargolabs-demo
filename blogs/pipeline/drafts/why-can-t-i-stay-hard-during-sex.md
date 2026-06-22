@@ -51,7 +51,7 @@ Common psychological reasons you **can't i stay hard** include:
 
 - **Performance Anxiety:** Worrying about whether you will lose your erection often becomes a self-fulfilling prophecy.
 - **Relationship Stress:** Unresolved tension with a partner can prevent the mental relaxation required for sustained arousal.
-- **Distractions:** Sensory interruptions—such as a loud noise or even the physical sensation of putting on protection—can break the "arousal loop." If this happens specifically when using protection, you may find it helpful to learn why [i lose my erection](/blog/why-do-i-lose-my-erection-with-a-condom) in those moments.
+- **Distractions:** Sensory interruptions, such as a loud noise or even the physical sensation of putting on protection, can break the "arousal loop." If this happens specifically when using protection, you may find it helpful to learn why [i lose my erection](/blog/why-do-i-lose-my-erection-with-a-condom) in those moments.
 
 ## When to Consult a Professional
 If you consistently struggle to maintain an erection, it is important to speak with a healthcare provider. Erectile dysfunction (ED) is often an early warning sign of cardiovascular issues, as the small arteries in the penis often show signs of blockage before the larger arteries in the heart.

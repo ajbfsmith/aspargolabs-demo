@@ -26,7 +26,7 @@ pillarSlug: erectile-dysfunction-relationship-impact
 slug: how-i-finally-stopped-dreading-intimacy-performance-anxiety-ed-story
 status: draft
 tier: 4
-title: How I Finally Stopped Dreading Intimacy" — Performance anxiety ED story
+title: How I Finally Stopped Dreading Intimacy", Performance anxiety ED story
 word_count: 895
 ---
 
@@ -36,9 +36,9 @@ The following story is a composite narrative based on common patient experiences
 
 ## The Performance Anxiety Trap
 
-It began in my late 30s. I was healthy, active, and had no reason to think anything was wrong. But after one stressful month at work, I had trouble maintaining an erection. Instead of brushing it off, I fixated on it. The next time my partner and I were intimate, my brain wasn't in the moment—it was monitoring my body, waiting for a failure.
+It began in my late 30s. I was healthy, active, and had no reason to think anything was wrong. But after one stressful month at work, I had trouble maintaining an erection. Instead of brushing it off, I fixated on it. The next time my partner and I were intimate, my brain wasn't in the moment, it was monitoring my body, waiting for a failure.
 
-This is what clinicians call [sexual performance anxiety](https://my.clevelandclinic.org/health/diseases/9121-sexual-performance-anxiety). When you’re anxious, your body releases adrenaline, which constricts blood vessels—the exact opposite of what needs to happen for an erection. This creates a self-fulfilling prophecy. I felt like I was broken, even though I knew [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s) is a common reality that affects millions of men.
+This is what clinicians call [sexual performance anxiety](https://my.clevelandclinic.org/health/diseases/9121-sexual-performance-anxiety). When you’re anxious, your body releases adrenaline, which constricts blood vessels, the exact opposite of what needs to happen for an erection. This creates a self-fulfilling prophecy. I felt like I was broken, even though I knew [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s) is a common reality that affects millions of men.
 
 ## The Struggle with Traditional Options
 
@@ -52,7 +52,7 @@ I finally stopped feeling like myself. I started making excuses to go to bed ear
 
 The turning point came when I discussed delivery innovation with a specialist. We talked about how the time-to-onset can significantly impact the psychological burden of ED. That is when I learned about HEZKUE, an oral sildenafil spray suspension.
 
-Unlike tablets that must be broken down in the digestive tract, an oral spray suspension is designed for efficient delivery. For me, the shift was immediate—not just physically, but mentally. Because the delivery format is designed to work faster than traditional pills, that "hour of dread" disappeared. 
+Unlike tablets that must be broken down in the digestive tract, an oral spray suspension is designed for efficient delivery. For me, the shift was immediate, not just physically, but mentally. Because the delivery format is designed to work faster than traditional pills, that "hour of dread" disappeared. 
 
 **I finally stopped** worrying about the clock. Knowing that I had a clinically formulated tool that could work in minutes allowed me to stay present. The spontaneity returned, and with it, my confidence. HEZKUE isn't a miracle cure, but it is a delivery innovation that changed my user experience. By removing the rigid planning phase, I was able to break the cycle of performance anxiety.
 

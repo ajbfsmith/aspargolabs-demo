@@ -34,7 +34,7 @@ title: 'The Masculinity Problem: Why Men Wait Years Before Treating ED'
 word_count: 980
 ---
 
-For many men, the first sign of erectile dysfunction (ED) isn't a conversation with a doctor—it is a period of silence that can last for years. Despite ED being one of the most common medical conditions affecting men, research suggests that a significant number of men wait an average of two years or more before seeking professional help.
+For many men, the first sign of erectile dysfunction (ED) isn't a conversation with a doctor, it is a period of silence that can last for years. Despite ED being one of the most common medical conditions affecting men, research suggests that a significant number of men wait an average of two years or more before seeking professional help.
 
 This delay isn't usually due to a lack of available treatments. Instead, it is rooted in a complex "masculinity problem men wait" through, where cultural expectations of "manhood" clash with the reality of biological health. Understanding why this gap exists is the first step toward closing it and improving long-term health outcomes.
 
@@ -62,7 +62,7 @@ Fortunately, the tide is turning. A new generation of men is beginning to view s
 
 - **Digital Health:** The rise of telehealth has allowed men to consult with clinicians from the privacy of their homes, removing the "waiting room anxiety."
 - **Social Media:** Platforms like [tiktok social media changing](/blog/how-tiktok-and-social-media-are-changing-men-s-approach-to-sexual-health) the conversation are helping to de-stigmatize ED by fostering open, often humorous, and educational dialogues.
-- **Modern Delivery Formats:** Innovation in how medication is delivered—moving away from the "big blue pill" toward more discreet and fast-acting options—is making treatment feel less like a "medical event" and more like a routine health choice.
+- **Modern Delivery Formats:** Innovation in how medication is delivered, moving away from the "big blue pill" toward more discreet and fast-acting options, is making treatment feel less like a "medical event" and more like a routine health choice.
 
 As [men increasingly comfortable talking](/blog/why-men-are-increasingly-comfortable-talking-about-ed-and-why-that-s-changing-treatment) about these issues, the average time spent waiting for treatment is expected to decrease.
 
@@ -88,7 +88,7 @@ While modern treatments are more accessible than ever, they must be used respons
 
 *Note: This article is for informational purposes and does not constitute medical advice. Always speak with a licensed healthcare provider to determine if a treatment is right for you.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

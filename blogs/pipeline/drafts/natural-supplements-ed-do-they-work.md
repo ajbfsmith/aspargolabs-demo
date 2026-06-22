@@ -77,7 +77,7 @@ The results are mixed. DHEA may be helpful for men whose ED is caused specifical
 The term "natural" is often used as a marketing shield to bypass the rigorous testing required for pharmaceuticals. This lack of regulation leads to two significant risks:
 
 1.  **Contamination:** Many over-the-counter "male enhancement" pills are found to be "spiked" with undisclosed pharmaceutical ingredients. The [FDA](https://www.fda.gov/consumers/health-fraud-scams/tainted-sexual-enhancement-products) frequently issues warnings about supplements containing sildenafil or tadalafil in unmeasured, dangerous quantities.
-2.  **Nitrate Interactions:** This is the most critical safety concern. If a supplement—either naturally or through hidden contamination—affects nitric oxide levels, it can be **dangerous when combined with nitrates**. Men taking nitrates for chest pain (angina) or those using "poppers" (amyl nitrate) can experience a life-threatening drop in blood pressure.
+2.  **Nitrate Interactions:** This is the most critical safety concern. If a supplement, either naturally or through hidden contamination, affects nitric oxide levels, it can be **dangerous when combined with nitrates**. Men taking nitrates for chest pain (angina) or those using "poppers" (amyl nitrate) can experience a life-threatening drop in blood pressure.
 
 Before trying any supplement, it is vital to understand the [hidden danger of rhino pills](/blog/rhino-pills-danger) and other unregulated products found in gas stations or online marketplaces.
 

@@ -41,7 +41,7 @@ When deciding between exercise and medication for ED, the most effective strateg
 Erectile dysfunction is frequently a "canary in the coal mine" for cardiovascular health. Because the arteries supplying the penis are smaller than those supplying the heart, they often show signs of restricted blood flow first.
 
 ### Aerobic Exercise
-Research published in the [Journal of Sexual Medicine](https://pubmed.ncbi.nlm.nih.gov/21418145/) suggests that moderate-to-vigorous aerobic activity can significantly improve erectile function. Clinical guidelines often recommend 40 minutes of aerobic exercise four times a week. This helps improve endothelial function—the ability of blood vessels to relax and allow blood flow—which is critical for achieving an erection.
+Research published in the [Journal of Sexual Medicine](https://pubmed.ncbi.nlm.nih.gov/21418145/) suggests that moderate-to-vigorous aerobic activity can significantly improve erectile function. Clinical guidelines often recommend 40 minutes of aerobic exercise four times a week. This helps improve endothelial function, the ability of blood vessels to relax and allow blood flow, which is critical for achieving an erection.
 
 ### Pelvic Floor Strengthening
 Beyond cardio, targeted pelvic floor exercises (Kegels) can strengthen the muscles responsible for maintaining blood trapped in the penis during an erection. A study published by [BJU International](https://pubmed.ncbi.nlm.nih.gov/15833061/) found that pelvic floor exercises helped a significant percentage of men regain normal erectile function over a six-month period.
@@ -80,7 +80,7 @@ For more information on navigating your options, read our [complete guide erecti
 
 *Note: This article is for informational purposes and does not constitute medical advice. Always speak with a licensed clinician before starting a new treatment.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

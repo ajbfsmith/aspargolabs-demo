@@ -100,7 +100,7 @@ There is a significant overlap between metabolic health, testosterone, and erect
 
 Obesity, particularly excess abdominal fat, leads to an increase in an enzyme called **aromatase**. This enzyme converts testosterone into estrogen. Higher estrogen levels then signal the brain to produce less testosterone, further lowering levels. 
 
-Simultaneously, obesity and high blood sugar (diabetes) cause systemic inflammation and oxidative stress, which damage the endothelium—the inner lining of the blood vessels. Since the endothelium is responsible for releasing the nitric oxide needed for erections, metabolic dysfunction simultaneously lowers the "fuel" (testosterone) and damages the "plumbing" (blood vessels).
+Simultaneously, obesity and high blood sugar (diabetes) cause systemic inflammation and oxidative stress, which damage the endothelium, the inner lining of the blood vessels. Since the endothelium is responsible for releasing the nitric oxide needed for erections, metabolic dysfunction simultaneously lowers the "fuel" (testosterone) and damages the "plumbing" (blood vessels).
 
 According to a study in the [Journal of Clinical Endocrinology & Metabolism](https://academic.oup.com/jcem), men with type 2 diabetes are twice as likely to have low testosterone compared to non-diabetic men. Addressing metabolic health through diet and exercise is often the first step in restoring both hormonal balance and erectile function.
 
@@ -123,7 +123,7 @@ Clinical trials have shown that men who did not respond to PDE5 inhibitors alone
 
 ## The Role of HEZKUE and Delivery Innovation
 
-For men who require a PDE5 inhibitor—whether as a standalone treatment or as part of a combination therapy with TRT—the delivery format can significantly impact the user experience and consistency of results.
+For men who require a PDE5 inhibitor, whether as a standalone treatment or as part of a combination therapy with TRT, the delivery format can significantly impact the user experience and consistency of results.
 
 Traditional oral tablets must be swallowed and broken down in the digestive system. This process can be slowed by food (especially high-fat meals) and requires a "waiting period" that can disrupt spontaneity. For many men, the "window of efficacy" for a tablet can be unpredictable.
 

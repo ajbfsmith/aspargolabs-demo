@@ -44,7 +44,7 @@ Understanding the difference between a physical "cause" and a behavioral "influe
 
 From a strictly medical perspective, the answer is no. Erectile dysfunction is primarily a vascular or neurological issue where blood flow to the penis is restricted or nerve signals are interrupted. According to the [Cleveland Clinic](https://health.clevelandclinic.org/can-masturbation-cause-erectile-dysfunction/), masturbation does not cause any permanent physical damage that would result in ED.
 
-In fact, regular sexual activity—whether alone or with a partner—can sometimes be beneficial for maintaining blood flow to the pelvic region. While lifestyle factors like diet and exercise play a larger role in vascular health, as discussed in our guide on [12 foods that may](https://acceleratehealth.com/blog/foods-that-help-ed) help erectile function, masturbation itself is not a risk factor for clinical ED.
+In fact, regular sexual activity, whether alone or with a partner, can sometimes be beneficial for maintaining blood flow to the pelvic region. While lifestyle factors like diet and exercise play a larger role in vascular health, as discussed in our guide on [12 foods that may](https://acceleratehealth.com/blog/foods-that-help-ed) help erectile function, masturbation itself is not a risk factor for clinical ED.
 
 ## The "Death Grip" and Physical Desensitization
 
@@ -73,7 +73,7 @@ The most common link between masturbation and ED is psychological rather than ph
 Frequent use of high-intensity visual stimuli (pornography) during masturbation can condition the brain to respond only to specific, often unrealistic, visual cues. When a man transitions to a real-life partner, the lack of "novelty" or the absence of specific visual triggers can lead to a loss of erection. This is not a failure of the body, but a mismatch in psychological conditioning.
 
 ### Performance Anxiety
-If a man experiences one "failure" due to a long refractory period or desensitization, he may begin to worry about it happening again. This creates a cycle of performance anxiety. The brain releases adrenaline during periods of stress, which constricts blood vessels—the exact opposite of what is needed for an erection. Practicing [yoga mindfulness ed mind](https://acceleratehealth.com/blog/yoga-mindfulness-ed) techniques can often help break this psychological cycle by lowering cortisol and refocusing the mind on the present moment.
+If a man experiences one "failure" due to a long refractory period or desensitization, he may begin to worry about it happening again. This creates a cycle of performance anxiety. The brain releases adrenaline during periods of stress, which constricts blood vessels, the exact opposite of what is needed for an erection. Practicing [yoga mindfulness ed mind](https://acceleratehealth.com/blog/yoga-mindfulness-ed) techniques can often help break this psychological cycle by lowering cortisol and refocusing the mind on the present moment.
 
 ## When to See a Clinician
 
@@ -99,7 +99,7 @@ For men who have addressed behavioral factors and are seeking a clinically formu
 
 Innovation in drug delivery has led to formats like oral spray suspensions. These are designed to bypass the traditional digestive route, potentially offering a more consistent experience for those who need support in the moment.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral sildenafil spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral sildenafil spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

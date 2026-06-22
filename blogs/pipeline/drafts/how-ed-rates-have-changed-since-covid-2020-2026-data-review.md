@@ -45,7 +45,7 @@ One of the most significant reasons **ed rates have changed** is the direct impa
 
 According to the [Cleveland Clinic](https://health.clevelandclinic.org/is-erectile-dysfunction-a-side-effect-of-covid-19/), men who contracted COVID-19 were found to be nearly six times more likely to develop erectile dysfunction than those who were never infected. This is often attributed to:
 
-- **Endothelial Damage:** The virus attacks the cells lining the blood vessels, which are responsible for the release of nitric oxide—a key chemical for achieving an erection.
+- **Endothelial Damage:** The virus attacks the cells lining the blood vessels, which are responsible for the release of nitric oxide, a key chemical for achieving an erection.
 - **Reduced Testosterone:** Some studies indicated that the virus could affect the testes, leading to temporary or sustained drops in testosterone levels.
 - **Oxygen Deprivation:** Severe respiratory cases often led to systemic inflammation and lower oxygen saturation, both of which are detrimental to long-term erectile health.
 
@@ -86,7 +86,7 @@ If you experience chest pain, symptoms of a heart attack, sudden vision loss, or
 
 As we move past the 2020–2026 data cycle, the focus in men’s health is shifting toward "vascular recovery" and integrated mental health support. The increase in ED rates has at least one silver lining: it has destigmatized the conversation around sexual health, leading more men to seek clinical solutions rather than suffering in silence.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

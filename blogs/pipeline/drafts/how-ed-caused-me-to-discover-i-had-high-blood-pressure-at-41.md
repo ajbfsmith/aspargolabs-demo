@@ -48,9 +48,9 @@ I spent months searching for a quick fix. Like many men, [i tried every suppleme
 
 ## The "Canary in the Coal Mine"
 
-When I told my doctor about my symptoms, the first thing he did wasn't reach for a prescription pad—he reached for a blood pressure cuff. My reading was 155/95 mmHg. I was shocked. I had no symptoms of high blood pressure—no headaches, no dizziness, nothing.
+When I told my doctor about my symptoms, the first thing he did wasn't reach for a prescription pad, he reached for a blood pressure cuff. My reading was 155/95 mmHg. I was shocked. I had no symptoms of high blood pressure, no headaches, no dizziness, nothing.
 
-My doctor explained that erectile dysfunction is often the "canary in the coal mine" for cardiovascular disease. The arteries that supply blood to the penis are much smaller than the arteries that supply the heart or brain. When high blood pressure (hypertension) begins to damage the lining of your blood vessels—a condition called endothelial dysfunction—the symptoms often show up in the bedroom first.
+My doctor explained that erectile dysfunction is often the "canary in the coal mine" for cardiovascular disease. The arteries that supply blood to the penis are much smaller than the arteries that supply the heart or brain. When high blood pressure (hypertension) begins to damage the lining of your blood vessels, a condition called endothelial dysfunction, the symptoms often show up in the bedroom first.
 
 According to the [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/erectile-dysfunction/symptoms-causes/syc-20353176), hypertension damages the lining of the blood vessels and causes arteries to harden and narrow (atherosclerosis), which limits blood flow throughout the body. For me, **ed caused me** to realize that my heart was under constant strain.
 
@@ -60,7 +60,7 @@ Hypertension affects erectile function in two primary ways:
 1.  **Vascular Damage:** High blood pressure puts constant pressure on the delicate walls of the blood vessels, making them less elastic and less able to dilate when blood flow is needed for an erection.
 2.  **Nitric Oxide Interference:** Hypertension can interfere with the body's ability to release nitric oxide, the chemical required to relax the smooth muscles in the penis to allow blood to flow in.
 
-Research published by the [American Heart Association](https://www.ahajournals.org/doi/10.1161/HYPERTENSIONAHA.120.14659) suggests that men with erectile dysfunction are significantly more likely to have undiagnosed hypertension or other cardiovascular risks. This is why understanding [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s) is so important; at 41, my symptoms weren't just "aging"—they were a biological signal.
+Research published by the [American Heart Association](https://www.ahajournals.org/doi/10.1161/HYPERTENSIONAHA.120.14659) suggests that men with erectile dysfunction are significantly more likely to have undiagnosed hypertension or other cardiovascular risks. This is why understanding [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s) is so important; at 41, my symptoms weren't just "aging", they were a biological signal.
 
 ## Finding a Path Forward
 
@@ -88,7 +88,7 @@ If you are experiencing changes in your performance, don't just wait for it to g
 
 *This article is for informational purposes and does not constitute medical advice. Always consult with a qualified healthcare professional regarding any medical condition or treatment.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

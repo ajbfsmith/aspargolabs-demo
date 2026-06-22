@@ -31,16 +31,16 @@ pillarSlug: psychological-erectile-dysfunction-guide
 slug: i-had-a-great-erection-last-night-but-not-today-why
 status: draft
 tier: 3
-title: I had a great erection last night but not today — why?
+title: I had a great erection last night but not today, why?
 word_count: 786
 ---
 
 It is common for erectile quality to fluctuate from one day to the next. If you can say "**i had great erection** last night" but find yourself struggling today, it is rarely a sign of permanent damage. Instead, these variations are typically driven by temporary physiological or psychological factors, such as stress, fatigue, or alcohol consumption. Because an erection requires a complex coordination of nerves, blood vessels, and hormones, even minor changes in your daily environment can impact your performance.
 
 ## The Significance of "Last Night"
-If you experienced a strong erection recently—whether during sex, masturbation, or while sleeping—it is a positive clinical sign. Spontaneous erections during sleep, known as nocturnal penile tumescence (NPT), indicate that the physical "hardware" of the penis, including the nerves and blood supply, is functioning correctly.
+If you experienced a strong erection recently, whether during sex, masturbation, or while sleeping, it is a positive clinical sign. Spontaneous erections during sleep, known as nocturnal penile tumescence (NPT), indicate that the physical "hardware" of the penis, including the nerves and blood supply, is functioning correctly.
 
-According to the [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/10035-erectile-dysfunction), the presence of morning or nighttime erections often suggests that the root cause of occasional ED is psychological or lifestyle-related rather than a permanent physical blockage or nerve issue. When the physical mechanism is intact, the difficulty you are having today is likely a "software" issue—something interfering with the signals your brain sends to your body.
+According to the [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/10035-erectile-dysfunction), the presence of morning or nighttime erections often suggests that the root cause of occasional ED is psychological or lifestyle-related rather than a permanent physical blockage or nerve issue. When the physical mechanism is intact, the difficulty you are having today is likely a "software" issue, something interfering with the signals your brain sends to your body.
 
 ## Why Your Erection Quality Fluctuates
 Several factors can cause your body to respond differently from one day to the next. Understanding these can help you identify why **i had great** results yesterday but not today.

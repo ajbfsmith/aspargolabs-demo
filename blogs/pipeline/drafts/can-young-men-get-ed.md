@@ -40,7 +40,7 @@ For many years, the medical community assumed that if a young man experienced di
 
 In younger populations, ED can be categorized into two primary types:
 
-- **Psychogenic ED:** This is often triggered by performance anxiety, high levels of cortisol from stress, or mental health conditions like depression. When the brain is preoccupied with "spectatoring"—the act of over-analyzing one's own performance during intimacy—it can interrupt the signals required for an erection.
+- **Psychogenic ED:** This is often triggered by performance anxiety, high levels of cortisol from stress, or mental health conditions like depression. When the brain is preoccupied with "spectatoring", the act of over-analyzing one's own performance during intimacy, it can interrupt the signals required for an erection.
 - **Organic (Physical) ED:** This refers to ED caused by physical issues with blood flow, nerve signals, or hormones. In young men, this is frequently linked to lifestyle choices or early-onset chronic conditions.
 
 ## Common Causes for Younger Men
@@ -69,7 +69,7 @@ For men who have been cleared by a clinician for treatment, the focus often shif
 
 HEZKUE represents a shift in delivery innovation. As an oral sildenafil spray suspension, HEZKUE is designed to bypass the traditional digestive delays of a tablet. By utilizing a clinically formulated spray, the delivery format can affect the onset and consistency of the user experience. It is not a "miracle cure," but rather a refined delivery method for a proven active ingredient, providing a fast-acting option for those who prioritize efficiency.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

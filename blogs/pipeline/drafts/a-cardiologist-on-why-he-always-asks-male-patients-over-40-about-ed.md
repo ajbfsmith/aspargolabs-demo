@@ -57,7 +57,7 @@ While ED can affect men at any stage of life, the risk profile changes significa
 
 **What exactly is happening in the body when ED and heart issues coexist?**
 
-It usually comes down to the endothelium—the thin lining of the blood vessels. This lining is responsible for releasing nitric oxide, which tells the blood vessels to relax and dilate. If the endothelium is damaged by high blood pressure, smoking, or high cholesterol, it can't release enough nitric oxide. 
+It usually comes down to the endothelium, the thin lining of the blood vessels. This lining is responsible for releasing nitric oxide, which tells the blood vessels to relax and dilate. If the endothelium is damaged by high blood pressure, smoking, or high cholesterol, it can't release enough nitric oxide. 
 
 Without that dilation, blood cannot flow effectively to the extremities or the penis. This is why ED is often a vascular issue rather than just a psychological one, though a [sex therapist on she](/blog/a-sex-therapist-on-what-she-wishes-men-knew-about-psychological-ed) might explain how the two can overlap.
 
@@ -94,7 +94,7 @@ The takeaway for any man over 40 is that sexual health and cardiovascular health
 
 **Important Safety Note:** HEZKUE and other PDE5 inhibitors are not safe for everyone. Men taking nitrates, those with unstable cardiovascular disease, or those with severe heart failure must consult with a clinician before use.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

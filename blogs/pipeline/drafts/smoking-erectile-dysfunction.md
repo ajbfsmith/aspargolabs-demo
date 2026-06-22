@@ -54,7 +54,7 @@ When the endothelium is damaged, the "valves" of the circulatory system essentia
 
 Beyond the general vascular damage, cigarettes introduce heavy metals into the bloodstream that have a specific affinity for reproductive tissues. One of the most concerning is cadmium.
 
-Tobacco plants absorb cadmium from the soil, and this metal is concentrated in the leaves. When smoked, cadmium is inhaled and stays in the body for a very long time—its half-life in humans is estimated to be between 10 and 30 years. Research published in the [Journal of Sexual Medicine](https://academic.oup.com/jsm) has indicated that higher levels of cadmium in the blood are associated with an increased risk of erectile dysfunction.
+Tobacco plants absorb cadmium from the soil, and this metal is concentrated in the leaves. When smoked, cadmium is inhaled and stays in the body for a very long time, its half-life in humans is estimated to be between 10 and 30 years. Research published in the [Journal of Sexual Medicine](https://academic.oup.com/jsm) has indicated that higher levels of cadmium in the blood are associated with an increased risk of erectile dysfunction.
 
 Cadmium damages the smooth muscle cells within the penis. These cells must relax to allow the penis to fill with blood. If these muscles are replaced by fibrous tissue or damaged by heavy metal toxicity, the penis loses its ability to expand. This toxic buildup is one reason why ED in long-term smokers can be more persistent than ED caused by other lifestyle factors, such as [alcohol erections drinking causes](/blog/alcohol-erectile-dysfunction).
 
@@ -80,7 +80,7 @@ For men who are in the process of quitting or have already quit and are looking 
 
 ## How HEZKUE Supports the Transition
 
-During the smoking cessation journey, the goal is to restore confidence and consistency. HEZKUE is an oral sildenafil spray suspension designed for men who require a clinically formulated delivery innovation. Unlike traditional tablets that must be broken down in the digestive tract—a process that can be slowed by various factors—an oral spray suspension is designed for efficient delivery.
+During the smoking cessation journey, the goal is to restore confidence and consistency. HEZKUE is an oral sildenafil spray suspension designed for men who require a clinically formulated delivery innovation. Unlike traditional tablets that must be broken down in the digestive tract, a process that can be slowed by various factors, an oral spray suspension is designed for efficient delivery.
 
 HEZKUE is not a "miracle cure" for the damage caused by cigarettes, but it can serve as a bridge while the vascular system heals. By providing a controlled, precise dose of sildenafil, it helps facilitate the blood flow that smoking once inhibited.
 

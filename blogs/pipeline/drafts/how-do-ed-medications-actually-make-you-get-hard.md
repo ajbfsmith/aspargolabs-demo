@@ -32,7 +32,7 @@ ED medications actually make an erection possible by blocking an enzyme called p
 
 ## The Biological Chain Reaction
 
-To understand how ED medications actually work, it helps to look at what happens in the body during sexual arousal. An erection is essentially a hemodynamic event—a change in blood flow—governed by the nervous system and chemical messengers.
+To understand how ED medications actually work, it helps to look at what happens in the body during sexual arousal. An erection is essentially a hemodynamic event, a change in blood flow, governed by the nervous system and chemical messengers.
 
 1.  **Arousal:** When you become stimulated, your brain sends signals to the nerve endings in the penis.
 2.  **Nitric Oxide Release:** These nerves release nitric oxide (NO).
@@ -55,7 +55,7 @@ Without sexual arousal, the body does not release nitric oxide, and no cGMP is c
 
 ## How Delivery Format Changes the Experience
 
-While the underlying mechanism of blocking PDE5 remains the same across most ED treatments, the delivery format—such as traditional tablets or modern oral sprays—can influence the user experience. 
+While the underlying mechanism of blocking PDE5 remains the same across most ED treatments, the delivery format, such as traditional tablets or modern oral sprays, can influence the user experience. 
 
 Traditional tablets must be swallowed and broken down in the digestive system before the active ingredients enter the bloodstream. This process can be slowed down by heavy or fatty meals. Innovations like HEZKUE, an oral sildenafil spray suspension, are designed to bypass some of these digestive hurdles. By using a fine mist, the delivery format focuses on consistency and a faster onset of action, which can be a significant factor in how a man manages his [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s) and lifestyle.
 

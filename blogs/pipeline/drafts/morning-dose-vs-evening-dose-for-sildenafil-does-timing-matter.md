@@ -60,7 +60,7 @@ To understand the physiological factors behind ED at different stages of life, s
 
 ## Factors That Influence Timing and Absorption
 
-The effectiveness of your dose—whether morning or evening—is heavily influenced by external factors.
+The effectiveness of your dose, whether morning or evening, is heavily influenced by external factors.
 
 1. **Dietary Fat:** According to [clinical pharmacology data](https://pubmed.ncbi.nlm.nih.gov/11913201/), a high-fat meal can reduce the peak plasma concentration of sildenafil by about 29% and delay the time to peak concentration by approximately 60 minutes.
 2. **Alcohol Consumption:** While a glass of wine may help with relaxation, excessive alcohol can impair erectile function and counteract the benefits of the medication.

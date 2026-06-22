@@ -54,8 +54,8 @@ When we look at [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s
 
 **Specialist:** We generally categorize the causes into two buckets: psychogenic and organic.
 
-1. **Psychogenic Factors:** This is highly prevalent in younger men. High levels of cortisol from work stress, performance anxiety, and even the "spectatoring" effect—where a man is too focused on his performance rather than the experience—can interrupt the signals between the brain and the body.
-2. **Organic/Physical Factors:** We are seeing earlier onset of metabolic issues. Obesity, sedentary lifestyles, and poor diet lead to early-stage endothelial dysfunction—where the blood vessels don't dilate as they should.
+1. **Psychogenic Factors:** This is highly prevalent in younger men. High levels of cortisol from work stress, performance anxiety, and even the "spectatoring" effect, where a man is too focused on his performance rather than the experience, can interrupt the signals between the brain and the body.
+2. **Organic/Physical Factors:** We are seeing earlier onset of metabolic issues. Obesity, sedentary lifestyles, and poor diet lead to early-stage endothelial dysfunction, where the blood vessels don't dilate as they should.
 
 For a deeper dive into these mechanisms, I recommend reading the [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction) which outlines how these factors overlap.
 

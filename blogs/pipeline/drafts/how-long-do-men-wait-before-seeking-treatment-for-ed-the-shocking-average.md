@@ -35,7 +35,7 @@ title: How Long Do Men Wait Before Seeking Treatment for ED? (The Shocking Avera
 word_count: 921
 ---
 
-For many men, the first sign of erectile dysfunction (ED) isn't a conversation with a doctor—it is the start of a long period of silence. Despite ED affecting an estimated 30 million men in the United States alone, the transition from noticing symptoms to seeking professional help is rarely immediate. For more context, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
+For many men, the first sign of erectile dysfunction (ED) isn't a conversation with a doctor, it is the start of a long period of silence. Despite ED affecting an estimated 30 million men in the United States alone, the transition from noticing symptoms to seeking professional help is rarely immediate. For more context, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
 Research indicates that the average amount of time **long men wait before** seeking medical advice for ED is approximately two years. Some studies suggest this delay can stretch even longer, with many men enduring symptoms for three or more years before discussing them with a healthcare provider. This delay isn't just a matter of personal privacy; it has significant implications for both physical health and psychological well-being.
 
@@ -75,7 +75,7 @@ For a comprehensive look at the various causes and the full spectrum of modern i
 
 *This article is for informational purposes and does not constitute medical advice. Always consult with a qualified healthcare provider regarding a medical condition or treatment.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](https://acceleratehealth.com/checkout)
 

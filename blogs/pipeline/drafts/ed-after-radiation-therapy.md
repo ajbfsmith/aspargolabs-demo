@@ -33,7 +33,7 @@ title: Erectile Dysfunction After Radiation for Prostate Cancer
 word_count: 1141
 ---
 
-Radiation therapy is a cornerstone of modern prostate cancer treatment, offering high cure rates for localized disease. However, while radiation is effective at targeting cancer cells, the surrounding healthy tissues—including the nerves and blood vessels responsible for erections—can be affected. For more context, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
+Radiation therapy is a cornerstone of modern prostate cancer treatment, offering high cure rates for localized disease. However, while radiation is effective at targeting cancer cells, the surrounding healthy tissues, including the nerves and blood vessels responsible for erections, can be affected. For more context, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
 Understanding **erectile dysfunction after radiation** requires a different perspective than ED following surgery. While surgical ED is often immediate, radiation-induced ED typically follows a more gradual timeline. For many men, managing this side effect is a critical part of their long-term recovery and quality of life.
 

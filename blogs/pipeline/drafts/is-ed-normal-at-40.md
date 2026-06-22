@@ -51,7 +51,7 @@ The most common cause of ED in men over 40 is the health of the blood vessels. E
 While not as sudden as menopause in women, men experience a gradual decline in testosterone, sometimes referred to as andropause. According to the [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/15603-low-testosterone-male-hypogonadism), testosterone levels drop by about 1% to 2% per year starting in the late 30s or early 40s, which can affect libido and erectile quality.
 
 ### Psychological Stress
-The 40s are often a high-stress decade involving peak career demands, family responsibilities, and financial pressures. Chronic stress triggers the release of adrenaline, which constricts blood vessels—the exact opposite of what is needed for an erection. This can lead to a cycle of performance anxiety that compounds physical issues.
+The 40s are often a high-stress decade involving peak career demands, family responsibilities, and financial pressures. Chronic stress triggers the release of adrenaline, which constricts blood vessels, the exact opposite of what is needed for an erection. This can lead to a cycle of performance anxiety that compounds physical issues.
 
 ## When to Speak With a Clinician
 
@@ -79,7 +79,7 @@ While traditional tablets have been the standard for decades, delivery format ca
 
 As a spray, HEZKUE offers a different delivery mechanism that focuses on consistency and ease of use. It is not a "miracle cure," but a refined pharmaceutical innovation intended to fit more naturally into a man's lifestyle.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

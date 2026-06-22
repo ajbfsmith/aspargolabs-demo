@@ -50,7 +50,7 @@ Furthermore, alcohol is a central nervous system depressant. Even without medica
 
 Beyond the physiological risks, alcohol can counteract the benefits of your treatment. Achieving an erection requires a complex coordination between your nerves, blood vessels, and hormones. Alcohol can dull the sensitivity of the nervous system, making it more difficult to become sufficiently aroused.
 
-If you find that your medication isn't working as well as it should, your lifestyle choices—including alcohol consumption and stress levels—may be playing a role. Understanding how [stress causes ED](https://acceleratehealth.com/blog/can-stress-cause-ed) can help you see the bigger picture of how external factors influence sexual health.
+If you find that your medication isn't working as well as it should, your lifestyle choices, including alcohol consumption and stress levels, may be playing a role. Understanding how [stress causes ED](https://acceleratehealth.com/blog/can-stress-cause-ed) can help you see the bigger picture of how external factors influence sexual health.
 
 ## Safety and Cardiovascular Risks
 
@@ -79,7 +79,7 @@ If you choose to drink while using ED medication, follow these safety guidelines
 
 *Note: This information is for educational purposes and does not constitute medical advice. Always speak with a licensed clinician before starting or changing a medication regimen.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

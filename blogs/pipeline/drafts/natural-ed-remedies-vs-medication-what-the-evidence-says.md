@@ -43,7 +43,7 @@ When discussing **natural ed remedies**, it is important to distinguish between 
 The [American Urological Association (AUA)](https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-guideline) recommends lifestyle modifications as a first-line approach for all men with ED. These include:
 
 - **Aerobic Exercise:** Regular physical activity improves blood flow and cardiovascular health, which is directly linked to erectile function.
-- **Dietary Improvements:** Diets rich in fruits, vegetables, and whole grains—such as the Mediterranean diet—have been shown to reduce the risk of ED.
+- **Dietary Improvements:** Diets rich in fruits, vegetables, and whole grains, such as the Mediterranean diet, have been shown to reduce the risk of ED.
 - **Weight Management:** Obesity is a known risk factor for vascular issues that contribute to ED.
 
 ### Herbal Supplements

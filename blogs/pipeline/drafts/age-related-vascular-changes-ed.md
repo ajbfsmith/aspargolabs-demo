@@ -46,7 +46,7 @@ As these chambers fill, they compress the veins that normally drain blood away, 
 
 One of the most significant ways **aging blood vessels cause** ED is through a process called arterial stiffness. In a young, healthy vascular system, arteries are highly compliant; they can expand and contract easily to accommodate changes in blood flow.
 
-As men age, the structural proteins within the vessel walls—specifically collagen and elastin—begin to change. Elastin, which provides flexibility, degrades, while collagen, which provides rigidity, increases. This remodeling makes the penile arteries stiffer and less able to dilate when the body signals for an erection. According to the [American Heart Association](https://www.ahajournals.org/doi/10.1161/HYPERTENSIONAHA.117.09160), arterial stiffness is a strong predictor of future cardiovascular events and is closely linked to the early stages of erectile dysfunction.
+As men age, the structural proteins within the vessel walls, specifically collagen and elastin, begin to change. Elastin, which provides flexibility, degrades, while collagen, which provides rigidity, increases. This remodeling makes the penile arteries stiffer and less able to dilate when the body signals for an erection. According to the [American Heart Association](https://www.ahajournals.org/doi/10.1161/HYPERTENSIONAHA.117.09160), arterial stiffness is a strong predictor of future cardiovascular events and is closely linked to the early stages of erectile dysfunction.
 
 ## Endothelial Senescence: The Aging Vessel Lining
 

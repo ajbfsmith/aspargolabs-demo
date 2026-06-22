@@ -44,7 +44,7 @@ Testosterone is the primary male sex hormone, responsible for maintaining bone d
 
 According to the [American Urological Association](https://www.auanet.org/guidelines-and-quality/guidelines/testosterone-deficiency-guideline), testosterone deficiency (hypogonadism) is diagnosed when a patient has consistently low testosterone levels (typically below 300 ng/dL) combined with clinical symptoms like low energy, reduced libido, or mood changes.
 
-While testosterone is necessary for a healthy sex drive, it is not the primary "engine" of an erection. Erections are largely a vascular event—a matter of blood flow. Because of this, many men with normal testosterone levels still experience ED, and many men with low testosterone can still achieve erections if their vascular system is healthy.
+While testosterone is necessary for a healthy sex drive, it is not the primary "engine" of an erection. Erections are largely a vascular event, a matter of blood flow. Because of this, many men with normal testosterone levels still experience ED, and many men with low testosterone can still achieve erections if their vascular system is healthy.
 
 ## Why TRT Is Not a Universal "Fix" for ED
 

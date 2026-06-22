@@ -43,13 +43,13 @@ In many cases, the "myth ed always sign" of low testosterone leads men to seek h
 
 To understand why ED isn't always about testosterone, it helps to distinguish between libido (sexual desire) and the physical mechanism of an erection.
 
-Testosterone is primarily responsible for desire. It is the "fuel" that drives the urge for sexual activity. When testosterone is low—a condition known as hypogonadism—a man may lose interest in sex entirely. However, even with low levels of the hormone, the physical "machinery" required for an erection can often still function.
+Testosterone is primarily responsible for desire. It is the "fuel" that drives the urge for sexual activity. When testosterone is low, a condition known as hypogonadism, a man may lose interest in sex entirely. However, even with low levels of the hormone, the physical "machinery" required for an erection can often still function.
 
 Conversely, many men with perfectly normal testosterone levels still struggle with ED. This is because an erection is primarily a vascular event. It requires the blood vessels to relax and allow a surge of blood flow into the penile tissues. If that blood flow is restricted, no amount of testosterone will solve the mechanical issue. For a deeper look at these mechanics, you can explore our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
 ## Most ED Is Vascular, Not Hormonal
 
-According to the [Urology Care Foundation](https://www.urologyhealth.org/urology-a-z/e/erectile-dysfunction-(ed)), the most common cause of ED is actually related to blood flow. In fact, vascular issues—such as atherosclerosis (hardening of the arteries), high blood pressure, and complications from diabetes—account for the vast majority of physical ED cases.
+According to the [Urology Care Foundation](https://www.urologyhealth.org/urology-a-z/e/erectile-dysfunction-(ed)), the most common cause of ED is actually related to blood flow. In fact, vascular issues, such as atherosclerosis (hardening of the arteries), high blood pressure, and complications from diabetes, account for the vast majority of physical ED cases.
 
 Because the arteries in the penis are much smaller than those leading to the heart, ED is often one of the first warning signs of cardiovascular health issues. If the blood cannot reach the destination effectively, the "myth ed always" being a hormone problem can actually distract men from addressing serious heart health concerns.
 
@@ -78,7 +78,7 @@ If your libido is high but the physical response is lacking, the issue is more l
 
 For men whose ED is related to blood flow rather than hormones, PDE5 inhibitors like sildenafil are the clinical standard of care. However, the delivery format of these medications can significantly change the user experience.
 
-HEZKUE is an oral sildenafil spray suspension designed as a clinically formulated delivery innovation. Unlike traditional pills that must be broken down in the digestive system—a process that can be slowed by food or individual metabolism—an oral spray suspension is designed for consistent delivery.
+HEZKUE is an oral sildenafil spray suspension designed as a clinically formulated delivery innovation. Unlike traditional pills that must be broken down in the digestive system, a process that can be slowed by food or individual metabolism, an oral spray suspension is designed for consistent delivery.
 
 When comparing [sildenafil tadalafil vardenafil avanafil](/blog/sildenafil-tadalafil-vardenafil-avanafil-comparison), it is important to remember that these medications do not create "automatic" erections. You still need sexual stimulation to trigger the process. There is a common [myth ed medication will](/blog/myth-ed-medication-will-give-you-an-erection-whether-you-want-one-or-not) give you an erection without any arousal, but these treatments actually work by supporting the natural vascular response once you are already stimulated.
 
@@ -88,7 +88,7 @@ While ED treatments are highly effective for many, they are not safe for everyon
 
 PDE5 inhibitors like sildenafil are strictly contraindicated for men taking nitrates (often prescribed for chest pain) or those using "poppers" (amyl nitrate), as the combination can cause a life-threatening drop in blood pressure. Seek urgent medical care if you experience chest pain, sudden vision or hearing loss, or an erection lasting longer than four hours (priapism).
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

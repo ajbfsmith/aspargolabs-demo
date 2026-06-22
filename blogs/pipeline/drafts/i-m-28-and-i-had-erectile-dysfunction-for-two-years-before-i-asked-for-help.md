@@ -46,7 +46,7 @@ If you are in your 20s or 30s and struggling, you should know that you aren't an
 
 My journey started with a few "off" nights that I blamed on stress or having one too many drinks. But soon, the occasional lapse became a pattern. I’m 28, I had a great job, a healthy social life, and a partner I cared about, but my body wasn't cooperating. 
 
-Instead of seeking medical advice, I went internal. I started "head-checking"—constantly monitoring my arousal during intimate moments. This created a feedback loop of anxiety. The more I worried about failing, the more my sympathetic nervous system (the "fight or flight" response) took over, making an erection physiologically impossible.
+Instead of seeking medical advice, I went internal. I started "head-checking", constantly monitoring my arousal during intimate moments. This created a feedback loop of anxiety. The more I worried about failing, the more my sympathetic nervous system (the "fight or flight" response) took over, making an erection physiologically impossible.
 
 This silence took a toll on my partner, too. Without a clear medical explanation, she began to wonder if the problem was her or if I was losing interest. This is a common hurdle; understanding how [ed relationships erectile dysfunction](https://acceleratehealth.com/blog/erectile-dysfunction-relationship-impact) are linked is often the first step in realizing that the condition is a shared medical challenge, not a personal failing.
 
@@ -54,7 +54,7 @@ This silence took a toll on my partner, too. Without a clear medical explanation
 
 The turning point came when I stopped searching for "cures" on anonymous forums and started looking at clinical data. I realized that [erectile dysfunction by age](https://acceleratehealth.com/blog/ed-causes-by-age-20s-30s-40s-50s-60s) varies significantly in its causes. While older men often deal with ED due to vascular issues or [ed after my prostate](https://acceleratehealth.com/blog/ed-after-my-prostate-surgery-the-recovery-nobody-talks-about) surgery, younger men are more likely to be affected by a mix of psychological factors, lifestyle habits, or underlying hormonal imbalances.
 
-According to the [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/10035-erectile-dysfunction), ED can also be an early warning sign for other health issues, such as diabetes or heart disease, even in younger men. This realization—that my ED was a medical symptom rather than a character flaw—finally pushed me to see a clinician.
+According to the [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/10035-erectile-dysfunction), ED can also be an early warning sign for other health issues, such as diabetes or heart disease, even in younger men. This realization, that my ED was a medical symptom rather than a character flaw, finally pushed me to see a clinician.
 
 ## Finding a Path Forward
 
@@ -85,7 +85,7 @@ Before starting any treatment for ED, it is vital to consult with a healthcare p
 
 Seek urgent medical care if you experience chest pain, symptoms of a heart attack, sudden vision or hearing loss, or an erection lasting longer than four hours (priapism).
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](https://acceleratehealth.com/checkout)
 

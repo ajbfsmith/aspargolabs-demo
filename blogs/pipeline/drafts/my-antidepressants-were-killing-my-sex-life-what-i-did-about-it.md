@@ -48,7 +48,7 @@ For me, the issue was twofold. First, my desire plummeted. Second, even when the
 
 I eventually learned that **my antidepressants were** affecting my nervous system's ability to send the right signals. SSRIs work by increasing serotonin levels in the brain, which helps regulate mood. However, [increased serotonin can also inhibit the chemical signals](https://www.mayoclinic.org/diseases-conditions/depression/in-depth/antidepressants/art-20048273) that trigger an erection and sexual arousal.
 
-I spent weeks searching for answers, reading through a [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction) to see if my age or lifestyle were to blame. While I learned that [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s) is a real factor, the timing of my symptoms pointed directly to my medication. I felt stuck. I couldn't stop taking my antidepressants—they were literally saving my life—but I couldn't ignore the toll the side effects were taking on my self-esteem.
+I spent weeks searching for answers, reading through a [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction) to see if my age or lifestyle were to blame. While I learned that [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s) is a real factor, the timing of my symptoms pointed directly to my medication. I felt stuck. I couldn't stop taking my antidepressants, they were literally saving my life, but I couldn't ignore the toll the side effects were taking on my self-esteem.
 
 ## The Turning Point: A Clinical Conversation
 
@@ -82,13 +82,13 @@ You should seek urgent medical care if you experience:
 
 ## Finding Balance Again
 
-Today, my mental health is stable, and my sex life is back on track. I realized that [getting ed after 50](/blog/getting-ed-after-50-why-i-finally-stopped-pretending-it-wasn-t-happening) or even younger due to medication isn't a sign of failure—it's a clinical challenge with clinical solutions. Whether it's through lifestyle changes like [losing 40 pounds changed](/blog/how-losing-40-pounds-changed-everything-including-my-ed) my health or finding the right delivery format for medication, there are ways to move forward.
+Today, my mental health is stable, and my sex life is back on track. I realized that [getting ed after 50](/blog/getting-ed-after-50-why-i-finally-stopped-pretending-it-wasn-t-happening) or even younger due to medication isn't a sign of failure, it's a clinical challenge with clinical solutions. Whether it's through lifestyle changes like [losing 40 pounds changed](/blog/how-losing-40-pounds-changed-everything-including-my-ed) my health or finding the right delivery format for medication, there are ways to move forward.
 
 If you feel like your antidepressants are standing in the way of your intimacy, don't wait to have the conversation. You deserve to feel good in both your mind and your body.
 
 *This article is for informational purposes and does not constitute medical advice. Always consult with a qualified healthcare provider before starting or changing any medication.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

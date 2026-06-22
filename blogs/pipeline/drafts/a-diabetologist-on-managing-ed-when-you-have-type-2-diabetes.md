@@ -66,7 +66,7 @@ You can find a full breakdown in our review of [every ed treatment available](/b
 
 **Accelerate Health: Many men with diabetes find that traditional pills are inconsistent. Why is that?**
 
-**Dr. Thorne:** Absorption can be an issue. Many people with diabetes suffer from gastroparesis—a condition where the stomach empties slowly. This can delay the onset of a traditional pill or make its effects unpredictable. This is why delivery innovation is so important.
+**Dr. Thorne:** Absorption can be an issue. Many people with diabetes suffer from gastroparesis, a condition where the stomach empties slowly. This can delay the onset of a traditional pill or make its effects unpredictable. This is why delivery innovation is so important.
 
 ## HEZKUE: A Delivery Innovation for Consistency
 
@@ -92,7 +92,7 @@ Men with unstable cardiovascular disease, or those who experience shortness of b
 
 **Medical Disclaimer:** *The information provided in this article, including the Q&A with a fictitious expert, is for educational purposes only and does not constitute medical advice. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

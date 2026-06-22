@@ -28,7 +28,7 @@ pillarSlug: complete-guide-erectile-dysfunction
 slug: obesity-erectile-dysfunction
 status: draft
 tier: 2
-title: How Excess Weight Causes Erectile Dysfunction — and How Much Weight Loss Actually
+title: How Excess Weight Causes Erectile Dysfunction, and How Much Weight Loss Actually
   Helps
 word_count: 1093
 ---
@@ -47,7 +47,7 @@ According to research published in the [Journal of Clinical Endocrinology & Meta
 
 ## Endothelial Dysfunction: The Vascular Connection
 
-Erections are fundamentally a vascular event. For an erection to occur, the inner lining of the blood vessels—the endothelium—must release nitric oxide. This chemical signals the smooth muscles in the penis to relax, allowing blood to flow in.
+Erections are fundamentally a vascular event. For an erection to occur, the inner lining of the blood vessels, the endothelium, must release nitric oxide. This chemical signals the smooth muscles in the penis to relax, allowing blood to flow in.
 
 Excess weight is a leading cause of endothelial dysfunction. Obesity often leads to chronic, low-grade inflammation and oxidative stress, both of which damage the endothelium. When the endothelium is compromised, it cannot produce enough nitric oxide to facilitate the necessary blood flow.
 

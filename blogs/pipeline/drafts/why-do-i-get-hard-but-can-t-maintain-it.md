@@ -32,7 +32,7 @@ title: Why do I get hard but can't maintain it?
 word_count: 812
 ---
 
-If you find that **i get hard** but lose the erection before or during intercourse, you are likely experiencing a common form of erectile dysfunction (ED). This specific issue—the inability to maintain firmness—is often caused by a "venous leak," where blood enters the penis but cannot be trapped effectively, or by psychological factors like performance anxiety. While achieving an initial erection is a positive sign of nerve and blood vessel function, maintaining it requires a complex balance of sustained blood flow, muscle relaxation, and mental focus. For more context, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
+If you find that **i get hard** but lose the erection before or during intercourse, you are likely experiencing a common form of erectile dysfunction (ED). This specific issue, the inability to maintain firmness, is often caused by a "venous leak," where blood enters the penis but cannot be trapped effectively, or by psychological factors like performance anxiety. While achieving an initial erection is a positive sign of nerve and blood vessel function, maintaining it requires a complex balance of sustained blood flow, muscle relaxation, and mental focus. For more context, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
 ## Why Maintenance is Different from Achievement
 
@@ -76,7 +76,7 @@ Seek urgent medical care if you experience:
 
 Managing ED is rarely about a "miracle cure"; it is about finding a delivery format and treatment plan that fits your lifestyle and provides consistent results. For many, the [complete guide erectile dysfunction](https://acceleratehealth.com/blog/complete-guide-erectile-dysfunction) offers a roadmap for understanding these options.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours. By utilizing a spray delivery system, HEZKUE provides a modern approach to sildenafil that focuses on onset and user experience.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours. By utilizing a spray delivery system, HEZKUE provides a modern approach to sildenafil that focuses on onset and user experience.
 
 [Explore HEZKUE](https://acceleratehealth.com/checkout)
 

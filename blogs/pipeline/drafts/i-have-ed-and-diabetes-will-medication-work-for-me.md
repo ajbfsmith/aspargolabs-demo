@@ -30,7 +30,7 @@ pillarSlug: psychological-erectile-dysfunction-guide
 slug: i-have-ed-and-diabetes-will-medication-work-for-me
 status: draft
 tier: 3
-title: I have ED and diabetes — will medication work for me?
+title: I have ED and diabetes, will medication work for me?
 word_count: 825
 ---
 
@@ -51,7 +51,7 @@ According to the [National Institute of Diabetes and Digestive and Kidney Diseas
 
 For many men, the first step is a prescription for a PDE5 inhibitor. These medications work by enhancing the effects of nitric oxide, helping the blood vessels in the penis relax.
 
-While these medications are effective, their performance in diabetic men can be inconsistent. Because the underlying vascular and nerve damage may be more advanced, a standard pill may take longer to work or may not provide a firm enough result. In these cases, the delivery format of the medication—such as an oral spray—can play a role in how the body absorbs and responds to the active ingredient.
+While these medications are effective, their performance in diabetic men can be inconsistent. Because the underlying vascular and nerve damage may be more advanced, a standard pill may take longer to work or may not provide a firm enough result. In these cases, the delivery format of the medication, such as an oral spray, can play a role in how the body absorbs and responds to the active ingredient.
 
 It is also common for ED to have multiple causes. Even if diabetes is the primary physical driver, the stress of managing a chronic illness can lead to [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide), which further complicates treatment.
 

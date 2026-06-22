@@ -39,7 +39,7 @@ Whether erectile dysfunction (ED) can be cured permanently depends entirely on t
 
 To determine if ED can be cured, doctors first look at whether the cause is "organic" (physical) or "psychogenic" (psychological). 
 
-If the condition is psychogenic—stemming from performance anxiety, stress, or relationship issues—it is often possible for **ed be cured** permanently through therapy and behavioral changes. Similarly, if ED is a side effect of a specific medication or a temporary lifestyle factor, addressing that root cause can restore natural function.
+If the condition is psychogenic, stemming from performance anxiety, stress, or relationship issues, it is often possible for **ed be cured** permanently through therapy and behavioral changes. Similarly, if ED is a side effect of a specific medication or a temporary lifestyle factor, addressing that root cause can restore natural function.
 
 For more information on how these causes shift over time, you can read about [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s).
 
@@ -75,7 +75,7 @@ It is vital to understand that ED treatments are not safe for everyone. You must
 
 While the search for a permanent cure continues through research into stem cell therapy and gene therapy, these are not yet standard clinical practice. Today, the focus remains on refining how we deliver proven medications to make them more convenient and predictable.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours. By utilizing a spray format, HEZKUE offers a modern approach to managing ED symptoms with a focus on onset and consistency.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours. By utilizing a spray format, HEZKUE offers a modern approach to managing ED symptoms with a focus on onset and consistency.
 
 [Explore HEZKUE](/checkout)
 

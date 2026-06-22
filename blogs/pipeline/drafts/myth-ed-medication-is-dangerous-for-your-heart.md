@@ -46,7 +46,7 @@ The concern that ED medication is dangerous for the heart usually stems from two
 
 When Sildenafil (the active ingredient in Viagra and HEZKUE) was first studied in clinical trials, researchers weren't looking for an ED cure; they were investigating a treatment for hypertension (high blood pressure) and angina (chest pain). According to the [National Institutes of Health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1448693/), the drug works by inhibiting the PDE5 enzyme, which helps relax smooth muscle and increase blood flow. 
 
-The myth grew because some early users with undiagnosed, severe heart disease experienced cardiac events during sex. However, medical experts have since clarified that the physical exertion of sexual activity—not the medication itself—is typically what puts stress on a compromised heart. For a man who can climb two flights of stairs without chest pain, the cardiovascular demand of sex is generally considered safe.
+The myth grew because some early users with undiagnosed, severe heart disease experienced cardiac events during sex. However, medical experts have since clarified that the physical exertion of sexual activity, not the medication itself, is typically what puts stress on a compromised heart. For a man who can climb two flights of stairs without chest pain, the cardiovascular demand of sex is generally considered safe.
 
 ## ED as the "Canary in the Coal Mine"
 
@@ -89,7 +89,7 @@ To summarize the heart health debate:
 
 *Note: This article is for informational purposes and does not constitute medical advice. Always consult with a healthcare provider before starting a new medication, especially if you have a history of heart disease or high blood pressure.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

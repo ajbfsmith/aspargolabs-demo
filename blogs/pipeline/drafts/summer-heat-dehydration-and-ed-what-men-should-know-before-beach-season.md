@@ -86,7 +86,7 @@ As we highlighted during [men's health week 2026](https://acceleratehealth.com/b
 
 To protect your sexual health this summer, prioritize hydration by drinking water consistently throughout the day, rather than waiting until you feel thirsty. Monitor your urine color; pale yellow typically indicates healthy hydration, while dark amber suggests a need for more fluids.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

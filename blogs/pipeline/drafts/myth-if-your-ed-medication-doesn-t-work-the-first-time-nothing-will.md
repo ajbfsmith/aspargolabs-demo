@@ -38,7 +38,7 @@ word_count: 1043
 
 It is a common scene: a man finally speaks to a healthcare provider, receives a prescription for erectile dysfunction (ED) medication, and waits for the "magic" to happen. When the first dose doesn’t lead to the expected result, the disappointment can be crushing. Many men immediately assume the medication is a failure or that their condition is untreatable.
 
-This is a pervasive **myth: ed medication doesn't** work for you if it fails on the first attempt. In reality, clinical experience shows that the first dose is often just the beginning of a calibration process. Understanding why a first dose might not work—and why persistence is key—is essential for anyone navigating [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
+This is a pervasive **myth: ed medication doesn't** work for you if it fails on the first attempt. In reality, clinical experience shows that the first dose is often just the beginning of a calibration process. Understanding why a first dose might not work, and why persistence is key, is essential for anyone navigating [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
 ## Why the First Dose Often "Fails"
 
@@ -96,7 +96,7 @@ If your first experience wasn't what you hoped for, don't lose heart. Discuss yo
 
 **Medical Disclaimer:** This content is for informational purposes only and does not constitute medical advice. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

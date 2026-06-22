@@ -40,13 +40,13 @@ To help demystify the science, we sat down with a clinical pharmacist (represent
 
 **Pharmacist:** It starts with the blood vessels. Most ED medications belong to a class called PDE5 inhibitors. To understand them, you first have to understand how an erection happens naturally. When a man is sexually aroused, his body releases nitric oxide. This triggers the production of a molecule called cGMP, which relaxes the smooth muscles in the penis, allowing blood to flow in.
 
-An enzyme called phosphodiesterase type 5 (PDE5) eventually breaks down cGMP, causing the erection to subside. ED medications work by blocking—or inhibiting—that enzyme. By keeping cGMP levels higher for longer, the medication helps maintain the blood flow necessary for an erection. It is important to note that these medications are not "on" switches; they require sexual arousal to initiate the nitric oxide release in the first place.
+An enzyme called phosphodiesterase type 5 (PDE5) eventually breaks down cGMP, causing the erection to subside. ED medications work by blocking, or inhibiting, that enzyme. By keeping cGMP levels higher for longer, the medication helps maintain the blood flow necessary for an erection. It is important to note that these medications are not "on" switches; they require sexual arousal to initiate the nitric oxide release in the first place.
 
 ## Delivery Formats: Pills vs. Sprays
 
 **Question: We often hear that delivery format matters. A pharmacist explains happens take differently depending on whether it’s a pill or a spray. Why is that?**
 
-**Pharmacist:** The delivery format dictates the "pharmacokinetics"—essentially how the drug moves through your system. When you swallow a traditional tablet, it must travel to the stomach, break down, and pass through the digestive tract before being absorbed into the bloodstream. This process can be slowed down by what you’ve eaten, especially high-fat meals.
+**Pharmacist:** The delivery format dictates the "pharmacokinetics", essentially how the drug moves through your system. When you swallow a traditional tablet, it must travel to the stomach, break down, and pass through the digestive tract before being absorbed into the bloodstream. This process can be slowed down by what you’ve eaten, especially high-fat meals.
 
 In contrast, innovations like HEZKUE, which is an oral sildenafil spray suspension, are designed to bypass some of these hurdles. Because the medication is already suspended in a liquid format and delivered as a spray, it can begin the absorption process more efficiently than a solid mass that needs to be dissolved. This is why delivery innovation is such a focus in pharmaceutical science today; it’s about making the onset more consistent and the user experience more predictable.
 
@@ -56,7 +56,7 @@ In contrast, innovations like HEZKUE, which is an oral sildenafil spray suspensi
 
 **Pharmacist:** For most oral tablets, we usually tell patients to wait 30 to 60 minutes. However, the "window of opportunity" varies. Sildenafil typically stays in the system for about four to six hours, while tadalafil can last much longer.
 
-The goal of newer delivery systems is to shorten that "waiting room" period. While no medication is a miracle cure that works instantly for everyone, a clinically formulated spray suspension is designed to work in minutes—not hours—by optimizing how the sildenafil enters the blood.
+The goal of newer delivery systems is to shorten that "waiting room" period. While no medication is a miracle cure that works instantly for everyone, a clinically formulated spray suspension is designed to work in minutes, not hours, by optimizing how the sildenafil enters the blood.
 
 ## Safety and Cardiovascular Health
 

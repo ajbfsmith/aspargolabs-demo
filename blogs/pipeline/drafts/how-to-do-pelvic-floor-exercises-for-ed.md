@@ -38,7 +38,7 @@ Pelvic floor exercises, often called Kegels, can improve erectile dysfunction (E
 
 ## Why Pelvic Floor Exercises Help with ED
 
-The pelvic floor is a layer of muscles that supports the bladder and bowel and plays a critical role in sexual function. In men, two specific muscles—the bulbocavernosus and the ischiocavernosus—are responsible for compressing the veins that drain blood away from the penis. When these muscles are strong, they help maintain the pressure required for a firm erection.
+The pelvic floor is a layer of muscles that supports the bladder and bowel and plays a critical role in sexual function. In men, two specific muscles, the bulbocavernosus and the ischiocavernosus, are responsible for compressing the veins that drain blood away from the penis. When these muscles are strong, they help maintain the pressure required for a firm erection.
 
 A landmark study published in [BJU International](https://pubmed.ncbi.nlm.nih.gov/15833064/) found that 40% of men with ED regained normal erectile function after six months of pelvic floor exercises, while an additional 35.5% showed significant improvement. For more context on how lifestyle and physical factors contribute to sexual health, you can read our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 

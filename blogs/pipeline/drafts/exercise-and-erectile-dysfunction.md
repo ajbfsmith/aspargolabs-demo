@@ -37,13 +37,13 @@ The concept of "exercise as medicine" is not just a motivational phrase; in the 
 
 While medication is a common and effective tool, many men look for ways to [reverse erectile dysfunction without](/blog/lifestyle-changes-reverse-erectile-dysfunction) relying solely on a pill. Research suggests that for many, a structured exercise regimen can improve the International Index of Erectile Function (IIEF) scores, sometimes as effectively as first-line pharmaceutical interventions.
 
-However, not all movement is created equal. To use exercise as medicine for ED, one must understand the specific types of training—aerobic, resistance, and pelvic floor—that target the physiological roots of the condition. This guide explores the clinical evidence behind exercise as a therapeutic intervention for ED and provides a roadmap for implementation.
+However, not all movement is created equal. To use exercise as medicine for ED, one must understand the specific types of training, aerobic, resistance, and pelvic floor, that target the physiological roots of the condition. This guide explores the clinical evidence behind exercise as a therapeutic intervention for ED and provides a roadmap for implementation.
 
 ## The Vascular Connection: Why the Penis is a "Canary in the Coal Mine"
 
 To understand why exercise works as medicine, one must understand the "artery size hypothesis." The arteries supplying the penis are significantly smaller (1–2 mm) than the coronary arteries (3–4 mm) or the femoral arteries. Consequently, vascular disease often manifests as erectile dysfunction years before it manifests as chest pain or a heart attack.
 
-When we exercise, we aren't just burning calories; we are performing "maintenance" on the endothelium—the thin, delicate lining of every blood vessel in the body. A healthy endothelium is the primary source of nitric oxide (NO), the signaling molecule that triggers the relaxation of smooth muscle in the penis, allowing blood to flow in. Exercise increases "shear stress" on the vessel walls, which stimulates the production of endothelial nitric oxide synthase (eNOS), the enzyme responsible for creating NO.
+When we exercise, we aren't just burning calories; we are performing "maintenance" on the endothelium, the thin, delicate lining of every blood vessel in the body. A healthy endothelium is the primary source of nitric oxide (NO), the signaling molecule that triggers the relaxation of smooth muscle in the penis, allowing blood to flow in. Exercise increases "shear stress" on the vessel walls, which stimulates the production of endothelial nitric oxide synthase (eNOS), the enzyme responsible for creating NO.
 
 ## The Gold Standard: Aerobic Exercise and the 160-Minute Rule
 
@@ -83,7 +83,7 @@ Consistency is key. Like any other muscle, the pelvic floor requires progressive
 While aerobic exercise is the primary driver of vascular health, resistance training (weightlifting) is the primary driver of metabolic and hormonal health. Testosterone is a key driver of libido and plays a supportive role in the erectile response by maintaining the health of the nerves and tissues in the pelvic region.
 
 ### The Impact of Compound Movements
-Compound movements—exercises that use multiple joint groups at once—are the most effective for stimulating the endocrine system. These include:
+Compound movements, exercises that use multiple joint groups at once, are the most effective for stimulating the endocrine system. These include:
 - **Squats and Deadlifts:** These engage the largest muscle groups in the body (legs and back), leading to a more significant acute hormonal response.
 - **Bench Presses and Rows:** These build upper body strength and improve overall metabolic rate.
 
@@ -92,9 +92,9 @@ One of the most common causes of ED is Type 2 Diabetes and metabolic syndrome. H
 
 ## Yoga and the Parasympathetic Nervous System
 
-Erectile dysfunction is often categorized as either organic (physical) or psychogenic (psychological). However, the two are rarely separate. Stress and anxiety trigger the sympathetic nervous system—the "fight or flight" response. In this state, the body releases adrenaline and norepinephrine, which constrict blood vessels and redirect blood away from the reproductive organs to the heart and limbs. This is the physiological opposite of what is required for an erection.
+Erectile dysfunction is often categorized as either organic (physical) or psychogenic (psychological). However, the two are rarely separate. Stress and anxiety trigger the sympathetic nervous system, the "fight or flight" response. In this state, the body releases adrenaline and norepinephrine, which constrict blood vessels and redirect blood away from the reproductive organs to the heart and limbs. This is the physiological opposite of what is required for an erection.
 
-Yoga serves as an antidote by activating the parasympathetic nervous system—the "rest and digest" state. A study in the *Journal of Sexual Medicine* found that a consistent yoga practice significantly improved scores across all domains of sexual function in men, including desire, intercourse satisfaction, and erectile function.
+Yoga serves as an antidote by activating the parasympathetic nervous system, the "rest and digest" state. A study in the *Journal of Sexual Medicine* found that a consistent yoga practice significantly improved scores across all domains of sexual function in men, including desire, intercourse satisfaction, and erectile function.
 
 ### Specific Benefits of Yoga for ED
 - **Cortisol Reduction:** Chronic high cortisol levels can suppress testosterone and cause vascular constriction.
@@ -103,13 +103,13 @@ Yoga serves as an antidote by activating the parasympathetic nervous system—th
 
 ## The Metabolic Factor: Visceral Fat and Aromatization
 
-Exercise as medicine also works by reducing visceral fat—the "deep" fat stored around the organs. Visceral fat is metabolically active and acts almost like an independent endocrine organ. It produces inflammatory cytokines and contains high levels of an enzyme called aromatase.
+Exercise as medicine also works by reducing visceral fat, the "deep" fat stored around the organs. Visceral fat is metabolically active and acts almost like an independent endocrine organ. It produces inflammatory cytokines and contains high levels of an enzyme called aromatase.
 
 Aromatase converts testosterone into estrogen. Therefore, men with high levels of abdominal fat often suffer from a "double hit" to their erectile health: lower testosterone and higher estrogen. By engaging in a combination of aerobic and resistance training to reduce visceral fat, men can naturally shift their hormonal balance back toward a state that supports erectile function.
 
 ## The Cycling Controversy: Protecting the Pudendal Nerve
 
-While exercise is generally beneficial, one specific activity requires caution: long-distance cycling. The "cycling controversy" stems from the fact that traditional narrow bicycle seats can put significant pressure on the perineum—the area between the scrotum and the anus.
+While exercise is generally beneficial, one specific activity requires caution: long-distance cycling. The "cycling controversy" stems from the fact that traditional narrow bicycle seats can put significant pressure on the perineum, the area between the scrotum and the anus.
 
 This area contains the pudendal nerves and the dorsal arteries that supply blood to the penis. Prolonged compression can lead to "saddle anesthesia" (numbness) and, eventually, erectile dysfunction due to nerve compression or vascular trauma.
 

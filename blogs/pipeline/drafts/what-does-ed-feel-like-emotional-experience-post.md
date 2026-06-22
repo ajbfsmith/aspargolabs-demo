@@ -37,7 +37,7 @@ For many men, erectile dysfunction (ED) feels like a frustrating gap between men
 
 ## The Physical Sensation of ED
 
-Physically, ED is rarely a total absence of sensation. Instead, it often feels like a "mismatch" between the brain and the body. You may feel a high level of arousal and desire, but the physiological response—the blood flow required to create and sustain an erection—does not follow suit.
+Physically, ED is rarely a total absence of sensation. Instead, it often feels like a "mismatch" between the brain and the body. You may feel a high level of arousal and desire, but the physiological response, the blood flow required to create and sustain an erection, does not follow suit.
 
 This experience can vary significantly. Some men find they can achieve an erection initially but lose it during intercourse. Others may find that their erections are not firm enough for penetration. These physical symptoms can be intermittent or persistent, and they often lead men to wonder about the [causes sudden erectile dysfunction?](/blog/what-causes-sudden-erectile-dysfunction) when the issue appears without warning.
 
@@ -72,7 +72,7 @@ For a deeper look at the science and management of this condition, refer to our 
 
 While traditional pills have been the standard for decades, delivery innovation is changing the user experience. The format of a medication can affect how quickly it enters the system and how consistently it works.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours. By utilizing a spray format, HEZKUE offers a modern approach to managing the physical symptoms of ED, helping to bridge the gap between desire and response.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours. By utilizing a spray format, HEZKUE offers a modern approach to managing the physical symptoms of ED, helping to bridge the gap between desire and response.
 
 [Explore HEZKUE](/checkout)
 

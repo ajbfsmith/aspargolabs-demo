@@ -76,7 +76,7 @@ Men with unstable cardiovascular disease, a recent history of heart attack or st
 
 ## Does age affect how HEZKUE works?
 
-ED can affect men at various stages of life, from their 20s to their 70s. While the underlying causes of ED often shift as men age—moving from psychological factors in younger men to physical or vascular issues in older men—the mechanism of sildenafil remains effective across age groups.
+ED can affect men at various stages of life, from their 20s to their 70s. While the underlying causes of ED often shift as men age, moving from psychological factors in younger men to physical or vascular issues in older men, the mechanism of sildenafil remains effective across age groups.
 
 You can explore how these factors change over time in our article on [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s). Regardless of age, HEZKUE provides a consistent delivery method for those who prefer an alternative to swallowing pills.
 

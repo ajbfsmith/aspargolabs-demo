@@ -30,7 +30,7 @@ pillarSlug: psychological-erectile-dysfunction-guide
 slug: ed-came-on-suddenly-overnight-is-this-an-emergency
 status: draft
 tier: 3
-title: ED came on suddenly overnight — is this an emergency?
+title: ED came on suddenly overnight, is this an emergency?
 word_count: 807
 ---
 
@@ -43,7 +43,7 @@ The speed at which ED symptoms appear is one of the most important diagnostic cl
 1. **Gradual Onset:** This typically suggests a physical cause, such as the slow narrowing of blood vessels (atherosclerosis) or declining hormone levels. This is the most common form of ED as men age.
 2. **Sudden Onset:** When **ed came on suddenly**, the cause is more likely to be psychological or related to an external factor like a new medication. If you find that you [had a great erection last night but not today](/blog/i-had-a-great-erection-last-night-but-not-today-why), the physical "machinery" is likely intact, suggesting the issue may be situational.
 
-According to [Harvard Health Publishing](https://www.health.harvard.edu/mens-health/erectile-dysfunction-gradual-or-sudden-onset), sudden ED that occurs intermittently—such as having firm erections upon waking but not during partner intimacy—is a classic hallmark of psychological factors rather than permanent physical damage.
+According to [Harvard Health Publishing](https://www.health.harvard.edu/mens-health/erectile-dysfunction-gradual-or-sudden-onset), sudden ED that occurs intermittently, such as having firm erections upon waking but not during partner intimacy, is a classic hallmark of psychological factors rather than permanent physical damage.
 
 ## When Sudden ED Is a Medical Emergency
 
@@ -59,7 +59,7 @@ While the loss of erectile function itself isn't usually an emergency, it can be
 If you are a [young man with ED](/blog/i-m-a-young-man-with-ed-will-this-be-permanent), sudden onset is frequently linked to lifestyle or mental health changes. Common triggers include:
 
 ### Psychological Stress and Anxiety
-The brain plays a critical role in triggering the chemical reactions that lead to an erection. High levels of cortisol and adrenaline—the "fight or flight" hormones—can override sexual arousal. This is often referred to as [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide), where the fear of underperforming creates a self-fulfilling cycle of ED.
+The brain plays a critical role in triggering the chemical reactions that lead to an erection. High levels of cortisol and adrenaline, the "fight or flight" hormones, can override sexual arousal. This is often referred to as [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide), where the fear of underperforming creates a self-fulfilling cycle of ED.
 
 ### New Medications
 Certain drugs can cause ED to appear almost overnight after starting a new prescription. According to the [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/erectile-dysfunction/symptoms-causes/syc-20353176), common culprits include antidepressants, blood pressure medications (specifically beta-blockers and diuretics), and sedatives.

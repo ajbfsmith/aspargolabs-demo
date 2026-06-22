@@ -38,7 +38,7 @@ word_count: 1195
 
 An erection is often viewed as a simple matter of blood flow, but the process is actually a complex coordination between the brain, the vascular system, and the nerves. At the center of this coordination is the autonomic nervous system (ANS).
 
-The **role autonomic nervous system** plays in sexual health is foundational. It acts as the "control center" that determines when the body is ready for arousal and when it needs to prioritize survival. Understanding how the two branches of the ANS—the parasympathetic and the sympathetic—interact can provide clarity on why erections occur, why they fail, and how clinical innovations like HEZKUE fit into the physiological picture.
+The **role autonomic nervous system** plays in sexual health is foundational. It acts as the "control center" that determines when the body is ready for arousal and when it needs to prioritize survival. Understanding how the two branches of the ANS, the parasympathetic and the sympathetic, interact can provide clarity on why erections occur, why they fail, and how clinical innovations like HEZKUE fit into the physiological picture.
 
 ## The Two Branches of the Autonomic Nervous System
 
@@ -51,7 +51,7 @@ For an erection to occur, the body must be in a state of parasympathetic dominan
 
 ## The Parasympathetic System: The "On" Switch
 
-The physiological trigger for an erection begins in the sacral region of the spinal cord, specifically the S2 through S4 segments. When a man experiences sexual stimulation—whether physical or mental—the parasympathetic nerves originating from these segments send signals to the pelvic region.
+The physiological trigger for an erection begins in the sacral region of the spinal cord, specifically the S2 through S4 segments. When a man experiences sexual stimulation, whether physical or mental, the parasympathetic nerves originating from these segments send signals to the pelvic region.
 
 These signals trigger the release of neurotransmitters, most notably nitric oxide (NO), in the endothelial cells and nerve endings of the penis. Nitric oxide is the primary chemical messenger that initiates the relaxation of smooth muscle tissues in the corpora cavernosa (the chambers of the penis). As these muscles relax, the arteries dilate, allowing a rapid influx of blood.
 
@@ -105,7 +105,7 @@ PDE5 inhibitors like sildenafil are not safe for everyone. You must speak with a
 
 Seek urgent medical care if you experience chest pain during sexual activity, sudden vision or hearing loss, or an erection lasting longer than four hours (priapism).
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

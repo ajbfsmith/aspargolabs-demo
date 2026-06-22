@@ -37,7 +37,7 @@ word_count: 1229
 
 When we think about taking medication, the most common image is swallowing a pill with a glass of water. However, the digestive tract is a long and often inefficient route for many active ingredients. Between the acidic environment of the stomach and the "tax" levied by the liver, much of a drug’s potency can be lost before it ever reaches the bloodstream.
 
-This is why researchers have focused on the oral mucosa—the lining of the mouth—as a high-speed alternative. Understanding how **drugs absorbed through the mouth** function requires a look at anatomy, blood flow, and molecular science. By bypassing the traditional digestive route, certain formulations can offer more consistent results and faster onset.
+This is why researchers have focused on the oral mucosa, the lining of the mouth, as a high-speed alternative. Understanding how **drugs absorbed through the mouth** function requires a look at anatomy, blood flow, and molecular science. By bypassing the traditional digestive route, certain formulations can offer more consistent results and faster onset.
 
 ## The Anatomy of the Oral Mucosa
 
@@ -64,10 +64,10 @@ In contrast, the venous drainage of the mouth bypasses the portal circulation. I
 Not every drug can be effectively absorbed through the mouth. The process depends heavily on the physical and chemical properties of the molecule.
 
 ### Molecular Weight and Size
-For a drug to pass through the epithelial cells of the mouth, it generally needs to have a low molecular weight. Large, complex proteins are often too "bulky" to pass through the tight junctions of the oral mucosa. Small molecules—like sildenafil—are much better candidates for this route.
+For a drug to pass through the epithelial cells of the mouth, it generally needs to have a low molecular weight. Large, complex proteins are often too "bulky" to pass through the tight junctions of the oral mucosa. Small molecules, like sildenafil, are much better candidates for this route.
 
 ### Lipophilicity (Fat Solubility)
-The cell membranes in the oral mucosa are composed of lipids (fats). Therefore, drugs that are lipophilic—meaning they dissolve easily in fats—pass through these membranes more efficiently than those that are hydrophilic (water-soluble). 
+The cell membranes in the oral mucosa are composed of lipids (fats). Therefore, drugs that are lipophilic, meaning they dissolve easily in fats, pass through these membranes more efficiently than those that are hydrophilic (water-soluble). 
 
 ### pH and Ionization
 The acidity or alkalinity of the mouth can change how a drug is absorbed. Most drugs are absorbed best when they are in a non-ionized (neutral) state. Formulations must be carefully balanced to ensure the drug remains in a state that the oral mucosa can readily accept.

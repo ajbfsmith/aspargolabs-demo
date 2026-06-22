@@ -37,7 +37,7 @@ word_count: 1251
 
 For many years, erectile dysfunction (ED) was viewed primarily as a psychological issue or a natural consequence of aging. However, modern vascular biology has revealed a much more complex reality. We now understand that ED is frequently a symptom of a systemic vascular problem. At the center of this issue is the endothelium, a thin layer of cells lining every blood vessel in the body.
 
-When this lining fails to function correctly—a condition known as endothelial dysfunction—the body loses its ability to regulate blood flow effectively. Because the mechanisms required for an erection are highly dependent on precise blood flow, **endothelial dysfunction root cause** analysis often points to ED as the first clinical sign of broader cardiovascular issues.
+When this lining fails to function correctly, a condition known as endothelial dysfunction, the body loses its ability to regulate blood flow effectively. Because the mechanisms required for an erection are highly dependent on precise blood flow, **endothelial dysfunction root cause** analysis often points to ED as the first clinical sign of broader cardiovascular issues.
 
 ## The Endothelium: An Active Organ, Not Just a Lining
 
@@ -53,7 +53,7 @@ When the endothelium is healthy, it maintains a delicate balance between vasodil
 
 ## Nitric Oxide: The Master Switch for Blood Flow
 
-The primary tool the endothelium uses to communicate with the surrounding muscle tissue is a gas called nitric oxide (NO). In response to various signals—including physical activity or sexual arousal—the endothelium releases NO. This gas diffuses into the smooth muscle cells of the blood vessel, causing them to relax.
+The primary tool the endothelium uses to communicate with the surrounding muscle tissue is a gas called nitric oxide (NO). In response to various signals, including physical activity or sexual arousal, the endothelium releases NO. This gas diffuses into the smooth muscle cells of the blood vessel, causing them to relax.
 
 In the context of sexual health, NO is the "master switch." It triggers the production of cyclic guanosine monophosphate (cGMP), which relaxes the penile arteries and allows the corpora cavernosa to fill with blood. You can learn more about this chemical cascade in our guide on [pde5 inhibitors work complete](/blog/how-pde5-inhibitors-work).
 

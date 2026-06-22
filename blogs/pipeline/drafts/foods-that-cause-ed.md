@@ -42,7 +42,7 @@ Research suggests that certain dietary patterns can either support or hinder blo
 
 The biological mechanism behind an erection relies heavily on nitric oxide, a molecule that signals the blood vessels to relax and dilate. Diets high in processed ingredients, trans fats, and excessive sugar can lead to inflammation and oxidative stress, which impair the body’s ability to produce or utilize nitric oxide.
 
-When blood vessels cannot dilate properly—a condition known as endothelial dysfunction—blood flow is restricted throughout the body. For many men, this manifests as difficulty achieving or maintaining an erection. While some may look to [reverse erectile dysfunction without](/blog/lifestyle-changes-reverse-erectile-dysfunction) medication, dietary adjustments are usually the first step in any clinical recommendation.
+When blood vessels cannot dilate properly, a condition known as endothelial dysfunction, blood flow is restricted throughout the body. For many men, this manifests as difficulty achieving or maintaining an erection. While some may look to [reverse erectile dysfunction without](/blog/lifestyle-changes-reverse-erectile-dysfunction) medication, dietary adjustments are usually the first step in any clinical recommendation.
 
 ## 10 Foods That May Worsen Erectile Dysfunction
 
@@ -58,7 +58,7 @@ Commonly found in commercially fried foods, packaged baked goods, and some marga
 Canned soups, frozen dinners, and salty snacks can lead to hypertension (high blood pressure). Hypertension damages the arteries over time, making them less elastic and less capable of carrying blood to the extremities. Managing salt intake is a critical component of maintaining the vascular health necessary for erectile function.
 
 ### 4. Added Sugars and High-Fructose Corn Syrup
-Excessive sugar consumption is a leading cause of insulin resistance and obesity. Insulin resistance is closely tied to lower levels of testosterone and impaired nitric oxide production. A study published in [The Journal of Sexual Medicine](https://academic.oup.com/jsm) notes that men with metabolic syndrome—often driven by high sugar intake—have a significantly higher prevalence of ED.
+Excessive sugar consumption is a leading cause of insulin resistance and obesity. Insulin resistance is closely tied to lower levels of testosterone and impaired nitric oxide production. A study published in [The Journal of Sexual Medicine](https://academic.oup.com/jsm) notes that men with metabolic syndrome, often driven by high sugar intake, have a significantly higher prevalence of ED.
 
 ### 5. Excessive Soy Isoflavones
 While moderate soy consumption is generally considered safe, excessive intake of soy isoflavones may be a concern for some men. Soy contains phytoestrogens, which are plant-based compounds that mimic estrogen. In very high quantities, these may potentially disrupt the hormonal balance between testosterone and estrogen, though the evidence remains mixed and usually points toward extreme consumption levels as the primary risk.
@@ -91,7 +91,7 @@ For more ideas on what to add to your plate, you can read our guide on [12 foods
 
 ## Dietary Patterns Over Individual Foods
 
-It is important to remember that no single food is a "cure" or a "poison" in isolation. The overall dietary pattern is what matters most for long-term health. Clinical research consistently points to the Mediterranean diet—rich in fruits, vegetables, legumes, whole grains, and healthy fats—as the gold standard for preventing and managing ED.
+It is important to remember that no single food is a "cure" or a "poison" in isolation. The overall dietary pattern is what matters most for long-term health. Clinical research consistently points to the Mediterranean diet, rich in fruits, vegetables, legumes, whole grains, and healthy fats, as the gold standard for preventing and managing ED.
 
 In addition to diet, other lifestyle factors like [regular sauna use improve](/blog/sauna-testosterone-ed) circulation and cardiovascular health, which can complement a healthy eating plan. For a deeper look at the various causes and clinical treatments available today, refer to our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 

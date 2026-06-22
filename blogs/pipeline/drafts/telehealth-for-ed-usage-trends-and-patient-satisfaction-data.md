@@ -101,7 +101,7 @@ The growth of telehealth has also paved the way for innovations in how medicatio
 
 HEZKUE is a clinically formulated oral sildenafil spray suspension designed for men who value both speed and consistency. Unlike traditional pills that must be broken down in the digestive tract, an oral spray suspension can offer a different user experience in terms of onset and ease of use. 
 
-As a delivery innovation, HEZKUE represents the next step in the evolution of ED care—moving beyond the "one-size-fits-all" pill toward formats that fit more naturally into a patient's lifestyle.
+As a delivery innovation, HEZKUE represents the next step in the evolution of ED care, moving beyond the "one-size-fits-all" pill toward formats that fit more naturally into a patient's lifestyle.
 
 ## Conclusion
 
@@ -109,7 +109,7 @@ The data on **telehealth ED usage trends** confirms that men are looking for hea
 
 For a deeper look at the various options available today, consult our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
-If you are looking for a fast-acting, clinically formulated solution, HEZKUE’s oral spray suspension is designed to work in minutes—not hours.
+If you are looking for a fast-acting, clinically formulated solution, HEZKUE’s oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

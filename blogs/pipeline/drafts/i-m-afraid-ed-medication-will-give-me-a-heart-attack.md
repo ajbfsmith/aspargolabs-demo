@@ -7,7 +7,7 @@ grounding_sources: []
 inline_links:
 - label: cardiovascularly safe for most patients
   url: https://www.acc.org/latest-in-cardiology/articles/2023/02/22/13/41/pde5-inhibitors-in-men-with-cad
-- label: i have ed high blood pressure — what are my options?
+- label: i have ed high blood pressure, what are my options?
   url: /blog/i-have-ed-and-high-blood-pressure-what-are-my-options
 - label: complete guide erectile dysfunction
   url: /blog/complete-guide-erectile-dysfunction
@@ -46,7 +46,7 @@ The primary cardiovascular danger associated with ED medication is not the drug 
 
 **You must never take sildenafil or other PDE5 inhibitors if you use nitrates.** Nitrates are often prescribed for chest pain (angina) or heart failure. Common names include nitroglycerin, isosorbide mononitrate, and isosorbide dinitrate. Combining these with ED medication can cause a sudden, life-threatening drop in blood pressure. This also applies to recreational "poppers" (amyl nitrate or butyl nitrate).
 
-If you have a history of unstable angina, recent heart attack, or uncontrolled high blood pressure, you must discuss these with a provider. For more on managing these specific risks, see our guide on [i have ed high blood pressure — what are my options?](/blog/i-have-ed-and-high-blood-pressure-what-are-my-options).
+If you have a history of unstable angina, recent heart attack, or uncontrolled high blood pressure, you must discuss these with a provider. For more on managing these specific risks, see our guide on [i have ed high blood pressure, what are my options?](/blog/i-have-ed-and-high-blood-pressure-what-are-my-options).
 
 ## ED as a "Canary in the Coal Mine"
 

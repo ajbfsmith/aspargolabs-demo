@@ -30,7 +30,7 @@ pillarSlug: erectile-dysfunction-relationship-impact
 slug: cycling-was-my-life-until-i-found-out-it-was-causing-my-ed
 status: draft
 tier: 4
-title: Cycling Was My Life — Until I Found Out It Was Causing My ED
+title: Cycling Was My Life, Until I Found Out It Was Causing My ED
 word_count: 942
 ---
 
@@ -46,7 +46,7 @@ I began to struggle with maintaining an erection, a problem I never thought I’
 
 ## The Science Behind the Saddle
 
-When I finally spoke to a urologist, the explanation was straightforward but sobering. The narrow "nose" of a traditional bicycle saddle puts significant pressure on the perineum—the area between the anus and the scrotum. This area is home to the pudendal arteries and nerves that supply blood and sensation to the penis.
+When I finally spoke to a urologist, the explanation was straightforward but sobering. The narrow "nose" of a traditional bicycle saddle puts significant pressure on the perineum, the area between the anus and the scrotum. This area is home to the pudendal arteries and nerves that supply blood and sensation to the penis.
 
 According to [Harvard Health Publishing](https://www.health.harvard.edu/staying-healthy/cutting-through-the-confusion-about-cycling-and-erectile-dysfunction), prolonged pressure in this region can compress these vital structures, leading to reduced blood flow and nerve damage. Research published in the [Journal of Sexual Medicine](https://academic.oup.com/jsm) has consistently highlighted that the design of the saddle and the duration of the ride are key risk factors for cycling-related ED.
 
@@ -56,7 +56,7 @@ Realizing that **cycling was my** primary source of stress was a hard pill to sw
 
 My doctor was clear: I didn't have to quit cycling, but I had to change how I did it. I invested in a "no-nose" ergonomic saddle and had a professional bike fit to ensure my weight was distributed on my sit-bones rather than my soft tissue. I also took a break from the bike for several weeks to allow the inflammation to subside.
 
-However, the physical recovery was only half the battle. The anxiety of "will it work tonight?" had taken root. To help bridge the gap and regain my confidence, my clinician suggested looking into pharmaceutical support. I needed something that fit my lifestyle—something that didn't require the hour-long wait-time of traditional pills.
+However, the physical recovery was only half the battle. The anxiety of "will it work tonight?" had taken root. To help bridge the gap and regain my confidence, my clinician suggested looking into pharmaceutical support. I needed something that fit my lifestyle, something that didn't require the hour-long wait-time of traditional pills.
 
 That is when I discovered HEZKUE.
 

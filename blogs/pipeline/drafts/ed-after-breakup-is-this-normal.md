@@ -1,7 +1,7 @@
 ---
 clusterId: concerns-symptoms
 clusterTitle: ED Symptoms and Concerns
-focusKeyword: ed after breakup —
+focusKeyword: 'ed after breakup, '
 generated_at: '2026-06-19T15:35:52.241064+00:00'
 grounding_sources: []
 inline_links:
@@ -26,7 +26,7 @@ pillarSlug: psychological-erectile-dysfunction-guide
 slug: ed-after-breakup-is-this-normal
 status: draft
 tier: 3
-title: ED after breakup — is this normal?
+title: ED after breakup, is this normal?
 word_count: 727
 ---
 
@@ -40,10 +40,10 @@ The brain plays a critical role in triggering the physical process of an erectio
 A breakup is a significant life stressor. When the body is under chronic stress, it produces higher levels of cortisol and adrenaline. According to [Harvard Health](https://www.health.harvard.edu/mens-health/erectile-dysfunction-is-often-fixable), these hormones can interfere with the signals the brain sends to the penis to increase blood flow. High cortisol levels essentially tell the body to prioritize survival over reproduction, making it difficult to achieve or maintain an erection.
 
 ### Depression and low self-esteem
-The end of a relationship can lead to temporary bouts of depression or a significant hit to one's self-esteem. Depression often causes a decrease in libido (sex drive) and can disrupt the chemical messengers in the brain, such as dopamine, that are necessary for sexual response. If you find yourself thinking **"my partner thinks i'm"** no longer attractive—or applying that logic to future partners—the resulting "spectatoring" (judging your own performance while it's happening) can lead to ED.
+The end of a relationship can lead to temporary bouts of depression or a significant hit to one's self-esteem. Depression often causes a decrease in libido (sex drive) and can disrupt the chemical messengers in the brain, such as dopamine, that are necessary for sexual response. If you find yourself thinking **"my partner thinks i'm"** no longer attractive, or applying that logic to future partners, the resulting "spectatoring" (judging your own performance while it's happening) can lead to ED.
 
 ## Transitioning to a new partner
-Many men first notice **ed after breakup —** when they attempt to become intimate with someone new. This is often referred to as performance anxiety.
+Many men first notice **ed after breakup, ** when they attempt to become intimate with someone new. This is often referred to as performance anxiety.
 
 - **The "New Partner" Pressure:** There is often an internal pressure to "prove" oneself or to move on quickly. This pressure creates anxiety, which is a leading cause of [ed new partner but](https://acceleratehealth.com/blog/ed-with-a-new-partner-but-not-alone-what-does-this-mean) not alone.
 - **Comparison and Grief:** If you are still emotionally attached to a former partner, your brain may struggle to stay present during intimacy with someone else, leading to a loss of arousal.
@@ -61,7 +61,7 @@ While it is normal to experience sexual difficulties during a period of grief, y
 **Contraindications:** PDE5 inhibitors (like sildenafil) are strictly contraindicated for men taking nitrates (often prescribed for chest pain) or those with unstable cardiovascular disease. Always disclose your full medical history and current medications to your doctor.
 
 ## Finding a solution
-If you're looking for a fast-acting, clinically formulated solution to help manage the transition, HEZKUE's oral spray suspension is designed to work in minutes—not hours. Unlike traditional pills that require significant lead time, an oral spray can offer a more consistent delivery format to help you regain confidence when you're ready to re-enter the dating world.
+If you're looking for a fast-acting, clinically formulated solution to help manage the transition, HEZKUE's oral spray suspension is designed to work in minutes, not hours. Unlike traditional pills that require significant lead time, an oral spray can offer a more consistent delivery format to help you regain confidence when you're ready to re-enter the dating world.
 
 [Explore HEZKUE](/checkout)
 

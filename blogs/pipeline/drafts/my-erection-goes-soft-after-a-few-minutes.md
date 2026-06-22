@@ -56,7 +56,7 @@ If you find that you can achieve an erection but cannot sustain it, several phys
 For a deeper look at how these causes change over time, see our guide on [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s).
 
 ## The Role of Performance Anxiety
-The brain is the most important sex organ. If you are stressed, distracted, or worried about your performance, your body releases adrenaline. Adrenaline is a vasoconstrictor—it tells your blood vessels to tighten up and prepares your body to run or fight, which is the exact opposite of what is needed for an erection.
+The brain is the most important sex organ. If you are stressed, distracted, or worried about your performance, your body releases adrenaline. Adrenaline is a vasoconstrictor, it tells your blood vessels to tighten up and prepares your body to run or fight, which is the exact opposite of what is needed for an erection.
 
 This often creates a cycle: you worry that your erection will go soft, which causes the release of adrenaline, which then causes the erection to go soft. This is a hallmark of [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide). Many men also find that [i only get hard](/blog/i-can-only-get-hard-in-certain-positions) in specific scenarios where they feel less "on the spot" or more relaxed.
 
@@ -83,7 +83,7 @@ It is common to feel frustrated when your body doesn't respond the way you expec
 
 *Note: This article is for informational purposes and does not constitute medical advice. Always consult with a qualified healthcare professional before starting any new treatment.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

@@ -62,7 +62,7 @@ While both drugs are generally well-tolerated, they have slightly different side
 - **Sildenafil** is more likely to cause temporary visual changes, such as a blue tinge to vision or sensitivity to light.
 - **Tadalafil** is more likely to cause muscle aches or back pain, which can last for a day or two after the dose.
 
-The underlying causes of ED can also influence which medication is most effective. For instance, [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s) can play a role in whether a man prefers a daily or on-demand approach. Regardless of the choice, it is important to understand that there is no "best" pill—only the one that works best for your body and routine. For a deeper look at how these treatments fit into a broader health plan, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
+The underlying causes of ED can also influence which medication is most effective. For instance, [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s) can play a role in whether a man prefers a daily or on-demand approach. Regardless of the choice, it is important to understand that there is no "best" pill, only the one that works best for your body and routine. For a deeper look at how these treatments fit into a broader health plan, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
 ## Innovation in Delivery: HEZKUE Oral Spray
 

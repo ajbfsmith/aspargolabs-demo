@@ -49,7 +49,7 @@ Research suggests that vitamin D helps protect these endothelial cells from oxid
 
 It is important to distinguish between an "association" and "causation." Most current research shows a strong association: men with ED are statistically more likely to have low vitamin D. However, this does not mean that every case of ED is caused by a vitamin deficiency.
 
-A large-scale meta-analysis published in [Nutrients](https://www.mdpi.com/2072-6643/12/5/1517) reviewed multiple studies and concluded that there is a significant correlation between low vitamin D and the severity of ED. The researchers noted that vitamin D deficiency was particularly prevalent in men with arteriogenic ED—the type caused by blood flow issues.
+A large-scale meta-analysis published in [Nutrients](https://www.mdpi.com/2072-6643/12/5/1517) reviewed multiple studies and concluded that there is a significant correlation between low vitamin D and the severity of ED. The researchers noted that vitamin D deficiency was particularly prevalent in men with arteriogenic ED, the type caused by blood flow issues.
 
 While low vitamin D is a piece of the puzzle, it often coexists with other health factors. For example, men with [sleep apnea ed hidden](/blog/sleep-apnea-erectile-dysfunction) links often suffer from both low oxygen levels and low vitamin D, both of which damage the vascular system. Similarly, those who have experienced an [anabolic steroids ed hormonal](/blog/anabolic-steroids-erectile-dysfunction) crash may find that their endocrine system is struggling across the board, including their vitamin D metabolism.
 
@@ -87,7 +87,7 @@ If you experience an erection lasting longer than four hours (priapism), seek em
 
 The research into low vitamin D causing ED highlights a critical truth: sexual health is a reflection of overall vascular health. If you are struggling with ED, getting your vitamin D levels checked is a smart, evidence-based step. While supplements may help improve the health of your blood vessels over time, they are just one part of a comprehensive treatment plan.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

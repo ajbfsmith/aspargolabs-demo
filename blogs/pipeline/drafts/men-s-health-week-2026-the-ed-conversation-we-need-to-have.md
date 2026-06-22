@@ -51,7 +51,7 @@ The reality is that ED is a physiological condition that spans all stages of lif
 
 One of the most important reasons to address ED during Men's Health Week 2026 is its role as an early warning system. Medical professionals often refer to ED as the "canary in the coal mine" for cardiovascular disease.
 
-The arteries supplying blood to the penis are significantly smaller than those supplying the heart. Consequently, vascular issues—such as atherosclerosis or the hardening of the arteries—often manifest as ED long before they cause a heart attack or stroke. According to the [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/erectile-dysfunction/in-depth/erectile-dysfunction/art-20045141), men with ED have a significantly higher risk of heart disease, and the onset of ED can precede a major cardiac event by two to five years.
+The arteries supplying blood to the penis are significantly smaller than those supplying the heart. Consequently, vascular issues, such as atherosclerosis or the hardening of the arteries, often manifest as ED long before they cause a heart attack or stroke. According to the [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/erectile-dysfunction/in-depth/erectile-dysfunction/art-20045141), men with ED have a significantly higher risk of heart disease, and the onset of ED can precede a major cardiac event by two to five years.
 
 Addressing ED isn't just about sexual performance; it’s about a [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction) approach to longevity. When you speak to a clinician about ED, you are often opening the door to screening for high blood pressure, high cholesterol, and diabetes.
 
@@ -92,7 +92,7 @@ Men's Health Week is the perfect time to move past the stigma and take a data-dr
 
 *Note: This article is for informational purposes and does not constitute medical advice. Always consult with a qualified healthcare provider regarding medical conditions or treatments.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

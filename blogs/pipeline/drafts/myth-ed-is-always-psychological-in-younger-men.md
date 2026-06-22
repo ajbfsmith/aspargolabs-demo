@@ -35,13 +35,13 @@ title: 'Myth: ED Is Always Psychological in Younger Men'
 word_count: 982
 ---
 
-For decades, a common refrain in doctor's offices and locker rooms alike has been that if a man under 40 experiences erectile dysfunction (ED), "it’s all in his head." This belief—the **myth ed always psychological** in younger men—has led many to delay seeking medical advice, assuming that stress or performance anxiety are the only possible culprits. For more context, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
+For decades, a common refrain in doctor's offices and locker rooms alike has been that if a man under 40 experiences erectile dysfunction (ED), "it’s all in his head." This belief, the **myth ed always psychological** in younger men, has led many to delay seeking medical advice, assuming that stress or performance anxiety are the only possible culprits. For more context, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
 While psychological factors certainly play a role in sexual health, modern clinical data suggests a much more complex reality. For many younger men, ED is not just a mental hurdle but a physical signal that requires a closer look at vascular health, hormones, and lifestyle.
 
 ## Why the "Psychological Only" Myth Persists
 
-The historical assumption was that the physical "machinery" of a man in his 20s or 30s is inherently functional, and therefore any failure must be due to "stage fright" or mental health issues. While it is true that younger men are more likely to experience psychogenic ED—often triggered by the [myth sex should be](https://acceleratehealth.com/blog/myth-sex-should-be-spontaneous-why-the-spontaneity-myth-hurts-men-with-ed) spontaneous and effortless—it is a mistake to assume this is the only cause.
+The historical assumption was that the physical "machinery" of a man in his 20s or 30s is inherently functional, and therefore any failure must be due to "stage fright" or mental health issues. While it is true that younger men are more likely to experience psychogenic ED, often triggered by the [myth sex should be](https://acceleratehealth.com/blog/myth-sex-should-be-spontaneous-why-the-spontaneity-myth-hurts-men-with-ed) spontaneous and effortless, it is a mistake to assume this is the only cause.
 
 By labeling ED as purely psychological, we risk ignoring underlying medical conditions that could have long-term health implications. Understanding the [complete guide erectile dysfunction](https://acceleratehealth.com/blog/complete-guide-erectile-dysfunction) requires looking at the body as an integrated system where the mind and the vascular system work in tandem.
 
@@ -88,7 +88,7 @@ While ED medications are a standard of care, they are not suitable for everyone.
 
 If you are a younger man experiencing ED, do not dismiss it as "just stress." A consultation with a healthcare provider can help rule out physical causes like high blood pressure or hormonal imbalances. Addressing the physical side of the equation can often provide the confidence needed to overcome the psychological hurdles as well.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

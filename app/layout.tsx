@@ -5,22 +5,25 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
-  title: "Accelerate Health | Precision Drug Delivery, Reimagined",
+  title: {
+    default: "Accelerate Health Blog | Men's Sexual Health & Drug Delivery Science",
+    template: "%s | Accelerate Health Blog",
+  },
   description:
-    "HEZKUE® is the world's first oral sildenafil spray, absorbed within 5 minutes, precisely dosed, and designed for the life you actually live. Accelerate Health is reinventing drug delivery through oral spray suspension technology.",
+    "Evidence-based articles on men's sexual health, erectile dysfunction, PDE5 pharmacology, and drug delivery innovation from the Accelerate Health editorial team.",
   keywords: [
     "Accelerate Health",
-    "HEZKUE",
-    "sildenafil spray",
-    "oral suspension",
-    "pharmaceutical",
+    "men's sexual health",
+    "erectile dysfunction",
+    "blog",
+    "PDE5 inhibitors",
     "drug delivery",
-    "biotech",
+    "pharmaceutical science",
   ],
   openGraph: {
-    title: "Accelerate Health | Precision Drug Delivery, Reimagined",
+    title: "Accelerate Health Blog | Men's Sexual Health & Drug Delivery Science",
     description:
-      "HEZKUE® is the world's first oral sildenafil spray, absorbed within 5 minutes, precisely dosed.",
+      "Evidence-based articles on men's sexual health, erectile dysfunction, and drug delivery innovation.",
     type: "website",
   },
   icons: {

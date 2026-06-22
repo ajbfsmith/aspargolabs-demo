@@ -68,7 +68,7 @@ Unlike a hard tablet that must dissolve under the tongue or in the stomach, an o
 
 ## Safety and Clinical Considerations
 
-Regardless of the delivery method—whether sublingual, oral tablet, or spray—PDE5 inhibitors like sildenafil require medical supervision. These medications affect blood flow and can have serious interactions with other treatments.
+Regardless of the delivery method, whether sublingual, oral tablet, or spray, PDE5 inhibitors like sildenafil require medical supervision. These medications affect blood flow and can have serious interactions with other treatments.
 
 **Important Safety Information:**
 - **Nitrates:** You must never take sildenafil or similar ED medications if you use nitrates (often prescribed for chest pain) or "poppers" (amyl nitrite), as this can cause a life-threatening drop in blood pressure.
@@ -77,7 +77,7 @@ Regardless of the delivery method—whether sublingual, oral tablet, or spray—
 
 The choice between a sublingual oral tablet drug and other delivery formats should be made in consultation with a healthcare provider to ensure the method is appropriate for your specific health profile.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

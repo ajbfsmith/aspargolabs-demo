@@ -30,11 +30,11 @@ pillarSlug: psychological-erectile-dysfunction-guide
 slug: i-m-a-young-man-with-ed-will-this-be-permanent
 status: draft
 tier: 3
-title: I'm a young man with ED — will this be permanent?
+title: I'm a young man with ED, will this be permanent?
 word_count: 730
 ---
 
-If you are a young man experiencing erectile dysfunction (ED), it is highly unlikely to be permanent. For most men in their 20s and 30s, ED is a temporary condition often rooted in [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide) or lifestyle habits like high stress and poor sleep. While it can feel overwhelming, identifying the underlying cause—whether it is physical, mental, or a combination—usually leads to effective resolution through therapy, lifestyle changes, or clinical treatments. Understanding that you are not alone and that help is available is the first step toward recovery.
+If you are a young man experiencing erectile dysfunction (ED), it is highly unlikely to be permanent. For most men in their 20s and 30s, ED is a temporary condition often rooted in [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide) or lifestyle habits like high stress and poor sleep. While it can feel overwhelming, identifying the underlying cause, whether it is physical, mental, or a combination, usually leads to effective resolution through therapy, lifestyle changes, or clinical treatments. Understanding that you are not alone and that help is available is the first step toward recovery.
 
 ## Is ED Common in Younger Men?
 

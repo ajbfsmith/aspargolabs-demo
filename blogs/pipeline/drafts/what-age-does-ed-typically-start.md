@@ -36,7 +36,7 @@ While erectile dysfunction (ED) is often associated with aging, it can start at 
 
 ## Understanding the "40% at 40" Rule
 
-For decades, the medical community has used the "40% at 40" benchmark to describe when the **age ED typically** begins to manifest for a significant portion of the population. This correlation exists because the physiological factors required for an erection—blood flow, nerve signaling, and hormone levels—often begin to shift as a man enters middle age.
+For decades, the medical community has used the "40% at 40" benchmark to describe when the **age ED typically** begins to manifest for a significant portion of the population. This correlation exists because the physiological factors required for an erection, blood flow, nerve signaling, and hormone levels, often begin to shift as a man enters middle age.
 
 By age 70, the prevalence of ED reaches approximately 70%. While these statistics suggest that ED is a common part of aging, it is important to note that ED is not considered an inevitable part of getting older. It is frequently a symptom of an underlying health condition, such as cardiovascular disease or diabetes, rather than a standalone result of the passage of time.
 
@@ -73,7 +73,7 @@ For a comprehensive overview of safety and efficacy, read our [complete guide to
 
 The age at which ED starts does not have to dictate the quality of your sexual health. Modern pharmaceutical science has moved beyond traditional pills to offer more flexible options. HEZKUE is a clinically formulated oral sildenafil spray suspension designed for ease of use. Unlike traditional tablets that must be broken down by the digestive system, a spray suspension format can affect the consistency and user experience of the medication.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

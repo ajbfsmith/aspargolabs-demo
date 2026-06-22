@@ -39,7 +39,7 @@ Known medically as intracavernosal injection (ICI), this treatment involves usin
 
 ## What is Penile Injection Therapy?
 
-Penile injection therapy is a medical treatment where vasodilators—medications that relax blood vessels—are injected into the corpora cavernosa, the sponge-like tissue in the penis that fills with blood to create an erection. Unlike oral medications, which rely on the digestive system and bloodstream to eventually reach the penile tissues, injections work locally and almost immediately.
+Penile injection therapy is a medical treatment where vasodilators, medications that relax blood vessels, are injected into the corpora cavernosa, the sponge-like tissue in the penis that fills with blood to create an erection. Unlike oral medications, which rely on the digestive system and bloodstream to eventually reach the penile tissues, injections work locally and almost immediately.
 
 According to the [Urology Care Foundation](https://www.urologyhealth.org/urologic-conditions/erectile-dysfunction(ed)/treatment/intracavernosal-injection), ICI therapy can produce an erection within 5 to 20 minutes, and the erection typically lasts for about 30 to 60 minutes, or until orgasm. Because the medication bypasses the digestive tract, it is not affected by food or alcohol consumption, which can often interfere with the efficacy of oral PDE5 inhibitors.
 
@@ -91,7 +91,7 @@ Clinicians always provide an in-office "test dose" to teach the patient the prop
 While highly effective, penile injection therapy carries specific risks that require careful management.
 
 ### Priapism
-The most serious risk is priapism—a prolonged erection lasting more than four hours. This is a medical emergency that can lead to permanent tissue damage if not treated immediately. Men using ICI must have a clear plan for seeking urgent care if an erection does not subside.
+The most serious risk is priapism, a prolonged erection lasting more than four hours. This is a medical emergency that can lead to permanent tissue damage if not treated immediately. Men using ICI must have a clear plan for seeking urgent care if an erection does not subside.
 
 ### Fibrosis and Scarring
 Repeated injections in the same spot can lead to the development of fibrous tissue or plaques, similar to Peyronie’s disease. This can cause curvature or pain during an erection. Rotating injection sites is essential to minimize this risk.
@@ -113,7 +113,7 @@ HEZKUE offers a clinically formulated delivery innovation: an oral sildenafil sp
 
 **Important Safety Note:** PDE5 inhibitors like sildenafil (found in HEZKUE) are strictly contraindicated for men taking nitrates for chest pain or those with unstable cardiovascular disease. Always consult with a healthcare provider before starting any new ED treatment. Seek urgent medical attention for chest pain, sudden vision or hearing loss, or an erection lasting more than four hours.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

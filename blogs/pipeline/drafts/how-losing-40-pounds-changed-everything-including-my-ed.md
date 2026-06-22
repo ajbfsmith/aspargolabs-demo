@@ -29,7 +29,7 @@ pillarSlug: erectile-dysfunction-relationship-impact
 slug: how-losing-40-pounds-changed-everything-including-my-ed
 status: draft
 tier: 4
-title: How Losing 40 Pounds Changed Everything — Including My ED
+title: How Losing 40 Pounds Changed Everything, Including My ED
 word_count: 887
 ---
 
@@ -39,13 +39,13 @@ Two years ago, I didn't recognize the man in the mirror. I was 40 pounds overwei
 
 It started gradually. A "miss" here, a "soft" night there. Eventually, it became the norm. The weight gain wasn't just about the fit of my jeans; it was a physical barrier between me and my partner. I felt like I was losing my masculinity and my connection to my wife.
 
-I realized that **losing 40 pounds changed** more than just my waistline—it changed the way my entire body functioned. But as I learned, weight loss is often only one piece of the puzzle.
+I realized that **losing 40 pounds changed** more than just my waistline, it changed the way my entire body functioned. But as I learned, weight loss is often only one piece of the puzzle.
 
 ## The Link Between Weight and ED
 
 When I first spoke to a doctor, I was surprised to learn how closely my weight was tied to my sexual health. Obesity isn't just about carrying extra mass; it’s a metabolic state that actively works against your erections.
 
-According to [Harvard Health](https://www.health.harvard.edu/mens-health/obesity-unhealthy-and-unmanly), obesity can lower testosterone levels and cause systemic inflammation, both of which are primary drivers of ED. Furthermore, the extra weight puts immense strain on the cardiovascular system. Since an erection is essentially a cardiovascular event—requiring healthy blood flow to the penis—anything that hurts the heart hurts the bedroom.
+According to [Harvard Health](https://www.health.harvard.edu/mens-health/obesity-unhealthy-and-unmanly), obesity can lower testosterone levels and cause systemic inflammation, both of which are primary drivers of ED. Furthermore, the extra weight puts immense strain on the cardiovascular system. Since an erection is essentially a cardiovascular event, requiring healthy blood flow to the penis, anything that hurts the heart hurts the bedroom.
 
 I was caught in a cycle. I felt too out of shape to exercise, and the stress of my [ed relationships erectile dysfunction](/blog/erectile-dysfunction-relationship-impact) made me turn to comfort food, which only added more weight.
 
@@ -82,7 +82,7 @@ If you are navigating this journey, you might find it helpful to read our [compl
 
 Losing 40 pounds changed my life, but it was the combination of lifestyle discipline and modern medical innovation that saved my relationship. I’m no longer the man who hides from the mirror. I’m the man who took control of his health, from the gym to the bedroom.
 
-If you're looking for a fast-acting, clinically formulated solution to support your journey, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution to support your journey, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

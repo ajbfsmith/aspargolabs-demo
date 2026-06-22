@@ -30,7 +30,7 @@ title: How to use an oral spray ED medication correctly
 word_count: 841
 ---
 
-To use an oral spray ED medication correctly, you should prime the applicator, spray the prescribed number of doses onto the tongue or inside the cheek, and allow the liquid to absorb. Most oral sprays are designed for faster absorption than traditional tablets, often beginning to work within 15 to 30 minutes. This delivery method utilizes the oral mucosa—the lining of the mouth—to help the active ingredient enter the bloodstream more efficiently. Proper usage ensures the medication is delivered consistently for the best possible results. For more context, see our [taking ed medication first](/blog/first-time-ed-medication-what-to-expect).
+To use an oral spray ED medication correctly, you should prime the applicator, spray the prescribed number of doses onto the tongue or inside the cheek, and allow the liquid to absorb. Most oral sprays are designed for faster absorption than traditional tablets, often beginning to work within 15 to 30 minutes. This delivery method utilizes the oral mucosa, the lining of the mouth, to help the active ingredient enter the bloodstream more efficiently. Proper usage ensures the medication is delivered consistently for the best possible results. For more context, see our [taking ed medication first](/blog/first-time-ed-medication-what-to-expect).
 
 ## Preparing the Oral Spray
 

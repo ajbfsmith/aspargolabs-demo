@@ -41,7 +41,7 @@ To understand first-pass metabolism, we have to follow the path of a traditional
 
 1.  **Gastrointestinal (GI) Absorption:** The pill dissolves in the stomach and moves into the small intestine. Here, the active ingredients are absorbed through the intestinal wall.
 2.  **The Portal Vein:** Once absorbed, the medication enters the portal venous system. This is a dedicated "highway" that carries blood from the digestive tract directly to the liver.
-3.  **The Liver (The Toll Booth):** The liver is the body’s primary detoxification center. Its job is to chemically alter substances—including medications—to make them easier to excrete or to neutralize potential toxins.
+3.  **The Liver (The Toll Booth):** The liver is the body’s primary detoxification center. Its job is to chemically alter substances, including medications, to make them easier to excrete or to neutralize potential toxins.
 4.  **Systemic Circulation:** Only after passing through the liver does the remaining medication enter the general bloodstream, where it can finally travel to the intended site of action.
 
 This initial trip through the liver is the "first pass." During this process, a significant portion of the drug is often metabolized (broken down) before it ever has a chance to circulate through the body. This is a primary reason why [bioavailability hidden factor that](/blog/bioavailability-ed-medication) is so critical in pharmaceutical science; it represents the actual percentage of the drug that reaches the blood in an unchanged state.

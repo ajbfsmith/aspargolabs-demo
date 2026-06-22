@@ -35,7 +35,7 @@ title: '12 Foods That May Help Erectile Function: What the Science Says'
 word_count: 1316
 ---
 
-While diet alone is rarely a "cure" for erectile dysfunction (ED), the relationship between what you eat and how your body performs is rooted in vascular science. Because an erection is primarily a cardiovascular event—requiring healthy blood flow and flexible blood vessels—the nutrients that support your heart often support your sexual health as well. For more context, see our [reverse erectile dysfunction without](/blog/lifestyle-changes-reverse-erectile-dysfunction).
+While diet alone is rarely a "cure" for erectile dysfunction (ED), the relationship between what you eat and how your body performs is rooted in vascular science. Because an erection is primarily a cardiovascular event, requiring healthy blood flow and flexible blood vessels, the nutrients that support your heart often support your sexual health as well. For more context, see our [reverse erectile dysfunction without](/blog/lifestyle-changes-reverse-erectile-dysfunction).
 
 Research suggests that a diet rich in specific phytonutrients, antioxidants, and amino acids can improve endothelial function (the health of your blood vessel linings). Below, we explore **12 foods that may** help support erectile function and the science behind why they work.
 
@@ -55,7 +55,7 @@ Vegetables like spinach, kale, and arugula are high in naturally occurring nitra
 Salmon, mackerel, and sardines are rich in omega-3 fatty acids. These healthy fats are known to reduce inflammation and prevent the buildup of plaque in the arteries (atherosclerosis). Since ED is often an early warning sign of heart disease, maintaining clear and flexible arteries is vital. Omega-3s also help boost the production of nitric oxide in the lining of the blood vessels.
 
 ## 6. Berries (Anthocyanins)
-Berries—specifically blueberries, strawberries, and blackberries—contain high levels of anthocyanins. These are a specific type of flavonoid that gives berries their deep colors. Research from [Harvard University](https://www.health.harvard.edu/mens-health/diet-and-erectile-dysfunction) suggests that men who consume a diet high in anthocyanins and other flavonoids have a significantly lower risk of developing ED over time.
+Berries, specifically blueberries, strawberries, and blackberries, contain high levels of anthocyanins. These are a specific type of flavonoid that gives berries their deep colors. Research from [Harvard University](https://www.health.harvard.edu/mens-health/diet-and-erectile-dysfunction) suggests that men who consume a diet high in anthocyanins and other flavonoids have a significantly lower risk of developing ED over time.
 
 ## 7. Pistachios
 Nuts, particularly pistachios, are high in a protein called arginine, which helps the body create nitric oxide. A small study published in the *International Journal of Impotence Research* showed that men who ate a handful of pistachios daily for three weeks experienced significant improvement in erectile function scores and cholesterol levels.

@@ -32,7 +32,7 @@ title: Which Countries Have the Highest Rates of ED?
 word_count: 1007
 ---
 
-Erectile dysfunction (ED) is a global health concern that transcends borders, affecting hundreds of millions of men. While it is a deeply personal experience, researchers track its prevalence across different populations to understand how lifestyle, environment, and healthcare access influence sexual health. By looking at which **countries have highest rates** of ED, we can better understand the underlying health crises—such as diabetes and heart disease—that often drive these statistics.
+Erectile dysfunction (ED) is a global health concern that transcends borders, affecting hundreds of millions of men. While it is a deeply personal experience, researchers track its prevalence across different populations to understand how lifestyle, environment, and healthcare access influence sexual health. By looking at which **countries have highest rates** of ED, we can better understand the underlying health crises, such as diabetes and heart disease, that often drive these statistics.
 
 According to a comprehensive study published in [BJU International](https://pubmed.ncbi.nlm.nih.gov/31267644/), the global prevalence of erectile dysfunction is expected to rise to 322 million men by 2025. This increase is not uniform; it is shaped by the unique health profiles of different nations.
 
@@ -43,7 +43,7 @@ Determining exactly which **countries have highest** rates of ED is challenging 
 ### The Middle East and North Africa (MENA)
 Research suggests that some of the highest rates of ED in the world are found in Middle Eastern countries, particularly Qatar, Saudi Arabia, and Egypt. Studies published in the [Journal of Sexual Medicine](https://academic.oup.com/jsm) have indicated that prevalence rates in these regions can exceed 40% to 50% in certain adult male populations. 
 
-The primary drivers in these nations are high rates of metabolic syndrome, including Type 2 diabetes and obesity. Because ED is often a vascular issue, conditions that damage blood vessels—like high blood sugar—directly impact erectile function. For a deeper look at how these factors interact, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
+The primary drivers in these nations are high rates of metabolic syndrome, including Type 2 diabetes and obesity. Because ED is often a vascular issue, conditions that damage blood vessels, like high blood sugar, directly impact erectile function. For a deeper look at how these factors interact, see our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
 ### North America and the United States
 In the United States, ED is a major public health focus. Data from the [American Journal of Medicine](https://www.amjmed.com/article/S0002-9343(06)00689-9/fulltext) suggests that approximately 18% of men over the age of 20 experience some form of ED. This equates to nearly 30 million men in the U.S. alone. While the U.S. may not have the single highest rate globally, the sheer volume of cases and the high correlation with sedentary lifestyles make it a focal point for [ed by numbers most](/blog/ed-by-the-numbers-the-most-surprising-statistics-about-erectile-dysfunction-in-2026) statistics.

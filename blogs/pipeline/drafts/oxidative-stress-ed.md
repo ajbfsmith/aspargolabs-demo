@@ -33,7 +33,7 @@ title: 'Oxidative Stress and Erectile Dysfunction: The Free Radical Connection'
 word_count: 1148
 ---
 
-Erectile dysfunction (ED) is often discussed in terms of blood flow, hormones, or psychological factors. However, at the molecular level, one of the most significant contributors to vascular health—and by extension, erectile function—is oxidative stress. Often described as a form of "biological rust," oxidative stress occurs when there is an imbalance between the production of reactive oxygen species (ROS) and the body's ability to neutralize them with antioxidants.
+Erectile dysfunction (ED) is often discussed in terms of blood flow, hormones, or psychological factors. However, at the molecular level, one of the most significant contributors to vascular health, and by extension, erectile function, is oxidative stress. Often described as a form of "biological rust," oxidative stress occurs when there is an imbalance between the production of reactive oxygen species (ROS) and the body's ability to neutralize them with antioxidants.
 
 Understanding the link between oxidative stress and erectile dysfunction is essential for men looking to maintain long-term vascular health. This connection explains why certain lifestyle factors, such as smoking and diet, have such a profound impact on sexual performance.
 
@@ -90,7 +90,7 @@ Managing oxidative stress is a long-term strategy for vascular health. However, 
 
 For example, understanding [drugs absorbed through mouth](/blog/oral-mucosal-drug-absorption) has led to the development of oral sprays. These innovations focus on how the delivery format can affect the consistency and speed of the user experience.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 ## Sources
 

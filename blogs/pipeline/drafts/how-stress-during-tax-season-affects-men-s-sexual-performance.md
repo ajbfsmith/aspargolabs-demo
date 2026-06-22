@@ -40,7 +40,7 @@ When you are facing a looming IRS deadline or complex financial audits, your bod
 
 During this state, the adrenal glands release high levels of cortisol and adrenaline. According to the [American Psychological Association](https://www.apa.org/topics/stress/body), chronic stress causes the muscles to stay in a state of guardedness. More importantly, cortisol acts as a natural antagonist to testosterone. When cortisol levels remain elevated due to prolonged **stress during tax season**, it can suppress the body’s natural signals for arousal.
 
-Furthermore, an erection is a vascular event that requires the parasympathetic nervous system—the "rest and digest" system—to be in control. If your brain is preoccupied with tax brackets and capital gains, it becomes difficult for the body to switch gears into a relaxed state necessary for blood flow to the penis.
+Furthermore, an erection is a vascular event that requires the parasympathetic nervous system, the "rest and digest" system, to be in control. If your brain is preoccupied with tax brackets and capital gains, it becomes difficult for the body to switch gears into a relaxed state necessary for blood flow to the penis.
 
 ## The "Perfect Storm" of Tax Season Habits
 
@@ -89,7 +89,7 @@ Seek immediate medical attention if you experience chest pain, dizziness, or nau
 
 **Medical Disclaimer:** This content is for informational purposes only and does not constitute medical advice. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
 
-If you're looking for a fast-acting, clinically formulated solution to help manage performance during life's high-pressure moments, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution to help manage performance during life's high-pressure moments, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

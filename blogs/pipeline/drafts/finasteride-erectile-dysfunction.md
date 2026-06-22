@@ -43,7 +43,7 @@ For many men, the trade-off between a fuller head of hair and sexual health is a
 
 To understand why a hair loss drug might affect sexual performance, it is necessary to look at the hormonal pathway it targets. Finasteride belongs to a class of drugs known as 5-alpha-reductase inhibitors (5-ARIs). Its primary job is to block the enzyme 5-alpha-reductase, which is responsible for converting testosterone into dihydrotestosterone (DHT).
 
-DHT is a potent androgen. In the scalp, DHT binds to hair follicles, causing them to shrink over time. In the prostate, it contributes to the growth of tissue that can lead to BPH. By lowering DHT levels—often by as much as 70% with a 1mg daily dose—finasteride successfully halts hair loss and shrinks the prostate.
+DHT is a potent androgen. In the scalp, DHT binds to hair follicles, causing them to shrink over time. In the prostate, it contributes to the growth of tissue that can lead to BPH. By lowering DHT levels, often by as much as 70% with a 1mg daily dose, finasteride successfully halts hair loss and shrinks the prostate.
 
 However, DHT is not just a "waste product" of testosterone. It plays a role in the male sexual response, though its exact necessity for maintaining an erection in adulthood is still a subject of clinical study. When you significantly alter the balance of androgens in the body, the risk of side effects like decreased libido or erectile dysfunction (ED) becomes a biological possibility. This hormonal shift is similar to the disruptions seen in other conditions, such as the [anabolic steroids ed hormonal](/blog/anabolic-steroids-erectile-dysfunction) crash or the metabolic changes discussed in our guide on [thyroid problems ed every](/blog/hypothyroidism-erectile-dysfunction) man should know.
 
@@ -99,7 +99,7 @@ Men with unstable cardiovascular disease, a recent history of heart attack or st
 
 ## Conclusion
 
-Does **finasteride cause erectile dysfunction?** For a small but significant percentage of men, the answer is yes. While many experience no side effects, the risk of persistent symptoms—captured in the Post-Finasteride Syndrome debate—is a factor every patient should discuss with their doctor.
+Does **finasteride cause erectile dysfunction?** For a small but significant percentage of men, the answer is yes. While many experience no side effects, the risk of persistent symptoms, captured in the Post-Finasteride Syndrome debate, is a factor every patient should discuss with their doctor.
 
 If you're looking for a fast-acting, clinically formulated solution to manage ED symptoms, HEZKUE's oral spray suspension is designed to work in minutes - not hours.
 

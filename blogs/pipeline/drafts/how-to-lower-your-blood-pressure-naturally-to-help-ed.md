@@ -53,7 +53,7 @@ The Dietary Approaches to Stop Hypertension (DASH) diet is specifically designed
 Excess salt causes the body to retain fluid, which increases the pressure on vessel walls. Aim for less than 2,300 milligrams of sodium per day, with an ideal limit of 1,500 mg for those with existing hypertension. Reducing salt helps restore the natural balance of minerals in your bloodstream, easing the workload on your heart.
 
 ### 3. Prioritize Aerobic Exercise
-Physical activity strengthens the heart, allowing it to pump more blood with less effort. Regular aerobic exercise—such as brisk walking, swimming, or cycling—has been shown to improve erectile function by enhancing endothelial health. [Harvard Health](https://www.health.harvard.edu/mens-health/5-natural-ways-to-overcome-erectile-dysfunction) notes that just 30 minutes of walking a day can drop the risk of ED by a significant margin.
+Physical activity strengthens the heart, allowing it to pump more blood with less effort. Regular aerobic exercise, such as brisk walking, swimming, or cycling, has been shown to improve erectile function by enhancing endothelial health. [Harvard Health](https://www.health.harvard.edu/mens-health/5-natural-ways-to-overcome-erectile-dysfunction) notes that just 30 minutes of walking a day can drop the risk of ED by a significant margin.
 
 ### 4. Manage Stress and Anxiety
 Chronic stress keeps the body in a "fight or flight" state, releasing cortisol and adrenaline that constrict blood vessels. Learning how to [reduce anxiety before sex](/blog/how-to-reduce-anxiety-before-sex) and in daily life can prevent these spikes in blood pressure.
@@ -68,7 +68,7 @@ While lifestyle changes are effective, they are not a substitute for medical int
 
 Natural improvements to your blood pressure provide a foundation for better sexual health. However, many men find that combining these habits with a clinically formulated delivery innovation helps them regain confidence more quickly.
 
-When [taking ed medication first](/blog/first-time-ed-medication-what-to-expect), it is important to remember that these tools work best when your cardiovascular system is supported by healthy habits. If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+When [taking ed medication first](/blog/first-time-ed-medication-what-to-expect), it is important to remember that these tools work best when your cardiovascular system is supported by healthy habits. If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

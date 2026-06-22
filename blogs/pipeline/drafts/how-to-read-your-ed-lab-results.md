@@ -57,7 +57,7 @@ If your labs suggest metabolic concerns, it is important to look at the [complet
 
 ## Cardiovascular and Lipid Profiles
 
-Because erections are a vascular event—meaning they rely on healthy blood flow—your heart health markers are essential when you **read ed lab** reports.
+Because erections are a vascular event, meaning they rely on healthy blood flow, your heart health markers are essential when you **read ed lab** reports.
 
 - **LDL Cholesterol:** Often called "bad" cholesterol, high levels can lead to plaque buildup in the arteries (atherosclerosis), restricting blood flow to the penis.
 - **HDL Cholesterol:** "Good" cholesterol helps remove other forms of cholesterol from your bloodstream.
@@ -84,7 +84,7 @@ When you are [taking ed medication first](/blog/first-time-ed-medication-what-to
 
 ## Explore HEZKUE
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours. By delivering sildenafil in a fine mist, HEZKUE offers a modern alternative to traditional pills, focusing on consistency and user experience.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours. By delivering sildenafil in a fine mist, HEZKUE offers a modern alternative to traditional pills, focusing on consistency and user experience.
 
 [Explore HEZKUE](/checkout)
 

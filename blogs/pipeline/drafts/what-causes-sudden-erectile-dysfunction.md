@@ -34,7 +34,7 @@ word_count: 809
 
 Sudden erectile dysfunction (ED) is often caused by psychological factors such as acute stress, performance anxiety, or relationship conflict. It can also be triggered by new medications, excessive alcohol consumption, or sudden physical injury. Unlike gradual ED, which typically stems from underlying vascular or neurological issues, a sudden inability to achieve or maintain an erection usually points to a situational or emotional trigger rather than a slow decline in physical health.
 
-Understanding what **causes sudden erectile dysfunction** is the first step toward addressing the issue. While it can be distressing, identifying the root cause—whether it is a new prescription or a stressful life event—often leads to effective management.
+Understanding what **causes sudden erectile dysfunction** is the first step toward addressing the issue. While it can be distressing, identifying the root cause, whether it is a new prescription or a stressful life event, often leads to effective management.
 
 ## Psychological Triggers and Sudden ED
 
@@ -76,7 +76,7 @@ Sudden ED can sometimes be a "canary in the coal mine" for cardiovascular health
 
 When addressing ED, the method of delivery can play a role in the consistency and onset of the treatment. HEZKUE is an oral sildenafil spray suspension, representing a clinically formulated delivery innovation. Unlike traditional pills that must be broken down by the digestive system, an oral spray is designed for a different user experience and onset profile.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours. For more information on all available options, visit our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours. For more information on all available options, visit our [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction).
 
 [Explore HEZKUE](/checkout)
 

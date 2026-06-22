@@ -77,7 +77,7 @@ According to the [FDA](https://www.fda.gov/consumers/consumer-updates/hidden-ris
 
 Once you have had the initial conversation, your doctor may suggest lifestyle changes, blood tests, or medication. If you are prescribed a treatment, understanding [taking ed medication first](/blog/first-time-ed-medication-what-to-expect) can help you manage side effects and set realistic expectations for onset and duration.
 
-Modern delivery methods are evolving beyond traditional pills. If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+Modern delivery methods are evolving beyond traditional pills. If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

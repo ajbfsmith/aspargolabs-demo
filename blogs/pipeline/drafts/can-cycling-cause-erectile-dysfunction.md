@@ -72,7 +72,7 @@ The height and angle of your saddle and handlebars change how your weight is dis
 
 ### Stand-Up Intervals
 
-One of the simplest ways to restore blood flow during a ride is to change positions frequently. Incorporating **stand-up intervals**—standing on the pedals for 30 to 60 seconds every 10 minutes—allows the perineum to decompress and blood flow to normalize.
+One of the simplest ways to restore blood flow during a ride is to change positions frequently. Incorporating **stand-up intervals**, standing on the pedals for 30 to 60 seconds every 10 minutes, allows the perineum to decompress and blood flow to normalize.
 
 ## When ED Is Not Caused by the Bike
 

@@ -39,7 +39,7 @@ If you are on antidepressants and find you can't get hard or reach orgasm, you a
 
 Antidepressants work by altering neurotransmitters in the brain to improve mood. However, these same chemicals play a critical role in the sexual response cycle.
 
-The most common culprits are SSRIs (like fluoxetine or sertraline) and SNRIs (like venlafaxine). These medications increase the levels of serotonin in the brain. While higher serotonin helps stabilize mood, it can also inhibit the release of dopamine and norepinephrine—neurotransmitters that are essential for feeling desire and achieving arousal. Furthermore, serotonin can interfere with the production of nitric oxide, the chemical responsible for relaxing the blood vessels in the penis to allow for an erection.
+The most common culprits are SSRIs (like fluoxetine or sertraline) and SNRIs (like venlafaxine). These medications increase the levels of serotonin in the brain. While higher serotonin helps stabilize mood, it can also inhibit the release of dopamine and norepinephrine, neurotransmitters that are essential for feeling desire and achieving arousal. Furthermore, serotonin can interfere with the production of nitric oxide, the chemical responsible for relaxing the blood vessels in the penis to allow for an erection.
 
 It is a complex cycle because depression itself often causes sexual issues. Distinguishing between [psychological erectile dysfunction anxiety](/blog/psychological-erectile-dysfunction-guide) and medication-induced side effects is a vital first step in finding a solution.
 
@@ -78,7 +78,7 @@ For a broader look at all available options, see our [complete guide erectile dy
 
 Managing ED while on antidepressants requires a solution that fits into your life without adding more stress. HEZKUE is an oral sildenafil spray suspension, representing a clinically formulated delivery innovation. Unlike traditional pills that must be swallowed and processed through the digestive tract, an oral spray format can affect the speed of onset and the consistency of the user experience.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

@@ -46,7 +46,7 @@ For Mark, the problem wasn't a lack of desire. It was the stakes. By the time th
 
 ## The Science of Pressure and Performance
 
-Mark’s experience is a classic example of how psychological stress impacts physical function. When the brain perceives "pressure"—even the self-imposed pressure of a romantic reunion—it releases adrenaline and cortisol. These hormones are designed to redirect blood flow to the muscles for survival, not to the penis for intimacy.
+Mark’s experience is a classic example of how psychological stress impacts physical function. When the brain perceives "pressure", even the self-imposed pressure of a romantic reunion, it releases adrenaline and cortisol. These hormones are designed to redirect blood flow to the muscles for survival, not to the penis for intimacy.
 
 According to the [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/24838-sexual-performance-anxiety), sexual performance anxiety can create a self-fulfilling prophecy. The more a man worries about his ability to perform, the more likely he is to experience erectile dysfunction (ED). In a **long distance relationship**, where the "next chance" might be weeks away, this anxiety is often amplified.
 
@@ -62,7 +62,7 @@ This is a common trajectory. As outlined in our guide on [ed relationships erect
 
 ## Finding a Path Forward
 
-Mark eventually spoke with a clinician. He learned that while his ED was primarily driven by anxiety, his age and lifestyle also played a role. Understanding [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s) helped him realize that he wasn't "broken"—he was dealing with a common medical condition influenced by high-stress circumstances.
+Mark eventually spoke with a clinician. He learned that while his ED was primarily driven by anxiety, his age and lifestyle also played a role. Understanding [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s) helped him realize that he wasn't "broken", he was dealing with a common medical condition influenced by high-stress circumstances.
 
 For men like Mark, the "journey" to a resolution often involves two steps:
 1.  **Communication:** Being honest with a partner about the pressure of the LDR.

@@ -66,7 +66,7 @@ Modern pharmaceutical science has moved beyond traditional pills. For example, H
 
 ## Important Safety Considerations
 
-Before starting any ED treatment, it is essential to consult with a healthcare provider. While ED is common—affecting an estimated 30 million men in the United States according to the [Urology Care Foundation](https://www.urologyhealth.org/urology-a-z/e/erectile-dysfunction-(ed))—it can also be an early warning sign of underlying cardiovascular disease.
+Before starting any ED treatment, it is essential to consult with a healthcare provider. While ED is common, affecting an estimated 30 million men in the United States according to the [Urology Care Foundation](https://www.urologyhealth.org/urology-a-z/e/erectile-dysfunction-(ed)), it can also be an early warning sign of underlying cardiovascular disease.
 
 **Safety Warning:** PDE5 inhibitors (like sildenafil) are strictly contraindicated for men taking nitrates (often prescribed for chest pain) or guanylate cyclase stimulators. Using these together can cause a life-threatening drop in blood pressure. Men with unstable cardiovascular disease or those who experience chest pain during sex should seek immediate medical attention. If you experience a prolonged erection (priapism) lasting more than four hours, or sudden vision or hearing loss, seek urgent care immediately.
 

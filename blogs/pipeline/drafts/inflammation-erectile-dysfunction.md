@@ -48,7 +48,7 @@ When CRP levels are high, it indicates that the body is in a pro-inflammatory st
 
 ## Pro-Inflammatory Cytokines and Endothelial Dysfunction
 
-To understand why inflammation causes ED, we must look at the endothelium—the thin lining of the blood vessels. The endothelium is responsible for releasing nitric oxide (NO), a signaling molecule that relaxes smooth muscle tissue in the penis, allowing blood to flow in.
+To understand why inflammation causes ED, we must look at the endothelium, the thin lining of the blood vessels. The endothelium is responsible for releasing nitric oxide (NO), a signaling molecule that relaxes smooth muscle tissue in the penis, allowing blood to flow in.
 
 Chronic inflammation triggers the release of pro-inflammatory cytokines, such as Tumor Necrosis Factor-alpha (TNF-α) and Interleukin-6 (IL-6). These cytokines interfere with the production and bioavailability of nitric oxide in several ways:
 
@@ -82,7 +82,7 @@ Regular aerobic exercise stimulates the endothelium to produce more nitric oxide
 
 While lifestyle changes are the foundation of long-term health, they take time to yield results. Many men find that using a clinically formulated treatment can help manage the symptoms of ED while they work on reducing systemic inflammation.
 
-HEZKUE is an oral sildenafil spray suspension designed for efficiency and consistency. Unlike traditional tablets that must be broken down in the digestive tract—a process that can be slowed by diet or metabolic factors—an oral spray suspension offers a different delivery format that can affect onset and the overall user experience.
+HEZKUE is an oral sildenafil spray suspension designed for efficiency and consistency. Unlike traditional tablets that must be broken down in the digestive tract, a process that can be slowed by diet or metabolic factors, an oral spray suspension offers a different delivery format that can affect onset and the overall user experience.
 
 As part of a [complete guide erectile dysfunction](https://acceleratehealth.com/blog/complete-guide-erectile-dysfunction) strategy, HEZKUE provides a modern delivery innovation for men who prioritize precision in their treatment.
 

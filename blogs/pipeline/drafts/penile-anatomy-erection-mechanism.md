@@ -44,7 +44,7 @@ Surrounding these two chambers is a remarkably tough, fibrous envelope called th
 
 An erection begins in the brain or through direct physical stimulation. This triggers the release of neurotransmitters, most notably nitric oxide, from the nerve endings in the penis.
 
-Nitric oxide acts as a chemical messenger that initiates the [cgmp pathway molecular switch](/blog/cgmp-pathway-erection), which tells the smooth muscles in the penis to relax. When these muscles relax, the **helicine arteries**—the small, coiled branches of the deep penile artery—dilate. 
+Nitric oxide acts as a chemical messenger that initiates the [cgmp pathway molecular switch](/blog/cgmp-pathway-erection), which tells the smooth muscles in the penis to relax. When these muscles relax, the **helicine arteries**, the small, coiled branches of the deep penile artery, dilate. 
 
 Under normal, flaccid conditions, these helicine arteries are constricted, limiting blood flow. Upon arousal, they open wide, allowing a surge of blood to rush into the **lacunar spaces** (the "pores" of the sponge-like corpora cavernosa).
 
@@ -59,7 +59,7 @@ As the lacunar spaces fill with blood, they expand. Because the corpora cavernos
 3.  **Compression:** The swelling physically pinches the veins shut.
 4.  **Rigidity:** Blood is trapped under high pressure, creating a firm erection.
 
-If this "trap" fails—a condition often called venous leak—the blood escapes as fast as it enters, making it difficult to maintain an erection even if the initial blood flow is healthy.
+If this "trap" fails, a condition often called venous leak, the blood escapes as fast as it enters, making it difficult to maintain an erection even if the initial blood flow is healthy.
 
 ## Detumescence: Returning to the Flaccid State
 

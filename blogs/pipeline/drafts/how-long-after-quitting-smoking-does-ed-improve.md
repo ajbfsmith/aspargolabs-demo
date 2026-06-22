@@ -28,7 +28,7 @@ title: How long after quitting smoking does ED improve?
 word_count: 767
 ---
 
-Research suggests that erectile function can begin to improve within **2 to 4 weeks** after quitting smoking, as blood circulation and oxygen levels start to stabilize. However, for many men, significant physiological recovery of the blood vessels—known as the endothelium—typically takes **6 months to one year** of total abstinence. The extent of improvement depends largely on how long you smoked and whether permanent vascular damage has occurred.
+Research suggests that erectile function can begin to improve within **2 to 4 weeks** after quitting smoking, as blood circulation and oxygen levels start to stabilize. However, for many men, significant physiological recovery of the blood vessels, known as the endothelium, typically takes **6 months to one year** of total abstinence. The extent of improvement depends largely on how long you smoked and whether permanent vascular damage has occurred.
 
 ## How Smoking Damages Erectile Function
 
@@ -61,7 +61,7 @@ Not every man will experience a full reversal of ED after quitting. Several fact
 
 -   **Age:** Younger men generally have more resilient vascular systems and may see faster improvements. You can read more about how [erectile dysfunction by age](/blog/ed-causes-by-age-20s-30s-40s-50s-60s) affects recovery potential.
 -   **Smoking History:** A "pack-a-day" habit maintained for 20 years causes more structural damage to the arteries (atherosclerosis) than a shorter-term habit.
--   **Comorbidities:** If you also have diabetes or high blood pressure—both of which are exacerbated by smoking—recovery may be slower and may require additional medical intervention.
+-   **Comorbidities:** If you also have diabetes or high blood pressure, both of which are exacerbated by smoking, recovery may be slower and may require additional medical intervention.
 
 ## When to Seek Medical Support
 
@@ -69,7 +69,7 @@ Quitting smoking is one of the best things you can do for your sexual health, bu
 
 **Important Safety Note:** If you are considering ED medication, you must consult a clinician first. PDE5 inhibitors (like sildenafil) are strictly contraindicated for men taking nitrates for chest pain or those with unstable cardiovascular disease. Smoking increases the risk of heart disease, so a full cardiovascular screening is essential before starting any new treatment. Seek urgent medical care if you experience chest pain, sudden vision loss, or an erection lasting longer than four hours (priapism).
 
-If you're looking for a fast-acting, clinically formulated solution to support your recovery, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution to support your recovery, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

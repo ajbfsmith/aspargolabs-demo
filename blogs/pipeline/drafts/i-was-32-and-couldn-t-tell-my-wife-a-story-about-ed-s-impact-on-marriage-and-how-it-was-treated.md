@@ -28,7 +28,7 @@ pillarSlug: erectile-dysfunction-relationship-impact
 slug: i-was-32-and-couldn-t-tell-my-wife-a-story-about-ed-s-impact-on-marriage-and-how-it-was-treated
 status: draft
 tier: 4
-title: I Was 32 and Couldn't Tell My Wife" — A story about ED's impact on marriage
+title: I Was 32 and Couldn't Tell My Wife", A story about ED's impact on marriage
   and how it was treated
 word_count: 981
 ---
@@ -49,11 +49,11 @@ The impact on our marriage was immediate. Sarah thought I was losing interest in
 
 ## Seeking Answers and Facing the "Pill" Problem
 
-Eventually, the tension became unbearable. I finally broke the silence and told Sarah what was happening. To my surprise, her primary emotion wasn't disappointment—it was relief that I wasn't leaving her. We decided to treat this as a medical issue, which led me to research the [complete guide erectile dysfunction](https://acceleratehealth.com/blog/complete-guide-erectile-dysfunction) to understand my options.
+Eventually, the tension became unbearable. I finally broke the silence and told Sarah what was happening. To my surprise, her primary emotion wasn't disappointment, it was relief that I wasn't leaving her. We decided to treat this as a medical issue, which led me to research the [complete guide erectile dysfunction](https://acceleratehealth.com/blog/complete-guide-erectile-dysfunction) to understand my options.
 
 My doctor explained that [erectile dysfunction by age](https://acceleratehealth.com/blog/ed-causes-by-age-20s-30s-40s-50s-60s) can be caused by a variety of factors, including blood flow issues, hormonal imbalances, or psychological performance anxiety. He prescribed traditional sildenafil tablets.
 
-While the tablets worked, they introduced a new problem: timing. I had to plan our intimacy an hour in advance, often on an empty stomach to ensure the medication absorbed properly. If we had a late dinner, the pill might not work for two hours. The spontaneity that once defined our relationship was gone, replaced by a stopwatch. I felt like I was living the same story as many others—[three years sildenafil that](https://acceleratehealth.com/blog/three-years-of-sildenafil-that-never-worked-right-a-story-about-tablet-timing-problems-and-switching-to-spray) never quite fit into a normal lifestyle.
+While the tablets worked, they introduced a new problem: timing. I had to plan our intimacy an hour in advance, often on an empty stomach to ensure the medication absorbed properly. If we had a late dinner, the pill might not work for two hours. The spontaneity that once defined our relationship was gone, replaced by a stopwatch. I felt like I was living the same story as many others, [three years sildenafil that](https://acceleratehealth.com/blog/three-years-of-sildenafil-that-never-worked-right-a-story-about-tablet-timing-problems-and-switching-to-spray) never quite fit into a normal lifestyle.
 
 ## Innovation in Delivery: The Switch to HEZKUE
 
@@ -79,13 +79,13 @@ If you're struggling with the timing or consistency of traditional tablets, it m
 
 *Note: This article is for informational purposes and does not constitute medical advice. Always consult with a licensed clinician to determine if a medication is right for you.*
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 
 ## Sources
 
-- [Capogrosso, P., et al. (2013). One out of four patients with newly diagnosed erectile dysfunction is a young man—worrisome picture from the real world. The Journal of Sexual Medicine.](https://pubmed.ncbi.nlm.nih.gov/23651423/)
+- [Capogrosso, P., et al. (2013). One out of four patients with newly diagnosed erectile dysfunction is a young man, worrisome picture from the real world. The Journal of Sexual Medicine.](https://pubmed.ncbi.nlm.nih.gov/23651423/)
 - [Kloner, R. A., et al. (2018). PDE5 Inhibitors: What the Cardiologist Needs to Know. American Heart Association (Circulation).](https://www.ahajournals.org/doi/10.1161/CIR.0000000000000635)
 - [Urology Care Foundation. (2023). What is Erectile Dysfunction?](https://www.urologyhealth.org/urology-a-z/e/erectile-dysfunction-(ed))
 - [Mayo Clinic. (2023). Sildenafil (Oral Route) Side Effects and Precautions.](https://www.mayoclinic.org/drugs-supplements/sildenafil-oral-route/precautions/drg-20066904)

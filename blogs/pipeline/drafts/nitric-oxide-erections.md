@@ -69,7 +69,7 @@ word_count: 1116
 
 Every time an erection occurs, a complex chemical relay race takes place within the body. At the center of this process is a tiny, short-lived gas called nitric oxide (NO). Often called the "miracle molecule" in cardiovascular health, nitric oxide is the essential **nitric oxide molecule behind** the signal that tells your body to allow blood flow into the penis.
 
-Without sufficient nitric oxide, the biological machinery required for an erection cannot start. Understanding how this molecule works—and why its production sometimes falters—is the first step in understanding both erectile function and overall vascular health.
+Without sufficient nitric oxide, the biological machinery required for an erection cannot start. Understanding how this molecule works, and why its production sometimes falters, is the first step in understanding both erectile function and overall vascular health.
 
 ## The Synthesis: Where Nitric Oxide Begins
 
@@ -97,7 +97,7 @@ For a deeper look at how medications interact with this specific pathway, you ca
 
 ## Endothelial Dysfunction: When the Signal Fails
 
-If the endothelium—the lining of your blood vessels—is damaged, it cannot produce enough nitric oxide. This condition is known as endothelial dysfunction. It is a primary cause of "organic" erectile dysfunction and is often linked to broader health issues like high blood pressure, high cholesterol, and diabetes.
+If the endothelium, the lining of your blood vessels, is damaged, it cannot produce enough nitric oxide. This condition is known as endothelial dysfunction. It is a primary cause of "organic" erectile dysfunction and is often linked to broader health issues like high blood pressure, high cholesterol, and diabetes.
 
 Because the arteries in the penis are much smaller (1-2 mm) than the arteries in the heart (3-4 mm), ED is often the first visible sign of vascular disease. In many cases, a decline in nitric oxide production in the penis precedes a heart attack or stroke by several years. This makes the [complete guide erectile dysfunction](/blog/complete-guide-erectile-dysfunction) an important resource for understanding the link between sexual health and longevity.
 

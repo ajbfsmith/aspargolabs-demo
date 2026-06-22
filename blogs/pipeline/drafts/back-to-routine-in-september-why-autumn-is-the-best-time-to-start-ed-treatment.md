@@ -40,7 +40,7 @@ Establishing a structured routine is one of the most effective ways to manage th
 
 ## The "September Reset": Why Routine Matters for Sexual Health
 
-The transition back to a regular schedule in September often leads to improved sleep hygiene, more consistent exercise, and better dietary choices—all of which are foundational to erectile function. During the summer, late nights and irregular eating can disrupt the body’s circadian rhythm, which plays a significant role in testosterone production and vascular health.
+The transition back to a regular schedule in September often leads to improved sleep hygiene, more consistent exercise, and better dietary choices, all of which are foundational to erectile function. During the summer, late nights and irregular eating can disrupt the body’s circadian rhythm, which plays a significant role in testosterone production and vascular health.
 
 Research published in the [Journal of Clinical Sleep Medicine](https://jcsm.aasm.org/doi/10.5664/jcsm.6050) indicates that sleep deprivation and irregular sleep patterns are closely linked to lower testosterone levels and increased risk of ED. By returning to a structured sleep-wake cycle this autumn, men can provide their bodies with the recovery time necessary for optimal hormonal balance.
 
@@ -90,7 +90,7 @@ If you experience chest pain, sudden vision loss, or an erection lasting longer 
 
 The transition **back to a routine in September** is about more than just productivity; it’s about reclaiming control over your health and well-being. By utilizing the structure of the season to improve your lifestyle and exploring modern delivery innovations, you can approach the end of the year with renewed confidence.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

@@ -100,7 +100,7 @@ The choice between HEZKUE and traditional sildenafil often comes down to lifesty
 
 Traditional tablets are a well-known, reliable option for those who don't mind the wait and prefer a familiar pill format. However, for men who value spontaneity, discretion, and a faster-acting delivery system, the innovation of an oral spray is often the preferred choice. You can find more details on user experiences in our [hezkue review work worth](/blog/hezkue-review-what-is-it-how-does-it-work-and-is-it-worth-it) guide.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 

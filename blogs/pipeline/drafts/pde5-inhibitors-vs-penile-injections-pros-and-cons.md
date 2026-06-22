@@ -43,7 +43,7 @@ Understanding the differences in how these treatments work, their onset times, a
 
 Phosphodiesterase type 5 (PDE5) inhibitors are the most widely prescribed medications for ED. This class includes well-known drugs like sildenafil (Viagra), tadalafil (Cialis), vardenafil (Levitra), and avanafil (Stendra). You can find a detailed breakdown of these in our [sildenafil tadalafil vardenafil avanafil](/blog/sildenafil-tadalafil-vardenafil-avanafil-comparison) comparison.
 
-These medications work by blocking the PDE5 enzyme, which breaks down cyclic GMP—a substance that relaxes smooth muscle tissue in the penis to allow blood flow. It is important to note that PDE5 inhibitors do not cause an automatic erection; they require sexual stimulation to work.
+These medications work by blocking the PDE5 enzyme, which breaks down cyclic GMP, a substance that relaxes smooth muscle tissue in the penis to allow blood flow. It is important to note that PDE5 inhibitors do not cause an automatic erection; they require sexual stimulation to work.
 
 ### Pros of PDE5 Inhibitors
 - **Non-invasive:** No needles or devices are required.
@@ -57,7 +57,7 @@ These medications work by blocking the PDE5 enzyme, which breaks down cyclic GMP
 
 ## What are Penile Injections?
 
-Penile injections, or intracavernosal injections (ICI), involve using a tiny needle to inject medication—most commonly Alprostadil, or compounded mixtures like Trimix or Bimix—directly into the side of the penis.
+Penile injections, or intracavernosal injections (ICI), involve using a tiny needle to inject medication, most commonly Alprostadil, or compounded mixtures like Trimix or Bimix, directly into the side of the penis.
 
 According to the [Urology Care Foundation](https://www.urologyhealth.org/urology-a-z/e/erectile-dysfunction-(ed)/treatment/penile-injection-therapy), these medications act as powerful vasodilators that relax the smooth muscles and open the blood vessels in the penis directly. Unlike oral meds, injections typically produce an erection within 5 to 20 minutes, regardless of sexual stimulation.
 

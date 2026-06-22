@@ -81,7 +81,7 @@ It is important to remember that ED treatments are not "miracle cures." They are
 
 **Medical Disclaimer:** PDE5 inhibitors are contraindicated with nitrates. If you have heart disease, chest pain, or are taking blood pressure medications, consult a doctor. Seek urgent medical care for chest pain, symptoms of a heart attack, priapism (an erection lasting longer than four hours), or sudden vision or hearing loss.
 
-If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes—not hours.
+If you're looking for a fast-acting, clinically formulated solution, HEZKUE's oral spray suspension is designed to work in minutes, not hours.
 
 [Explore HEZKUE](/checkout)
 
