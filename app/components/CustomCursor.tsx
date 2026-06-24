@@ -1,29 +1,32 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import gsap from "gsap";
 
 export default function CustomCursor() {
   const cursorRef = useRef<HTMLDivElement>(null);
   const [hovering, setHovering] = useState(false);
+  const positionRef = useRef({ x: 0, y: 0 });
+  const frameRef = useRef<number | null>(null);
 
   useEffect(() => {
     const cursor = cursorRef.current;
     if (!cursor) return;
 
-    // Only show on non-touch devices
     if ("ontouchstart" in window) {
       cursor.style.display = "none";
       return;
     }
 
+    const applyPosition = () => {
+      frameRef.current = null;
+      cursor.style.transform = `translate3d(${positionRef.current.x}px, ${positionRef.current.y}px, 0) translate(-50%, -50%)`;
+    };
+
     const moveCursor = (e: MouseEvent) => {
-      gsap.to(cursor, {
-        x: e.clientX,
-        y: e.clientY,
-        duration: 0.1,
-        ease: "power2.out",
-      });
+      positionRef.current = { x: e.clientX, y: e.clientY };
+      if (frameRef.current === null) {
+        frameRef.current = requestAnimationFrame(applyPosition);
+      }
     };
 
     const handleMouseOver = (e: MouseEvent) => {
@@ -43,7 +46,7 @@ export default function CustomCursor() {
       setHovering(false);
     };
 
-    document.addEventListener("mousemove", moveCursor);
+    document.addEventListener("mousemove", moveCursor, { passive: true });
     document.addEventListener("mouseover", handleMouseOver);
     document.addEventListener("mouseout", handleMouseOut);
 
@@ -51,6 +54,9 @@ export default function CustomCursor() {
       document.removeEventListener("mousemove", moveCursor);
       document.removeEventListener("mouseover", handleMouseOver);
       document.removeEventListener("mouseout", handleMouseOut);
+      if (frameRef.current !== null) {
+        cancelAnimationFrame(frameRef.current);
+      }
     };
   }, []);
 
@@ -64,8 +70,8 @@ export default function CustomCursor() {
         borderRadius: "50%",
         backgroundColor: "rgba(13, 183, 187, 0.6)",
         mixBlendMode: "screen",
-        transform: "translate(-50%, -50%)",
-        transition: "width 0.2s ease, height 0.2s ease, background-color 0.2s ease",
+        transition:
+          "width 0.2s ease, height 0.2s ease, background-color 0.2s ease",
       }}
     />
   );

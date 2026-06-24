@@ -2,7 +2,7 @@ import GrainOverlay from "./components/GrainOverlay";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
-import CustomCursor from "./components/CustomCursor";
+import DeferredCustomCursor from "./components/DeferredCustomCursor";
 import { AttributionLandingSetup } from "./components/AttributionLandingSetup";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <AttributionLandingSetup />
       <GrainOverlay />
-      <CustomCursor />
+      <DeferredCustomCursor />
       <Navbar />
       <main>
         <HeroSection />

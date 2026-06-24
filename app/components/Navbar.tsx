@@ -1,10 +1,9 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import gsap from "gsap";
 import { AttributionCtaLink } from "@/app/components/AttributionCtaLink";
 
 const navLinks = [
@@ -17,11 +16,12 @@ const navGlassScrolled =
 const navGlassDefault =
   "bg-[rgba(6,8,16,0.52)] border-[rgba(255,255,255,0.1)] shadow-[0_8px_32px_rgba(0,0,0,0.35),inset_0_1px_0_rgba(255,255,255,0.06)]";
 
+const LOGO_WIDTH = 69;
+const LOGO_HEIGHT = 64;
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const navRef = useRef<HTMLElement>(null);
-  const drawerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const update = () => {
@@ -35,39 +35,15 @@ export default function Navbar() {
   }, []);
 
   useEffect(() => {
-    if (mobileOpen && drawerRef.current) {
-      gsap.fromTo(
-        drawerRef.current,
-        { x: "100%" },
-        { x: "0%", duration: 0.4, ease: "power3.out" }
-      );
-    }
-  }, [mobileOpen]);
-
-  useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "";
     return () => {
       document.body.style.overflow = "";
     };
   }, [mobileOpen]);
 
-  const closeDrawer = () => {
-    if (drawerRef.current) {
-      gsap.to(drawerRef.current, {
-        x: "100%",
-        duration: 0.3,
-        ease: "power2.inOut",
-        onComplete: () => setMobileOpen(false),
-      });
-    } else {
-      setMobileOpen(false);
-    }
-  };
-
   return (
     <>
       <nav
-        ref={navRef}
         className={`fixed z-[900] inset-x-4 md:inset-x-auto md:left-1/2 md:-translate-x-1/2 w-auto md:max-w-[calc(100%-2rem)] px-2 py-1.5 transition-all duration-500 rounded-xl border backdrop-blur-2xl ${
           scrolled ? navGlassScrolled : navGlassDefault
         }`}
@@ -85,10 +61,11 @@ export default function Navbar() {
             aria-label="Accelerate Health home"
           >
             <Image
-              src="/images/Logo-nav.png"
+              src="/images/Logo-nav-64.webp"
               alt=""
-              width={1405}
-              height={1306}
+              width={LOGO_WIDTH}
+              height={LOGO_HEIGHT}
+              sizes="(max-width: 640px) 28px, 32px"
               className="h-7 sm:h-8 w-auto"
               priority
             />
@@ -125,51 +102,53 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {mobileOpen && (
-        <>
-          <div
-            className="fixed inset-0 bg-black/60 z-[950] backdrop-blur-sm"
-            onClick={closeDrawer}
-          />
-          <div
-            ref={drawerRef}
-            className="grid-overlay fixed top-0 right-0 h-full w-[min(280px,85vw)] bg-[rgba(6,8,16,0.95)] backdrop-blur-[30px] border-l border-[rgba(13,183,187,0.2)] z-[960] p-8 flex flex-col"
-            style={{
-              transform: "translateX(100%)",
-              paddingTop: "max(2rem, env(safe-area-inset-top))",
-            }}
-          >
-            <button
-              type="button"
-              onClick={closeDrawer}
-              className="self-end text-text-secondary mb-8"
-              aria-label="Close menu"
+      <div
+        className={`fixed inset-0 bg-black/60 z-[950] backdrop-blur-sm transition-opacity duration-300 ${
+          mobileOpen
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 pointer-events-none"
+        }`}
+        onClick={() => setMobileOpen(false)}
+        aria-hidden={!mobileOpen}
+      />
+      <div
+        className={`grid-overlay fixed top-0 right-0 h-full w-[min(280px,85vw)] bg-[rgba(6,8,16,0.95)] backdrop-blur-[30px] border-l border-[rgba(13,183,187,0.2)] z-[960] p-8 flex flex-col transition-transform duration-300 ease-out ${
+          mobileOpen ? "translate-x-0" : "translate-x-full pointer-events-none"
+        }`}
+        style={{
+          paddingTop: "max(2rem, env(safe-area-inset-top))",
+        }}
+        aria-hidden={!mobileOpen}
+      >
+        <button
+          type="button"
+          onClick={() => setMobileOpen(false)}
+          className="self-end text-text-secondary mb-8"
+          aria-label="Close menu"
+        >
+          <X size={24} />
+        </button>
+        <div className="flex flex-col gap-6">
+          {navLinks.map((link) => (
+            <Link
+              key={link.label}
+              href={link.href}
+              className="font-dm text-[18px] font-normal text-text-primary link-hover"
+              onClick={() => setMobileOpen(false)}
             >
-              <X size={24} />
-            </button>
-            <div className="flex flex-col gap-6">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.label}
-                  href={link.href}
-                  className="font-dm text-[18px] font-normal text-text-primary link-hover"
-                  onClick={closeDrawer}
-                >
-                  {link.label}
-                </Link>
-              ))}
-              <AttributionCtaLink
-                placement="navbar"
-                className="btn-primary text-[14px] py-3 px-6 mt-4 text-center"
-                onClick={closeDrawer}
-              >
-                <span className="btn-fill" />
-                <span className="relative z-10">Learn More</span>
-              </AttributionCtaLink>
-            </div>
-          </div>
-        </>
-      )}
+              {link.label}
+            </Link>
+          ))}
+          <AttributionCtaLink
+            placement="navbar"
+            className="btn-primary text-[14px] py-3 px-6 mt-4 text-center"
+            onClick={() => setMobileOpen(false)}
+          >
+            <span className="btn-fill" />
+            <span className="relative z-10">Learn More</span>
+          </AttributionCtaLink>
+        </div>
+      </div>
     </>
   );
 }
