@@ -29,15 +29,51 @@ JSON file → sanity:schedule → Sanity (all posts, future publishedAt)
 | `/sitemap.xml` | Only includes published posts |
 | `/api/blog` | GROQ filter `publishedAt <= now()` |
 
-### Optional: hourly redeploy
+### On-demand revalidation (recommended)
 
-For faster SSG detail-page and sitemap updates, set up a free cron (e.g. [cron-job.org](https://cron-job.org) or GitHub Actions) to hit your Vercel Deploy Hook once per hour:
+Blog pages and the sitemap use ISR (`revalidate = 300`). They only refresh when something requests those URLs after the cache goes stale. Scheduled posts go live on a clock — Sanity does **not** fire a webhook when `publishedAt` elapses.
+
+Use the built-in revalidation endpoint to force-refresh `/sitemap.xml`, `/blog`, and all `/blog/[slug]` pages without a full Vercel redeploy.
+
+**1. Set the secret** (local `.env` and Vercel → Environment Variables):
 
 ```bash
-curl -X POST "$SANITY_DEPLOY_HOOK_URL"
+openssl rand -hex 32
 ```
 
-Netlify equivalent: use a **Build Hook** URL instead.
+```env
+REVALIDATE_SECRET="paste-generated-secret-here"
+```
+
+**2. Deploy**, then verify:
+
+```bash
+curl "https://www.acceleratehealth.co/api/revalidate"
+# → { "ok": true, "configured": true, ... }
+
+curl -X POST "https://www.acceleratehealth.co/api/revalidate?secret=YOUR_SECRET"
+# → { "ok": true, "revalidated": ["/sitemap.xml", "/blog", "/blog/[slug]"], ... }
+```
+
+**3. Cron every 15–30 minutes** ([cron-job.org](https://cron-job.org) is free):
+
+| Field | Value |
+|-------|-------|
+| URL | `https://www.acceleratehealth.co/api/revalidate?secret=YOUR_SECRET` |
+| Method | `POST` |
+| Schedule | Every 15 or 30 minutes |
+
+This catches scheduled posts when their `publishedAt` time passes.
+
+**4. Optional — Sanity webhook** for instant refresh when you edit or import posts in Studio:
+
+- Sanity → Project → API → Webhooks → Create
+- URL: `https://www.acceleratehealth.co/api/revalidate?secret=YOUR_SECRET`
+- Method: `POST`
+- Trigger: Document `post` — Create, Update, Delete
+- Debounce if you bulk-import (or run one manual revalidate after a batch)
+
+Bearer auth also works: `Authorization: Bearer YOUR_SECRET` (no `?secret=` in the URL).
 
 ---
 
@@ -59,7 +95,7 @@ SANITY_DATASET="production"
 SANITY_API_VERSION="2024-01-01"
 SANITY_API_WRITE_TOKEN="your-sanity-write-token"
 NEXT_PUBLIC_SITE_URL="https://acceleratehealth.co"
-SANITY_DEPLOY_HOOK_URL="https://api.vercel.com/v1/integrations/deploy/..."  # optional
+REVALIDATE_SECRET="your-revalidate-secret"  # for /api/revalidate cron + optional Sanity webhook
 ```
 
 Set `NEXT_PUBLIC_SITE_URL` to your production domain before launch. This drives canonical URLs, Open Graph, sitemap, and JSON-LD.
@@ -207,7 +243,7 @@ This writes `app/data/blog-posts.data.ts` with **all** posts including future-da
 - [ ] Create [Bing Webmaster Tools](https://www.bing.com/webmasters) property
 - [ ] Submit sitemap: `https://yourdomain.com/sitemap.xml`
 - [ ] Verify `robots.txt` references sitemap: `https://yourdomain.com/robots.txt`
-- [ ] (Optional) Set up hourly deploy hook cron for ISR refresh
+- [ ] Set `REVALIDATE_SECRET` and configure a 15–30 min cron hitting `/api/revalidate`
 
 ### Per-post checklist (all 300 posts)
 
@@ -295,11 +331,11 @@ Pillar pages automatically render an "In this guide" section listing their clust
 
 - Confirm `publishedAt` is in the past (check Sanity Studio)
 - Hard-refresh the browser (client-side filter)
-- For detail page: wait up to 5 minutes for ISR, or trigger a redeploy
+- For detail page: wait up to 5 minutes for ISR, or call `/api/revalidate`
 
 ### Post returns 404 on detail page but shows on index
 
-ISR cache may be stale. Trigger redeploy or wait for `revalidate = 300` cycle.
+ISR cache may be stale. Call `/api/revalidate` or wait for the `revalidate = 300` cycle.
 
 ### sanity:sync fails
 
