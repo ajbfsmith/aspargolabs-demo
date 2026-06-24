@@ -119,7 +119,10 @@ export default function Navbar() {
         style={{
           paddingTop: "max(2rem, env(safe-area-inset-top))",
         }}
-        aria-hidden={!mobileOpen}
+        inert={!mobileOpen ? true : undefined}
+        role={mobileOpen ? "dialog" : undefined}
+        aria-modal={mobileOpen ? true : undefined}
+        aria-label={mobileOpen ? "Navigation menu" : undefined}
       >
         <button
           type="button"
