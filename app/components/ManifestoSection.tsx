@@ -5,6 +5,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
 import { AttributionCtaLink } from "@/app/components/AttributionCtaLink";
+import { CTA_LINK_LABELS } from "@/lib/attribution/cta";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -131,7 +132,7 @@ export default function ManifestoSection() {
 						className="btn-primary text-[15px] md:text-[16px] py-4 px-10 shadow-xl shadow-teal/10"
 					>
 						<span className="btn-fill" />
-						<span className="relative z-10">Buy Now</span>
+						<span className="relative z-10">{CTA_LINK_LABELS.manifesto}</span>
 					</AttributionCtaLink>
 				</div>
 			</div>

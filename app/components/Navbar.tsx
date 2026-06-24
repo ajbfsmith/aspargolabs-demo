@@ -5,6 +5,7 @@ import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { AttributionCtaLink } from "@/app/components/AttributionCtaLink";
+import { CTA_LINK_LABELS } from "@/lib/attribution/cta";
 
 const navLinks = [
   { label: "About", href: "/about", isExternal: false },
@@ -88,7 +89,7 @@ export default function Navbar() {
             className="btn-primary nav-cta hidden md:inline-flex shrink-0"
           >
             <span className="btn-fill" />
-            <span className="relative z-10">Learn More</span>
+            <span className="relative z-10">{CTA_LINK_LABELS.navbar}</span>
           </AttributionCtaLink>
 
           <button
@@ -145,7 +146,7 @@ export default function Navbar() {
             onClick={() => setMobileOpen(false)}
           >
             <span className="btn-fill" />
-            <span className="relative z-10">Learn More</span>
+            <span className="relative z-10">{CTA_LINK_LABELS.navbar}</span>
           </AttributionCtaLink>
         </div>
       </div>

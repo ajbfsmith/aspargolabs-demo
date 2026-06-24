@@ -4,6 +4,13 @@ import type { InboundAttribution } from "@/lib/attribution/inbound-params";
 
 export type CtaPlacement = "hero" | "navbar" | "manifesto" | "faq";
 
+export const CTA_LINK_LABELS: Record<CtaPlacement, string> = {
+  hero: "Learn more about HEZKUE oral spray",
+  navbar: "Learn more about HEZKUE",
+  manifesto: "Buy HEZKUE oral spray",
+  faq: "Learn more about HEZKUE treatment",
+};
+
 function siteUrl(): string {
   return (
     process.env.NEXT_PUBLIC_SITE_URL?.trim() ||

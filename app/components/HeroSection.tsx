@@ -13,7 +13,7 @@ import { X, ChevronDown, Plus, Minus } from "lucide-react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { AttributionCtaLink } from "@/app/components/AttributionCtaLink";
-import { openLandingCta } from "@/lib/attribution/cta";
+import { openLandingCta, CTA_LINK_LABELS } from "@/lib/attribution/cta";
 import { loadInboundAttribution } from "@/lib/attribution/inbound-params";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -154,14 +154,20 @@ function OrbitCard({
 	);
 }
 
-function LearnMoreLink({ className = "" }: { className?: string }) {
+function LearnMoreLink({
+	className = "",
+	placement = "hero",
+}: {
+	className?: string;
+	placement?: "hero" | "faq";
+}) {
 	return (
 		<AttributionCtaLink
-			placement="hero"
+			placement={placement}
 			className={`btn-primary inline-flex text-[13px] py-2.5 px-6 ${className}`}
 		>
 			<span className="btn-fill" />
-			<span className="relative z-10">Learn More</span>
+			<span className="relative z-10">{CTA_LINK_LABELS[placement]}</span>
 		</AttributionCtaLink>
 	);
 }
@@ -270,7 +276,7 @@ function MobileFaqCard({
 					<p className="font-lora text-[14px] text-text-secondary leading-[1.8] pr-1">
 						{answer}
 					</p>
-					<LearnMoreLink className="mt-5" />
+					<LearnMoreLink className="mt-5" placement="faq" />
 				</div>
 
 				{isActive && (
@@ -863,7 +869,10 @@ export default function HeroSection() {
 											</p>
 										</div>
 
-										<LearnMoreLink className="mt-6 text-[14px] py-3 px-8" />
+										<LearnMoreLink
+											className="mt-6 text-[14px] py-3 px-8"
+											placement="faq"
+										/>
 
 										<div className="mt-6 flex flex-wrap gap-2">
 											{qaData.map((qa, i) => {
