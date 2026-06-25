@@ -2,7 +2,7 @@
  * Bask storefront UTM constraints (from Bask docs):
  *
  * Required:
- *   utm_source   — GOOGLE | META | TIKTOK | AFFILIATE | INFLUENCER
+ *   utm_source   — Bask enum (we always hand off AFFILIATE for this funnel)
  *   utm_campaign — campaign name slug
  *
  * Optional:
@@ -19,44 +19,14 @@ import {
 } from "@/lib/attribution/constants";
 import type { ReferralParams } from "@/lib/attribution/utm";
 
-const BASK_SOURCES = new Set([
-  "GOOGLE",
-  "META",
-  "TIKTOK",
-  "AFFILIATE",
-  "INFLUENCER",
-]);
-
 const BASK_MEDIA = new Set(["cpc", "email", "social", "landing"]);
 
-const SOURCE_ALIASES: Record<string, string> = {
-  LANDING: "AFFILIATE",
-  BF: "AFFILIATE",
-  BLACKFORGE: "AFFILIATE",
-  ASPARGO: "AFFILIATE",
-  GOOGLE: "GOOGLE",
-  META: "META",
-  FACEBOOK: "META",
-  INSTAGRAM: "META",
-  TIKTOK: "TIKTOK",
-  AFFILIATE: "AFFILIATE",
-  INFLUENCER: "INFLUENCER",
-  REDDIT: "AFFILIATE",
-  BLUESKY: "AFFILIATE",
-  THREADS: "META",
-  X: "AFFILIATE",
-  TWITTER: "AFFILIATE",
-  TELEGRAM: "AFFILIATE",
-};
-
-/** Map inbound / marketing labels to a Bask-accepted utm_source. */
+/** All marketing sources map to AFFILIATE at Bask; raw source stays in link_clicks. */
 export function normalizeBaskUtmSource(
   raw: string | null | undefined,
-  fallback = "AFFILIATE",
 ): string {
-  const key = (raw ?? "").trim().toUpperCase();
-  if (BASK_SOURCES.has(key)) return key;
-  return SOURCE_ALIASES[key] ?? fallback;
+  void raw;
+  return "AFFILIATE";
 }
 
 /** Map inbound medium to Bask-accepted utm_medium (cpc | email | social). */
