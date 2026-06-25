@@ -42,7 +42,7 @@ export function buildCheckoutRedirectPath(request: Request): string {
   return buildRedirectPath(clickId, {
     campaign_id: campaignId,
     utm_source: inbound?.utm_source ?? LANDING_CTA_UTM.source,
-    utm_medium: inbound?.utm_medium ?? "blog",
+    utm_medium: inbound?.utm_medium ?? LANDING_CTA_UTM.medium,
     utm_campaign: inbound?.utm_campaign ?? LANDING_CTA_UTM.campaign,
     utm_content: placement,
     utm_term: inbound?.utm_term ?? postSlug,

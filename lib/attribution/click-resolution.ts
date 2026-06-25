@@ -4,10 +4,6 @@ import {
   findRecentUnlinkedClick,
   getLinkClick,
 } from "@/lib/attribution/attribution-store";
-import {
-  normalizeBaskUtmMedium,
-  normalizeBaskUtmSource,
-} from "@/lib/attribution/bask-utm";
 
 const UUID_RE =
   /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
@@ -52,8 +48,8 @@ export async function resolveClickIdFromWebhook(
 
   return findRecentUnlinkedClick({
     campaign_id: options.campaign_id,
-    utm_source: normalizeBaskUtmSource(options.utms.utm_source),
-    utm_medium: normalizeBaskUtmMedium(options.utms.utm_medium),
+    utm_source: options.utms.utm_source,
+    utm_medium: options.utms.utm_medium,
     utm_campaign: options.utms.utm_campaign,
   });
 }

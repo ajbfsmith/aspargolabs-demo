@@ -1,5 +1,8 @@
 export const LANDING_CAMPAIGN_SLUG = "bf-hezkue";
 
+/** Campaign slug on all site CTAs → Bask intake. */
+export const LANDING_INTAKE_CAMPAIGN_SLUG = "bf-hezkue-landing";
+
 /** Hezkue Direct questionnaire entry (Bask storefront). */
 export const DEFAULT_HEZKUE_INTAKE_URL =
   "https://go.hezkuedirect.com/start-online-visit/ed?referral-campaign=/bf&referral-source=affiliate";
@@ -10,9 +13,9 @@ export const LANDING_REFERRAL = {
   source: "affiliate",
 } as const;
 
-/** Defaults for Aspargo landing CTAs (normalized to Bask enums at handoff). */
+/** Defaults for Aspargo landing CTAs (same values stored and sent to Bask). */
 export const LANDING_CTA_UTM = {
-  source: "landing",
+  source: "AFFILIATE",
   medium: "landing",
-  campaign: LANDING_CAMPAIGN_SLUG,
+  campaign: LANDING_INTAKE_CAMPAIGN_SLUG,
 } as const;
