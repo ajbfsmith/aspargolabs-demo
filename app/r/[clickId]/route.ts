@@ -9,8 +9,6 @@ import { getBaskIntakeBaseUrl } from "@/lib/attribution/config";
 import {
   buildBaskHandoffUtms,
   buildReferralParams,
-  normalizeBaskUtmMedium,
-  normalizeBaskUtmSource,
 } from "@/lib/attribution/bask-utm";
 import { buildIntakeUrl } from "@/lib/attribution/utm";
 
@@ -47,8 +45,8 @@ export async function GET(request: Request, context: RouteContext) {
     await insertLinkClick({
       click_id: clickId,
       campaign_id: campaignId,
-      utm_source: normalizeBaskUtmSource(utmSource),
-      utm_medium: normalizeBaskUtmMedium(utmMedium),
+      utm_source: utmSource,
+      utm_medium: utmMedium,
       utm_campaign: utmCampaign,
       utm_content: utmContent,
       utm_term: inboundUtmTerm,

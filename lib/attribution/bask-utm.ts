@@ -30,6 +30,7 @@ const BASK_SOURCES = new Set([
 const BASK_MEDIA = new Set(["cpc", "email", "social", "landing"]);
 
 const SOURCE_ALIASES: Record<string, string> = {
+  LANDING: "AFFILIATE",
   BF: "AFFILIATE",
   BLACKFORGE: "AFFILIATE",
   ASPARGO: "AFFILIATE",
@@ -43,6 +44,9 @@ const SOURCE_ALIASES: Record<string, string> = {
   REDDIT: "AFFILIATE",
   BLUESKY: "AFFILIATE",
   THREADS: "META",
+  X: "AFFILIATE",
+  TWITTER: "AFFILIATE",
+  TELEGRAM: "AFFILIATE",
 };
 
 /** Map inbound / marketing labels to a Bask-accepted utm_source. */
@@ -89,7 +93,11 @@ export function buildReferralParams(input: {
   const rawSource = (input.utm_source ?? "").trim().toUpperCase();
   const slug = (input.utm_campaign ?? LANDING_CAMPAIGN_SLUG).trim();
 
-  if (rawSource === "BF" || slug === LANDING_CAMPAIGN_SLUG) {
+  if (
+    rawSource === "BF" ||
+    rawSource === "LANDING" ||
+    slug === LANDING_CAMPAIGN_SLUG
+  ) {
     return { ...LANDING_REFERRAL };
   }
 
