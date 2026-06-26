@@ -23,6 +23,20 @@ export type LinkClickRow = {
   session_id: string | null;
 };
 
+export type AttributionVisitRow = {
+  id: string;
+  utm_source: string;
+  utm_medium: string | null;
+  utm_campaign: string | null;
+  utm_content: string | null;
+  utm_term: string | null;
+  dest_path: string;
+  referrer: string | null;
+  visited_at: string;
+  ip: string | null;
+  user_agent: string | null;
+};
+
 export type JourneyRow = {
   id: string;
   session_id: string;
@@ -108,6 +122,39 @@ export async function insertLinkClick(input: {
     throw new Error(`insertLinkClick failed: ${error.message}`);
   }
   return { id: input.click_id, clicked_at };
+}
+
+export async function insertAttributionVisit(input: {
+  id: string;
+  utm_source: string;
+  utm_medium?: string | null;
+  utm_campaign?: string | null;
+  utm_content?: string | null;
+  utm_term?: string | null;
+  dest_path: string;
+  referrer?: string | null;
+  visited_at: string;
+  ip?: string | null;
+  user_agent?: string | null;
+}): Promise<{ id: string; visited_at: string }> {
+  const { error } = await supabaseAdmin.from("attribution_visits").insert({
+    id: input.id,
+    utm_source: input.utm_source,
+    utm_medium: input.utm_medium ?? null,
+    utm_campaign: input.utm_campaign ?? null,
+    utm_content: input.utm_content ?? null,
+    utm_term: input.utm_term ?? null,
+    dest_path: input.dest_path,
+    referrer: input.referrer ?? null,
+    visited_at: input.visited_at,
+    ip: input.ip ?? null,
+    user_agent: input.user_agent ?? null,
+  } as never);
+
+  if (error) {
+    throw new Error(`insertAttributionVisit failed: ${error.message}`);
+  }
+  return { id: input.id, visited_at: input.visited_at };
 }
 
 export async function getLinkClick(clickId: string): Promise<LinkClickRow | null> {

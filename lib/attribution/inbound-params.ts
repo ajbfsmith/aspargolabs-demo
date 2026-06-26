@@ -41,6 +41,14 @@ export function parseInboundFromSearchParams(
   };
 }
 
+/** True when /go has enough UTM params to log a visit (utm_source or utm_campaign). */
+export function hasTrackableUtms(params: URLSearchParams): boolean {
+  return Boolean(
+    (params.get("utm_source") ?? "").trim() ||
+      (params.get("utm_campaign") ?? "").trim(),
+  );
+}
+
 export function saveInboundAttribution(data: InboundAttribution): void {
   if (typeof window === "undefined") return;
   try {

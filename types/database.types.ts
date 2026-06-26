@@ -7,7 +7,7 @@ export type Json =
   | Json[];
 
 /**
- * Hand-maintained to match `supabase/migrations` (intake + `20260617120000_bask_attribution.sql`).
+ * Hand-maintained to match `supabase/migrations` (intake + bask attribution + attribution_visits).
  * Regenerate with: `npm run db:gen-types` when linked to a project.
  */
 export type Database = {
@@ -203,6 +203,48 @@ export type Database = {
         Row: Record<string, unknown>;
         Insert: Record<string, unknown>;
         Update: Record<string, unknown>;
+        Relationships: [];
+      };
+      attribution_visits: {
+        Row: {
+          id: string;
+          utm_source: string;
+          utm_medium: string | null;
+          utm_campaign: string | null;
+          utm_content: string | null;
+          utm_term: string | null;
+          dest_path: string;
+          referrer: string | null;
+          visited_at: string;
+          ip: string | null;
+          user_agent: string | null;
+        };
+        Insert: {
+          id: string;
+          utm_source: string;
+          utm_medium?: string | null;
+          utm_campaign?: string | null;
+          utm_content?: string | null;
+          utm_term?: string | null;
+          dest_path?: string;
+          referrer?: string | null;
+          visited_at: string;
+          ip?: string | null;
+          user_agent?: string | null;
+        };
+        Update: Partial<{
+          id: string;
+          utm_source: string;
+          utm_medium: string | null;
+          utm_campaign: string | null;
+          utm_content: string | null;
+          utm_term: string | null;
+          dest_path: string;
+          referrer: string | null;
+          visited_at: string;
+          ip: string | null;
+          user_agent: string | null;
+        }>;
         Relationships: [];
       };
       link_clicks: {
