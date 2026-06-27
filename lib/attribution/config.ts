@@ -31,6 +31,12 @@ export function getDefaultCampaignId(): string {
   return id;
 }
 
+import { LANDING_CHECKOUT } from "@/lib/attribution/persona-checkout";
+
+export function getLandingCampaignId(): string {
+  return LANDING_CHECKOUT.campaign_id;
+}
+
 export function getSiteUrl(): string {
   const explicit = process.env.NEXT_PUBLIC_SITE_URL?.trim();
   if (explicit) return explicit;

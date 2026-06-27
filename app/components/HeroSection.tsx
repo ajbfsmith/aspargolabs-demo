@@ -14,7 +14,6 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { AttributionCtaLink } from "@/app/components/AttributionCtaLink";
 import { openLandingCta, CTA_LINK_LABELS } from "@/lib/attribution/cta";
-import { loadInboundAttribution } from "@/lib/attribution/inbound-params";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -627,7 +626,7 @@ export default function HeroSection() {
 			handleClose();
 			return;
 		}
-		openLandingCta("faq", loadInboundAttribution());
+		openLandingCta("faq");
 	}, [selectedIndex, handleClose]);
 
 	const handleFaqSelect = useCallback((index: number) => {

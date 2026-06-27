@@ -1,7 +1,7 @@
 import "server-only";
 
 import { randomUUID } from "node:crypto";
-import { getDefaultCampaignId } from "@/lib/attribution/config";
+import { getLandingCampaignId } from "@/lib/attribution/config";
 import { LANDING_CTA_UTM } from "@/lib/attribution/constants";
 import { parseInboundFromSearchParams } from "@/lib/attribution/inbound-params";
 import { buildRedirectPath } from "@/lib/attribution/redirect-params";
@@ -35,7 +35,7 @@ export function buildCheckoutRedirectPath(request: Request): string {
   const url = new URL(request.url);
   const inbound = parseInboundFromSearchParams(url.searchParams);
   const postSlug = resolveCheckoutPostSlug(request);
-  const campaignId = inbound?.campaign_id ?? getDefaultCampaignId();
+  const campaignId = inbound?.campaign_id ?? getLandingCampaignId();
   const clickId = randomUUID();
   const placement = postSlug ? `blog:${postSlug}` : "checkout";
 

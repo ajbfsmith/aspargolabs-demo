@@ -1,5 +1,3 @@
-export const INBOUND_ATTRIBUTION_KEY = "aspargo_inbound_attribution";
-
 export type InboundAttribution = {
   campaign_id?: string;
   utm_source?: string;
@@ -47,24 +45,4 @@ export function hasTrackableUtms(params: URLSearchParams): boolean {
     (params.get("utm_source") ?? "").trim() ||
       (params.get("utm_campaign") ?? "").trim(),
   );
-}
-
-export function saveInboundAttribution(data: InboundAttribution): void {
-  if (typeof window === "undefined") return;
-  try {
-    sessionStorage.setItem(INBOUND_ATTRIBUTION_KEY, JSON.stringify(data));
-  } catch {
-    // ignore quota / private mode
-  }
-}
-
-export function loadInboundAttribution(): InboundAttribution | null {
-  if (typeof window === "undefined") return null;
-  try {
-    const raw = sessionStorage.getItem(INBOUND_ATTRIBUTION_KEY);
-    if (!raw) return null;
-    return JSON.parse(raw) as InboundAttribution;
-  } catch {
-    return null;
-  }
 }

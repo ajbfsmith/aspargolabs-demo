@@ -261,6 +261,7 @@ export type Database = {
           user_agent: string | null;
           journey_id: string | null;
           session_id: string | null;
+          is_simulation: boolean;
         };
         Insert: {
           id: string;
@@ -275,6 +276,7 @@ export type Database = {
           user_agent?: string | null;
           journey_id?: string | null;
           session_id?: string | null;
+          is_simulation?: boolean;
         };
         Update: Partial<{
           id: string;
@@ -289,6 +291,7 @@ export type Database = {
           user_agent: string | null;
           journey_id: string | null;
           session_id: string | null;
+          is_simulation: boolean;
         }>;
         Relationships: [];
       };

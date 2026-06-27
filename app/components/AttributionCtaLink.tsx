@@ -1,9 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import {
-  loadInboundAttribution,
-} from "@/lib/attribution/inbound-params";
 import { buildLandingCtaRedirectUrl } from "@/lib/attribution/cta";
 import type { CtaPlacement } from "@/lib/attribution/cta";
 
@@ -23,12 +20,7 @@ export function AttributionCtaLink({
   const [href, setHref] = useState("#");
 
   useEffect(() => {
-    const refresh = () => {
-      setHref(buildLandingCtaRedirectUrl(placement, loadInboundAttribution()));
-    };
-    refresh();
-    window.addEventListener("aspargo-attribution-updated", refresh);
-    return () => window.removeEventListener("aspargo-attribution-updated", refresh);
+    setHref(buildLandingCtaRedirectUrl(placement));
   }, [placement]);
 
   return (

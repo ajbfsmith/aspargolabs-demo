@@ -21,6 +21,7 @@ export type LinkClickRow = {
   user_agent: string | null;
   journey_id: string | null;
   session_id: string | null;
+  is_simulation: boolean;
 };
 
 export type AttributionVisitRow = {
@@ -103,6 +104,7 @@ export async function insertLinkClick(input: {
   utm_term?: string | null;
   ip?: string | null;
   user_agent?: string | null;
+  is_simulation?: boolean;
 }): Promise<{ id: string; clicked_at: string }> {
   const clicked_at = nowIso();
   const { error } = await supabaseAdmin.from("link_clicks").insert({
@@ -116,6 +118,7 @@ export async function insertLinkClick(input: {
     clicked_at,
     ip: input.ip ?? null,
     user_agent: input.user_agent ?? null,
+    is_simulation: input.is_simulation ?? false,
   } as never);
 
   if (error) {

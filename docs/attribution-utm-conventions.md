@@ -88,6 +88,24 @@ GROUP BY day ORDER BY day;
 
 ## Intake attribution (unchanged)
 
-Learn More buttons still mint `/r/{clickId}` and write `link_clicks` with existing UTM defaults (`AFFILIATE` / `landing` / `bf-hezkue-landing` unless overridden by homepage `sessionStorage`).
+Learn More buttons mint `/r/{clickId}` and write `link_clicks` with landing defaults (`AFFILIATE` / `landing` / `bf-hezkue-landing`). Inbound `/go` visits are logged only in `attribution_visits` and do not affect CTA UTMs.
+
+**Persona bio links** (same `/checkout` route; `persona` + `platform` required):
+
+```
+/checkout?persona=gymbro&platform=tiktok
+/checkout?persona=young-lady&platform=instagram
+/checkout?persona=old-lady&platform=instagram
+/checkout?persona=science-guy&platform=x
+/checkout?persona=meme&platform=tiktok
+```
+
+Optional per-account handle: `&account=their_handle` (maps to `utm_term`).
+
+Platforms: `x`, `reddit`, `facebook`, `instagram`, `tiktok`, `bluesky`, `threads`, `youtube`.
+
+Plain `/checkout` (no persona) is for landing/blog — uses `bf-hezkue-landing` (see `LANDING_CHECKOUT` in `persona-checkout.ts`).
+
+Each persona click mints a fresh `click_id`, logs `link_clicks`, then 302 to Hezkue intake. Campaign UUIDs and `bf-hezkue-*` slugs are defined together in `lib/attribution/persona-checkout.ts` — no env vars required.
 
 Bask webhooks resolve conversions via `click_id` in `link_clicks`, not via `attribution_visits`.

@@ -1,16 +1,7 @@
 import "server-only";
 
 import { NextResponse } from "next/server";
-import {
-  getLinkClick,
-  insertLinkClick,
-} from "@/lib/attribution/attribution-store";
-import { getBaskIntakeBaseUrl } from "@/lib/attribution/config";
-import {
-  buildBaskHandoffUtms,
-  buildReferralParams,
-} from "@/lib/attribution/bask-utm";
-import { buildIntakeUrl } from "@/lib/attribution/utm";
+import { mintIntakeRedirectResponse } from "@/lib/attribution/intake-redirect";
 
 export const dynamic = "force-dynamic";
 
@@ -30,45 +21,17 @@ export async function GET(request: Request, context: RouteContext) {
     );
   }
 
-  const utmSource = url.searchParams.get("utm_source");
-  const utmMedium = url.searchParams.get("utm_medium") ?? "organic";
-  const utmCampaign = url.searchParams.get("utm_campaign");
-  const utmContent = url.searchParams.get("utm_content");
-  const inboundUtmTerm = url.searchParams.get("utm_term");
+  const isSimulation = url.searchParams.get("sim") === "1";
 
-  const existing = await getLinkClick(clickId);
-  if (!existing) {
-    const forwarded = request.headers.get("x-forwarded-for");
-    const ip = forwarded?.split(",")[0]?.trim() ?? null;
-    const userAgent = request.headers.get("user-agent");
-
-    await insertLinkClick({
-      click_id: clickId,
-      campaign_id: campaignId,
-      utm_source: utmSource,
-      utm_medium: utmMedium,
-      utm_campaign: utmCampaign,
-      utm_content: utmContent,
-      utm_term: inboundUtmTerm,
-      ip,
-      user_agent: userAgent,
-    });
-  }
-
-  const baskBase = getBaskIntakeBaseUrl();
-  const handoff = buildBaskHandoffUtms({
-    clickId,
-    utm_source: utmSource,
-    utm_medium: utmMedium,
-    utm_campaign: utmCampaign,
-    marketing_content: utmContent,
-    utm_term: inboundUtmTerm,
+  return mintIntakeRedirectResponse({
+    request,
+    click_id: clickId,
+    campaign_id: campaignId,
+    utm_source: url.searchParams.get("utm_source") ?? "AFFILIATE",
+    utm_medium: url.searchParams.get("utm_medium") ?? "organic",
+    utm_campaign: url.searchParams.get("utm_campaign"),
+    utm_content: url.searchParams.get("utm_content") ?? "link",
+    utm_term: url.searchParams.get("utm_term"),
+    is_simulation: isSimulation,
   });
-  const referral = buildReferralParams({
-    utm_source: utmSource,
-    utm_campaign: utmCampaign,
-  });
-  const dest = buildIntakeUrl(baskBase, handoff, referral);
-
-  return NextResponse.redirect(dest, 302);
 }
