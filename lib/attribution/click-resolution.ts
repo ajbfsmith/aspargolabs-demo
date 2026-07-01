@@ -21,16 +21,26 @@ export type WebhookUtms = {
   utm_term?: string | null;
 };
 
+/** Minimum UTM signal required before fuzzy-matching an unlinked click. */
+export function hasFuzzyClickMatchCriteria(
+  utms: WebhookUtms,
+  campaignId?: string | null,
+): boolean {
+  if ((campaignId ?? "").trim()) return true;
+  if ((utms.utm_campaign ?? "").trim()) return true;
+  if ((utms.utm_source ?? "").trim() && (utms.utm_medium ?? "").trim()) {
+    return true;
+  }
+  if ((utms.utm_content ?? "").trim()) return true;
+  return false;
+}
+
 /**
- * Resolve a logged link_clicks.id from Bask signUpSearchParams.
- *
- * Bask echoes utm_* but not sd_click. Click id is carried in utm_content.
- * We try: sd_click, utm_content (click uuid), utm_term if uuid,
- * then recent unlinked click with matching normalized UTMs (48h).
+ * Resolve click id from explicit Bask params only (sd_click or click UUID in utm_*).
+ * Never fuzzy-matches recent unlinked clicks.
  */
-export async function resolveClickIdFromWebhook(
+export async function resolveExplicitClickIdFromWebhook(
   params: Record<string, unknown>,
-  options: { campaign_id?: string | null; utms: WebhookUtms },
 ): Promise<string | null> {
   for (const key of ["sd_click", "sd_click_id"]) {
     const raw = strId(params[key]);
@@ -46,10 +56,31 @@ export async function resolveClickIdFromWebhook(
     if (click) return raw;
   }
 
+  return null;
+}
+
+/**
+ * Resolve a logged link_clicks.id from Bask signUpSearchParams.
+ *
+ * Order: sd_click → utm_content/utm_term UUID → fuzzy match on UTMs (48h, non-simulation).
+ * Fuzzy match requires at least campaign_id, utm_campaign, utm_source+utm_medium, or utm_content.
+ */
+export async function resolveClickIdFromWebhook(
+  params: Record<string, unknown>,
+  options: { campaign_id?: string | null; utms: WebhookUtms },
+): Promise<string | null> {
+  const explicit = await resolveExplicitClickIdFromWebhook(params);
+  if (explicit) return explicit;
+
+  if (!hasFuzzyClickMatchCriteria(options.utms, options.campaign_id)) {
+    return null;
+  }
+
   return findRecentUnlinkedClick({
     campaign_id: options.campaign_id,
     utm_source: options.utms.utm_source,
     utm_medium: options.utms.utm_medium,
     utm_campaign: options.utms.utm_campaign,
+    utm_content: options.utms.utm_content,
   });
 }

@@ -9,6 +9,7 @@ import {
 } from "@/lib/attribution/bask-webhook-log";
 import {
   appendJourneyEvent,
+  getLinkClick,
   incrementPatientConversionCount,
   insertWebhookEvent,
   linkClickToJourney,
@@ -20,9 +21,31 @@ import {
   upsertPatient,
   type JourneyFields,
 } from "@/lib/attribution/attribution-store";
+import { isBfHezkueAttributedWebhook } from "@/lib/attribution/bf-attribution";
 
 function nowIso(): string {
   return new Date().toISOString();
+}
+
+async function applyClickAttributionToJourneyFields(
+  journeyFields: JourneyFields,
+  clickId: string | null | undefined,
+): Promise<void> {
+  if (!clickId) return;
+
+  const click = await getLinkClick(clickId);
+  if (!click) return;
+
+  journeyFields.click_id = clickId;
+  journeyFields.campaign_id = journeyFields.campaign_id ?? click.campaign_id;
+  journeyFields.utm_source = journeyFields.utm_source ?? click.utm_source;
+  journeyFields.utm_medium = journeyFields.utm_medium ?? click.utm_medium;
+  journeyFields.utm_campaign = journeyFields.utm_campaign ?? click.utm_campaign;
+  journeyFields.utm_content = journeyFields.utm_content ?? click.utm_content;
+  journeyFields.utm_term = journeyFields.utm_term ?? click.utm_term;
+  if (!journeyFields.attributed_at && click.utm_campaign) {
+    journeyFields.attributed_at = nowIso();
+  }
 }
 
 function strId(val: unknown): string | null {
@@ -151,6 +174,7 @@ export async function processBaskWebhookBody(
   const eventCode = data.eventCode;
 
   const params = searchParams(data);
+  const utms = utmFields(params);
 
   baskWebhookLog(requestId, "processor.parsed", {
     eventId: eid,
@@ -164,8 +188,25 @@ export async function processBaskWebhookBody(
     signUpSearchParams: data.signUpSearchParams ?? null,
     parsedSearchParams: params,
     checkoutSearchParams: data.checkoutSearchParams ?? null,
+    utms,
     data,
   });
+
+  const isBfAttributed = await isBfHezkueAttributedWebhook(params, utms);
+  if (!isBfAttributed) {
+    baskWebhookLog(requestId, "processor.ignored", {
+      eventId: eid,
+      eventType,
+      reason: "not_bf_hezkue",
+      utms,
+    });
+    return {
+      status: "ignored",
+      reason: "not_bf_hezkue",
+      event_id: eid,
+      event_type: eventType,
+    };
+  }
 
   const inserted = await insertWebhookEvent({
     event_id: eid,
@@ -320,10 +361,17 @@ async function applyEvent(
       utms,
     });
     Object.assign(journeyFields, utms);
-    journeyFields.click_id = clickId;
-    journeyFields.campaign_id = campaignId;
-    if (campaignId) journeyFields.attributed_at = nowIso();
+    journeyFields.campaign_id = campaignId ?? journeyFields.campaign_id ?? null;
+    await applyClickAttributionToJourneyFields(journeyFields, clickId);
     journeyFields.questionnaire_id = strId(data.questionnaireId);
+  } else if (!journey.click_id) {
+    const campaignId =
+      journey.campaign_id ?? (await resolveCampaignId(params, utms.utm_campaign));
+    const clickId = await resolveClickIdFromWebhook(params, {
+      campaign_id: campaignId,
+      utms,
+    });
+    await applyClickAttributionToJourneyFields(journeyFields, clickId);
   }
 
   let summary = eventType;
@@ -336,10 +384,11 @@ async function applyEvent(
       const campaignId =
         journeyFields.campaign_id ??
         (await resolveCampaignId(params, utms.utm_campaign));
-      journeyFields.click_id = await resolveClickIdFromWebhook(params, {
+      const clickId = await resolveClickIdFromWebhook(params, {
         campaign_id: campaignId,
         utms,
       });
+      await applyClickAttributionToJourneyFields(journeyFields, clickId);
     }
   } else if (eventType === "abandonedSession") {
     newStage = "abandoned";

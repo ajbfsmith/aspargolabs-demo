@@ -14,11 +14,6 @@
     "start": "next start",
     "lint": "eslint",
     "test:integration": "vitest run --config vitest.integration.config.ts",
-    "vapi:export": "dotenv -e .env -- node scripts/vapi-export-assistants.mjs",
-    "vapi:setup-intake": "dotenv -e .env -- node scripts/vapi-setup-intake-resources.mjs",
-    "vapi:setup-intake-structured": "dotenv -e .env -- node scripts/vapi-setup-intake-resources.mjs --structured-output-only --assistant-file=vapi/assistants/alex__b9579883-227e-4bdc-a7df-9d92e58fb292.json",
-    "vapi:sync": "dotenv -e .env -- node scripts/vapi-sync-assistants.mjs",
-    "vapi:sync-tools": "dotenv -e .env -- node scripts/vapi-sync-tools.mjs",
     "db:gen-types": "dotenv -e .env -- sh -c \"npx supabase gen types typescript --project-id \\\"$SUPABASE_PROJECT_ID\\\" > types/database.types.ts\"",
     "db:migrate": "dotenv -e .env -- npx supabase db push",
     "db:reset": "dotenv -e .env -- npx supabase db reset",
@@ -32,20 +27,15 @@
     "sanity:update-attribution": "dotenv -e .env -- tsx scripts/sanity-update-blog-attribution.ts"
   },
   "dependencies": {
-    "@ai-sdk/google": "^3.0.65",
-    "@ai-sdk/groq": "^3.0.35",
     "@radix-ui/react-collapsible": "^1.1.12",
     "@supabase/ssr": "^0.10.2",
     "@supabase/supabase-js": "^2.105.0",
     "@sanity/client": "^7.8.0",
-    "@vapi-ai/web": "^2.5.2",
-    "ai": "^6.0.168",
     "gsap": "^3.15.0",
     "lucide-react": "^1.11.0",
     "next": "16.2.4",
     "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "zod": "^4.3.6"
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

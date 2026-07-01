@@ -90,6 +90,8 @@ GROUP BY day ORDER BY day;
 
 Learn More buttons mint `/r/{clickId}` and write `link_clicks` with landing defaults (`AFFILIATE` / `landing` / `bf-hezkue-landing`). Inbound `/go` visits are logged only in `attribution_visits` and do not affect CTA UTMs.
 
+**Bask webhooks** (`POST /api/webhooks/bask`) store journeys only when attribution is bf-hezkue: `utm_campaign` is `bf-hezkue` or `bf-hezkue-*`, `campaign_id` is a known BF UUID, or the resolved `link_clicks` row has a bf-hezkue campaign. Organic/non-BF signups return `{ status: "ignored" }` and are not written. Click matching uses explicit `sd_click` / click UUID in `utm_content` only for the webhook gate; fuzzy UTM matching (48h, non-simulation) applies only when Bask sends real UTM params.
+
 **Persona bio links** (same `/checkout` route; `persona` + `platform` required):
 
 ```

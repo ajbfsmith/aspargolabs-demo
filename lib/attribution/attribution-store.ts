@@ -179,6 +179,14 @@ export async function findRecentUnlinkedClick(input: {
   utm_content?: string | null;
   max_age_hours?: number;
 }): Promise<string | null> {
+  const hasFilter = Boolean(
+    (input.campaign_id ?? "").trim() ||
+      (input.utm_campaign ?? "").trim() ||
+      ((input.utm_source ?? "").trim() && (input.utm_medium ?? "").trim()) ||
+      (input.utm_content ?? "").trim(),
+  );
+  if (!hasFilter) return null;
+
   const maxAgeHours = input.max_age_hours ?? 48;
   const cutoff = new Date(
     Date.now() - maxAgeHours * 60 * 60 * 1000,
@@ -188,6 +196,7 @@ export async function findRecentUnlinkedClick(input: {
     .from("link_clicks")
     .select("id")
     .is("journey_id", null)
+    .eq("is_simulation", false)
     .gte("clicked_at", cutoff)
     .order("clicked_at", { ascending: false })
     .limit(1);
