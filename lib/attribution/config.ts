@@ -23,6 +23,10 @@ export function getBaskWebhookSecret(): string {
   return process.env.BASK_WEBHOOK_SECRET?.trim() ?? "";
 }
 
+export function getAttributionConfirmSecret(): string {
+  return process.env.ATTRIBUTION_CONFIRM_SECRET?.trim() ?? "";
+}
+
 export function getDefaultCampaignId(): string {
   const id = process.env.NEXT_PUBLIC_DEFAULT_CAMPAIGN_ID?.trim();
   if (!id) {

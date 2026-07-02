@@ -27,26 +27,29 @@ function clientIp(request: Request): string | null {
   return forwarded?.split(",")[0]?.trim() ?? null;
 }
 
-/** Log link_click (optional is_simulation) and 302 to Bask with clickId in utm_content. */
+/** Redirect to Bask with clickId in utm_content. Logs link_click on redirect unless simulation (deferred until intake confirm). */
 export async function mintIntakeRedirectResponse(
   input: MintIntakeRedirectInput,
 ): Promise<NextResponse> {
   const clickId = input.click_id ?? randomUUID();
-  const existing = await getLinkClick(clickId);
+  const deferLog = input.is_simulation === true;
 
-  if (!existing) {
-    await insertLinkClick({
-      click_id: clickId,
-      campaign_id: input.campaign_id,
-      utm_source: input.utm_source,
-      utm_medium: input.utm_medium,
-      utm_campaign: input.utm_campaign,
-      utm_content: input.utm_content,
-      utm_term: input.utm_term,
-      ip: clientIp(input.request),
-      user_agent: input.request.headers.get("user-agent"),
-      is_simulation: input.is_simulation ?? false,
-    });
+  if (!deferLog) {
+    const existing = await getLinkClick(clickId);
+    if (!existing) {
+      await insertLinkClick({
+        click_id: clickId,
+        campaign_id: input.campaign_id,
+        utm_source: input.utm_source,
+        utm_medium: input.utm_medium,
+        utm_campaign: input.utm_campaign,
+        utm_content: input.utm_content,
+        utm_term: input.utm_term,
+        ip: clientIp(input.request),
+        user_agent: input.request.headers.get("user-agent"),
+        is_simulation: false,
+      });
+    }
   }
 
   const baskBase = getBaskIntakeBaseUrl();
