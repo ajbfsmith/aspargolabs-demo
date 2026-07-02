@@ -41,7 +41,9 @@ export async function confirmLinkClickAfterIntake(
   body: ConfirmLinkClickBody,
 ): Promise<NextResponse> {
   const authError = verifyBearer(request);
-  if authError) return authError;
+  if (authError) {
+    return authError;
+  }
 
   const clickId = body.click_id?.trim();
   const campaignId = body.campaign_id?.trim();
